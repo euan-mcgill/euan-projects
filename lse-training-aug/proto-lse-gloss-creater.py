@@ -55,9 +55,10 @@ def wordorder(glossfile, orderfile):
     '''
     with open(glossfile, 'r') as gls, open(orderfile, 'w') as lse:
         for line in gls:
-            lse.write(re.sub(r'(\w+[EAI]R )(.*)', r'\2\1', line))
-            # if len(re.findall(r'\w+', line)) >= 4:
-            #     lse.write(line)
+            switchline = re.sub(r'(\w+[EAI]R )(.*)', r'\2\1', line)
+            res = len(re.findall(r'\w+', switchline)) # Get a word count for each line
+            if res >= 3:
+                lse.write(switchline)
 
 def oov_check():
     pass
