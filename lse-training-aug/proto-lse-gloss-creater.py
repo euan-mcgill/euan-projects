@@ -35,8 +35,8 @@ def processor(writefile,nlp,glossfile):
             return an aligned list of POS? So can align and do word-order permutation.
         '''
         # We should probably keep proper nouns? Leaves -s endings though for plurals (ignore instead or further postprocessing)
-        pos_restrict = ([token.text for token in doc if token.pos_ == 'NOUN' or token.pos_ == 'PROPN' or token.pos_ == 'VERB' or token.pos_ == 'ADJ' or token.pos_ == 'ADV' or token.pos_ == 'NUM' or token.pos_ == 'SPACE'])
-        pos_pos = ([token.pos_ for token in doc if token.pos_ == 'NOUN' or token.pos_ == 'PROPN' or token.pos_ == 'VERB' or token.pos_ == 'ADJ' or token.pos_ == 'ADV' or token.pos_ == 'NUM' or token.pos_ == 'SPACE'])
+        # pos_restrict = ([token.text for token in doc if token.pos_ == 'NOUN' or token.pos_ == 'PROPN' or token.pos_ == 'VERB' or token.pos_ == 'ADJ' or token.pos_ == 'ADV' or token.pos_ == 'NUM' or token.pos_ == 'SPACE'])
+        # pos_pos = ([token.pos_ for token in doc if token.pos_ == 'NOUN' or token.pos_ == 'PROPN' or token.pos_ == 'VERB' or token.pos_ == 'ADJ' or token.pos_ == 'ADV' or token.pos_ == 'NUM' or token.pos_ == 'SPACE'])
         pos_lemma = ([token.lemma_ for token in doc if token.pos_ == 'NOUN' or token.pos_ == 'PROPN' or token.pos_ == 'VERB' or token.pos_ == 'ADJ' or token.pos_ == 'ADV' or token.pos_ == 'NUM' or token.pos_ == 'SPACE'])
         # Change word order (either verbs to the right or permute up to 4)
         # print(pos_lemma,pos_pos,pos_restrict)
@@ -51,12 +51,16 @@ def processor(writefile,nlp,glossfile):
 
 def wordorder(glossfile, orderfile):
     '''
-    Can capture verbs with the regex '\w+[eai]r ' - now need to work positional movement
-    (\w+[eai]r )(.*) capture groups then sub \1\2?
+    Using a capture group to place verbs at the end of the sentence
     '''
     with open(glossfile, 'r') as gls, open(orderfile, 'w') as lse:
         for line in gls:
-            print(re.sub(r'(\w+[EAI]R )(.*)', r'\2\1', line))
+            re.sub(r'(\w+[EAI]R )(.*)', r'\2\1', line)
+            if len(re.findall(r'\w+', line)) >= 4:
+                lse.write(line)
+
+def oov_check():
+    pass
 
 
 def main():
