@@ -55,9 +55,9 @@ def wordorder(glossfile, orderfile):
     '''
     with open(glossfile, 'r') as gls, open(orderfile, 'w') as lse:
         for line in gls:
-            re.sub(r'(\w+[EAI]R )(.*)', r'\2\1', line)
-            if len(re.findall(r'\w+', line)) >= 4:
-                lse.write(line)
+            lse.write(re.sub(r'(\w+[EAI]R )(.*)', r'\2\1', line))
+            # if len(re.findall(r'\w+', line)) >= 4:
+            #     lse.write(line)
 
 def oov_check():
     pass
