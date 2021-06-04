@@ -35,17 +35,18 @@ def processor(writefile,nlp,glossfile):
             SPACE is included because it carries the \n marker which we will split the list on. Maybe also
             return an aligned list of POS? So can align and do word-order permutation.
         '''
-        # pos_restrict = ([token.text for token in doc if token.pos_ == 'NOUN' or token.pos_ == 'VERB' or token.pos_ == 'ADJ' or token.pos_ == 'ADV' or token.pos_ == 'NUM' or token.pos_ == 'SPACE'])
-        # pos_pos = ([token.pos_ for token in doc if token.pos_ == 'NOUN' or token.pos_ == 'VERB' or token.pos_ == 'ADJ' or token.pos_ == 'ADV' or token.pos_ == 'NUM' or token.pos_ == 'SPACE'])
-        pos_lemma = ([token.lemma_ for token in doc if token.pos_ == 'NOUN' or token.pos_ == 'ADJ' or token.pos_ == 'ADV' or token.pos_ == 'NUM' or token.pos_ == 'SPACE'])
-        pos_verb = ([token.lemma_ for token in doc if token.pos_ == 'VERB'])
+        # We should probably keep proper nouns? Leaves -s endings though for plurals (ignore instead or further postprocessing)
+        pos_restrict = ([token.text for token in doc if token.pos_ == 'NOUN' or token.pos_ == 'PROPN' or token.pos_ == 'VERB' or token.pos_ == 'ADJ' or token.pos_ == 'ADV' or token.pos_ == 'NUM' or token.pos_ == 'SPACE'])
+        pos_pos = ([token.pos_ for token in doc if token.pos_ == 'NOUN' or token.pos_ == 'PROPN' or token.pos_ == 'VERB' or token.pos_ == 'ADJ' or token.pos_ == 'ADV' or token.pos_ == 'NUM' or token.pos_ == 'SPACE'])
+        pos_lemma = ([token.lemma_ for token in doc if token.pos_ == 'NOUN' or token.pos_ == 'PROPN' or token.pos_ == 'VERB' or token.pos_ == 'ADJ' or token.pos_ == 'ADV' or token.pos_ == 'NUM' or token.pos_ == 'SPACE'])
         # Change word order (either verbs to the right or permute up to 4)
+        # print(pos_lemma,pos_pos,pos_restrict)
         '''
         To accommodate verbs, we could grab them separately and append to the end of each line in order
         to get SOV word order - also negative particles?
         '''
-        for line,verb in zip(pos_lemma,pos_verb):
-            out.write(line.upper() + ' ' + verb.upper() + ' ')
+        for line in pos_lemma:
+            out.write(line.upper() + ' ')
 
 
 def main():
