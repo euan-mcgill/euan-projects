@@ -17,7 +17,6 @@ Grab sentences between 3 and 12 words in length, remove stage directions in brac
             res = len(re.findall(r'\w+', strline)) # Get a word count for each line
             if res <= 12 and res >= 3: # Word length between 3-12 exactly
                 out.write(strline) # .upper()) # write all lines which meet criteria (in upper case)
-        out.close()
 
 def processor(writefile,nlp,glossfile):
     '''
@@ -48,18 +47,32 @@ def processor(writefile,nlp,glossfile):
         for line in pos_lemma:
             out.write(line.upper() + ' ')
 
+### PERMUTATION ###
+
+def wordorder(glossfile, orderfile):
+    '''
+    Can capture verbs with the regex '\w+[eai]r ' - now need to work positional movement
+    (\w+[eai]r )(.*) capture groups then sub \1\2?
+    '''
+    with open(glossfile, 'r') as gls, open(orderfile, 'w') as lse:
+        for line in gls:
+            print(re.sub(r'(\w+[EAI]R )(.*)', r'\2\1', line))
+
 
 def main():
     tick = time.perf_counter() / 60
     corpus = '/Users/e.mcgill/Documents/upf/corpora/TEDtalk-ESCA-MOSES/TED-es-subset.txt'
     writefile = 'TED-es_ES.txt'
-    glossfile = 'test.txt'
+    glossfile = 'temp.txt'
+    orderfile = 'TED-lse_ES.txt'
     stripandsearch(corpus,writefile)
 
     # stanza.download('es')
     # nlp = stanza.Pipeline('es', processors='tokenize,mwt,pos,lemma,depparse')
     nlp = sp.load("es_dep_news_trf")
     processor(writefile,nlp,glossfile)
+
+    wordorder(glossfile, orderfile)
 
     tock = time.perf_counter() / 60
     print(f"\n\n\nGlosses created in {tock - tick:0.0f} minutes\n\n\n")
