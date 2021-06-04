@@ -15,8 +15,15 @@
     - Lemmatise all words
     - Random word permutation (max distance = 4)
 
-## X) LSE grammar and lexicon lookup resources
+## 3) LSE specific rules
+    - (S)OV word order
+    - Question and negation particles
+    - Synonym mapping
+    - Verification of existing sign^
+
+## X) ^LSE grammar and lexicon lookup resources
     - 
+
 ## Y) Calculate lexical and syntactic similarity
     -
 
