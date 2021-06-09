@@ -3,7 +3,6 @@
 
 import re
 import spacy as sp
-# import stanza
 import time
 
 def stripandsearch(corpus,writefile):
@@ -37,7 +36,13 @@ def processor(writefile,nlp,glossfile):
         # We should probably keep proper nouns? Leaves -s endings though for plurals (ignore instead or further postprocessing)
         # pos_restrict = ([token.text for token in doc if token.pos_ == 'NOUN' or token.pos_ == 'PROPN' or token.pos_ == 'VERB' or token.pos_ == 'ADJ' or token.pos_ == 'ADV' or token.pos_ == 'NUM' or token.pos_ == 'SPACE'])
         # pos_pos = ([token.pos_ for token in doc if token.pos_ == 'NOUN' or token.pos_ == 'PROPN' or token.pos_ == 'VERB' or token.pos_ == 'ADJ' or token.pos_ == 'ADV' or token.pos_ == 'NUM' or token.pos_ == 'SPACE'])
-        pos_lemma = ([token.lemma_ for token in doc if token.pos_ == 'NOUN' or token.pos_ == 'PROPN' or token.pos_ == 'VERB' or token.pos_ == 'ADJ' or token.pos_ == 'ADV' or token.pos_ == 'NUM' or token.pos_ == 'SPACE'])
+        pos_lemma = ([token.lemma_ for token in doc if token.pos_ == 'NOUN' 
+                                                    or token.pos_ == 'PROPN' 
+                                                    or token.pos_ == 'VERB' 
+                                                    or token.pos_ == 'ADJ' 
+                                                    or token.pos_ == 'ADV' 
+                                                    or token.pos_ == 'NUM' 
+                                                    or token.pos_ == 'SPACE'])
         # Change word order (either verbs to the right or permute up to 4)
         # print(pos_lemma,pos_pos,pos_restrict)
         '''
