@@ -11,7 +11,7 @@
 
 ## 2) General gloss rules (language-agnostic)
     - Remove 1/5 of the training data at random (done first to reduce computing time)
-    - POS-filter to {NOUN, VERB, ADJECTIVE, ADVERB, NUMERAL}
+    - POS-filter to {NOUN, VERB, ADJECTIVE, ADVERB, NUMERAL} (maybe also PROPN)
     - Lemmatise all words
     - Random word permutation (max distance = 4)
 
