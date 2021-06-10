@@ -3,8 +3,8 @@
 
 import re
 import spacy as sp
-# import stanza
 import time
+# from wordpermute import permute_words # Prints console output from that script
 
 def stripandsearch(corpus,writefile):
     '''
@@ -37,7 +37,13 @@ def processor(writefile,nlp,glossfile):
         # We should probably keep proper nouns? Leaves -s endings though for plurals (ignore instead or further postprocessing)
         # pos_restrict = ([token.text for token in doc if token.pos_ == 'NOUN' or token.pos_ == 'PROPN' or token.pos_ == 'VERB' or token.pos_ == 'ADJ' or token.pos_ == 'ADV' or token.pos_ == 'NUM' or token.pos_ == 'SPACE'])
         # pos_pos = ([token.pos_ for token in doc if token.pos_ == 'NOUN' or token.pos_ == 'PROPN' or token.pos_ == 'VERB' or token.pos_ == 'ADJ' or token.pos_ == 'ADV' or token.pos_ == 'NUM' or token.pos_ == 'SPACE'])
-        pos_lemma = ([token.lemma_ for token in doc if token.pos_ == 'NOUN' or token.pos_ == 'PROPN' or token.pos_ == 'VERB' or token.pos_ == 'ADJ' or token.pos_ == 'ADV' or token.pos_ == 'NUM' or token.pos_ == 'SPACE'])
+        pos_lemma = ([token.lemma_ for token in doc if token.pos_ == 'NOUN' 
+                                                    or token.pos_ == 'PROPN' 
+                                                    or token.pos_ == 'VERB' 
+                                                    or token.pos_ == 'ADJ' 
+                                                    or token.pos_ == 'ADV' 
+                                                    or token.pos_ == 'NUM' 
+                                                    or token.pos_ == 'SPACE'])
         # Change word order (either verbs to the right or permute up to 4)
         # print(pos_lemma,pos_pos,pos_restrict)
         '''
@@ -56,9 +62,11 @@ def wordorder(glossfile, orderfile):
     with open(glossfile, 'r') as gls, open(orderfile, 'w') as lse:
         for line in gls:
             switchline = re.sub(r'(\w+[EAI]R )(.*)', r'\2\1', line)
-            res = len(re.findall(r'\w+', switchline)) # Get a word count for each line
+            switchline_second = re.sub(r'(\w+[EAI]R )(.*)', r'\2\1', switchline)
+            switchline_third = re.sub(r'(\w+[EAI]R )(.*)', r'\2\1', switchline_second) # to accommodate 3 verbs per sentence
+            res = len(re.findall(r'\w+', switchline_second)) # Get a word count for each line
             if res >= 3:
-                lse.write(switchline)
+                lse.write(switchline_second)
 
 def oov_check():
     pass
