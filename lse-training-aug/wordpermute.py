@@ -4,7 +4,7 @@
 from random import choice, random
 
 with open('/Users/e.mcgill/Documents/upf/corpora/UPM-LSE/BD/TEXTOS/signos_train.txt', 'r') as f:
-    glosses = f.read().split('\n')[:10]
+    glosses = f.read().split('\n')[:10] # Move this to main() in other script?
 
 
 def permute_words(sentence, probability = .5, window_size = 4):
