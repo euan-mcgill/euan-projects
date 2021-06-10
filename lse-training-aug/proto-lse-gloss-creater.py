@@ -4,6 +4,7 @@
 import re
 import spacy as sp
 import time
+# from wordpermute import permute_words # Prints console output from that script
 
 def stripandsearch(corpus,writefile):
     '''
