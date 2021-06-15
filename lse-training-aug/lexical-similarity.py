@@ -24,8 +24,7 @@ def setoverlap(lse_corpus,spanish_corpus):
 
     # print(len(esp_unique))
     # print(len(esp_unique.intersection(lse_unique)))
-    print(f"\nLexical similarity of LSE to Spanish in BD dataset: {len(esp_unique.intersection(lse_unique))/len(esp_unique)*100:0.2f}%") #(N= {len(esp_unique)})")
-    # print(f"Lexical similarity of Spanish to LSE in BD dataset: {len(lse_unique.intersection(esp_unique))/len(lse_unique)*100:0.2f}% (N= {len(lse_unique)})")
+    print(f"\nLexical similarity: {len(esp_unique.intersection(lse_unique))/(len(esp_unique)+len(lse_unique))*100:0.2f}%") #(N= {len(esp_unique)})")
     print(f"Spanish corpus size: {len(esp_wordlist)}, LSE corpus size: {len(lse_wordlist)}\n") # crosschecked with 'wc -w' on the command line
 
 def main():
