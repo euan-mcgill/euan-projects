@@ -15,7 +15,7 @@ Grab sentences between 3 and 12 words in length, remove stage directions in brac
             brackline = re.sub(r'\(.*\)', '', line) # Remove everything between, and, the brackets
             strline = re.sub(r'[^\w\s]','',brackline) # Remove all punctuation
             res = len(re.findall(r'\w+', strline)) # Get a word count for each line
-            if res <= 12 and res >= 3: # Word length between 3-12 exactly
+            if res <= 52 and res >= 1: # Word length between 3-12 exactly
                 out.write(strline) # .upper()) # write all lines which meet criteria (in upper case)
 
 def processor(writefile,nlp,glossfile):
@@ -65,7 +65,7 @@ def wordorder(glossfile, orderfile):
             switchline_second = re.sub(r'(\w+[EAI]R )(.*)', r'\2\1', switchline)
             switchline_third = re.sub(r'(\w+[EAI]R )(.*)', r'\2\1', switchline_second) # to accommodate 3 verbs per sentence
             res = len(re.findall(r'\w+', switchline_second)) # Get a word count for each line
-            if res >= 3:
+            if res >= 1:
                 lse.write(switchline_second)
 
 def oov_check():
@@ -74,7 +74,7 @@ def oov_check():
 
 def main():
     tick = time.perf_counter() / 60
-    corpus = '/Users/e.mcgill/Documents/upf/corpora/TEDtalk-ESCA-MOSES/TED-es-subset.txt'
+    corpus = '/Users/e.mcgill/Documents/upf/corpora/UPM-LSE/BD/TEXTOS/frases_train.txt'
     writefile = 'TED-es_ES.txt'
     glossfile = 'temp.txt'
     orderfile = 'TED-lse_ES.txt'
