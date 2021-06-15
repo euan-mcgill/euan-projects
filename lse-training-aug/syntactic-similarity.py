@@ -13,8 +13,14 @@ import lang2vec.lang2vec as l2v
 # print(len(l2v.available_feature_sets()))
 
 def syntactic_sim():
-    print("hello world")
-    features = l2v.get_features("lse", "syntax_sswl")
-    print(features["lse"])
+    '''
+    Lang2Vec uses ISO 639-3 codes
+    '''
+    # lse_features = l2v.get_features("ssp", "syntax_knn")
+    # es_features = l2v.get_features("spa", "syntax_knn")
+    cosine = l2v.distance("syntactic","spa","ssp")
+    # print(l2v.syntactic_distance("spa","ssp")) # same as cmd above
+    print(f'syntactic distance is: {l2v.syntactic_distance("spa","ssp")},\ngeographic distance is: {l2v.geographic_distance("spa","ssp")},\nphonological distance is: {l2v.phonological_distance("spa","ssp")},\ngenetic distance is: {l2v.genetic_distance("spa","ssp")},\ninventory distance is: {l2v.inventory_distance("spa","ssp")},\nfeatural distance is: {l2v.featural_distance("spa","ssp")}')
+    return(cosine)
 
 syntactic_sim()
