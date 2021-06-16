@@ -3,7 +3,18 @@
 
 import re
 import spacy as sp
+import sys
 import time
+
+'''
+Create training data through rule-based DATA AUGMENTATION for sign language 
+glosses (Lengua de Señas Española). Spanish language data is stripped of punc-
+tuation and non-speech transcription. Next, it is restricted by POS tags and 
+lemmatised. Then verbs are moved to the end of an utterance iteratively for up
+to three verbs per sentence.
+
+Running instructions: 'python3 lse-gloss-creater.py <INPUT-CORPUS-FILE>'
+'''
 
 def stripandsearch(corpus,writefile):
     '''
@@ -51,10 +62,10 @@ def wordorder(glossfile, orderfile):
 
 def main():
     tick = time.perf_counter() / 60
-    corpus = '/Users/e.mcgill/Documents/upf/corpora/TEDtalk-ESCA-MOSES/TED-es-subset.txt'
-    writefile = 'TED-es_ES.txt'
-    glossfile = 'temp.txt'
-    orderfile = 'TED-lse_ES.txt'
+    corpus = '/home/upf/Documents/resources/corpora/TED-talks-2020/ca-ES-es-ES/TED-es-subset.txt' # sys.argv[1]
+    writefile = 'temp1-ES.txt'
+    glossfile = 'temp2-glosses.txt'
+    orderfile = 'temp3-word-order.txt'
 
     stripandsearch(corpus,writefile)
 
