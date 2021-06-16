@@ -28,9 +28,11 @@ def processor(writefile,nlp,glossfile):
         doc = nlp(wds.read())
         pos_lemma = ([token.lemma_ for token in doc if token.pos_ == 'NOUN' 
                                                     or token.pos_ == 'PROPN' 
+                                                    or token.pos_ == 'PRON'
                                                     or token.pos_ == 'VERB' 
                                                     or token.pos_ == 'ADJ' 
                                                     or token.pos_ == 'ADV' 
+                                                    or token.pos_ == 'CCONJ´'
                                                     or token.pos_ == 'NUM' 
                                                     or token.pos_ == 'SPACE'])
         for line in pos_lemma:
