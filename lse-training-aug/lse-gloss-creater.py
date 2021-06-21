@@ -26,7 +26,7 @@ remove stage directions in brackets
             brackline = re.sub(r'\(.*\)', '', line)
             strline = re.sub(r'[^\w\s]','',brackline)
             res = len(re.findall(r'\w+', strline))
-            if res <= 12 and res >= 3:
+            if res <= 52 and res >= 1:
                 out.write(strline)
 
 def processor(writefile,nlp,glossfile):
@@ -62,7 +62,7 @@ def wordorder(glossfile, orderfile):
 
 def main():
     tick = time.perf_counter() / 60
-    corpus = '/home/upf/Documents/resources/corpora/TED-talks-2020/ca-ES-es-ES/TED-es-subset.txt' # sys.argv[1]
+    corpus = '/Users/e.mcgill/Documents/upf/corpora/UPM-LSE/BD/TEXTOS/frases_total.txt' # sys.argv[1]
     writefile = 'temp1-ES.txt'
     glossfile = 'temp2-glosses.txt'
     orderfile = 'temp3-word-order.txt'
