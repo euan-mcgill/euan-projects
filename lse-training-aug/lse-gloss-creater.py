@@ -60,6 +60,9 @@ def wordorder(glossfile, orderfile):
             if res >= 3:
                 lse.write(switchline)
 
+def oovcheck():
+    pass
+
 def main():
     tick = time.perf_counter() / 60
     corpus = '/home/upf/Documents/resources/corpora/TED-talks-2020/ca-ES-es-ES/TED-es-subset.txt' # sys.argv[1]
