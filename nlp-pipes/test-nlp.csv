@@ -1,0 +1,4 @@
+SourceID,StartTime,Duration,Utterance,Confidence,UttType,Gender,Community,Domain,CombinedID
+cn01345,16.324,2.531,sarah perry was a veterinary nurse,0.727,utt,f,hearing,unk,f001s
+cn01346,18.855,2.002,SIL,0.998,sil,x,sil,sil,sil
+cn01347,20.857,4.994,she had been working daily at an old zoo in a deserted district of the territory,0.561,utt,n,hard of hearing,unk,n001h
