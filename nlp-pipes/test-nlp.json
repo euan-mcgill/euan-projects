@@ -1,0 +1,38 @@
+[
+  {
+    "SourceID": "cn01345",
+    "StartTime": 16.324,
+    "Duration": 2.531,
+    "Utterance": "sarah perry was a veterinary nurse",
+    "Confidence": 0.727,
+    "UttType": "utt",
+    "Gender": "f",
+    "Community": "hearing",
+    "Domain": "unk",
+    "CombinedID": "f001s"
+  },
+  {
+    "SourceID": "cn01346",
+    "StartTime": 18.855,
+    "Duration": 2.002,
+    "Utterance": "SIL",
+    "Confidence": 0.998,
+    "UttType": "sil",
+    "Gender": "x",
+    "Community": "sil",
+    "Domain": "sil",
+    "CombinedID": "sil"
+  },
+  {
+    "SourceID": "cn01347",
+    "StartTime": 20.857,
+    "Duration": 4.994,
+    "Utterance": "she had been working daily at an old zoo in a deserted district of the territory",
+    "Confidence": 0.561,
+    "UttType": "utt",
+    "Gender": "n",
+    "Community": "hard of hearing",
+    "Domain": "unk",
+    "CombinedID": "n001h"
+  }
+]
