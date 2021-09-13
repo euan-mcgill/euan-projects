@@ -3,8 +3,8 @@
 
 import nltk
 
-ref_file = '/Users/e.mcgill/Documents/upf/corpora/UPM-LSE/BD/TEXTOS/signos_total.txt'
-gen_file = '/Users/e.mcgill/Documents/git/euan-projects/lse-training-aug/temp2-glosses.txt'
+ref_file = '/Users/e.mcgill/Documents/upf/corpora/Phoenix_Text_Glosses/spoken_test.txt'
+gen_file = '/Users/e.mcgill/Documents/upf/corpora/Phoenix_Text_Glosses/glosses_test.txt'
 
 def edit_dist(ref_file,gen_file):
     '''

@@ -3,7 +3,7 @@
 
 import re
 import spacy as sp
-import sys
+# import sys
 import time
 
 '''
@@ -16,6 +16,7 @@ to three verbs per sentence.
 Running instructions: 'python3 lse-gloss-creater.py <INPUT-CORPUS-FILE>'
 '''
 
+#%%
 def stripandsearch(corpus,writefile):
     '''
     Grab sentences between 3 and 12 words in length,
@@ -67,10 +68,10 @@ def glosstag(nlp,glossfile):
     with open(glossfile, 'r') as g:
         doc = nlp(g.read())
         print(([token.dep_ for token in doc]))
-
+#%%
 def main():
     tick = time.perf_counter() / 60
-    corpus = '/Users/e.mcgill/Documents/upf/corpora/TEDtalk-ESCA-MOSES/TED-es-subset.txt' # sys.argv[1]
+    corpus = '/Users/e.mcgill/Documents/upf/corpora/UPM-LSE/BD/TEXTOS/signos_total.txt' # sys.argv[1]
     writefile = 'temp1-ES.txt'
     glossfile = 'temp2-glosses.txt'
     orderfile = 'temp3-word-order.txt'
@@ -80,7 +81,7 @@ def main():
     nlp = sp.load("es_dep_news_trf")
     processor(writefile,nlp,glossfile)
     wordorder(glossfile, orderfile)
-    glosstag(nlp,glossfile)
+    # glosstag(nlp,glossfile)
 
     tock = time.perf_counter() / 60
     print(f"\n\n\nGlosses created in {tock - tick:0.0f} minutes\n\n\n")
