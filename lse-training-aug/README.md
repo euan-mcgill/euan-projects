@@ -5,7 +5,7 @@
 
 ## 1) Spanish plain text corpus
     Preprocessing:
-        - Ensure utterances are <= 12 words
+        - Ensure utterances are <= 12 words [not included now]
         - Special symbols etc.
         - to uppercase
 
@@ -24,7 +24,10 @@
 ## 4) ^LSE grammar and lexicon lookup resources
     - 
 
-## A) Calculate lexical and syntactic similarity
+## A) Calculate lexical and syntactic similarity, levenshtein distance at word level
     `lexical-similarity.py`
     `syntactic-similarity.py`
+    `levenshtein.py`
+
+## B) 
 
