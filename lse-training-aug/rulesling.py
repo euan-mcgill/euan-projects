@@ -3,7 +3,7 @@
 
 import re
 import spacy as sp
-from spacy import displacy
+# from spacy import displacy
 
 # user_lang = input("Language for processing is:")
 
