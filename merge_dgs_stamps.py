@@ -102,8 +102,11 @@ for line in ritelist:
     prev_line = line
     
 
+#%%
 '''
 Assign NoneType objects a timestamp which is one higher than the previous value
+
+Line offsets or a more pythonic solution possible?
 '''
 
 for i,line in enumerate(dgs_data['LeftStart']):
