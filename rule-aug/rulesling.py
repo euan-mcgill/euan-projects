@@ -3,7 +3,7 @@
 
 import re
 import spacy as sp
-from spacy import displacy
+# from spacy import displacy
 
 # user_lang = input("Language for processing is:")
 
@@ -42,9 +42,14 @@ Rules: https://docs.google.com/spreadsheets/d/1rqENxqKFLp4ej3RJFbZBjBi_bMWDmGaaa
 
 # XPOS not available for any Spanish models for fine grained POS tags
 # effect on rule (17)
-
+#%%
 def do_rules():
     doc = nlp('los grandes inválidos y enfermos psiquiátricos no están obligados a renovar el denei')
+    '''
+    Here is the best place to do the syntactic, semantic role and word order rules. Using spacy's
+    dep and morph functionalities before you filter by pos_. Must also all be in the same loop
+    '''
+
     deriv = [token.lemma_ for token in doc                        # covers rule (1)
                                            if token.pos_ == 'ADJ' # Adjective
                                            # or token.pos_ == 'ADP' # Preposition # covers rule (4)
@@ -65,12 +70,23 @@ def do_rules():
                                            or token.pos_ == 'X'] # Other
     for token in deriv:
         delatt = re.sub(r'\b(ser|estar)\b','',token) # covers rule (2)
+        '''
+        Now remove lemmatised aritcles, just 'el' for definite (check he/his is accented still)
+        '''
         print(delatt.upper()) # covers rule (16)
     
     # print("Run control+C to close\n\n")
     # displacy.serve(doc, style="dep")
-
-### OOV checker ###
+#%%
+def do_rules():
+    doc = nlp('este cinco')
+    
+    labelled = [token.dep_ for token in doc]
+    print(labelled)
+#%%
+'''
+OOV checker and synonym finder with Word2Vec
+'''
 # find unique dict items
 def oov_check():
     pass
@@ -78,6 +94,7 @@ def oov_check():
 # last rule - convert to .upper()
 # run in cmd line with > .txt file for file output
 
+#%%
 do_rules()
 
 
