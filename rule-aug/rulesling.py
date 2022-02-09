@@ -79,7 +79,7 @@ def do_rules():
     # displacy.serve(doc, style="dep")
 #%%
 def do_rules():
-    doc = nlp('está mi padre')
+    doc = nlp('este cinco')
     
     labelled = [token.dep_ for token in doc]
     print(labelled)
