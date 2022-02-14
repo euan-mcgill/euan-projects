@@ -75,8 +75,10 @@ def preproc(dgs_lh,dgs_rh):
     return dgs_data
 
 def timesort():
-    x = preproc('/Users/e.mcgill/Downloads/testleft.txt',
-                '/Users/e.mcgill/Downloads/testright.txt')
+    # x = preproc('/Users/e.mcgill/Downloads/testleft.txt',
+    #             '/Users/e.mcgill/Downloads/testright.txt')
+    x = preproc('/Users/e.mcgill/Downloads/GebxE4rde_l.txt',
+                '/Users/e.mcgill/Downloads/GebxE4rde_r.txt')
     l_tags = [re.sub(r'([\W\w]+)',r'VOID_\1',line) for line in x['Left']]
     r_tags = [re.sub(r'([\W\w]+)',r'\1_VOID',line) for line in x['Right']]
     tupesl = zip(x['LeftStart'],x['LeftEnd'],l_tags)
@@ -89,18 +91,32 @@ def timesort():
     ordered_tag_times = sorted(tag_times)
     return ordered_tag_times
 
-def align():
+def align(filename):
     y = timesort()
-    for a,b in zip(y,y[1:]): # for list item and list item immediately after
-        # print(a[0],b[0])
-        if a[0] == b[0] and a[1] == b[1]: # if the start time and end time are the same as the next one's
-            print(f'<{a[0]};{a[1]}>{a[2]}{b[2]}')
-        else:
-            print(f'<{a[0]};{a[1]}>{a[2]}') # add "end of file" line to avoid omission
+    with open(filename,'w') as raw:
+        for a,b in zip(y,y[1:]): # for list item and list item immediately after
+            # print(a[0],b[0])
+            if a[0] == b[0] and a[1] == b[1]: # if the start time and end time are the same as the next one's
+                print(f'<{a[0]};{a[1]}>{a[2]}{b[2]} ',file=raw)
+            else:
+                print(f'<{a[0]};{a[1]}>{a[2]} ',file=raw) # add "END_OF_FILE" line to avoid omission
 
-def postproc():
-    pass
+def postproc(filename):
+    with open(filename,'r') as tran:
+        for line in tran:
+            rem_sentags = re.sub('\n','',line)
 
+
+'''
+Post processing not in code yet
+
+1) find '.*SENTENCETAG.*' replace 'SENTENCETAG'
+2) find '.*END_OF_FILE.*' replace '' # might need a blank line replace here
+3) find ' \n' replace ' '
+4) find '_VOIDVOID_' replace '_'
+5) find 'SENTENCETAG' replace ''
+optional - remove all blank lines
+'''
 
 
 
