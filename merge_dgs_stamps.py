@@ -39,8 +39,11 @@ Preprocess empty lines and end of lines to retain sentence structure
 '''
 
 # input files
-dgs_lh = '/home/upf/Downloads/testleft.txt'
-dgs_rh = '/home/upf/Downloads/testright.txt'
+dgs_lh = '/Users/e.mcgill/Downloads/testleft.txt'
+dgs_rh = '/Users/e.mcgill/Downloads/testright.txt'
+# dgs_lh = '/Users/e.mcgill/Downloads/GebxE4rde_l.txt'
+# dgs_rh = '/Users/e.mcgill/Downloads/GebxE4rde_r.txt'
+# there are 34,405 timestamp overlaps for starts and 34,512 timestamp overlaps for ends
 
 # flatten structure and add tags from newline characters so we can reconstruct
 with open(dgs_lh, 'r') as lef, open(dgs_rh, 'r') as rih:
@@ -104,6 +107,18 @@ for line in ritelist:
 
 #%%
 '''
+Add opposite hand tags
+'''
+
+for line in dgs_data['Left']:
+    print(re.sub('r([\W\w]+)',r'\1_VOID',line))
+
+for line in dgs_data['Right']:
+    print(re.sub('r([\W\w]+)',r'VOID_\1',line))
+
+
+#%%
+'''
 Assign NoneType objects a timestamp which is one higher than the previous value
 
 Line offsets or a more pythonic solution possible?
@@ -141,12 +156,28 @@ for i,line in enumerate(dgs_data['RightEnd']):
     else:
         dgs_data['RightEnd'][i] = last_number + i - last_number_index
 
+
 #%%
 
 '''
 Alignment
 '''
 
-for lf,rg in zip(dgs_data['LeftStart'],dgs_data['RightStart']):
-    print(lf,rg)
+# for lf,rg in zip(dgs_data['LeftStart'],dgs_data['RightStart']):
+#     print(lf,rg)
+
+# for ls,rs,le,re,lh,rh in zip(dgs_data['LeftStart'],
+#                              dgs_data['RightStart'],
+#                              dgs_data['LeftEnd'],
+#                              dgs_data['RightEnd'],
+#                              dgs_data['Left'],
+#                              dgs_data['Right']):
+#     print(ls,rs,le,re,lh,rh)
+
+
+
+
+
+
+
 
