@@ -75,10 +75,10 @@ def preproc(dgs_lh,dgs_rh):
     return dgs_data
 
 def timesort():
-    # x = preproc('/Users/e.mcgill/Downloads/testleft.txt',
-    #             '/Users/e.mcgill/Downloads/testright.txt')
-    x = preproc('/Users/e.mcgill/Downloads/GebxE4rde_l.txt',
-                '/Users/e.mcgill/Downloads/GebxE4rde_r.txt')
+    x = preproc('/home/upf/Downloads/testleft.txt',
+                '/home/upf/Downloads/testright.txt')
+    # x = preproc('/Users/e.mcgill/Downloads/GebxE4rde_l.txt',
+    #             '/Users/e.mcgill/Downloads/GebxE4rde_r.txt')
     l_tags = [re.sub(r'([\W\w]+)',r'VOID_\1',line) for line in x['Left']]
     r_tags = [re.sub(r'([\W\w]+)',r'\1_VOID',line) for line in x['Right']]
     tupesl = zip(x['LeftStart'],x['LeftEnd'],l_tags)
@@ -90,6 +90,10 @@ def timesort():
         tag_times.append(line)
     ordered_tag_times = sorted(tag_times)
     return ordered_tag_times
+
+def linesort():
+    x = preproc('/home/upf/Downloads/testleft.txt',
+                '/home/upf/Downloads/testright.txt')
 
 def align(filename):
     y = timesort()
