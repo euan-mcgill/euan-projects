@@ -1,0 +1,2723 @@
+/* Style-sheet for www.electoralcalculus.co.uk 
+   (C)2021 Electoral Calculus Ltd
+   
+   Electoral Calculus recommends: "CSS The Missing Manual" by
+   David Sawyer McFarland (O'Reilly, 2009) as a great introduction to CSS
+*/
+
+
+/* SECTIONS
+   1. GLOBAL DEFINITIONS - :root, *
+   2. KEY DEFINITIONS - body, #wholepage
+   3. LAYOUT - flexrow, main_outer, #main
+   4. LINKS - A
+   5. HEADERS - H1, H2, H3, H4
+   6. FONTS - large, small, smaller, B, dateline
+   7. LISTS
+   8. PARAGRAPHS - P, underline
+   9. SHAPES - finger
+   10. COLOURS - purple, black, grey, etc
+   11. BANNER - #topbanner, #banner_logo, banner_menu, etc
+   12. BUTTONS - button, button2
+   13. RADIOSET & PILLS - .radioset, .pills
+   14. INPUTS - input, input_button, input[type="radio"]
+   15. CUSTOM SELECT - custom-select
+   16. DROP DOWN - dropdown
+   17. SEARCH BOX - .dropdown.search
+   18. BRICKS - brick_container, brick_column, brick,
+		topleft, services, postcode, maps, userpoll, updates
+   19. FOOTERS - footer0, footer1, footer2, cookie_popup
+   20. PULLOUTQUOTE - pulloutquote, pulloutquote_source
+   21. KCT TOGGLE
+   22. OLD STYLYING
+   23. GENERAL COLOURS
+   24. KEY DATA COLOURS
+   25. TABLES
+   26. DIV COLUMNS
+   27. CAPTIONS
+   28. IMAGES
+   29. BATTLEMAP
+   30. CONLISTS
+   31. 3D PLOTS
+   32. BARCHART
+   33. MAPS
+   34. CUSTOM PARTICULAR ELEMENTS
+   35. PRINTING
+   36. MOBILES
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap');
+
+/* 1. Global definitions */
+:root {
+	--purple: #390983;
+	--black: #140E1C;
+	--grey: #4F4363;
+	--blue: #A8D0E2;
+	--teal: #90EAE7;
+	--medpurple: #9279BB;
+	--lightgrey: #968FA5;
+	--lightergrey: #C0BBCE;
+	--lightblue: #D0E9F4;
+	--lightteal: #C9F8F6;
+	--tint: #C2CFFB;
+	--darkblue: #6C7BAD;
+	--red: #CA0000;
+	--sea: #9FD9F2;
+	--lightpurple: #E0E7FF;
+	--tintgradient: linear-gradient(93.11deg, #C2CFFB 33.19%, #A8D0E2 96.28%);
+	--purplegradient: linear-gradient(87.85deg, #390983 38.07%, #6108EA 120.62%);
+	/* Extra colours */
+	--faintgrey: #EFF1F4;
+	--darkgrey: #373F41;
+	--lightgreen: #ECF2DA;
+	--lighterpurple: #F7F2FF;
+	--bordergrey: #CFD0D2;
+	
+	--bodybackground: white;
+	
+	--font10: normal normal 400 10px/12px Rubik;		/* 'back to top' button */
+	--font12: normal normal 400 12px/18px Rubik;
+	--font12light: normal normal 300 12px/18px Rubik;	/* breadcrumbs */
+	--font13: normal normal 400 13px/22px Rubik;
+	--font13light: normal normal 300 13px/22px Rubik;	/* Smaller Text Light */
+	--font14: normal normal 400 14px/22px Rubik;		/* Small text */
+	--font14bold: normal normal 500 14px/18px Rubik;
+	--font14low: normal normal 400 14px/18px Rubik;
+	--font15: normal normal 400 15px/15px Rubik;		/* PullOutQuote Source */
+	--font16: normal normal 400 16px/26px Rubik;		/* Body text */
+	--font18: normal normal 400 18px/28px Rubik;		/* H4 text */
+	--font20: normal normal 400 20px/28px Rubik;		/* Description text */
+	--font22: normal normal 500 22px/30px Rubik;		/* H3 text */
+	--font22pull: italic normal 500 22px/32px Rubik;	/* Pull out quote */
+	--font28: normal normal 500 28px/36px Rubik;		/* H2 text */
+	--font40: normal normal 500 40px/46px Rubik;		/* H1 text */
+	--font50: normal normal 500 50px/58px Rubik;		/* .header2.big */
+	
+	
+	--mainwidth: 1200px;
+	--mainmargin: 45px;
+	--maxwidth: 1110px;
+	--maincontentwidth: 1110px;
+	--twocolwidth: 730px;
+	--onecolwidth: 350px;
+	--rhswidth: var(--onecolwidth);
+	--extrawidth: calc(max(0px, 50vw - 0.5 * var(--mainwidth)));
+	--negextrawidth : calc(0px - var(--extrawidth));
+	
+	/* Brick image files should be 293px wide */
+}
+
+* { box-sizing: border-box; }
+
+/* Responsive sizes */
+@media screen and (max-width: 1100px) {
+	:root {
+		--mainwidth: 100vw;
+		--mainmargin: 30px;
+		--maincontentwidth: calc(100vw - 2 * var(--mainmargin));
+		--twocolwidth: var(--maincontentwidth);
+		--onecolwidth: calc(0.5 * var(--maincontentwidth) - 15px);
+		--rhswidth: var(--twocolwidth);
+		--extrawidth: 0;
+		--negextrawidth: 0;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	:root {
+		--onecolwidth: var(--maincontentwidth);
+		--rhswidth: var(--onecolwidth);
+	}
+}
+
+@media screen and (max-width: 400px) {
+	:root {
+		--mainmargin: 10px;
+	}
+}
+
+/* 2. Key Definitions */
+body {
+	margin: 0;
+	background-color: var(--bodybackground);
+	
+	font: var(--font16);
+	letter-spacing: 0em;
+	text-align: left;
+	color: black;
+}
+
+/* Named DIV to contain the whole page */
+#wholepage {
+	width: var(--mainwidth);
+	margin: auto;
+	margin-top: 0;
+	position: relative;
+}
+
+/* 3. Layout */
+.flexrow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.flexrow.aligntop {
+	align-items: flex-start;
+}
+.flexrow.bmargin > DIV {
+	margin-bottom: 30px;
+}
+.nojustify {
+	justify-content: flex-start;
+}
+.justify {
+	justify-content: space-between;
+}
+.flexwrap { flex-wrap: wrap; }
+.nowrap { flex-wrap: nowrap; }
+
+.flexcol {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.flexcol.centre {
+	align-items: center;
+}
+
+.main_outer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0px var(--mainmargin) 10px var(--mainmargin);
+}
+.maincontentwidth {
+	width: var(--maincontentwidth);
+}
+.col350, .onecolwidth {
+	width: var(--onecolwidth);
+}
+.twocol730, .twocolwidth {
+	width: var(--twocolwidth);
+}
+.rhswidth {
+	width: var(--rhswidth);
+}
+
+.userpollinputs > DIV.flexrow {
+	justify-content: flex-start;
+	margin-bottom: 20px;
+}
+.userpollinputs > DIV.flexrow > DIV:first-of-type {
+	font: var(--font14bold);
+	width: 150px;
+}
+
+/* MAIN */
+#main {
+	margin-right: 30px;
+	position: relative;
+	width: var(--twocolwidth);
+}
+#main.wide {
+	width: var(--maincontentwidth);
+	margin-right: 0px;
+}
+
+.fullwidth {
+	width: 100%;
+}
+.width327 {
+	width: 327px;
+}
+.width177 {
+	width: 177px;
+}
+
+
+
+/* 4. LINKS */
+A {
+	font-weight: 500;
+	letter-spacing: 0em;
+	text-align: left;
+	color: var(--purple);
+	text-decoration: underline;
+	text-decoration-color: var(--teal);
+	text-decoration-thickness: 1px;
+	text-underline-offset: 2px;
+	word-wrap: break-word;
+}
+H1 A, H2 A, H3 A, H4 A {
+	text-decoration: none;
+	color: currentColor;
+}
+A:hover {
+	color: var(--black);
+	text-decoration-color: var(--purple);
+}
+A[name] {
+	text-decoration: none;
+}
+A[name]:hover { color: currentColor; }	/* suppress hover for name anchors */
+
+A.onpurple, .purple A {
+	color: white;
+	text-decoration-color: white;
+}
+A.onpurple:hover, .purple A:hover {
+	text-decoration-color: var(--teal);
+}
+
+A.onblue, .sea A, .lightgreen A, .lightteal A {
+	color: var(--purple);
+	text-decoration-color: var(--medpurple);
+}
+
+A.onblue:hover, .sea A:hover, .lightgreen A:hover, .lightteal A:hover {
+	color: black;
+	text-decoration-color: var(--purple);
+}	
+	
+	
+
+/* TODO : review this. Occurs in orderseats */
+.small A, .tablenote A {
+	color: black;
+	text-decoration-color: black;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0px;
+}
+
+A.light {
+	color: var(--teal);
+}
+
+A.white {
+	color: white;
+	background-color: inherit;
+}
+
+.pointer { cursor: pointer; }
+
+.purplehover { cursor: pointer; }
+DIV.purplehover:hover {
+	background: var(--purple) !important;
+}
+.nohover:hover {
+	color: currentColor;
+}
+.bluehover { cursor: pointer; }
+DIV.bluehover:hover {
+	background: var(--blue);
+}	
+
+/* 5. HEADERS */
+H1, H2, H3, H4, H5, H6 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+
+H1 {
+	font: var(--font40);
+	letter-spacing: -0.02em;
+	text-align: left;
+	color: var(--purple);
+	margin-bottom: 20px;
+}
+
+H2 {
+	font: var(--font28);
+	letter-spacing: -0.02em;
+	text-align: left;
+	color: black;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+H3 {
+	font: var(--font22);
+	letter-spacing: -0.02em;
+	text-align: left;
+	color: black;
+	margin-bottom: 15px;
+}
+
+H4 {
+	font: var(--font18);
+	text-align: left;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+/* 6. FONTS */
+/* For large running text (e.g. descriptions) */
+.large {
+	font: var(--font20);
+	letter-spacing: 0em;
+	text-align: left;
+}
+P.large { margin-bottom: 10px; }
+
+.medlarge {
+	font: var(--font18);
+	letter-spacing: 0em;
+	text-align: left;
+}
+P.medlarge { margin-bottom: 10px; }
+
+/* For small running text */
+.small {
+	font: var(--font14);
+	letter-spacing: 0em;
+	text-align: left;
+}
+P.small { margin-bottom: 8px; }
+
+/* For very small text */
+.smaller {
+	font: var(--font13light);
+	letter-spacing: 0em;
+	text-align: left;
+}
+P.smaller { margin-bottom: 8px; }
+
+.smallgrey {
+	color: var(--lightgrey);
+	font: var(--font12); }
+
+/* Bold versions of running text */
+B {
+	font-weight: 500;
+}
+.bold { font-weight: 500; }
+.smaller B { font-weight: 400; }
+
+
+
+/* Special div for datelines with calendar icon */
+.dateline {
+	background-image: url('icon_calendar.svg');
+	background-repeat: no-repeat;
+	background-position: 0 4px;
+	padding-left: 20px;
+	display: block;
+	font: var(--font13light);
+	letter-spacing: 0em;
+	text-align: left;
+	text-transform: capitalize;
+}
+
+HR {
+	border-top: 1px solid #C0BBCE;
+	border-bottom: none;
+}
+
+/* 7. LISTS */
+/* Use branded icon */
+UL {
+	list-style-image: url('icon_ec_white_on_purple_circle12.svg');
+}
+
+UL UL {
+	list-style-image: url('icon_dot_white_on_purple_circle6.svg');
+	margin-left: 0;
+	padding-left: 17px;
+	margin-top: 6px;
+}
+
+LI { margin-bottom: 12px; }
+
+
+/* 8. PARAGRAPHS */
+P {
+	margin-bottom: 8px;
+}
+P + H1, TABLE + H1 { margin-top: 20px; }
+P + H2, TABLE + H2 { margin-top: 15px; }
+P + H3, TABLE + H3 { margin-top: 15px; }
+P + H4, TABLE + H4 { margin-top: 10px; }
+#main > P:first-of-type { margin-top: 0; }
+
+
+/* TODO Contradicts .small */
+P.small
+{
+	font: var(--font12);
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+P.tablenote {
+	margin-top: 0px;
+	font: var(--font12);
+}
+P.caption {
+	margin-top: 0px;
+}
+
+/* 9. SHAPES */
+.finger {
+	border-radius: 0px 100px 100px 0px;
+	display: inline-block;
+	height: 33px;
+	padding: 6px 20px 8px 20px;
+	width: auto;
+}
+
+
+/* 10. COLOURS */
+.purple { background: var(--purple); }
+.black { background: var(--black); }
+.grey { background: var(--grey); }
+.blue { background: var(--blue); }
+.teal { background: var(--teal); }
+.medpurple { background: var(--medpurple); }
+.lightgrey { background: var(--lightgrey); }
+.lightergrey { background: var(--lightergrey); }
+.lightblue { background: var(--lightblue); }
+.lightteal { background: var(--lightteal); }
+.tint { background: var(--tint); }
+.darkblue { background: var(--darkblue); }
+.red { background: var(--red); }
+.sea { background: var(--sea); }
+.lightpurple { background: var(--lightpurple); }
+.tintgradient { background: var(--tintgradient); }
+.purplegradient { background: var(--purplegradient); }
+.white { background: white; }
+.lightgreen { background: var(--lightgreen); }
+.lighterpurple { background: var(--lighterpurple); }
+.faintgrey { background: var(--faintgrey); }
+
+.redtext { color: red; }
+
+.purple_on_white {
+	background: white;
+	color: var(--purple);
+}
+
+
+/* TOP OF PAGE */
+/* 11. BANNER */
+
+#topbanner {
+	position: relative;
+	height: 100px;
+	width: 100%;
+	border-bottom: solid 1px #F4F4F4;
+}
+#banner_logo {
+	position: absolute;
+	height: 46px;
+	width: 250px;
+	left: calc(-33px + var(--mainmargin));
+	top: 39px;
+}
+.banner_menu {
+	position: absolute;
+	right: var(--mainmargin);
+	top: 0px;
+	display: flex;
+	}
+.banner_item {
+	list-style-type: none;
+	height: 100px;
+	padding: 41px 0;
+	margin: 0 0 0 32px;
+	font: var(--font14bold);
+	color: var(--black);
+	letter-spacing: 0.2px;
+	text-align: left;
+}
+.banner_item.show {
+	color: var(--purple);
+}
+.banner_item.show UL { color: var(--black); }
+
+#banner_contact {
+	width: 102px;
+	height: 34px;
+	padding: 8px 23px 8px 23px;
+	margin-left: 30px;
+}
+
+
+#breadcrumbs {
+	position: sticky;
+	top: 0;
+	width: 100%;
+	height: 30px;
+	padding: 5px 0 5px var(--mainmargin);
+	font: var(--font12light);
+	color: var(--grey);
+	background-color: var(--bodybackground);
+	z-index: 1;
+}
+#breadcrumbs:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: var(--negextrawidth);
+	height: 30px;
+	width: var(--extrawidth);
+	background: var(--bodybackground);
+}
+#breadcrumbs.empty {
+	position: static;
+}
+#breadcrumbs A {
+	text-decoration-color: var(--grey);
+	text-underline-offset: 1px;
+	font: var(--font12light);
+	color: var(--grey);
+}
+#breadcrumbs A:hover {
+	color: var(--purple);
+	font: var(--font12);
+	text-decoration-color: var(--purple);
+}
+
+.header2 {
+	position: relative;
+	height: 125px;
+	min-height: 125px;
+	margin: 0px var(--mainmargin) 30px 0;
+	padding: 20px 280px 20px var(--mainmargin);
+	background: var(--tintgradient);
+	border-radius: 0 172px 172px 0;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.header2:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: var(--negextrawidth);
+	height: 125px;
+	width: var(--extrawidth);
+	background: var(--tint);
+}
+.header2 > OBJECT {
+	position: absolute;
+	bottom: -30px;
+	right: 100px;
+	transform: scale(0.67);
+}
+.header2 > H1 {
+	margin: 0;
+}
+
+
+.header2big_container {
+	position: relative;
+}
+.header2big_container:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: calc(var(--negextrawidth) - var(--mainmargin));
+	height: 360px;
+	width: var(--extrawidth);
+	background: var(--tint);
+}
+.header2.big {
+	height: 360px;
+	min-height: 360px;
+	margin: 0;
+	margin-left: calc(0px - var(--mainmargin));
+	padding: 20px var(--mainmargin);
+	overflow: hidden;
+}
+
+.header2.big H1 {
+	font: var(--font50);
+}
+.header2.big > DIV:first-of-type {
+	padding-right: 500px;
+}
+.header2.big > OBJECT {
+	bottom: 0px;
+	right: 120px;
+	transform: scale(1.0);
+}
+.header2.big > IMG {
+	position: absolute;
+	bottom: -10px;
+	right: 0px;
+	filter: brightness(115%);
+	opacity: 100%;
+}
+.header2 #mwb_id {
+	position: absolute;
+	bottom: 10px;
+	right: 380px;
+	font: var(--font12);
+	color: var(--purple);
+	text-align: right;
+	text-transform: uppercase;
+}
+
+/* 12. BUTTONS */
+/* How to use: <DIV class="button">Click me</DIV>
+   Add your own onclick event as required
+*/
+
+INPUT {
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.button, INPUT[type="button"] {
+	display: inline-block;
+	border-radius: 2px 100px 100px 2px;
+	position: relative;
+	height: 38px;
+	min-width: 57px;
+	padding: 10px 35px 7px 35px;
+	margin: 0;
+	background: var(--purple);
+	font: var(--font14bold);
+	letter-spacing: 0px;
+	text-align: center;
+	color: white;
+	transition: background 0.3s;
+}
+.button.tight, .button2.tight {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.finger A, .button A, .button2 A {
+	text-decoration: none;
+	color: currentColor;
+	font: inherit;
+}
+
+.button:hover, .button.hover, INPUT[type="button"]:hover {
+	background: var(--medpurple);
+	cursor: pointer;
+}
+.button:focus, .button.focus, INPUT[type="button"]:focus {
+	background: var(--blue);
+	outline: none;
+}
+.button:disable, .button.disable, INPUT[type="button"]:disable {
+	background: var(--faintgrey);
+	color: var(--lightergrey);
+}
+.button > IMG {
+	position: absolute;
+	top: 10px;
+	left: 17px;
+	height: 17px;
+}
+
+/* Button2 - for secondary purpose */
+.button2, INPUT[type="button"].button2 {
+	display: inline-block;
+	border: 1px solid var(--purple);
+	border-radius: 2px 100px 100px 2px;
+	padding: 8.5px 35px 8.5px 35px;
+	background: white;
+	font: var(--font14bold);
+	letter-spacing: 0px;
+	text-align: center;
+	color: var(--purple);
+}
+.button2:hover, .button2.hover, INPUT[type="button"].button2:hover {
+	border-color: var(--medpurple);
+	color: var(--medpurple);
+	cursor: pointer;
+}
+.button2:focus, .button2.focus, INPUT[type="button"].button2:focus {
+	border-color: var(--blue);
+	color: var(--blue);
+	outline: none;
+}
+.button2:disable, .button2.disable, INPUT[type="button"].button2:disable {
+	border-color: var(--lightergrey);
+	color: var(--lightergrey);
+}
+
+
+/* 13. Radioset and Pills */
+/* Radioset: how to use. Put individual DIVs inside the "radioset" div
+   to get a set of lozenges squished together. Use the class "radioon" to
+   indicate which one is live. You need to write your own JavaScript code
+   to handle clicks.
+   
+	<DIV class="radioset">
+		<DIV class="radioon">ELECTION RESULT</DIV>
+		<DIV>PREDICTION</DIV>
+		<DIV>CHANGE</DIV>
+	</DIV>
+	
+	or (to have radio functionality)
+	
+	<DIV class="radioset">
+		<INPUT type="radio" id="popbutton" name="mapstyle" value="pop" onclick="mapclick(this);" checked>
+			<LABEL for="popbutton">Equal Population</LABEL>
+		<INPUT type="radio" id="geobutton" name="mapstyle" value="geo" onclick="mapclick(this);">
+			<LABEL for="geobutton">Geographical Map</LABEL>
+	</DIV>
+	
+*/
+
+.radioset {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+
+.radioset > DIV, .radiosolo, .radioset input[type="radio"] + label {
+	padding: 5px 15px 5px 15px;
+	height: auto;
+	font: var(--font12);
+	letter-spacing: 0em;
+	text-align: center;
+	text-transform: uppercase;
+	color: var(--purple);
+	background: white;
+	border: 1px solid var(--tint);
+	border-right: 0;
+	align-self: flex-start;
+}
+.radioset > DIV:first-of-type, .radioset input[type="radio"] + label:first-of-type {
+	border-radius: 19px 0px 0px 19px;
+}
+.radioset > DIV:last-of-type, .radioset input[type="radio"] + label:last-of-type {
+	border-radius: 0px 19px 19px 0px;
+	border-right: 1px solid var(--tint);
+}
+.radioset > DIV:only-child, .radiosolo {
+	border-radius: 19px;
+	border-right: 1px solid var(--tint);
+}
+.radioset > DIV.radioon, .radioset input[type="radio"]:checked + label {
+	background: var(--tint);
+}
+
+.radioset > DIV.tint, .radiosolo.tint, .radioset input[type="radio"] + label.tint {
+	background: var(--tint);
+	color: var(--purple);
+}
+
+.radiosolo A {
+	text-decoration: none;
+}
+.radiosolorow {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.radiosolorow DIV { margin-right: 10px; }
+
+/* class for grid layout of solo radio buttons */
+/* Usage: <div class="radiogrid">
+				<DIV>
+					<INPUT type="radio" id="seats15_button" name="bdystyle" value="seats15" onclick="geoclick(this);" checked>
+					<LABEL for="seats15_button">Seats 15</LABEL>
+				</DIV>
+				<DIV>
+					<INPUT type="radio" id="seats18_button" name="bdystyle" value="seats18" onclick="geoclick(this);">
+					<LABEL for="seats18_button">Seats 18</LABEL></DIV>
+				</DIV>
+			</div>
+*/
+
+.radiogrid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.radiogrid input[type="radio"] + label {
+	padding: 5px 15px 5px 15px;
+	height: auto;
+	font: var(--font12);
+	letter-spacing: 0em;
+	text-align: center;
+	text-transform: uppercase;
+	color: var(--purple);
+	background: white;
+	border: 1px solid var(--tint);
+	border-radius: 19px;
+	background-image: none;
+}	
+.radiogrid input[type="radio"]:checked + label {
+	background-image: none;
+	background: var(--tint);
+}
+
+/* Pills : how to use. 
+	Put individual DIVs inside the "pills" DIV.
+	Each DIV will become a little lozenge, gently spaced from the others.
+	
+	<DIV class="pills">
+		<DIV class="con0">CON</DIV>
+		<DIV class="lab0">LAB</DIV>
+		<DIV class="lib0">LIB</DIV>
+	</DIV>
+	
+	Can also have class="pills flexwrap" which will allow pills to spill over
+	to the next line, with 5px of vertical space between them (eg datamap.html)
+*/
+
+.pills {
+	display: flex;
+	flex-direction: row;
+}
+.pills.flexwrap { margin-bottom: -5px; }
+.cpills {
+	display: flex;
+	flex-direction: column;
+}
+.pills > DIV, .cpills > DIV {
+	padding: 4px 10px 4px 10px;
+	font: var(--font12);
+	letter-spacing: 0em;
+	text-align: center;
+	color: #1A202C;
+	border-radius: 50px;
+}
+.pills > DIV { margin-right: 5px; }
+.cpills > DIV, .pills.flexwrap > DIV { margin-bottom: 5px; }
+.pills > DIV.white {
+	background: white;
+	border: 1px solid var(--tint);
+	color: var(--purple);
+	text-transform: uppercase;
+}
+.pills > DIV.darkblue {
+	background: var(--darkblue);
+	color: white;
+	text-transform: uppercase;
+}
+.pills.uppercase {
+	text-transform: uppercase;
+}
+
+
+/* 14. INPUTS */
+INPUT {
+	border-radius: 0px 100px 100px 0px;
+	border: 1px solid var(--lightgrey);
+	padding: 9px 12px;
+	
+	font: var(--font14low);
+	letter-spacing: 0.2px;
+	text-align: left;
+	color: var(--darkgrey);
+}
+::placeholder {
+	font: var(--font14low);
+	letter-spacing: 0.2px;
+	text-align: left;
+	color: var(--lightergrey);
+}
+INPUT:focus {
+	outline: none;
+}
+INPUT:disabled {
+	background: var(--faintgrey);
+}
+INPUT:invalid, INPUT.invalid {
+	border-color: var(--red);
+}
+.inputerror {
+	font: var(--font13);
+	letter-spacing: 0em;
+	text-align: left;
+	color: var(--red);
+}
+
+input.num {
+	width: 56px;
+	height: 35px;
+	border-radius: 0;
+	margin-right: 2px;
+}
+/* Switch off step arrows/spinners for numerical input */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+textarea.usergoals {
+	width: 100%;
+	height: 80px;
+	resize: none;
+}
+
+/*	InputButton class.
+	How to use: 
+	<DIV class="input_button">
+		<INPUT type="text" placeholder="Placeholder" ><DIV class="button">Go</DIV>
+	</DIV>
+	
+	or
+	
+	<DIV class="input_button">
+		<INPUT type="text" placeholder="Placeholder" ><INPUT type="submit" class="button" value="Go">
+	</DIV>
+*/
+
+.input_button {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.input_button.std {
+	width: 293px;
+}
+.input_button > INPUT:not([type="submit"]) {
+	border-radius: 0;
+}
+.input_button .button, .button.small {
+	padding: 10px 19px;
+}
+
+/* Radio button and Checkbox override */
+/* Examples
+      <INPUT type="radio" id="id1" name="myname" value="value1"> <LABEL for="id1">Opt1</LABEL>
+	  
+	  <INPUT type="checkbox" id="id1" name="myname" value="value1">	<LABEL for="id1">Opt1</LABEL>
+*/
+
+input[type="radio"], input[type="checkbox"] {
+	opacity: 0;
+	position: fixed;
+	width: 0;
+}
+input[type="radio"] + label, input[type="checkbox"] + label {
+	background-image: url('icon_radio_off.svg');
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 21px;
+	padding: 0 10px 10px 25px;
+	cursor: pointer;
+}
+input[type="radio"]:checked + label, input[type="checkbox"]:checked + label {
+	background-image: url('icon_radio_on.svg');
+}
+
+
+
+/* 15. CustomSelect */
+/* How to use. Just have a DIV with the class "custom-select", 
+   and put a SELECT inside it, with a set of OPTIONs inside that.
+   The first OPTION is the placeholder value. 
+   Note that the function CSInitAll(), or CSInit(CustomSelectElement) needs to be called
+   to initialise, and after any change to the SELECT or OPTIONS.
+   
+   Styling supports the SELECT attributes: multiple, disabled, required
+   
+	<DIV class="custom-select">
+		<SELECT name="display" onChange="DisplayChange()" size=1>
+			<OPTION Value="AllChanged">All GB changed seats</OPTION>
+			<OPTION Value="AllChanged">All GB changed seats</OPTION>
+			<OPTION Value="AllMajoritySorted">All GB seats majority-sorted</OPTION>
+			<OPTION Value="OneRegion">One area majority-sorted</OPTION>
+			<OPTION Value="OneSeat">Individual seat</OPTION>
+		</SELECT>
+	</DIV>
+*/
+
+/* The container must be positioned relative: */
+.custom-select {
+	position: relative;
+	font: var(--font14);
+	width: 327px;
+}
+
+.custom-select select {
+	display: none; /*hide original SELECT element: */
+}
+
+/* DIV displaying the currently selected value */
+.select-selected {
+	background-color: white;
+	color: var(--darkgrey);
+	border-radius: 0px 20px 20px 0px;
+	border: 1px solid var(--lightgrey);
+	background: url('../icon_arrow_down.svg');
+	background-repeat: no-repeat;
+	background-position: right 20px center;
+	padding: 9px 12px;
+	cursor: pointer;
+}
+.select-selected.placeholder {
+	color: var(--lightergrey);
+}
+.select-selected.placeholder.required {
+	border-color: var(--red);
+	color: var(--darkgrey);
+}
+.select-selected.disabled {
+	padding-right: 50px;
+	background: url('icon_arrow_down.svg'), var(--faintgrey);
+	background-repeat: no-repeat; 
+	background-position: right 20px center;
+	appearance: none;
+	color: var(--lightergrey);
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active {
+	background: url('../icon_arrow_up.svg');
+	background-repeat: no-repeat;
+	background-position: right 20px center;
+	border-radius: 0px 20px 0px 0px;
+}
+.select-items {
+	max-height: 50vh;
+	overflow-y: auto;
+}
+/* style the items (options), including the selected item: */
+.select-items div {
+	color: var(--darkgrey);
+	padding: 15px 20px;
+	cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+	position: absolute;
+	background-color: white;
+	color: var(--darkgrey);
+	border: 1px solid var(--lightgrey);
+	border-top: none;
+	top: 100%;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+	display: none;
+}
+
+.select-items.multiple div {
+	background-image: url('icon_radio_off.svg');
+	background-repeat: no-repeat;
+	background-position: right 10px center;
+}
+.select-items.multiple div.same-as-selected {
+	background: var(--lighterpurple) url('icon_radio_on.svg');
+	background-repeat: no-repeat;
+	background-position: right 10px center;
+}
+
+.select-items div:hover {
+	background-color: var(--lighterpurple);
+	color: var(--purple);
+	font-weight: 500;
+}
+.same-as-selected {
+	background-color: var(--lightblue);
+	color: var(--darkblue);
+	font-weight: 500;
+}
+
+
+/* 16. DropDown */
+
+/* How to use. Just have a DIV with the class "dropdown", with the dd_click event
+   followed by the label, and then a UL containing the options
+   It's better to make the LI clickable than to have an A-tag.
+   The JavaScript and CSS will do the rest.
+   
+<DIV class="dropdown" onclick="dd_click(event);">Services dropdown
+	<UL>
+		<LI onclick="gourl('../services_polling.html');">Polling Regression Analysis</LI>
+		<LI onclick="gourl('../services_electoral.html');">Election Predictions</LI>
+	</UL>
+</DIV>
+*/
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown:hover {
+	cursor: pointer;
+}
+
+.dropdown > UL {
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 85px;
+	width: 224px;
+	min-height: 70px;
+	padding: 0;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+	background-color: white;
+	z-index: 2;
+	
+	font: var(--font14);
+	letter-spacing: 0em;
+	text-align: left;
+}
+.dropdown.show {
+	display: inline-block;
+}
+.dropdown.show > UL {
+	display: block;
+	padding: 0;
+}
+.dropdown > UL:after {
+	content: '';
+	width: 62px;
+	height: 5px;
+	background: var(--purple);
+	position: absolute;
+	top: -5px;
+}
+
+.dropdown LI {
+	list-style-image: none;
+	list-style-type: none;
+	padding: 15px 20px 15px 20px;
+	text-decoration: none;
+	display: block;
+	margin: 0;
+}
+
+.dropdown LI:hover {
+	background-color: var(--lighterpurple);
+	color: var(--purple);
+	font-weight: 500;
+	cursor: pointer;
+}
+/* gets set by PageStart for dropdown LI element with the same link as the current page */
+.dropdown LI.highlight {
+	color: var(--purple);
+	font-weight: 500;
+}
+
+.dropdown A, .banner_item A {
+	text-decoration: none;
+	color: currentColor;
+	font: inherit;
+}
+
+.show { display: block; }
+.hide { display: none; }
+.showhide { display: block; }
+.hideshow { display: none; }
+
+/* 16.1 NAVIGATION MOBILE */
+
+.nmbutton {
+	position: absolute;
+	top: 25px;
+	right: 10px;
+}
+.kct_toggle.nmbutton {
+	border: none;
+	margin
+	: 0;
+}
+.kct_toggle.nmbutton DIV:nth-child(2) {
+	background-image: url('icon_hamburger.svg');
+}
+.kct_toggle.nmbutton.show DIV:nth-child(2) {
+	background-image: url('icon_cross.svg');
+}
+#navmobile {
+	padding: 0;
+	margin: 0;
+}
+#nm_search {
+	padding: 20px;
+	border-bottom: 1px solid var(--faintgrey);
+}
+.nm_accordion {
+	font: var(--font14);
+	color: var(--darkgrey);
+}
+.nm_accordion > DIV.kct_toggle {
+	height: 48px;
+	padding: 15px var(--mainmargin);
+	border-bottom: 1px solid var(--faintgrey);
+	border-top: none;
+	margin: 0;
+}
+.nm_accordion > DIV.kct_toggle.show {
+	background: var(--lightpurple);
+}
+.nm_accordion > DIV.kct_toggle DIV:first-child {
+	font: var(--font14bold);
+}
+.nm_accordion A {
+	text-decoration: none;
+	color: inherit;
+}
+.nm_accordion  div.ShowHide_Show {
+	border-bottom: none;
+	margin: 0;
+}
+.nm_accordion UL {
+	padding: 0;
+	margin: 0;
+}
+.nm_accordion LI {
+	list-style-image: none;
+	list-style-type: none;
+	border-bottom: 1px solid var(--faintgrey);
+	padding: 13px var(--mainmargin) 12px calc(var(--mainmargin) + 10px);
+	margin: 0;
+}
+.nm_accordion LI A {
+	font-weight: inherit;
+}
+.nm_accordion LI.highlight {
+	color: var(--purple);
+	font-weight: 500;
+}
+.nm_accordion LI:hover {
+	background-color: var(--lighterpurple);
+	color: var(--purple);
+	font-weight: 500;
+	cursor: pointer;
+}
+
+#nm_contact {
+	padding: 10px calc(var(--mainmargin) + 20px);
+}
+
+
+/* 17. SEARCH BOX */
+
+.dropdown.search > UL {
+	width: 439px;
+	height: 106px;
+	left: -289px;
+}
+.dropdown.search P {
+	margin: 5px 0;
+}
+.dropdown.search INPUT {
+	width: 350px;
+}
+.dropdown.search > UL:after {
+	width: 0;
+	height: 0;
+}
+.dropdown.search LI:hover {
+	background-color: white;
+	color: black;
+	font-weight: 400;
+}
+
+
+/* 18. BRICKS */
+
+/* Can be used in two ways
+   (1) <DIV class="brick_container">
+			<DIV class="brick">
+				...BRICK CONTENTS
+			</DIV>
+			NEXT BRICKS...
+		</DIV>
+		
+	or <DIV class="masonry_container">
+			<DIV class="masonry_brick">
+				<DIV class="brick">
+					...BRICK CONTENTS
+				</DIV>
+			</DIV>
+			NEXT MASONRY BRICKS...
+		</DIV>
+		Remember to call JS routine BrickResizeAllItems when loaded
+*/
+
+.brick_container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.brick_column {
+	display: flex;
+	flex-direction: column;
+}
+
+.masonry_container {
+	display: grid;
+	grid-gap: 0 30px;
+	grid-template-columns: repeat(auto-fill, minmax(var(--onecolwidth),1fr));
+	grid-auto-rows: 30px;
+}
+
+.masonry_brick {
+	grid-row-end: span 15;
+}
+.masonry_brick .brick {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;	
+}
+
+/* IMG files should be 293px wide */
+.brick {
+	width: var(--onecolwidth);
+	padding: 25px 27.5px 25px 27.5px;
+	border-radius: 4px;
+	
+	font: var(--font14);
+	letter-spacing: 0em;
+	text-align: left;
+	
+	color: black;
+	/* background: white; */
+	
+	border: 1px solid var(--bordergrey);
+	border-radius: 4px;
+	margin-top: 0;
+	margin-bottom: 30px;
+	transition: box-shadow 0.5s;
+}
+
+.brick:HOVER, .brick.hover {
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+	cursor: pointer;
+}
+.brick.nohover:HOVER {
+	box-shadow: none;
+	cursor: auto;
+}
+.brick .strap {
+	font: var(--font12);
+	letter-spacing: 0em;
+	text-align: left;
+	text-transform: uppercase;
+	margin: 0 0 13px 0;
+	color: var(--darkblue);
+}
+.brick H2 {
+	font: var(--font28);
+	letter-spacing: -0.02em;
+	text-align: left;
+	margin: 20px 0 20px 0;
+}
+
+.brick H3 {
+	font: var(--font22);
+	letter-spacing: -0.02em;
+	text-align: left;
+	margin: 10px 0 5px 0;
+	color: var(--purple);
+}
+
+.brick IMG {
+	border-radius: 2%;
+	max-width: 293px;
+	width: 100%;
+}
+
+.brick.purple {
+	background-color: var(--purple);
+	border-color: var(--purple);
+	color: white;
+}
+.brick.purple P.strap { color: white; }
+.brick.purple H3 { color: white; }
+
+/* Particular styling for particular elements */
+
+/* Homepage topleft purple block */
+.topleft {
+	background-color: var(--purple);
+	border-color: var(--purple);
+	color: white;
+	height: 290px;
+	width: calc(var(--mainmargin) + var(--twocolwidth));
+	margin-left: calc(0px - var(--mainmargin));
+	border-radius: 0 4px 4px 0;
+	padding-left: var(--mainmargin);
+	padding-right: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+/* Little hack to add colour block to left-hand edge */
+.topleft:before {
+	content: '';
+	height: 290px;
+	width: var(--extrawidth);
+	position: absolute;
+	top: 0;
+	left: calc(var(--negextrawidth) - var(--mainmargin));
+	background-color: var(--purple);
+}
+.topleft H1 { font-size: 28px; }
+.topleft H1, .topleft H2, .topleft H3 { color: white; }
+.topleft DIV {
+	width: 320px;
+	margin-right: 30px;
+}
+.topleft .strap { color: var(--tint); }
+
+/* Top-Right services advert */
+.services {
+	position: relative;
+	overflow: hidden;
+	background: var(--purplegradient);
+	color: white;
+	height: 290px;
+}
+.services > OBJECT {
+	position: absolute;
+	bottom: 0px;
+	right: 20px;
+}
+.services H1, .services H2, .services H3 { color: white; }
+
+/* RHS Postcode brick */
+.postcode {
+	background-color: var(--lightteal);
+	border-color: var(--lightteal);
+}
+/* RHS Maps brick */
+.maps {
+	background-color: var(--sea);
+	background-image: url('ad_dynmap175.png');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	border-color: var(--sea);
+}
+.maps P { width: 60%; }
+/* RHS User-defined poll brick */
+.userpoll {
+	background-color: var(--lightgreen);
+	border-color: var(--lightgreen);
+}
+.updates {
+	background-color: var(--lightblue);
+	border-color: var(--lightblue);
+}
+/* Services - talk to an expert form */
+.talkbox {
+	background-color: var(--lightblue);
+}
+.talkbox H3 { margin-bottom: 15px; }
+
+
+/* 19. FOOTERS */
+
+.footer_twocol {
+	position: relative;
+	overflow: hidden;
+	background: var(--purplegradient);
+	font: var(--font14);
+	color: white;
+	height: 205px;
+	padding: 30px 33px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.footer_twocol H3 {
+	color: white;
+}
+.footer_twocol H4 {
+	color: white;
+	font-weight: 500;
+	text-transform: none;
+	margin-bottom: 12px;
+}
+.footer_twocol > .finger {
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+	padding: 6px 37px 8px 37px;
+}
+.footer_twocol > OBJECT {
+	position: absolute;
+	bottom: 0;
+	right: 50px;
+}
+
+.footercontainer {
+	position: relative;
+}
+.footer0 {
+	background: var(--purplegradient);
+	font: var(--font14);
+	color: white;
+	height: 158px;
+	margin-top: 24px;
+	padding: 18px var(--mainmargin);
+	width: 100%;
+	overflow: hidden;
+}
+.footer0:before {
+	content: '';
+	height: 158px;
+	width: var(--extrawidth);
+	position: absolute;
+	top: 0;
+	left: var(--negextrawidth);
+	background-color: var(--purple);
+}
+.footer0:after {
+	content: '';
+	height: 158px;
+	width: var(--extrawidth);
+	position: absolute;
+	top: 0;
+	left: var(--mainwidth);
+	background: #5608CF;
+}
+
+
+.footer0 H3 { color: white;}
+.footer0 > DIV:first-of-type { width: 600px; }
+.footer0 > DIV:nth-of-type(2) {
+	position: relative;
+}
+.footer0 > DIV:nth-of-type(2) > OBJECT {
+	position: absolute;
+	top: -10px;
+	left: -40px;
+}
+.footer0 > DIV:nth-of-type(3) {
+	width: 205px;
+}
+
+
+.footer1 {
+	background-color: #E2E9FF;
+	padding: 32px var(--mainmargin) 47px var(--mainmargin);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 342px;
+	
+	font: var(--font14);
+	letter-spacing: 0em;
+	text-align: left;
+	
+	justify-content: space-between;
+}
+.footer1:before {
+	content: '';
+	height: 342px;
+	width: var(--extrawidth);
+	position: absolute;
+	top: 0;
+	left: var(--negextrawidth);
+	background-color: #E2E9FF;
+}
+.footer1:after {
+	content: '';
+	height: 342px;
+	width: var(--extrawidth);
+	position: absolute;
+	top: 0;
+	left: var(--mainwidth);
+	background-color: #E2E9FF;
+}
+.footer1 > DIV {
+	margin-top: 30px;
+	padding-right: 5px;
+}
+
+.footer1 H4 { 
+	font: var(--font18);
+	letter-spacing: -0.02em;
+	text-align: left;
+	color: var(--darkgrey);
+}
+.footer1 A {
+	text-decoration: none;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+	color: var(--black);
+}
+.footer1 A:hover, .footer2 A:hover {
+	text-decoration: underline;
+	text-decoration-color: var(--purple);
+	text-decoration-thickness: 1px;
+	text-underline-offset: 1px;
+	color: var(--purple);
+}
+
+/* in footer1, 'back to top' button */
+#gototop {
+	position: absolute;
+	bottom: 20px;
+	right: 60px;
+}
+#gototop SVG {
+	display: block;
+	margin: auto;
+}
+#gototop SVG circle, #gototop_circle {
+	stroke: var(--lightgrey);
+	stroke-width: 1;
+	fill: var(--lightteal);
+}
+#gototop SVG path, #gototop_path {
+	stroke: var(--lightgrey);
+	stroke-width: 2;
+	fill: none;
+}
+#gototop A {
+	font: var(--font10);
+	color: var(--lightgrey);
+}
+#gototop A:hover {
+	text-decoration-color: var(--lightgrey);
+}
+
+
+.footer2 {
+	background-color: var(--tint);
+	height: 100px;
+	padding: 15px var(--mainmargin) 15px var(--mainmargin);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+	font: var(--font13light);
+	letter-spacing: 0em;
+	text-align: left;
+}
+.footer2:before {
+	content: '';
+	height: 100px;
+	width: var(--extrawidth);
+	position: absolute;
+	top: 0;
+	left: var(--negextrawidth);
+	background-color: var(--tint);
+}
+.footer2:after {
+	content: '';
+	height: 100px;
+	width: var(--extrawidth);
+	position: absolute;
+	top: 0;
+	left: var(--mainwidth);
+	background-color: var(--tint);
+}
+
+.footer2 .flexrow { margin-top: 20px; }
+.footer2 IMG {
+	height: 18px;
+	margin-top: 0px;
+}
+.footer2 A {
+	text-decoration: none;
+	color: var(--black);
+	font: var(--font13light);
+}
+
+.cookie_popup {
+	width: 375px;
+	height: 180px;
+	background: #D6D6D6;
+	padding: 20px 23px;
+
+	font: var(--font14);
+	letter-spacing: 0em;
+	text-align: left;
+	color: var(--black);
+}
+
+/* 20. PULLOUTQUOTE */
+.pulloutquote {
+	background: var(--lightpurple);
+	border-radius: 4px;
+	color: var(--purple);
+	font: var(--font22pull);
+	padding: 20px;
+}
+.pulloutquote > P.pulloutquote_source {
+	font: var(--font15);
+	color: var(--lightgrey);
+	margin-top: 10px;
+}
+.pulloutquote P { margin-top: 11px; }
+.pulloutquote P:first-of-type { margin-top: 0px; }
+
+
+/* 21. KCT TOGGLE */
+.kct_toggle {
+	border: 1px solid var(--bordergrey);
+	border-right: none;
+	border-left: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+}
+.kct_toggle DIV:first-child {
+	font: var(--font16);
+}
+.kct_toggle DIV:nth-child(2) {
+	font: var(--font13);
+	padding-right: 35px;
+	background-image: url('icon_arrow_down.svg');
+	background-repeat: no-repeat;
+	background-position: right 10px center;
+}
+.kct_toggle DIV:nth-child(2):hover {
+	cursor: pointer;
+}
+.kct_toggle.show {
+	border-bottom: none;
+	margin-bottom: 0;
+}
+.kct_toggle.show DIV:nth-child(2) {
+	background-image: url('icon_arrow_up.svg');
+	background-repeat: no-repeat;
+	background-position: right 10px center;
+}
+
+
+/* 22. OLD STYLING */
+
+/* style for dateline below H1 */
+/*
+h4.dateline {	
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+*/
+
+
+
+/* 23. GENERAL COLOURS */
+.con, .uup {background-color: #99CCFF;}
+.lab, .sdlp {background-color: #FF9999;}
+.lib {background-color: #FFB266;}
+.nat, .snp, .plaid {background-color: #FBFF99;}
+.min {background-color: #E5CE89;}
+.oth {background-color: var(--lighterpurple); }
+.nil {background-color: white; }
+.maj {font-weight: 500;}
+
+.con2, .uup2 {background-color: #CCE5FF;}
+.lab2, .sdlp2 {background-color: #FFCCCC;}
+.lib2 {background-color: #FFCA99;}
+.nat2, .snp2, .plaid2 {background-color: #FCFFB2;}
+.min2 {background-color: #F2E3B5;}
+.oth2 {background-color: var(--lighterpurple); }
+
+.con0, .uup0 {background-color: #4499FF;}
+.lab0, .sdlp0 {background-color: #FF4444;}
+.lib0 {background-color: #FF9932;}
+.nat0, .snp0, .plaid0 {background-color: #F8FF44;}
+.min0 {background-color: #D8B13A;}
+.oth0 {background-color: var(--lighterpurple); } 
+
+/* minor parties */
+.ukip {background-color: #FF99FF;}
+.ukip2 {background-color: #FFCCFF;}
+.ukip0 {background-color: #FF44FF;}
+.bnp {background-color: #FFFFFF;}
+.bnp2 {background-color: #FFFFFF;}
+.bnp0 {background-color: #FFFFFF;}
+.green {background-color: #AAFF99;}
+.green2 {background-color: #D6FFCE;}
+.green0 {background-color: #63FF44;}
+.chuk {background-color: #d9d9d9;}
+.chuk2 {background-color: #f2f2f2;}
+.chuk0 {background-color: #bfbfbf;}
+.brexit, .reform {background-color: #a0eaf6;}
+.brexit2, .reform2 {background-color: #bff1f9;}
+.brexit0, .reform0 {background-color: #61dcf1;}
+
+
+.noire .lib, .dup {background-color: #849CFF;}  /* DUP in Northern Ireland */
+.noire .lib2, .dup2 {background-color: #ADBDFF;}  /* DUP in Northern Ireland */
+.noire .lib0, .dup0 {background-color: #5B7AFF;}  /* DUP in Northern Ireland */
+.noire .nat, .sf { background-color: #79dd9a; }     /* SF in Northern Ireland */
+.noire .nat2, .sf2 { background-color: #c7f1d5; }   /* SF in Northern Ireland */
+.noire .nat0, .sf0 { background-color: #33c764; }   /* SF in Northern Ireland */
+.noire .ukip, .alliance { background-color: #f4c72e }   /* Alliance in Northern Ireland */
+.noire .ukip0, .alliance0 { background-color: #eebb0d } /* Alliance in Northern Ireland */
+.noire .ukip2, .alliance2 { background-color: #fae292 } /* Alliance in Northern Ireland */
+.noire .brexit, .noire .reform, .alliance { background-color: #f4c72e }   /* Alliance in Northern Ireland */
+.noire .brexit0, .noire .reform0, .alliance0 { background-color: #eebb0d } /* Alliance in Northern Ireland */
+.noire .brexit2, .noire .reform2, .alliance2 { background-color: #fae292 } /* Alliance in Northern Ireland */
+
+.theme { background-color: var(--lightpurple); }
+
+
+.seat {
+	color: var(--purple);
+	font: var(--font22);
+}
+A[name].seat:hover { color: var(--purple); }
+A[name].seat { display: block;
+	position: absolute;
+	transform: translateY(-10vh);
+	padding-top: 10vh;
+}
+
+/* 24. KEY DATA COLOURS */
+.condot { background-color: #3366ff;}
+.labdot { background-color: #ff3300;}
+.libdot { background-color: #ffc000;}
+.ukipdot { background-color: #9933ff;}
+.brexitdot { background-color: #61dcf1;}
+.greendot { background-color: #00b050;}
+.natdot { background-color: #ffff00;}
+.mindot { background-color: #fcd5b4;}
+.othdot { background-color: var(--lighterpurple);}
+.whitetext { color: white !important; }
+.economic1 { background-color: #d7191c;}
+.economic2 { background-color: #fdae61;}
+.economic3 { background-color: #ffffbf;}
+.economic4 { background-color: #abd9d5;}
+.economic5 { background-color: #2c7bb6;}
+.national1 { background-color: #4dac26;}
+.national2 { background-color: #a1d76a;}
+.national3 { background-color: #ffffbf;}
+.national4 { background-color: #f1b6da;}
+.national5 { background-color: #d01c8b;}
+.social1 { background-color: #018571;}
+.social2 { background-color: #80cdc1;}
+.social3 { background-color: #ffffbf;}
+.social4 { background-color: #dfc27d;}
+.social5 { background-color: #a6611a;}
+.leaveshare1 { background-color: #ffff00;}
+.leaveshare2 { background-color: #dbff8b;}
+.leaveshare3 { background-color: #d7e4bc;}
+.leaveshare4 { background-color: #93cddd;}
+.leaveshare5 { background-color: #0070c0;}
+.census1 { background-color: #ff3300;}
+.census2 { background-color: #ff8585;}
+.census3 { background-color: #ffc000;}
+.census4 { background-color: #a7ffa7;}
+.census5 { background-color: #00da00;}
+.cluster_left { background-color: #ff0000;}
+.cluster_trad { background-color: #ffa3a3;}
+.cluster_prog { background-color: #ffc000;}
+.cluster_cent { background-color: #ffff00;}
+.cluster_nat { background-color: #7030a0;}
+.cluster_kyc { background-color: #b7dee8;}
+.cluster_right { background-color: #00b0f0;}
+
+/* EU Remain/Leave */
+.eu_remain { background-color: #ffff66; }
+.eu_leave { background-color: #3399ff; }
+
+/* 3D Politics */
+.strleft2 {background-color: #ff8080}
+.tradition2 {background-color: #ffd1d1}
+.progress2 {background-color: #ffe080}
+.centrist2 {background-color: #ffff80}
+.onenation2 {background-color: #c3aed3}
+.kyc2 {background-color: #d0e3e8}
+.strright2 {background-color: #78d0f0}
+
+
+/* 25. TABLE DEFNS */
+table {
+    font: var(--font14);
+    line-height: 140%;
+    border-collapse: separate;
+	border-spacing: 2px;
+}
+td, th {
+	padding: 10px 5px 10px 5px;
+	border-radius: 4px;
+}
+td, caption {
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+}
+th {
+	font-weight: 500;
+	vertical-align: middle;
+}
+th.left { text-align: left; }
+table caption {
+	caption-side: bottom;
+	padding-top: 5px;
+}
+
+/* used by userpoll.html */
+table.openwide {
+	border-spacing: 6px 8px;
+}
+
+table.cellborder TD, table.cellborder TH {
+	border: 1px solid var(--lightergrey);
+}
+
+table.equalcols {
+	table-layout: fixed;
+	width: 100%;
+}
+
+table.center td, table.center th { text-align: center; }
+table.middle td { vertical-align: middle; }
+table.top td { vertical-align: top; }
+table.blockcenter {
+	margin-left: auto;
+	margin-right: auto;
+	}
+tr.bold td, td.bold { font-weight: 500; }
+table.faintgrey td { background-color: var(--faintgrey); }
+table td.white { background-color: white; }
+tr.tdcenter td { text-align: center !important; }
+td.tdleft { text-align: left; }
+td.tdcenter { text-align: center; }
+/* widetable is for tables (or divs) of width between 350px and 730px */
+div.widetable {
+	overflow-x: auto;
+}
+div.widetable > TABLE, div.widetable > DIV {
+	width: 730px;
+}
+/* verywidetable is for tables of width between 730px and 1110px */
+div.verywidetable {
+	width: var(--maincontentwidth);
+}
+
+TABLE.stripes TR:nth-child(2n+3) { background-color: var(--lightteal); }
+TABLE.stripes TR:nth-child(even) { background-color: var(--lightblue); }
+
+TABLE.stripes2 TR:nth-child(2n+3) { background-color: var(--lightteal); }
+TABLE.stripes2 TR:nth-child(2n+4) { background-color: var(--lightblue); } 
+
+/* for boundaries2018.html */
+TABLE.bold4 TR TD:nth-of-type(4) { font-weight: 500; } 
+
+TABLE.homepage {
+	width: 100%;
+	font: var(--font14);
+	border-spacing: 3px;
+	background-color: var(--purple);
+	border-color: var(--purple);
+	color: black;
+}
+TABLE.homepage TH {
+	background-color: white;
+	text-align: center;
+	}
+TABLE.homepage TD, TABLE.homepage TH {
+	padding: 1px 8px;
+}
+
+.brick > TABLE.homepage TD, .brick > TABLE.homepage TH {
+	padding: 1px 6px;
+}
+
+/* used by seatdetails.py */
+TABLE.seatsummary TD {
+	font: var(--font16);
+	padding: 5px;
+}
+TABLE.seatpred TH {
+	height: 43px;
+}
+TABLE.seatpred TH {
+	padding: 0 10px;
+	line-height: 100%;
+}
+
+/* used by keycolourtable.py */
+TABLE.seatdemog TH {
+	font-weight: 500;
+	background: var(--faintgrey);
+}
+TABLE.seatdemog TR > TD:first-of-type {
+	font-weight: 500;
+	background: var(--faintgrey);
+	padding: 0 10px;
+	vertical-align: middle;
+}
+
+/*
+TABLE.tightfirstcol TR > TD:first-of-type {
+	font-weight: 500;
+	padding: 0 10px;
+	vertical-align: middle;
+}
+*/
+
+/* for userpoll.html, userpoll_scot.html, userpoll_ni.html, userregpoll.html */
+table.vmiddle td { vertical-align:middle; }
+TABLE.userpred {
+	font: var(--font16);
+	line-height: 22px;
+	color: var(--black);
+	}
+TABLE.userpred TR > TD:first-of-type {
+	font: var(--font14bold);
+	text-align: left;
+	padding: 0;
+}
+TABLE.userpred TD, TABLE.userpred TH {
+	padding: 8px;
+}
+
+
+/* for services_together.html */
+TABLE.together {
+	border-collapse: separate;
+	border-spacing: 2px 11px;
+}
+TABLE.together TR TD { 
+	vertical-align: middle;
+}
+TABLE.together TR TD:first-of-type {
+	background: var(--lightblue);
+	font: var(--font15);
+	padding: 10.5px 37px;
+}
+TABLE.together TR TD:nth-of-type(2) {
+	background: var(--faintgrey);
+	font: var(--font14bold);
+	padding: 12.5px 19px;
+	width: 100%;
+}
+
+
+/* 26. DIV COLUMNS */ 
+div.halfcolumn { 
+	width: 45%;
+	min-width: 300px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+/* used by conlist */
+div .quartercolumn {
+	width: 24%;
+	min-width: 150px;
+	float: left;
+	margin-right: 10px;
+}
+div.rightside {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+div.center { text-align: center; }
+
+
+
+/* 27. CAPTIONS */
+
+/* syntax <div class=captionleftright><span>LEFT CAPTION</span><span>RIGHT CAPTION</span><P>...   */
+div.captionleftright { padding-top: 5px; padding-bottom: 15px;}
+div.captionleftright span:first-of-type { float: left; }
+div.captionleftright span:nth-of-type(2) {
+	font: var(--font13light);
+	letter-spacing: 0em;
+	float: right; }
+div.captionleftright + P { clear: both; }
+
+div.captiontopbottom { padding-top: 5px; padding-bottom: 10px;}
+div.captionleftright span:first-of-type { display: block; }
+div.captiontopbottom span:nth-of-type(2) {
+	display: block;
+	font: var(--font13light);
+	letter-spacing: 0em;
+	padding-top: 5px;
+}
+div.captiontopbottom + P { clear: both; }
+
+/* 28. IMAGES */
+IMG.maxwidth {
+    max-width: 100%;
+}
+IMG.left {
+    float: left;
+    margin: 10px 10px 0 0;
+}
+IMG.right {
+    float: right;
+    margin: 10px 0 0 10px;
+}
+
+
+
+/* 29. BATTLEMAP */
+#battlemap {
+	font-size: 90%;
+}
+#battlemap td {
+	padding: 2px 3px 2px 3px;
+}
+#battlemap td.con,
+#battlemap td.lab,
+#battlemap td.lib {
+	font-weight: bold;	/* Show majority results in bold */
+}
+
+
+
+
+/* 30. CONLISTS */
+/* used by conlist_XXX.html files */
+#conlist ul {
+	list-style-type: none;
+	list-style-image: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+#conlist li {
+	padding: 0;
+	margin-bottom: 2px;
+	border-radius: 4px;
+}
+#conlist li a {
+	padding: 0 5px 1px 5px;
+	text-decoration: none;
+	display: block;
+}
+#conlist li a:hover, 
+#conlist li a:active {
+	color: var(--purple);
+	background-color: var(--lightpurple);
+}
+
+
+
+/* 31. 3D PLOTS */
+.c3d_displayarea {
+    /* set display DIV to have position:relative, necessary for labelling */
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+BUTTON + DIV.c3d_displayarea {
+	margin-top: 15px;
+}
+.c3d_objectlabel {
+    padding: 0 0 10px 0;
+}
+.c3d_axislabel {
+    font-size: 8pt;
+}
+.c3d_diaglabel {
+    font-size: 10pt;
+}
+
+
+/* 32. BARCHART */
+/* used by seatdetails.py and conlists */
+table.barchart th {
+	text-align: left;
+}	/* "Chance of winning" text */
+table.barchart td {
+	vertical-align: middle;
+}
+table.barchart tr td + td {
+	padding: 0px 5px 0 5px;
+}
+table.barchart table {
+	border-collapse: collapse;
+	padding: 0;
+	border: 0;
+}
+table.barchart table td {	/* Applies to subcell with IMG tag */
+	padding: 0;	
+	font: var(--font14);
+	line-height: 100%;
+	border: none;
+	height: 39px;
+}
+table.barchart table td + td {	/* Applies to subcell with prob % */
+	padding: 0px 3px 0px 5px;  /*  0px 3px 0px 5px;  */
+}
+
+
+
+
+/* 33. MAPS */
+.map-container {
+	border: 8px solid rgba(192, 187, 206, 0.5);
+	border-radius: 4px;
+	margin: 10px 0 16px 0;
+}
+#map-canvas {
+	height: 450px;
+	width: var(--maincontentwidth);
+}
+#map-canvas-open {
+	height: 600px;
+	width: var(--twocolwidth);
+}
+
+
+/* OPEN SEAT MAP */
+.ol-popup {
+    position: absolute;
+    background-color: white;
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    border: 2px solid var(--tint);
+    bottom: 12px;
+	font: var(--font12);
+    left: -14px;
+    min-width: 280px;
+}
+.ol-popup:after, .ol-popup:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.ol-popup:after {
+    border-color: white transparent transparent white;
+    border-width: 6px;
+    left: 20px;
+    margin-left: -6px;
+}
+.ol-popup:before {
+    border-color: var(--lightgrey) transparent transparent var(--lightgrey);
+    border-width: 9px;
+    left: 20px;
+    margin-left: -9px;
+}
+.ol-popup-closer {
+    text-decoration: none;
+    position: absolute;
+    top: 0px;
+    right: 8px;
+}
+.ol-popup-closer:after {
+    content: "x";
+}
+.ol-popup.red { border-color: red; }
+.ol-popup.red:before { border-color: red transparent transparent red; }
+.ol-popup.blue { border-color: blue; }
+.ol-popup.blue:before { border-color: blue transparent transparent blue; }
+.ol-popup.orange { border-color: orange; }
+.ol-popup.orange:before { border-color: orange transparent transparent orange; }
+.ol-popup.yellow { border-color: yellow; }
+.ol-popup.yellow:before { border-color: yellow transparent transparent yellow; }
+.ol-popup.green { border-color: lime; }
+.ol-popup.green:before { border-color: lime transparent transparent lime; }
+.ol-popup.darkgreen { border-color: darkgreen; }
+.ol-popup.darkgreen:before { border-color: darkgreen transparent transparent darkgreen; }
+.ol-popup.purple { border-color: purple; }
+.ol-popup.purple:before { border-color: purple transparent transparent purple; }
+.ol-popup.ltblue { border-color: cyan; }
+.ol-popup.ltblue:before { border-color: cyan transparent transparent cyan; }
+.ol-popup.white { border-color: silver; }
+.ol-popup.white:before { border-color: silver transparent transparent silver; }
+
+.ol-popup H4 {
+	margin-top: 0;
+	font: var(--font14bold);
+}
+
+/* Maps for dynamicmap.html and scotland.html */
+#dynmap_container {
+	position: relative;
+	width: var(--twocolwidth);
+	height: 700px;
+}
+#dynmap {
+	background: var(--sea);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	width: var(--twocolwidth);
+	height: 700px;
+}
+#buttonbar {
+	height: auto;
+	padding: 0px;
+	margin-bottom: 10px;
+	z-value: 1;
+}
+#buttonbar > DIV {
+	margin-bottom: 8px;
+}
+#back {
+	margin-top: -5px;
+	margin-left: 60px;
+	margin-bottom: 15px;
+	display: none;
+}
+#keybar {
+	position: absolute;
+	top: 10px;
+	right: 14px;
+	width: 78px;
+	z-value: 1;
+	background: rgba(242, 242, 242, 0.76);
+	border-radius: 10px;
+	padding: 0 5px 5px 5px;
+}
+#keybar DIV {
+	margin-bottom: 5px;
+}
+.ol-rotate, .ol-attribution { display: none; }
+/* Adapted from ol.css */
+.ol-scale-line {
+	background: rgba(255,255,255,.3);
+	border-radius: 4px;
+	bottom: 8px;
+	left: 8px;
+	padding: 2px;
+	position: absolute
+}
+.ol-scale-line-inner {
+	border: 1px solid var(--purple);
+	border-top: none;
+	color: var(--purple);
+	font: var(--font10);
+	text-align: center;
+	margin: 1px;
+	will-change: contents,width;
+	transition: all .25s
+}
+/* end of ol.css import */
+
+.ol-zoom-in, .ol-zoom-out {
+	position: absolute;
+	top: 7px;
+	height: 22px;
+	width: 22px;
+	padding: 0;
+	background: rgba(242, 242, 242, 0.76);
+	border: 1px solid var(--lightergrey);
+	border-radius: 5px;
+	color: var(--purple);
+	font: normal normal 500 16px/16px Rubik;
+}
+.ol-zoom-in {
+	left: 10px;
+}
+.ol-zoom-out {
+	left: 38px;
+}
+
+/* 34. CUSTOM STYLES FOR PARTICULAR PAGES */
+/* for bdy_[reg]_summary.html and bdy_[reg]_wards.html */
+table.newsummary {
+	border-collapse: separate;
+	border-spacing: 3px;
+}
+.newsummary div {
+	margin: 0 -5px -3px -5px;
+	padding: 0px 5px 3px 5px;
+}
+/* need to extend bottom of last DIV to cover up background colour of TD cell */
+.newsummary TD DIV:last-of-type {
+	margin-bottom: -10px;
+	padding-bottom: 10px;
+	border-radius: 0 0 5px 5px;
+}
+
+table.newward {
+	font-size: 90%;
+}
+table.newsummary TD A {
+	color: black;
+	text-decoration-color: var(--purple);
+}
+
+/* For ShowHide button on Boundary Calculation pages */
+button.ShowHide {
+	font-weight: bold;
+}
+div.ShowHide_Show {
+	display: block;
+	border-bottom: 1px solid var(--bordergrey);
+	margin-bottom: 10px;
+}
+div.ShowHide_Hide {
+	display: none;
+}
+
+
+/* STANDALONE PAGE (No Menubar) */
+body.standalone {
+	margin: 15px;
+}
+
+
+/* Some specials for particular pages */
+.greyout { color: var(--gray); }							/* timeline maps */
+.headline { font-size: 16px; font-weight: 500; }	/* trackrecord */
+.puregreen { background-color: #00FF00;}				/* trackrecord_10errors */
+.purered { background-color: #FF0000;}				/* trackrecord_10errors */
+.lightgrey { background-color:#E8DFEA;}				/* PVSCBill_analysis2 */
+.seatbox {											/* bdy06_method */
+	border: 1px solid #666;
+	padding: 0 5px 0 5px;
+	width: 325px;
+}
+
+
+/* 34a. TESTIMONIALS */
+DIV.testi {
+	display: flex;
+	flex-direction: column;
+}
+DIV.testi > DIV {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+DIV.testi IMG {
+	height: 40px;
+	margin: 10px 20px;
+	filter: grayscale(100%);
+}
+DIV.testi IMG.lighten { 
+	filter: invert(39%) sepia(0%) saturate(0%) hue-rotate(203deg) brightness(93%) contrast(88%);
+}
+DIV.testi IMG.large {
+	height: 90px;
+}
+
+
+/* 35. ======= PRINTING =========  */
+@media print {
+	#topbanner {
+		height: 75px;
+	}
+	#banner_logo {
+		top: 25px;
+		left:50px;
+	}
+	#banner_logo IMG {
+		transform: scale(1.5);
+	}
+	.banner_menu.notmobile, #navmobile {
+		display: none;
+	}
+	#main_rhs { display: none; }
+	#main {
+		margin: 0;
+		padding: 0;
+		width: auto;
+	}
+	#main a { text-decoration: none; }
+	/* #main a:after { content: " (" attr(href) ") "; } */
+	h1, h2, h3, h4, p, a, td, th, li, div {
+		color: black !important;
+        color-adjust: exact;
+	}
+	#map-canvas { width:100%; max-width: none; }
+	.footercontainer { display: none; }
+}
+
+/* 36. ======= MOBILE BROWSERS =========  */
+.mobileonly {
+	display: none;
+}
+.notmobile {
+	display: block;
+}
+
+/* Tablet (2-col view) */
+@media screen and (max-width: 1100px) {
+	/* switch on 'mobileonly' elements, and switch off 'notmobile' elements */
+	.mobileonly {
+		display: block;
+	}
+	.notmobile {
+		display: none;
+	}
+	/* make topbanner shorter, emphasise lower border */
+	#topbanner {
+		height: 70px;
+		border-bottom: solid 1px var(--faintgrey);
+	}
+	#banner_logo {
+		top: 23px;
+		left: var(--mainmargin);
+	}
+	.header2 {
+		height: auto;
+		padding-right: 120px;
+	}
+	.header2 > OBJECT {
+		right: 0px;
+	}
+	
+	.header2.big {
+		height: auto;
+	}
+	.header2.big > DIV:first-of-type {
+		padding-right: 30px;
+	}
+	.header2.big > OBJECT {
+		right: 30px;
+		bottom: -30px;
+		transform: scale(0.75);
+	}		
+	
+	/* make topleft go all across */
+	.topleft {
+		border-radius: 0;
+	}
+	/* Little hack to add colour block to left-hand edge */
+	.topleft:after {
+		content: '';
+		height: 290px;
+		width: var(--mainmargin);
+		position: absolute;
+		top: 0;
+		left: var(--maincontentwidth);
+		background-color: var(--purple);
+	}
+	
+	/* cancel right-hand margin on #main */
+	#main {
+		margin-right: 0;
+	}
+	
+	/* set RHS to be two-cols below #main */
+	.brick_column.rhswidth {
+		margin-top: 60px;
+		width: var(--twocolwidth);
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	/* change style of services brick */
+	.services {
+		background: var(--tintgradient);
+		color: black;
+		height: auto;
+	}
+	.services H3 {
+		color: var(--purple);
+	}
+	.services P.strap {
+		color: var(--darkblue);
+	}
+	.footercontainer {
+		overflow: hidden;
+	}
+	
+	/* tweaks to footer0 */
+	.footer0 {
+		height: 206px;
+	}
+	.footer0:before {
+		height: 206px;
+	}
+	.footer0:after {
+		height: 206px;
+	}
+	.footer0 > DIV:first-of-type { width: 425px; }
+	.footer0 > DIV:nth-of-type(2) > OBJECT {
+		top: 20px;
+		left: -130px;
+	}
+
+	.footer2 > DIV:first-of-type { width: var(--onecolwidth); }
+	
+	div.verywidetable {
+		overflow-x: auto;
+	}
+	div.verywidetable > TABLE {
+		width: var(--maxwidth);
+	}
+	
+}
+
+/* Mobile (narrow 1-col view) */
+@media screen and (max-width: 780px) {
+	.topleft {
+		height: 550px;
+	}
+	.topleft:before { height: 550px; }
+	.topleft:after {height: 550px; }
+	
+	#h2_title { font: var(--font28); }
+	.header2 > OBJECT {
+		transform: scale(0.5);
+		right: -40px;
+	}		
+	
+	.header2.big {
+		border-radius: 0;
+		width: 100vw;
+		height: auto;
+		min-height: 0;
+	}
+	.header2.big OBJECT {
+		display: none;
+	}
+	.header2.big H1 {
+		font: var(--font28);
+	}
+	
+	DIV.halfcolumn {
+		width: 100%;
+	}
+	
+	.footer0 {
+		height: auto;
+		flex-wrap: wrap;
+	}
+	.footer0 > DIV:first-of-type { width: var(--onecolwidth); }
+	.footer0 > DIV:nth-of-type(2) > OBJECT {
+		top: 50px;
+		left: -140px;
+	}
+	.footer1 {
+		height: auto;
+		padding-top: 0;
+		padding-bottom: 30px;
+	}
+	.footer2 {
+		height: auto;
+	}
+	.footer_twocol {
+		height: auto;
+	}
+	.footer_twocol > OBJECT {
+		right: 10px;
+		bottom: -20px;
+	}
+}
