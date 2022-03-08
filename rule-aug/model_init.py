@@ -11,3 +11,7 @@ import spacy as sp
 class importLM():
     def __init__(self):
         self.nlp = sp.load("es_dep_news_trf")
+
+    def to_doc(self,text='Por favor, escribe algo...'):
+        doc = self.nlp(text)
+        return doc
