@@ -4,6 +4,13 @@
 Created on Fri Mar  4 17:48:58 2022
 
 @author: euan.mcgill@upf.edu
+
+
+Rules covered:
+    NP order
+    Compulsory subject
+    Movement of ADVs after the verb
+    No articles
 """
 
 from model_init import importLM
@@ -12,7 +19,8 @@ import spacy as sp
 
 model_load = importLM()
 # doc = model_load.to_doc("vivo en este país para cada tres días de la semana y tu padre")
-doc = model_load.to_doc("si no vives en españa tienes que traer estos documentos")
+doc = model_load.to_doc("una fotocopia del denei también vale si no tienes el original")
+# doc = model_load.to_doc("una fotocopia del denei no vale si tú no tienes el original")
 
 #%%
 
@@ -28,43 +36,53 @@ def ord_prep(doc):
     deptag = []
     lemtag = []
     postag = []
+    mortag = []
     for token in doc:
         # get tuples of spaCy tags (combined and individual)
         tagged = (token.lemma_,token.pos_)
         tags_only = (token.dep_)
         lemmas_only = (token.lemma_)
         pos_only = (token.pos_)
-        # merge lemma and dep tag together as one lexical item
+        pernum = (token.lemma_, token.pos_,
+                  ' '.join(token.morph.get("Person")),
+                  ' '.join(token.morph.get("Number")))
+        # merge lemma and pos tag together as one lexical item, merge verb inflection info
         combine = '_'.join(tagged)
+        inflect = '_'.join(pernum)
         # list each type of transcription, then convert to string for analysis
         listag.append(combine)
         deptag.append(tags_only)
         lemtag.append(lemmas_only)
         postag.append(pos_only)
+        mortag.append(inflect)
         tagstring = ' '.join(listag)
         depstring = ' '.join(deptag) # only return this one in prep?
         lemstring = ' '.join(lemtag)
         posstring = ' '.join(postag)
-    return tagstring, depstring, lemstring, posstring
+        morstring = ' '.join(mortag)
+    return tagstring, depstring, lemstring, posstring, morstring
 
-# mortag = []
-# for token in doc:
-#     morphed = (token.lemma_, ' '.join(token.morph.get("Person")), ' '.join(token.morph.get("Number")))
-#     together = '_'.join(morphed)
-#     mortag.append(together)
-#     morstring = ' '.join(mortag)
-
-def compulsory_subj(doc):
+def compulsory_subj():
+    # delete ser/estar before or after this stage
     # must also consider negatives w/in the word order
     # tienes que -> necesitar
-    pass
-
-def np_ord(tag,pos):
+    # another edge case - reflexive verbs (check)
     tag = ord_prep(doc)[0]
+    dep = ord_prep(doc)[1]
     pos = ord_prep(doc)[3]
+    mor = ord_prep(doc)[4]
+    # Adverbs go after the verb apart from "no" or "ya no". Move other adverbs
+    alpha = re.sub(r'ya_ADV__', r'ya_YA__',mor)
+    bravo = re.sub(r'no_ADV__', r'no_NEG__',alpha)
+    charlie = re.sub(r'(\S+_ADV\S+)(\s)(\S+_VERB\S+)',r'\3\2\1',bravo)
+    # now to the pronouns
+    delta = re.sub(r'(\S+VERB_1_Sing)',r'',charlie)
+
+def np_ord():
+    tag = ord_prep(doc)[0]
     #
     # first remove DETs which are (in)definite articles
-    a = re.sub(r'el_DET ',r'',tag)
+    a = re.sub(r'el_DET ',r'',tag) # ,flags=re.MULTILINE
     # move all DETs before NOUNs
     b = re.sub(r'(\S+_DET)(\s+)(\S+_NOUN)',r'\3\2\1',a)
     # modify tags for INDEF, POSS and DEM
