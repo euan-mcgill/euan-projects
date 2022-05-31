@@ -11,7 +11,7 @@ from iteround import saferound
 import pandas as pd
 import sys
 
-data = pd.read_csv('electoral_calculus_data/1955.csv',delimiter=';')
+data = pd.read_csv('electoral_calculus_data/1997.csv',delimiter=';')
 # run on cmd line
 # data = pd.read_csv(sys.argv[1],delimiter=';')
 
@@ -302,13 +302,17 @@ print("Election result:\nConservative:",con,
                       "\nMinority Parties",mnr,
         '\n\nTotal seats:', con+lab+lib+nat+oth+mnr+uup+sdl+sif+dup)
 
-reg_seats = [seats_ni,seats_sc,seats_ne,seats_nw,seats_yh,seats_cy,
-             seats_wm,seats_em,seats_ea,seats_sw,seats_ld,seats_se]
+reg_seats = [seats_sc,seats_ne,seats_nw,seats_yh,seats_cy,
+             seats_wm,seats_em,seats_ea,seats_sw,seats_ld,seats_se,
+             seats_ni]
 
-reg_raw = [sc,ne,nw,yh,cy,wm,em,ea,sw,ld,se]
+reg_raw = [sc,ne,nw,yh,cy,wm,em,ea,sw,ld,se,ni]
 reg = pd.DataFrame(
     reg_raw,columns=["Con","Lab","Lib","Nat","Min","Oth"],
-    index=['SC','NE','NW','YH','CY','WM','EM','EA','SW','LD','SE'],dtype=int)
+    index=['SC','NE','NW','YH','CY','WM','EM','EA','SW','LD','SE','NI'],dtype=int)
+
+print(reg)
+print(reg_seats)
 
 
 
