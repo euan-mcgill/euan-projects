@@ -4,7 +4,7 @@
 import re
 
 '''
-I used find+replace in the original versions of these files to put 
+ATTENTION: I used find+replace in the original versions of these files to put 
 all words on one line for ease of processing
 '''
 
@@ -12,7 +12,7 @@ all words on one line for ease of processing
 def setoverlap(lse_corpus,spanish_corpus):
     with open(lse_corpus,'r') as lse:
         for line in lse:
-            lse_wordonly = re.sub(r'[^\w\s]','',line.lower())
+            lse_wordonly = re.sub(r'[^\w\s]','',line)
             lse_wordlist = lse_wordonly.split()
             lse_unique = set(lse_wordlist)
 
@@ -28,9 +28,9 @@ def setoverlap(lse_corpus,spanish_corpus):
     print(f"Spanish corpus size: {len(esp_wordlist)}, LSE corpus size: {len(lse_wordlist)}\n") # crosschecked with 'wc -w' on the command line
 
 def main():
-    lse_corpus = '/Users/e.mcgill/Documents/upf/corpora/Phoenix_Text_Glosses/spoken_test_allwords.txt'
+    lse_corpus = '/home/upf/Documents/resources/corpora/UPM-LSE/BD/TEXTOS/signos_total_oneline.txt'
     # maybe use .lower() with this
-    spanish_corpus = '/Users/e.mcgill/Documents/upf/corpora/Phoenix_Text_Glosses/glosses_test_allwords.txt'
+    spanish_corpus = '/home/upf/Documents/resources/corpora/UPM-LSE/BD/TEXTOS/finetune_bleu/gloss_total_oneline.txt'
 
     setoverlap(lse_corpus,spanish_corpus)
 
