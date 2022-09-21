@@ -6,6 +6,8 @@ Created on Thu Feb 10 17:10:14 2022
 Brit Senate - Third iteration
 
 @author: e.mcgill
+
+This is the newest extant version - elecalculator.py is deprecated
 """
 
 from iteround import saferound
