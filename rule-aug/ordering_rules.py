@@ -11,7 +11,7 @@ Rules covered:
     Compulsory subject (usted is not included/dealt with separately)
     Movement of ADVs after the verb
     No articles
-    No adpositions (might need to alter to accept 'para')
+    No adpositions (might need to alter to accept 'para', 'desde')
     Possessive constructions
     Mark plural nouns with "PLURAL" marker
     Mark future and past tense verbs with "FUTURO"/"PASADO"
@@ -126,11 +126,11 @@ def np_ord(tag):
     # now possessive constructions
     j = re.sub(r'(\S+_NOUN)(\s)(\S+_PSS)',r'\1\2PROPIO\2\3',i)
     k = re.sub(r'(\S+_ADP) ',r'',j) # "para" seems to be used in glosses
-    # fingerspell proper nouns (or include in OOV checker)
-    # POSTPROCESSING
-    l = re.sub(r'(\S+)(_\S+)',r'\1',k) # omit j if you want to pass POS to other functions
     # replace tener que with necesitar for more LSE-ish "need" construction
-    m = re.sub(r'tener que', r'necesitar',l)
+    l = re.sub(r'tener_VERB que_SCONJ', r'necesitar_VERB',k) # issue with "tendrás not lemmatising"
+    # fingerspell proper nouns (or include in OOV checker)
+    # POSTPROCESSING - switch capture group if you want POS only (and modify tener que rule)
+    m = re.sub(r'(\S+)(_)(\S+)',r'\3',l) # \1 for words only, \3 for POSs only (some offline postprocessing necessary for POS only)
     n = re.sub(r'_SPACE__',r'',m)
     return n.upper()
 
