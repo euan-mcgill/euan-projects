@@ -28,7 +28,7 @@ eight_frames = []
 
 for file in six_election:
     with open(file, 'r') as elec:
-        result = calc_elec.reg_party(file,sixparty=True)
+        result = calc_elec.reg_party(file,sixparty=True,seat_total=630)
         six_frames.append(result)
 
 for file in eight_election:
