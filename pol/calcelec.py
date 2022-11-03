@@ -19,7 +19,7 @@ class calc_elec():
     def __init__(self):
         pass
     
-    def scot_senate(infile):
+    def scot_senate(self, infile):
         # only eight party version available for now
         data = pd.read_csv(infile,delimiter=';')
         
@@ -35,9 +35,9 @@ class calc_elec():
         tot_votes_hi = con_hi + lab_hi + lib_hi + brx_hi + grn_hi + nat_hi + mnr_hi + oth_hi
         elec_hi = data.loc[data['County'] == 'Highland', 'Electorate'].sum() ++ data.loc[data['County'] == 'Argyll and Bute', 'Electorate'].sum() ++ data.loc[data['County'] == 'Western Isles', 'Electorate'].sum()
     
-    def reg_party(infile,sixparty=False):
+    def reg_party(infile, sixparty=False, seat_total=250):
         data = pd.read_csv(infile,delimiter=';')
-        if sixparty == True:
+        if sixparty:
             # 1 = Northern Ireland
             uup_ni = data.loc[data['Area'] == 1, 'CON'].sum()
             sdl_ni = data.loc[data['Area'] == 1, 'LAB'].sum()
@@ -161,12 +161,12 @@ class calc_elec():
             elec_tot = int(elec_ni + elec_sc + elec_ne + elec_nw + elec_yh + elec_cy + 
                            elec_wm + elec_em + elec_ea + elec_sw + elec_ld + elec_se)
 
-            raw_seats = [float((elec_ni/elec_tot)*250), float((elec_sc/elec_tot)*250),
-                          float((elec_ne/elec_tot)*250), float((elec_nw/elec_tot)*250),
-                          float((elec_yh/elec_tot)*250), float((elec_cy/elec_tot)*250),
-                          float((elec_wm/elec_tot)*250), float((elec_em/elec_tot)*250),
-                          float((elec_ea/elec_tot)*250), float((elec_sw/elec_tot)*250),
-                          float((elec_ld/elec_tot)*250), float((elec_se/elec_tot)*250)]
+            raw_seats = [float((elec_ni/elec_tot)*seat_total), float((elec_sc/elec_tot)*seat_total),
+                          float((elec_ne/elec_tot)*seat_total), float((elec_nw/elec_tot)*seat_total),
+                          float((elec_yh/elec_tot)*seat_total), float((elec_cy/elec_tot)*seat_total),
+                          float((elec_wm/elec_tot)*seat_total), float((elec_em/elec_tot)*seat_total),
+                          float((elec_ea/elec_tot)*seat_total), float((elec_sw/elec_tot)*seat_total),
+                          float((elec_ld/elec_tot)*seat_total), float((elec_se/elec_tot)*seat_total)]
 
             # Seat numbers for each region
             rnd_seats = saferound(raw_seats, places=0)
@@ -184,10 +184,10 @@ class calc_elec():
             seats_ld = rnd_seats[10]
             seats_se = rnd_seats[11]
 
-            if seats_cy ++ seats_ea ++ seats_em ++ seats_ld ++ seats_ne ++ seats_ni ++ seats_nw ++ seats_sc ++ seats_se ++ seats_sw ++ seats_wm ++ seats_yh  == 250:
+            if seats_cy ++ seats_ea ++ seats_em ++ seats_ld ++ seats_ne ++ seats_ni ++ seats_nw ++ seats_sc ++ seats_se ++ seats_sw ++ seats_wm ++ seats_yh  == seat_total:
                 print("Seat total valid \n\n\n")
             else:
-                print("Seat total does not equal 250")
+                print("Seat total does not equal seat_total")
             
             ni = saferound([(uup_ni/tot_votes_ni) * seats_ni, (sdl_ni/tot_votes_ni) * seats_ni,
                             (dup_ni/tot_votes_ni) * seats_ni, (sif_ni/tot_votes_ni) * seats_ni,
@@ -436,12 +436,12 @@ class calc_elec():
             elec_tot = int(elec_ni + elec_sc + elec_ne + elec_nw + elec_yh + elec_cy + 
                            elec_wm + elec_em + elec_ea + elec_sw + elec_ld + elec_se)
 
-            raw_seats = [float((elec_ni/elec_tot)*250), float((elec_sc/elec_tot)*250),
-                          float((elec_ne/elec_tot)*250), float((elec_nw/elec_tot)*250),
-                          float((elec_yh/elec_tot)*250), float((elec_cy/elec_tot)*250),
-                          float((elec_wm/elec_tot)*250), float((elec_em/elec_tot)*250),
-                          float((elec_ea/elec_tot)*250), float((elec_sw/elec_tot)*250),
-                          float((elec_ld/elec_tot)*250), float((elec_se/elec_tot)*250)]
+            raw_seats = [float((elec_ni/elec_tot)*seat_total), float((elec_sc/elec_tot)*seat_total),
+                          float((elec_ne/elec_tot)*seat_total), float((elec_nw/elec_tot)*seat_total),
+                          float((elec_yh/elec_tot)*seat_total), float((elec_cy/elec_tot)*seat_total),
+                          float((elec_wm/elec_tot)*seat_total), float((elec_em/elec_tot)*seat_total),
+                          float((elec_ea/elec_tot)*seat_total), float((elec_sw/elec_tot)*seat_total),
+                          float((elec_ld/elec_tot)*seat_total), float((elec_se/elec_tot)*seat_total)]
 
             # Seat numbers for each region
             rnd_seats = saferound(raw_seats, places=0)
@@ -459,10 +459,10 @@ class calc_elec():
             seats_ld = rnd_seats[10]
             seats_se = rnd_seats[11]
 
-            if seats_cy ++ seats_ea ++ seats_em ++ seats_ld ++ seats_ne ++ seats_ni ++ seats_nw ++ seats_sc ++ seats_se ++ seats_sw ++ seats_wm ++ seats_yh  == 250:
+            if seats_cy ++ seats_ea ++ seats_em ++ seats_ld ++ seats_ne ++ seats_ni ++ seats_nw ++ seats_sc ++ seats_se ++ seats_sw ++ seats_wm ++ seats_yh  == seat_total:
                 print("Seat total valid \n\n\n")
             else:
-                print("Seat total does not equal 250")
+                print("Seat total does not equal seat_total")
                 
             ni = saferound([(uup_ni/tot_votes_ni) * seats_ni, (sdl_ni/tot_votes_ni) * seats_ni,
                             (dup_ni/tot_votes_ni) * seats_ni, (sif_ni/tot_votes_ni) * seats_ni,
