@@ -11,7 +11,6 @@ This is the newest extant version - elecalculator.py is deprecated
 """
 
 from iteround import saferound
-import numpy as np
 import pandas as pd
 # import sys
 
@@ -60,7 +59,7 @@ class CalcElec:
             sif_ni = self.data.loc[self.data['Area'] == 1, 'NAT'].sum()
             mnr_ni = self.data.loc[self.data['Area'] == 1, 'MIN'].sum()
             oth_ni = self.data.loc[self.data['Area'] == 1, 'OTH'].sum()
-            ni_votes = ni.append(uup_ni, sdl_ni, dup_ni, sif_ni, mnr_ni)
+            ni_votes = ni.append(uup_ni, sdl_ni, dup_ni, sif_ni, mnr_ni, oth_ni)
             # 2 = Scotland
             sc = []
             con_sc = self.data.loc[self.data['Area'] == 2, 'CON'].sum()
