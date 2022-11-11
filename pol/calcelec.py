@@ -583,3 +583,28 @@ class calc_elec():
 
         else:
             print("Please specify whether analysis is 6 party or 8 party: \n (6 party = pre-2010)")
+
+    def dhont(nSeats,votes,verbose=False):
+    """
+    nSeats is the number of seats
+    votes is a dictionary with the key:value {'party':votes}
+    verbose is an option to print designation info
+    """
+    t_votes=votes.copy()
+    seats={}
+    for key in votes: seats[key]=0
+    while sum(seats.values()) < nSeats:
+        max_v= max(t_votes.values())
+        next_seat=list(t_votes.keys())[list(t_votes.values()).index(max_v)]
+        if next_seat in seats:
+            seats[next_seat]+=1
+        else:
+            seats[next_seat]=1
+
+        if verbose:
+            print("{} Escaño: {}".format(sum(seats.values()),next_seat))
+            for key in t_votes:
+                print("\t{} [{}]: {:.1f}".format(key,seats[key],t_votes[key]))
+            print("\b")
+        t_votes[next_seat]=votes[next_seat]/(seats[next_seat]+1)
+    return seats
