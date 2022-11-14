@@ -292,6 +292,7 @@ class CalcElec:
     def dhondt_calc(self):
         vpp = self.votes_per_party()
         seats = self.regional_seats()
+        result = []
 
         if self.sixparty:
             ni_dh = {'UUP': vpp[0][0], 'SDLP':vpp[0][1], 'DUP': vpp[0][2], 'SF':  vpp[0][3], 'Min': vpp[0][4], 'Oth': vpp[0][5]}
@@ -309,14 +310,40 @@ class CalcElec:
 
             dh_list = [ni_dh, sc_dh, ne_dh, nw_dh, yh_dh, cy_dh, wm_dh, em_dh, ea_dh, sw_dh, ld_dh, se_dh]
 
-            for reg in dh_list:
-                for key in reg:
-                    results = self.dhondt(seats, reg)
-                    print(results)
-            return results
+            for i in range(0, len(dh_list)):
+                result.append(self.dhondt(seats[i], dh_list[i], verbose=True))
 
-        elif not sixparty:
-            pass
+            con = int(vpp[1][0]+vpp[2][0]+vpp[3][0]+vpp[4][0]+vpp[5][0]+vpp[6][0]+vpp[7][0]+vpp[8][0]+vpp[9][0]+vpp[10][0]+vpp[11][0]) # SHOULD BE FROM RESULT NOT VPP
+            lab = int(vpp[1][1]+vpp[2][1]+vpp[3][1]+vpp[4][1]+vpp[5][1]+vpp[6][1]+vpp[7][1]+vpp[8][1]+vpp[9][1]+vpp[10][1]+vpp[11][1])
+            lib = int(vpp[1][2]+vpp[2][2]+vpp[3][2]+vpp[4][2]+vpp[5][2]+vpp[6][2]+vpp[7][2]+vpp[8][2]+vpp[9][2]+vpp[10][2]+vpp[11][2])
+            nat = int(vpp[0][3]+vpp[1][3]+vpp[2][3]+vpp[3][3]+vpp[4][3]+vpp[5][3]+vpp[6][3]+vpp[7][3]+vpp[8][3]+vpp[9][3]+vpp[10][3]+vpp[11][3])
+            mnr = int(vpp[0][4]+vpp[1][4]+vpp[2][4]+vpp[3][4]+vpp[4][4]+vpp[5][4]+vpp[6][4]+vpp[7][4]+vpp[8][4]+vpp[9][4]+vpp[10][4]+vpp[11][4])
+            oth = int(vpp[0][5]+vpp[1][5]+vpp[2][5]+vpp[3][5]+vpp[4][5]+vpp[5][5]+vpp[6][5]+vpp[7][5]+vpp[8][5]+vpp[9][5]+vpp[10][5]+vpp[11][5])
+            snp = int(vpp[1][3])
+            pcy = int(vpp[5][3])
+            uup = int(vpp[0][0])
+            sdl = int(vpp[0][1])
+            sif = int(vpp[0][3])
+            dup = int(vpp[0][2])
+
+            print("Election result:\nConservative:",con,
+                                  "\nLabour:",lab,
+                                  "\nLiberal:",lib,
+                                  "\nSNP",snp,
+                                  "\nPlaid Cymru", pcy,
+                                  "\nUUP",uup,
+                                  "\nSDLP",sdl,
+                                  "\nSinn Féin",sif,
+                                  "\nDUP",dup,
+                                  "\nOthers",oth,
+                                  "\nMinority Parties",mnr,
+                    '\n\nTotal seats:', con+lab+lib+nat+oth+mnr+uup+sdl+sif+dup)
+
+            return result
+
+
+
+
 
     def mms(self):
         pass
