@@ -11,7 +11,7 @@ import pandas as pd
 
 calculate = CalcElec(infile='electoral_calculus_data/1997.csv', sixparty=True)
 
-test = calculate.hamilton()
+test = calculate.dhondt_calc()
 
 six_election = ['electoral_calculus_data/1955.csv', 'electoral_calculus_data/1959.csv', 
                  'electoral_calculus_data/1964.csv', 'electoral_calculus_data/1966.csv', 
