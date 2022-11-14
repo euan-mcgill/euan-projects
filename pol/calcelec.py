@@ -182,49 +182,49 @@ class CalcElec:
                             (party_totals[0][2]/vote_totals[0]) * rnd_seats[0], (party_totals[0][3]/vote_totals[0]) * rnd_seats[0],
                             (party_totals[0][4]/vote_totals[0]) * rnd_seats[0], (party_totals[0][5]/vote_totals[0]) * rnd_seats[0],
                             ],places=0)
-            sc = saferound([(party_totals[1][0]/vote_totals[0]) * rnd_seats[0], (party_totals[1][1]/vote_totals[0]) * rnd_seats[0],
-                            (party_totals[1][2]/vote_totals[0]) * rnd_seats[0], (party_totals[1][3]/vote_totals[0]) * rnd_seats[0],
-                            (party_totals[1][4]/vote_totals[0]) * rnd_seats[0], (party_totals[1][5]/vote_totals[0]) * rnd_seats[0],
+            sc = saferound([(party_totals[1][0]/vote_totals[1]) * rnd_seats[1], (party_totals[1][1]/vote_totals[1]) * rnd_seats[1],
+                            (party_totals[1][2]/vote_totals[1]) * rnd_seats[1], (party_totals[1][3]/vote_totals[1]) * rnd_seats[1],
+                            (party_totals[1][4]/vote_totals[1]) * rnd_seats[1], (party_totals[1][5]/vote_totals[1]) * rnd_seats[1],
                             ],places=0)
-            ne = saferound([(party_totals[2][0]/vote_totals[0]) * rnd_seats[0], (party_totals[2][1]/vote_totals[0]) * rnd_seats[0],
-                            (party_totals[2][2]/vote_totals[0]) * rnd_seats[0], (party_totals[2][3]/vote_totals[0]) * rnd_seats[0],
-                            (party_totals[2][4]/vote_totals[0]) * rnd_seats[0], (party_totals[2][5]/vote_totals[0]) * rnd_seats[0],
+            ne = saferound([(party_totals[2][0]/vote_totals[2]) * rnd_seats[2], (party_totals[2][1]/vote_totals[2]) * rnd_seats[2],
+                            (party_totals[2][2]/vote_totals[2]) * rnd_seats[2], (party_totals[2][3]/vote_totals[2]) * rnd_seats[2],
+                            (party_totals[2][4]/vote_totals[2]) * rnd_seats[2], (party_totals[2][5]/vote_totals[2]) * rnd_seats[2],
                             ],places=0)
-            nw = saferound([(party_totals[3][0]/vote_totals[0]) * rnd_seats[0], (party_totals[3][1]/vote_totals[0]) * rnd_seats[0],
-                            (party_totals[3][2]/vote_totals[0]) * rnd_seats[0], (party_totals[3][3]/vote_totals[0]) * rnd_seats[0],
-                            (party_totals[3][4]/vote_totals[0]) * rnd_seats[0], (party_totals[3][5]/vote_totals[0]) * rnd_seats[0],
+            nw = saferound([(party_totals[3][0]/vote_totals[3]) * rnd_seats[3], (party_totals[3][1]/vote_totals[3]) * rnd_seats[3],
+                            (party_totals[3][2]/vote_totals[3]) * rnd_seats[3], (party_totals[3][3]/vote_totals[3]) * rnd_seats[3],
+                            (party_totals[3][4]/vote_totals[3]) * rnd_seats[3], (party_totals[3][5]/vote_totals[3]) * rnd_seats[3],
                             ],places=0)
-            yh = saferound([(party_totals[4][0]/vote_totals[0]) * rnd_seats[0], (party_totals[4][1]/vote_totals[0]) * rnd_seats[0],
-                            (party_totals[4][2]/vote_totals[0]) * rnd_seats[0], (party_totals[4][3]/vote_totals[0]) * rnd_seats[0],
-                            (party_totals[4][4]/vote_totals[0]) * rnd_seats[0], (party_totals[4][5]/vote_totals[0]) * rnd_seats[0],
+            yh = saferound([(party_totals[4][0]/vote_totals[4]) * rnd_seats[4], (party_totals[4][1]/vote_totals[4]) * rnd_seats[4],
+                            (party_totals[4][2]/vote_totals[4]) * rnd_seats[4], (party_totals[4][3]/vote_totals[4]) * rnd_seats[4],
+                            (party_totals[4][4]/vote_totals[4]) * rnd_seats[4], (party_totals[4][5]/vote_totals[4]) * rnd_seats[4],
                             ],places=0)
-            cy = saferound([(party_totals[5][0]/vote_totals[0]) * rnd_seats[0], (party_totals[5][1]/vote_totals[0]) * rnd_seats[0],
-                            (party_totals[5][2]/vote_totals[0]) * rnd_seats[0], (party_totals[5][3]/vote_totals[0]) * rnd_seats[0],
-                            (party_totals[5][4]/vote_totals[0]) * rnd_seats[0], (party_totals[5][5]/vote_totals[0]) * rnd_seats[0],
+            cy = saferound([(party_totals[5][0]/vote_totals[5]) * rnd_seats[5], (party_totals[5][1]/vote_totals[5]) * rnd_seats[5],
+                            (party_totals[5][2]/vote_totals[5]) * rnd_seats[5], (party_totals[5][3]/vote_totals[5]) * rnd_seats[5],
+                            (party_totals[5][4]/vote_totals[5]) * rnd_seats[5], (party_totals[5][5]/vote_totals[5]) * rnd_seats[5],
                             ],places=0)
-            wm = saferound([(party_totals[6][0]/vote_totals[0]) * rnd_seats[0], (party_totals[6][1]/vote_totals[0]) * rnd_seats[0],
-                            (party_totals[6][2]/vote_totals[0]) * rnd_seats[0], (party_totals[6][3]/vote_totals[0]) * rnd_seats[0],
-                            (party_totals[6][4]/vote_totals[0]) * rnd_seats[0], (party_totals[6][5]/vote_totals[0]) * rnd_seats[0],
+            wm = saferound([(party_totals[6][0]/vote_totals[6]) * rnd_seats[6], (party_totals[6][1]/vote_totals[6]) * rnd_seats[6],
+                            (party_totals[6][2]/vote_totals[6]) * rnd_seats[6], (party_totals[6][3]/vote_totals[6]) * rnd_seats[6],
+                            (party_totals[6][4]/vote_totals[6]) * rnd_seats[6], (party_totals[6][5]/vote_totals[6]) * rnd_seats[6],
                             ],places=0)
-            em = saferound([(party_totals[7][0]/vote_totals[0]) * rnd_seats[0], (party_totals[7][1]/vote_totals[0]) * rnd_seats[0],
-                            (party_totals[7][2]/vote_totals[0]) * rnd_seats[0], (party_totals[7][3]/vote_totals[0]) * rnd_seats[0],
-                            (party_totals[7][4]/vote_totals[0]) * rnd_seats[0], (party_totals[7][5]/vote_totals[0]) * rnd_seats[0],
+            em = saferound([(party_totals[7][0]/vote_totals[7]) * rnd_seats[7], (party_totals[7][1]/vote_totals[7]) * rnd_seats[7],
+                            (party_totals[7][2]/vote_totals[7]) * rnd_seats[7], (party_totals[7][3]/vote_totals[7]) * rnd_seats[7],
+                            (party_totals[7][4]/vote_totals[7]) * rnd_seats[7], (party_totals[7][5]/vote_totals[7]) * rnd_seats[7],
                             ],places=0)
-            ea = saferound([(party_totals[8][0]/vote_totals[0]) * rnd_seats[0], (party_totals[8][1]/vote_totals[0]) * rnd_seats[0],
-                            (party_totals[8][2]/vote_totals[0]) * rnd_seats[0], (party_totals[8][3]/vote_totals[0]) * rnd_seats[0],
-                            (party_totals[8][4]/vote_totals[0]) * rnd_seats[0], (party_totals[8][5]/vote_totals[0]) * rnd_seats[0],
+            ea = saferound([(party_totals[8][0]/vote_totals[8]) * rnd_seats[8], (party_totals[8][1]/vote_totals[8]) * rnd_seats[8],
+                            (party_totals[8][2]/vote_totals[8]) * rnd_seats[8], (party_totals[8][3]/vote_totals[8]) * rnd_seats[8],
+                            (party_totals[8][4]/vote_totals[8]) * rnd_seats[8], (party_totals[8][5]/vote_totals[8]) * rnd_seats[8],
                             ],places=0)
-            sw = saferound([(party_totals[9][0]/vote_totals[0]) * rnd_seats[0], (party_totals[9][1]/vote_totals[0]) * rnd_seats[0],
-                            (party_totals[9][2]/vote_totals[0]) * rnd_seats[0], (party_totals[9][3]/vote_totals[0]) * rnd_seats[0],
-                            (party_totals[9][4]/vote_totals[0]) * rnd_seats[0], (party_totals[9][5]/vote_totals[0]) * rnd_seats[0],
+            sw = saferound([(party_totals[9][0]/vote_totals[9]) * rnd_seats[9], (party_totals[9][1]/vote_totals[9]) * rnd_seats[9],
+                            (party_totals[9][2]/vote_totals[9]) * rnd_seats[9], (party_totals[9][3]/vote_totals[9]) * rnd_seats[9],
+                            (party_totals[9][4]/vote_totals[9]) * rnd_seats[9], (party_totals[9][5]/vote_totals[9]) * rnd_seats[9],
                             ],places=0)
-            ld = saferound([(party_totals[10][0]/vote_totals[0]) * rnd_seats[0], (party_totals[10][1]/vote_totals[0]) * rnd_seats[0],
-                            (party_totals[10][2]/vote_totals[0]) * rnd_seats[0], (party_totals[10][3]/vote_totals[0]) * rnd_seats[0],
-                            (party_totals[10][4]/vote_totals[0]) * rnd_seats[0], (party_totals[10][5]/vote_totals[0]) * rnd_seats[0],
+            ld = saferound([(party_totals[10][0]/vote_totals[10]) * rnd_seats[10], (party_totals[10][1]/vote_totals[10]) * rnd_seats[10],
+                            (party_totals[10][2]/vote_totals[10]) * rnd_seats[10], (party_totals[10][3]/vote_totals[10]) * rnd_seats[10],
+                            (party_totals[10][4]/vote_totals[10]) * rnd_seats[10], (party_totals[10][5]/vote_totals[10]) * rnd_seats[10],
                             ],places=0)
-            se = saferound([(party_totals[11][0]/vote_totals[0]) * rnd_seats[0], (party_totals[11][1]/vote_totals[0]) * rnd_seats[0],
-                            (party_totals[11][2]/vote_totals[0]) * rnd_seats[0], (party_totals[11][3]/vote_totals[0]) * rnd_seats[0],
-                            (party_totals[11][4]/vote_totals[0]) * rnd_seats[0], (party_totals[11][5]/vote_totals[0]) * rnd_seats[0],
+            se = saferound([(party_totals[11][0]/vote_totals[11]) * rnd_seats[11], (party_totals[11][1]/vote_totals[11]) * rnd_seats[11],
+                            (party_totals[11][2]/vote_totals[11]) * rnd_seats[11], (party_totals[11][3]/vote_totals[11]) * rnd_seats[11],
+                            (party_totals[11][4]/vote_totals[11]) * rnd_seats[11], (party_totals[11][5]/vote_totals[11]) * rnd_seats[11],
                             ],places=0)
 
             con = int(sc[0]+ne[0]+nw[0]+yh[0]+cy[0]+wm[0]+em[0]+ea[0]+sw[0]+ld[0]+se[0])
@@ -290,7 +290,33 @@ class CalcElec:
         return seats
 
     def dhondt_calc(self):
-        pass
+        vpp = self.votes_per_party()
+        seats = self.regional_seats()
+
+        if self.sixparty:
+            ni_dh = {'UUP': vpp[0][0], 'SDLP':vpp[0][1], 'DUP': vpp[0][2], 'SF':  vpp[0][3], 'Min': vpp[0][4], 'Oth': vpp[0][5]}
+            sc_dh = {'Con': vpp[1][0], 'Lab': vpp[1][1], 'Lib': vpp[1][2], 'SNP': vpp[1][3], 'Min': vpp[1][4], 'Oth': vpp[1][5]}
+            ne_dh = {'Con': vpp[2][0], 'Lab': vpp[2][1], 'Lib': vpp[2][2], 'Nat': vpp[2][3], 'Min': vpp[2][4], 'Oth': vpp[2][5]}
+            nw_dh = {'Con': vpp[3][0], 'Lab': vpp[3][1], 'Lib': vpp[3][2], 'Nat': vpp[3][3], 'Min': vpp[3][4], 'Oth': vpp[3][5]}
+            yh_dh = {'Con': vpp[4][0], 'Lab': vpp[4][1], 'Lib': vpp[4][2], 'Nat': vpp[4][3], 'Min': vpp[4][4], 'Oth': vpp[4][5]}
+            cy_dh = {'Con': vpp[5][0], 'Lab': vpp[5][1], 'Lib': vpp[5][2], 'PC':  vpp[5][3], 'Min': vpp[5][4], 'Oth': vpp[5][5]}
+            wm_dh = {'Con': vpp[6][0], 'Lab': vpp[6][1], 'Lib': vpp[6][2], 'Nat': vpp[6][3], 'Min': vpp[6][4], 'Oth': vpp[6][5]}
+            em_dh = {'Con': vpp[7][0], 'Lab': vpp[7][1], 'Lib': vpp[7][2], 'Nat': vpp[7][3], 'Min': vpp[7][4], 'Oth': vpp[7][5]}
+            ea_dh = {'Con': vpp[8][0], 'Lab': vpp[8][1], 'Lib': vpp[8][2], 'Nat': vpp[8][3], 'Min': vpp[8][4], 'Oth': vpp[8][5]}
+            sw_dh = {'Con': vpp[9][0], 'Lab': vpp[9][1], 'Lib': vpp[9][2], 'Nat': vpp[9][3], 'Min': vpp[9][4], 'Oth': vpp[9][5]}
+            ld_dh = {'Con': vpp[10][0], 'Lab': vpp[10][1], 'Lib': vpp[10][2], 'Nat': vpp[10][3], 'Min': vpp[10][4], 'Oth': vpp[10][5]}
+            se_dh = {'Con': vpp[11][0], 'Lab': vpp[11][1], 'Lib': vpp[11][2], 'Nat': vpp[11][3], 'Min': vpp[11][4], 'Oth': vpp[11][5]}
+
+            dh_list = [ni_dh, sc_dh, ne_dh, nw_dh, yh_dh, cy_dh, wm_dh, em_dh, ea_dh, sw_dh, ld_dh, se_dh]
+
+            for reg in dh_list:
+                for key in reg:
+                    results = self.dhondt(seats, reg)
+                    print(results)
+            return results
+
+        elif not sixparty:
+            pass
 
     def mms(self):
         pass
@@ -300,26 +326,10 @@ class CalcElec:
 
 
 
-            elif self.elec_system == "DH":
-                ni_dh = {'UUP': uup_ni, 'SDLP':sdl_ni, 'DUP': dup_ni, 'SF':  sif_ni, 'Min': mnr_ni, 'Oth': oth_ni}
-                sc_dh = {'Con': con_ne, 'Lab': lab_ne, 'Lib': lib_ne, 'SNP': nat_ne, 'Min': mnr_ne, 'Oth': oth_ne}
-                ne_dh = {'Con': con_ne, 'Lab': lab_ne, 'Lib': lib_ne, 'Nat': nat_ne, 'Min': mnr_ne, 'Oth': oth_ne}
-                nw_dh = {'Con': con_ne, 'Lab': lab_ne, 'Lib': lib_ne, 'Nat': nat_ne, 'Min': mnr_ne, 'Oth': oth_ne}
-                yh_dh = {'Con': con_ne, 'Lab': lab_ne, 'Lib': lib_ne, 'Nat': nat_ne, 'Min': mnr_ne, 'Oth': oth_ne}
-                cy_dh = {'Con': con_ne, 'Lab': lab_ne, 'Lib': lib_ne, 'PC':  nat_ne, 'Min': mnr_ne, 'Oth': oth_ne}
-                wm_dh = {'Con': con_ne, 'Lab': lab_ne, 'Lib': lib_ne, 'Nat': nat_ne, 'Min': mnr_ne, 'Oth': oth_ne}
-                em_dh = {'Con': con_ne, 'Lab': lab_ne, 'Lib': lib_ne, 'Nat': nat_ne, 'Min': mnr_ne, 'Oth': oth_ne}
-                ea_dh = {'Con': con_ne, 'Lab': lab_ne, 'Lib': lib_ne, 'Nat': nat_ne, 'Min': mnr_ne, 'Oth': oth_ne}
-                sw_dh = {'Con': con_ne, 'Lab': lab_ne, 'Lib': lib_ne, 'Nat': nat_ne, 'Min': mnr_ne, 'Oth': oth_ne}
-                ld_dh = {'Con': con_ne, 'Lab': lab_ne, 'Lib': lib_ne, 'Nat': nat_ne, 'Min': mnr_ne, 'Oth': oth_ne}
-                se_dh = {'Con': con_ne, 'Lab': lab_ne, 'Lib': lib_ne, 'Nat': nat_ne, 'Min': mnr_ne, 'Oth': oth_ne}
-
-            else:
-                print("Enter a valid electoral system")
 
     ###############################################################################
         
-        elif sixparty == False:
+        if self.sixparty == False:
         # I changed "Brexit" to "UKIP" in the 2019.csv file
             # 1 = Northern Ireland
             uup_ni = data.loc[data['Area'] == 1, 'CON'].sum()
