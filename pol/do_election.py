@@ -6,10 +6,13 @@ Created on Thu Apr 21 12:04:42 2022
 @author: e.mcgill
 """
 
-from calcelec import calc_elec
+from calcelec import CalcElec
 import pandas as pd
 
-# calculate = calc_elec.reg_party('electoral_calculus_data/2015.csv')
+calculate = CalcElec(infile='electoral_calculus_data/2005.csv', sixparty=True)
+
+test = calculate.dhondt_calc()
+#%%
 
 six_election = ['electoral_calculus_data/1955.csv', 'electoral_calculus_data/1959.csv', 
                  'electoral_calculus_data/1964.csv', 'electoral_calculus_data/1966.csv', 
@@ -22,16 +25,19 @@ six_election = ['electoral_calculus_data/1955.csv', 'electoral_calculus_data/195
 eight_election = [ 'electoral_calculus_data/2010.csv', 'electoral_calculus_data/2015.csv', 
                    'electoral_calculus_data/2017.csv', 'electoral_calculus_data/2019.csv', ]
 
+#%%
 six_frames = []
 
 eight_frames = []
 
 for file in six_election:
     with open(file, 'r') as elec:
-        result = calc_elec.reg_party(file,sixparty=True)
+        result = CalcElec.reg_party(file,sixparty=True,seat_total=630)
         six_frames.append(result)
 
 for file in eight_election:
     with open(file, 'r') as elec:
-        result = calc_elec.reg_party(file,sixparty=False)
+        result = CalcElec.reg_party(file,sixparty=False)
         eight_frames.append(result)
+
+#%%
