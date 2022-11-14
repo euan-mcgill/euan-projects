@@ -9,7 +9,9 @@ Created on Thu Apr 21 12:04:42 2022
 from calcelec import CalcElec
 import pandas as pd
 
-# calculate = calc_elec.reg_party('electoral_calculus_data/2015.csv')
+calculate = CalcElec(infile='electoral_calculus_data/1997.csv', sixparty=True)
+
+test = calculate.hamilton()
 
 six_election = ['electoral_calculus_data/1955.csv', 'electoral_calculus_data/1959.csv', 
                  'electoral_calculus_data/1964.csv', 'electoral_calculus_data/1966.csv', 
