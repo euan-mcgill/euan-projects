@@ -11,6 +11,7 @@ This is the newest extant version - elecalculator.py is deprecated
 
 Function map:
     <COMPLETE THIS>
+
 """
 
 from iteround import saferound
@@ -259,8 +260,11 @@ class CalcElec:
 
             return reg
 
-        elif not sixparty:
+        elif self.sixparty == False:
             pass
+        
+        else:
+            print("Please specify whether analysis is 6 party or 8 party: \n (6 party = pre-2010)")
 
 
     def dhondt(self, nSeats, votes, verbose=False):
@@ -282,7 +286,7 @@ class CalcElec:
                 seats[next_seat]=1
 
             if verbose:
-                print("{} Escaño: {}".format(sum(seats.values()),next_seat))
+                print("Round {}: {}".format(sum(seats.values()),next_seat))
                 for key in t_votes:
                     print("\t{} [{}]: {:.1f}".format(key,seats[key],t_votes[key]))
                 print("\b")
@@ -311,20 +315,20 @@ class CalcElec:
             dh_list = [ni_dh, sc_dh, ne_dh, nw_dh, yh_dh, cy_dh, wm_dh, em_dh, ea_dh, sw_dh, ld_dh, se_dh]
 
             for i in range(0, len(dh_list)):
-                result.append(self.dhondt(seats[i], dh_list[i], verbose=True))
+                result.append(self.dhondt(seats[i], dh_list[i]))
 
-            con = int(vpp[1][0]+vpp[2][0]+vpp[3][0]+vpp[4][0]+vpp[5][0]+vpp[6][0]+vpp[7][0]+vpp[8][0]+vpp[9][0]+vpp[10][0]+vpp[11][0]) # SHOULD BE FROM RESULT NOT VPP
-            lab = int(vpp[1][1]+vpp[2][1]+vpp[3][1]+vpp[4][1]+vpp[5][1]+vpp[6][1]+vpp[7][1]+vpp[8][1]+vpp[9][1]+vpp[10][1]+vpp[11][1])
-            lib = int(vpp[1][2]+vpp[2][2]+vpp[3][2]+vpp[4][2]+vpp[5][2]+vpp[6][2]+vpp[7][2]+vpp[8][2]+vpp[9][2]+vpp[10][2]+vpp[11][2])
-            nat = int(vpp[0][3]+vpp[1][3]+vpp[2][3]+vpp[3][3]+vpp[4][3]+vpp[5][3]+vpp[6][3]+vpp[7][3]+vpp[8][3]+vpp[9][3]+vpp[10][3]+vpp[11][3])
-            mnr = int(vpp[0][4]+vpp[1][4]+vpp[2][4]+vpp[3][4]+vpp[4][4]+vpp[5][4]+vpp[6][4]+vpp[7][4]+vpp[8][4]+vpp[9][4]+vpp[10][4]+vpp[11][4])
-            oth = int(vpp[0][5]+vpp[1][5]+vpp[2][5]+vpp[3][5]+vpp[4][5]+vpp[5][5]+vpp[6][5]+vpp[7][5]+vpp[8][5]+vpp[9][5]+vpp[10][5]+vpp[11][5])
-            snp = int(vpp[1][3])
-            pcy = int(vpp[5][3])
-            uup = int(vpp[0][0])
-            sdl = int(vpp[0][1])
-            sif = int(vpp[0][3])
-            dup = int(vpp[0][2])
+            con = int(result[1]['Con']+result[2]['Con']+result[3]['Con']+result[4]['Con']+result[5]['Con']+result[6]['Con']+result[7]['Con']+result[8]['Con']+result[9]['Con']+result[10]['Con']+result[11]['Con'])
+            lab = int(result[1]['Lab']+result[2]['Lab']+result[3]['Lab']+result[4]['Lab']+result[5]['Lab']+result[6]['Lab']+result[7]['Lab']+result[8]['Lab']+result[9]['Lab']+result[10]['Lab']+result[11]['Lab'])
+            lib = int(result[1]['Lib']+result[2]['Lib']+result[3]['Lib']+result[4]['Lib']+result[5]['Lib']+result[6]['Lib']+result[7]['Lib']+result[8]['Lib']+result[9]['Lib']+result[10]['Lib']+result[11]['Lib'])
+            nat = int(result[1]['SNP']+result[2]['Nat']+result[3]['Nat']+result[4]['Nat']+result[5]['PC']+result[6]['Nat']+result[7]['Nat']+result[8]['Nat']+result[9]['Nat']+result[10]['Nat']+result[11]['Nat'])
+            mnr = int(result[0]['Min']+result[1]['Min']+result[2]['Min']+result[3]['Min']+result[4]['Min']+result[5]['Min']+result[6]['Min']+result[7]['Min']+result[8]['Min']+result[9]['Min']+result[10]['Min']+result[11]['Min'])
+            oth = int(result[0]['Oth']+result[1]['Oth']+result[2]['Oth']+result[3]['Oth']+result[4]['Oth']+result[5]['Oth']+result[6]['Oth']+result[7]['Oth']+result[8]['Oth']+result[9]['Oth']+result[10]['Oth']+result[11]['Oth'])
+            snp = int(result[1]['SNP'])
+            pcy = int(result[5]['PC'])
+            uup = int(result[0]['UUP'])
+            sdl = int(result[0]['SDLP'])
+            sif = int(result[0]['SF'])
+            dup = int(result[0]['DUP'])
 
             print("Election result:\nConservative:",con,
                                   "\nLabour:",lab,
@@ -340,6 +344,12 @@ class CalcElec:
                     '\n\nTotal seats:', con+lab+lib+nat+oth+mnr+uup+sdl+sif+dup)
 
             return result
+        
+        elif self.sixparty == False:
+            pass
+        
+        else:
+            print("Please specify whether analysis is 6 party or 8 party: \n (6 party = pre-2010)")
 
 
 
@@ -349,11 +359,11 @@ class CalcElec:
         pass
         # to complete at a later date
 
-    def reg_party(self): # rejigging whole file by breaking up this function (in progress...)
+    # def reg_party(self): # rejigging whole file by breaking up this function (in progress...)
 
 
 
-
+        '''
     ###############################################################################
         
         if self.sixparty == False:
@@ -652,6 +662,9 @@ class CalcElec:
 
         else:
             print("Please specify whether analysis is 6 party or 8 party: \n (6 party = pre-2010)")
+
+        '''
+
     def scot_senate(self, infile):
         # only eight party version available for now
         data = pd.read_csv(infile,delimiter=';')
