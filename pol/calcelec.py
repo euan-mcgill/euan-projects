@@ -20,12 +20,12 @@ import sys
 
 class CalcElec:
 
-    def __init__(self, infile, sixparty=False, elec_system="HW", seat_total=250):
+    def __init__(self, infile, sixparty=False, seat_total=250):
         self.infile = infile
         self.data = pd.read_csv(infile,delimiter=';')
         self.sixparty = sixparty
-        self.elec_system = elec_system
         self.seat_total = seat_total
+        print(f'Election: {infile}')
 
     def regional_seats(self):
         elec_ni = self.data.loc[self.data['Area'] == 1, 'Electorate'].sum()
@@ -301,10 +301,10 @@ class CalcElec:
         rnd_seats = self.regional_seats()
         party_totals = self.votes_per_party()
         vote_totals = self.electorate()
-        if sum(rnd_seats)  == self.seat_total:
-            print("Seat total valid \n\n\n")
-        else:
-            print("Seat total does not equal seat_total")
+        # if sum(rnd_seats)  == self.seat_total:
+        #    print("Seat total valid \n\n\n")
+        # else:
+        #    print("Seat total does not equal seat_total")
 
         if self.sixparty:
             ni = saferound([(party_totals[0][0]/vote_totals[0]) * rnd_seats[0], (party_totals[0][1]/vote_totals[0]) * rnd_seats[0],
@@ -520,7 +520,7 @@ class CalcElec:
             t_votes[next_seat]=votes[next_seat]/(seats[next_seat]+1)
         return seats
 
-    def dhondt_calc(self):
+    def dhondt_calc(self, plot=False):
         vpp = self.votes_per_party()
         seats = self.regional_seats()
         result = []
@@ -569,22 +569,26 @@ class CalcElec:
                                   "\nOthers",oth,
                                   "\nMinority Parties",mnr,
                     '\n\nTotal seats:', con+lab+lib+nat+oth+mnr+uup+sdl+sif+dup)
+            party = [con,lab,lib,snp,pcy,uup,sdl,sif,dup,oth,mnr]
 
-            return result
+            if plot:
+                return party
+            else:
+                return result
         
         elif self.sixparty == False:
-            ni_dh = {'UUP': vpp[0][0], 'SDLP':vpp[0][1], 'DUP': vpp[0][2], 'Ali':  vpp[0][3], 'Grn': vpp[0][4], 'SF': vpp[0][5], 'Min': vpp[0][6], 'Oth': [0][7]}
-            sc_dh = {'Con': vpp[1][0], 'Lab': vpp[1][1], 'Lib': vpp[1][2], 'UKIP': vpp[1][3], 'Grn': vpp[1][4], 'SNP': vpp[1][5], 'Min': vpp[0][6], 'Oth': [0][7]}
-            ne_dh = {'Con': vpp[2][0], 'Lab': vpp[2][1], 'Lib': vpp[2][2], 'UKIP': vpp[2][3], 'Grn': vpp[2][4], 'Nat': vpp[2][5], 'Min': vpp[0][6], 'Oth': [0][7]}
-            nw_dh = {'Con': vpp[3][0], 'Lab': vpp[3][1], 'Lib': vpp[3][2], 'UKIP': vpp[3][3], 'Grn': vpp[3][4], 'Nat': vpp[3][5], 'Min': vpp[0][6], 'Oth': [0][7]}
-            yh_dh = {'Con': vpp[4][0], 'Lab': vpp[4][1], 'Lib': vpp[4][2], 'UKIP': vpp[4][3], 'Grn': vpp[4][4], 'Nat': vpp[4][5], 'Min': vpp[0][6], 'Oth': [0][7]}
-            cy_dh = {'Con': vpp[5][0], 'Lab': vpp[5][1], 'Lib': vpp[5][2], 'UKIP': vpp[5][3], 'Grn': vpp[5][4], 'PC': vpp[5][5], 'Min': vpp[0][6], 'Oth': [0][7]}
-            wm_dh = {'Con': vpp[6][0], 'Lab': vpp[6][1], 'Lib': vpp[6][2], 'UKIP': vpp[6][3], 'Grn': vpp[6][4], 'Nat': vpp[6][5], 'Min': vpp[0][6], 'Oth': [0][7]}
-            em_dh = {'Con': vpp[7][0], 'Lab': vpp[7][1], 'Lib': vpp[7][2], 'UKIP': vpp[7][3], 'Grn': vpp[7][4], 'Nat': vpp[7][5], 'Min': vpp[0][6], 'Oth': [0][7]}
-            ea_dh = {'Con': vpp[8][0], 'Lab': vpp[8][1], 'Lib': vpp[8][2], 'UKIP': vpp[8][3], 'Grn': vpp[8][4], 'Nat': vpp[8][5], 'Min': vpp[0][6], 'Oth': [0][7]}
-            sw_dh = {'Con': vpp[9][0], 'Lab': vpp[9][1], 'Lib': vpp[9][2], 'UKIP': vpp[9][3], 'Grn': vpp[9][4], 'Nat': vpp[9][5], 'Min': vpp[0][6], 'Oth': [0][7]}
-            ld_dh = {'Con': vpp[10][0], 'Lab': vpp[10][1], 'Lib': vpp[10][2], 'UKIP': vpp[10][3], 'Grn': vpp[10][4], 'Nat': vpp[10][5], 'Min': vpp[0][6], 'Oth': [0][7]}
-            se_dh = {'Con': vpp[11][0], 'Lab': vpp[11][1], 'Lib': vpp[11][2], 'UKIP': vpp[11][3], 'Grn': vpp[11][4], 'Nat': vpp[11][5], 'Min': vpp[0][6], 'Oth': [0][7]}
+            ni_dh = {'UUP': vpp[0][0], 'SDLP':vpp[0][1], 'DUP': vpp[0][2], 'Ali':  vpp[0][3], 'Grn': vpp[0][4], 'SF': vpp[0][5], 'Min': vpp[0][6], 'Oth': vpp[0][7]}
+            sc_dh = {'Con': vpp[1][0], 'Lab': vpp[1][1], 'Lib': vpp[1][2], 'UKIP': vpp[1][3], 'Grn': vpp[1][4], 'SNP': vpp[1][5], 'Min': vpp[0][6], 'Oth': vpp[0][7]}
+            ne_dh = {'Con': vpp[2][0], 'Lab': vpp[2][1], 'Lib': vpp[2][2], 'UKIP': vpp[2][3], 'Grn': vpp[2][4], 'Nat': vpp[2][5], 'Min': vpp[0][6], 'Oth': vpp[0][7]}
+            nw_dh = {'Con': vpp[3][0], 'Lab': vpp[3][1], 'Lib': vpp[3][2], 'UKIP': vpp[3][3], 'Grn': vpp[3][4], 'Nat': vpp[3][5], 'Min': vpp[0][6], 'Oth': vpp[0][7]}
+            yh_dh = {'Con': vpp[4][0], 'Lab': vpp[4][1], 'Lib': vpp[4][2], 'UKIP': vpp[4][3], 'Grn': vpp[4][4], 'Nat': vpp[4][5], 'Min': vpp[0][6], 'Oth': vpp[0][7]}
+            cy_dh = {'Con': vpp[5][0], 'Lab': vpp[5][1], 'Lib': vpp[5][2], 'UKIP': vpp[5][3], 'Grn': vpp[5][4], 'PC': vpp[5][5], 'Min': vpp[0][6], 'Oth': vpp[0][7]}
+            wm_dh = {'Con': vpp[6][0], 'Lab': vpp[6][1], 'Lib': vpp[6][2], 'UKIP': vpp[6][3], 'Grn': vpp[6][4], 'Nat': vpp[6][5], 'Min': vpp[0][6], 'Oth': vpp[0][7]}
+            em_dh = {'Con': vpp[7][0], 'Lab': vpp[7][1], 'Lib': vpp[7][2], 'UKIP': vpp[7][3], 'Grn': vpp[7][4], 'Nat': vpp[7][5], 'Min': vpp[0][6], 'Oth': vpp[0][7]}
+            ea_dh = {'Con': vpp[8][0], 'Lab': vpp[8][1], 'Lib': vpp[8][2], 'UKIP': vpp[8][3], 'Grn': vpp[8][4], 'Nat': vpp[8][5], 'Min': vpp[0][6], 'Oth': vpp[0][7]}
+            sw_dh = {'Con': vpp[9][0], 'Lab': vpp[9][1], 'Lib': vpp[9][2], 'UKIP': vpp[9][3], 'Grn': vpp[9][4], 'Nat': vpp[9][5], 'Min': vpp[0][6], 'Oth': vpp[0][7]}
+            ld_dh = {'Con': vpp[10][0], 'Lab': vpp[10][1], 'Lib': vpp[10][2], 'UKIP': vpp[10][3], 'Grn': vpp[10][4], 'Nat': vpp[10][5], 'Min': vpp[0][6], 'Oth': vpp[0][7]}
+            se_dh = {'Con': vpp[11][0], 'Lab': vpp[11][1], 'Lib': vpp[11][2], 'UKIP': vpp[11][3], 'Grn': vpp[11][4], 'Nat': vpp[11][5], 'Min': vpp[0][6], 'Oth': vpp[0][7]}
 
             dh_list = [ni_dh, sc_dh, ne_dh, nw_dh, yh_dh, cy_dh, wm_dh, em_dh, ea_dh, sw_dh, ld_dh, se_dh]
 
@@ -622,8 +626,12 @@ class CalcElec:
                                   "\nOthers",oth,
                                   "\nMinority Parties",mnr,
                     '\n\nTotal seats:', con+lab+lib+nat+oth+mnr+uup+sdl+sif+dup+grn+ali+brx)
+            party = [con,lab,lib,snp,brx,grn,pcy,uup,sdl,sif,dup,oth,mnr]
 
-            return result
+            if plot:
+                return party
+            else:
+                return result
 
         else:
             print("Please specify whether analysis is 6 party or 8 party: \n (6 party = pre-2010)")
