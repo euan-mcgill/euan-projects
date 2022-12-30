@@ -642,6 +642,12 @@ class CalcElec:
         pass
         # to complete at a later date
 
+    def gallagher_index(self):
+        pass
+
+    def fptp(self):
+        pass
+
     def scot_senate(self, infile):
         # only eight party version available for now
         data = pd.read_csv(infile,delimiter=';')
