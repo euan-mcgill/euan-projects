@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+####################### ELECTORAL SYSTEM ########################################
 def dhondt(nSeats, votes, verbose=False):
         """
         Author: https://gist.github.com/brunosan
@@ -27,24 +28,61 @@ def dhondt(nSeats, votes, verbose=False):
             t_votes[next_seat]=votes[next_seat]/(seats[next_seat]+1)
         return seats
 
-# Data from the Belfast Telegraph
-ni = {'SF':320, 'DUP':270, 'APNI':150, 'UUP':90, 'SDLP':70, 'TUV':50, 'Grn':20, 'Oth': 30}
-# Data from Electoral Calculus (01/23)
-sc = {'Con':153, 'Lab':280, 'Lib':60, 'Brx':10, 'Grn':24, 'SNP':456}
-ne = {'Con':231, 'Lab':567, 'Lib':48, 'Brx':75, 'Grn':56}
-nw = {'Con':224, 'Lab':583, 'Lib':52, 'Brx':67, 'Grn':54}
-yh = {'Con':267, 'Lab':529, 'Lib':57, 'Brx':73, 'Grn':51}
-cy = {'Con':221, 'Lab':507, 'Lib':33, 'Brx':49, 'Grn':23, 'PC':149}
-wm = {'Con':315, 'Lab':482, 'Lib':66, 'Brx':72, 'Grn':50}
-em = {'Con':340, 'Lab':458, 'Lib':55, 'Brx':71, 'Grn':50}
-ea = {'Con':348, 'Lab':403, 'Lib':110, 'Brx':72, 'Grn':50}
-sw = {'Con':315, 'Lab':379, 'Lib':158, 'Brx':70, 'Grn':52}
-ld = {'Con':172, 'Lab':605, 'Lib':91, 'Brx':60, 'Grn':59}
-se = {'Con':330, 'Lab':381, 'Lib':146, 'Brx':70, 'Grn':57}
+
+################################# RAW DATA - POLLS ###############################
+
+
+# print("Electoral Calculus poll of polls, 01/2023 & LucidTalk (BT), 11/2022")
+# ni = {'SF':320, 'DUP':270, 'APNI':150, 'UUP':90, 'SDLP':70, 'TUV':50, 'Grn':20, 'Oth': 30}
+# sc = {'Con':153, 'Lab':280, 'Lib':60, 'Brx':10, 'Grn':24, 'SNP':456}
+# ne = {'Con':231, 'Lab':567, 'Lib':48, 'Brx':75, 'Grn':56}
+# nw = {'Con':224, 'Lab':583, 'Lib':52, 'Brx':67, 'Grn':54}
+# yh = {'Con':267, 'Lab':529, 'Lib':57, 'Brx':73, 'Grn':51}
+# cy = {'Con':221, 'Lab':507, 'Lib':33, 'Brx':49, 'Grn':23, 'PC':149}
+# wm = {'Con':315, 'Lab':482, 'Lib':66, 'Brx':72, 'Grn':50}
+# em = {'Con':340, 'Lab':458, 'Lib':55, 'Brx':71, 'Grn':50}
+# ea = {'Con':348, 'Lab':403, 'Lib':110, 'Brx':72, 'Grn':50}
+# sw = {'Con':315, 'Lab':379, 'Lib':158, 'Brx':70, 'Grn':52}
+# ld = {'Con':172, 'Lab':605, 'Lib':91, 'Brx':60, 'Grn':59}
+# se = {'Con':330, 'Lab':381, 'Lib':146, 'Brx':70, 'Grn':57}
+
+# print ("Electoral Calculus poll of polls, 12/2019 & Exit poll NI 12/2019")
+# ni = {'SF':228, 'DUP':306, 'APNI':168, 'UUP':117, 'SDLP':149, 'TUV':0, 'Grn':2, 'Oth': 31}
+# sc = {'Con':285, 'Lab':180, 'Lib':110, 'Brx':0, 'Grn':10, 'SNP':415}
+# ne = {'Con':390, 'Lab':446, 'Lib':79, 'Brx':56, 'Grn':21}
+# nw = {'Con':381, 'Lab':450, 'Lib':91, 'Brx':46, 'Grn':22}
+# yh = {'Con':424, 'Lab':408, 'Lib':88, 'Brx':49, 'Grn':21}
+# cy = {'Con':354, 'Lab':419, 'Lib':60, 'Brx':59, 'Grn':15, 'PC':89}
+# wm = {'Con':495, 'Lab':339, 'Lib':105, 'Brx':26, 'Grn':24}
+# em = {'Con':504, 'Lab':350, 'Lib':81, 'Brx':31, 'Grn':21}
+# ea = {'Con':533, 'Lab':269, 'Lib':141, 'Brx':21, 'Grn':24}
+# sw = {'Con':492, 'Lab':247, 'Lib':197, 'Brx':22, 'Grn':28}
+# ld = {'Con':328, 'Lab':472, 'Lib':139, 'Brx':29, 'Grn':25}
+# se = {'Con':516, 'Lab':247, 'Lib':170, 'Brx':22, 'Grn':32}
+
+print ("Electoral Calculus poll of polls, 11/2018 & Survation NI 11/2018")
+ni = {'SF':270, 'DUP':310, 'APNI':120, 'UUP':150, 'SDLP':110, 'TUV':0, 'Grn':0, 'Oth': 40}
+sc = {'Con':266, 'Lab':241, 'Lib':66, 'Brx':14, 'Grn':14, 'SNP':389}
+ne = {'Con':285, 'Lab':523, 'Lib':66, 'Brx':78, 'Grn':32}
+nw = {'Con':303, 'Lab':518, 'Lib':74, 'Brx':58, 'Grn':30}
+yh = {'Con':346, 'Lab':459, 'Lib':70, 'Brx':65, 'Grn':32}
+cy = {'Con':277, 'Lab':458, 'Lib':65, 'Brx':59, 'Grn':22, 'PC':104}
+wm = {'Con':431, 'Lab':394, 'Lib':64, 'Brx':57, 'Grn':36}
+em = {'Con':448, 'Lab':374, 'Lib':63, 'Brx':63, 'Grn':34}
+ea = {'Con':487, 'Lab':296, 'Lib':99, 'Brx':64, 'Grn':38}
+sw = {'Con':455, 'Lab':260, 'Lib':170, 'Brx':50, 'Grn':42}
+ld = {'Con':272, 'Lab':514, 'Lib':108, 'Brx':52, 'Grn':37}
+se = {'Con':487, 'Lab':255, 'Lib':125, 'Brx':62, 'Grn':50}
+
+############################ SEAT TOTALS PER REGION #############################
 
 regions =   [ni, sc, ne, nw, yh, cy, wm, em, ea, sw, ld, se]
-seat_tots = [7,  21, 10, 28, 21, 12, 22, 18, 24, 22, 30, 35]
+seat_tots = [7, 21, 11, 28, 21, 12, 22, 18, 24, 22, 29, 35] # 250-seat, 2017-2019
+#seat_tots = [7, 21, 10, 28, 21, 12, 22, 18, 24, 22, 30, 35] # 250-seat, 2019-2024
+#seat_tots = [17,55, 28, 75, 54, 32, 58, 48, 61, 57, 75, 90] # 650-seat, Westminster since 2010
 result = []
+
+######################## CALCULATION AND PRESENTATION ###########################
 
 for i in range(0, len(regions)):
     result.append(dhondt(nSeats=seat_tots[i],votes=regions[i],verbose=False))
