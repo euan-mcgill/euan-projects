@@ -66,16 +66,30 @@ for code in metas:
                 else:
                     row = [sent, s, e, esp, d, i]
                 writer.writerow(row)
+        # ### Write to CSV - Join LR hands ###
+        # one_channel = []
+        # for d,i in zip(derecha_proc_tres, izquierda_proc_tres): # I think you need to move the if loop to above this one, and have two versions of the for loop inside
+        #     c = ''
+        #     for ld, li in zip(d.split(),i.split()):
+        #         if sum(right_zeroes) >= sum(left_zeroes): # doesn't work (currently L_R in glosses)
+        #             c += '_'.join([ld,li])+' '
+        #         elif sum(right_zeroes) <= sum(left_zeroes):
+        #             c += '_'.join([li,ld])+' '
+        #     one_channel.append(c)
         ### Write to CSV - Join LR hands ###
         one_channel = []
-        for d,i in zip(derecha_proc_tres, izquierda_proc_tres):
-            c = ''
-            for ld, li in zip(d.split(),i.split()):
-                if sum(right_zeroes) >= sum(left_zeroes): # doesn't work (currently L_R in glosses)
+        if sum(right_zeroes) >= sum(left_zeroes):
+            for d,i in zip(derecha_proc_tres, izquierda_proc_tres):
+                c = ''
+                for ld, li in zip(d.split(),i.split()):
                     c += '_'.join([ld,li])+' '
-                elif sum(right_zeroes) <= sum(left_zeroes):
+                one_channel.append(c)
+        else:
+            for d,i in zip(derecha_proc_tres, izquierda_proc_tres):
+                c = ''
+                for ld, li in zip(d.split(),i.split()):
                     c += '_'.join([li,ld])+' '
-            one_channel.append(c)
+                one_channel.append(c)
         # POSTPROCESSING #
         one_channel_a = [re.sub(r'(.*)(_)\1',r'\2\1',line) for line in one_channel]
         one_channel_b = [re.sub('(_0|0_)', '', line) for line in one_channel_a]
