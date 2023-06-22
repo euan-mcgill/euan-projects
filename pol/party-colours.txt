@@ -1,0 +1,26 @@
+
+Sinn Féin/Rep.		0e610d
+Green			4bf012
+Plaid Cymru		0bb01d
+SNP			fefe25
+SDLP			99e2a1
+Labour			f52121
+CHUK			474141
+SDP			d83d7a
+Alliance		fee16a
+Liberal Democrat	f7cc1f
+Others/Ind./Min.	b3b2ad
+Conservative		2f14f8
+UUP			5069f8
+Reform/Brexit		54efe8
+DUP			ea7b62
+UKIP/Referendum		d22cdb
+TUV			3b3a90
+BNP/NF/TommyR		111081
+
+
+London only:
+Respect			064b2a
+
+Used https://parliamentdiagram.toolforge.org/parlitest.php
+{{legend|#0E610D|Sinn Fein: 1 seat}} {{legend|#4BF012|Green: 0 seats}} {{legend|#0BB01D|Plaid Cymru: 0 seats}} {{legend|#FEFE25|SNP: 0 seats}} {{legend|#99E2A1|SDLP: 0 seats}} {{legend|#F52121|Labour: 119 seats}} {{legend|#474141|CHUK: 0 seats}} {{legend|#D83D7A|SDP: 0 seats}} {{legend|#FEE16A|Alliance: 0 seats}} {{legend|#F7CC1F|Lib Dem: 3 seats}} {{legend|#B3B2AD|Other: 0 seats}} {{legend|#2F14F8|Conservative: 127 seats}} {{legend|#5069F8|UUP: 0 seats}} {{legend|#54EFE8|Reform: 0 seats}} {{legend|#EA7B62|DUP: 0 seats}} {{legend|#D22CDB|UKIP: 0 seats}} {{legend|#3B3A90|TUV: 0 seats}} {{legend|#111081|BNP: 0 seats}}
