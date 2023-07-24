@@ -575,7 +575,7 @@ class CalcElec:
                 return party
             else:
                 return result
-            # print(result) # use this for quick data handling later
+            print(result) # use this for quick data handling later
         
         elif self.sixparty == False:
             ni_dh = {'UUP': vpp[0][0], 'SDLP':vpp[0][1], 'DUP': vpp[0][2], 'Ali':  vpp[0][3], 'Grn': vpp[0][4], 'SF': vpp[0][5], 'Min': vpp[0][6], 'Oth': vpp[0][7]}
@@ -628,7 +628,7 @@ class CalcElec:
                                   "\nMinority Parties",mnr,
                     '\n\nTotal seats:', con+lab+lib+nat+oth+mnr+uup+sdl+sif+dup+grn+ali+brx)
             party = [con,lab,lib,snp,brx,grn,pcy,uup,sdl,sif,dup,oth,mnr]
-            # print(result) # use this for quick data handling later
+            print(result) # use this for quick data handling later
 
             if plot:
                 return party

@@ -45,19 +45,33 @@ def dhondt(nSeats, votes, verbose=False):
 # ld = {'Con': 0, 'Lab': 0, 'LIB': 0, 'Brx': 0, 'Grn': 0}
 # se = {'Con': 0, 'Lab': 0, 'LIB': 0, 'Brx': 0, 'Grn': 0}
 
-print("Electoral Calculus poll of polls 06/2023, NI local elections 1st pref 05/2023")
-ni = {'SF': 309, 'DUP': 233, 'APNI': 133, 'UUP': 109, 'SDLP': 87, 'TUV': 39, 'Grn': 17, 'Oth': 68}
-sc = {'Con': 174, 'Lab': 307, 'LIB': 80, 'Brx': 14, 'Grn': 27, 'SNP': 378}
-ne = {'Con': 240, 'Lab': 545, 'LIB': 70, 'Brx': 67, 'Grn': 51}
-nw = {'Con': 242, 'Lab': 558, 'LIB': 76, 'Brx': 52, 'Grn': 51}
-yh = {'Con': 270, 'Lab': 509, 'LIB': 82, 'Brx': 64, 'Grn': 52}
-cy = {'Con': 232, 'Lab': 472, 'LIB': 73, 'Brx': 57, 'Grn': 49, 'PC': 92}
-wm = {'Con': 322, 'Lab': 469, 'LIB': 76, 'Brx': 59, 'Grn': 55}
-em = {'Con': 327, 'Lab': 454, 'LIB': 74, 'Brx': 62, 'Grn': 55}
-ea = {'Con': 355, 'Lab': 383, 'LIB': 119, 'Brx': 59, 'Grn': 64}
-sw = {'Con': 330, 'Lab': 359, 'LIB': 163, 'Brx': 53, 'Grn': 67}
-ld = {'Con': 229, 'Lab': 539, 'LIB': 122, 'Brx': 33, 'Grn': 64}
-se = {'Con': 346, 'Lab': 357, 'LIB': 152, 'Brx': 51, 'Grn': 77}
+# print("Electoral Calculus poll of polls 07/2023, NI local elections 1st pref")
+# ni = {'SF': 309, 'DUP': 233, 'APNI': 133, 'UUP': 109, 'SDLP': 87, 'TUV': 39, 'Grn': 17, 'Oth': 68}
+# sc = {'Con': 185, 'Lab': 315, 'LIB': 78, 'Brx': 0, 'Grn': 13, 'SNP': 364}
+# ne = {'Con': 213, 'Lab': 561, 'LIB': 72, 'Brx': 81, 'Grn': 51}
+# nw = {'Con': 217, 'Lab': 575, 'LIB': 78, 'Brx': 63, 'Grn': 50}
+# yh = {'Con': 243, 'Lab': 526, 'LIB': 84, 'Brx': 77, 'Grn': 51}
+# cy = {'Con': 206, 'Lab': 489, 'LIB': 76, 'Brx': 69, 'Grn': 48, 'PC': 92}
+# wm = {'Con': 296, 'Lab': 486, 'LIB': 79, 'Brx': 72, 'Grn': 54}
+# em = {'Con': 301, 'Lab': 471, 'LIB': 76, 'Brx': 75, 'Grn': 54}
+# ea = {'Con': 329, 'Lab': 400, 'LIB': 124, 'Brx': 71, 'Grn': 63}
+# sw = {'Con': 305, 'Lab': 375, 'LIB': 166, 'Brx': 65, 'Grn': 66}
+# ld = {'Con': 206, 'Lab': 555, 'LIB': 124, 'Brx': 42, 'Grn': 64}
+# se = {'Con': 320, 'Lab': 373, 'LIB': 154, 'Brx': 63, 'Grn': 76}
+
+# print("Electoral Calculus poll of polls 06/2023, NI local elections 1st pref 05/2023")
+# ni = {'SF': 309, 'DUP': 233, 'APNI': 133, 'UUP': 109, 'SDLP': 87, 'TUV': 39, 'Grn': 17, 'Oth': 68}
+# sc = {'Con': 174, 'Lab': 307, 'LIB': 80, 'Brx': 14, 'Grn': 27, 'SNP': 378}
+# ne = {'Con': 240, 'Lab': 545, 'LIB': 70, 'Brx': 67, 'Grn': 51}
+# nw = {'Con': 242, 'Lab': 558, 'LIB': 76, 'Brx': 52, 'Grn': 51}
+# yh = {'Con': 270, 'Lab': 509, 'LIB': 82, 'Brx': 64, 'Grn': 52}
+# cy = {'Con': 232, 'Lab': 472, 'LIB': 73, 'Brx': 57, 'Grn': 49, 'PC': 92}
+# wm = {'Con': 322, 'Lab': 469, 'LIB': 76, 'Brx': 59, 'Grn': 55}
+# em = {'Con': 327, 'Lab': 454, 'LIB': 74, 'Brx': 62, 'Grn': 55}
+# ea = {'Con': 355, 'Lab': 383, 'LIB': 119, 'Brx': 59, 'Grn': 64}
+# sw = {'Con': 330, 'Lab': 359, 'LIB': 163, 'Brx': 53, 'Grn': 67}
+# ld = {'Con': 229, 'Lab': 539, 'LIB': 122, 'Brx': 33, 'Grn': 64}
+# se = {'Con': 346, 'Lab': 357, 'LIB': 152, 'Brx': 51, 'Grn': 77}
 
 # print("Electoral Calculus poll of polls 05/2023, LucidTalk (BT) 04/2023")
 # ni = {'SF': 290, 'DUP': 250, 'APNI': 130, 'UUP': 110, 'SDLP': 70, 'TUV': 70, 'Grn': 20, 'Oth': 50}
@@ -185,19 +199,19 @@ se = {'Con': 346, 'Lab': 357, 'LIB': 152, 'Brx': 51, 'Grn': 77}
 # ld = {'Con': 289, 'Lab': 339, 'LIB': 216, 'Brx': 75, 'Grn': 57}
 # se = {'Con': 418, 'Lab': 159, 'LIB': 229, 'Brx': 116, 'Grn': 53}
 
-# print("Electoral Calculus poll of polls, 7/2019 & 2019 EU election in NI first preferences")
-# ni = {'SF': 222, 'DUP': 218, 'APNI': 185, 'UUP': 93, 'SDLP': 137, 'TUV': 108, 'Grn': 22, 'Oth': 15}
-# sc = {'Con': 180, 'Lab': 170, 'LIB': 130, 'Brx': 90, 'Grn': 20, 'SNP': 380}
-# ne = {'Con': 169, 'Lab': 327, 'LIB': 144, 'Brx': 241, 'Grn': 79}
-# nw = {'Con': 183, 'Lab': 338, 'LIB': 154, 'Brx': 214, 'Grn': 75}
-# yh = {'Con': 201, 'Lab': 306, 'LIB': 146, 'Brx': 234, 'Grn': 77}
-# cy = {'Con': 147, 'Lab': 258, 'LIB': 132, 'Brx': 270, 'Grn': 61, 'PC': 111}
-# wm = {'Con': 251, 'Lab': 263, 'LIB': 163, 'Brx': 229, 'Grn': 63}
-# em = {'Con': 246, 'Lab': 246, 'LIB': 132, 'Brx': 265, 'Grn': 74}
-# ea = {'Con': 275, 'Lab': 184, 'LIB': 198, 'Brx': 245, 'Grn': 66}
-# sw = {'Con': 253, 'Lab': 153, 'LIB': 261, 'Brx': 233, 'Grn': 68}
-# ld = {'Con': 193, 'Lab': 358, 'LIB': 233, 'Brx': 114, 'Grn': 75}
-# se = {'Con': 281, 'Lab': 159, 'LIB': 227, 'Brx': 226, 'Grn': 75}
+print("Electoral Calculus poll of polls, 7/2019 & 2019 EU election in NI first preferences")
+ni = {'SF': 222, 'DUP': 218, 'APNI': 185, 'UUP': 93, 'SDLP': 137, 'TUV': 108, 'Grn': 22, 'Oth': 15}
+sc = {'Con': 180, 'Lab': 170, 'LIB': 130, 'Brx': 90, 'Grn': 20, 'SNP': 380}
+ne = {'Con': 169, 'Lab': 327, 'LIB': 144, 'Brx': 241, 'Grn': 79}
+nw = {'Con': 183, 'Lab': 338, 'LIB': 154, 'Brx': 214, 'Grn': 75}
+yh = {'Con': 201, 'Lab': 306, 'LIB': 146, 'Brx': 234, 'Grn': 77}
+cy = {'Con': 147, 'Lab': 258, 'LIB': 132, 'Brx': 270, 'Grn': 61, 'PC': 111}
+wm = {'Con': 251, 'Lab': 263, 'LIB': 163, 'Brx': 229, 'Grn': 63}
+em = {'Con': 246, 'Lab': 246, 'LIB': 132, 'Brx': 265, 'Grn': 74}
+ea = {'Con': 275, 'Lab': 184, 'LIB': 198, 'Brx': 245, 'Grn': 66}
+sw = {'Con': 253, 'Lab': 153, 'LIB': 261, 'Brx': 233, 'Grn': 68}
+ld = {'Con': 193, 'Lab': 358, 'LIB': 233, 'Brx': 114, 'Grn': 75}
+se = {'Con': 281, 'Lab': 159, 'LIB': 227, 'Brx': 226, 'Grn': 75}
 
 # print("Electoral Calculus poll of polls, 02/2019 & Northern Slant 02/2019")
 # ni = {'SF': 324, 'DUP': 336, 'APNI': 80, 'UUP': 103, 'SDLP': 86, 'TUV': 23, 'Grn': 19, 'Oth': 34}
@@ -259,8 +273,8 @@ se = {'Con': 346, 'Lab': 357, 'LIB': 152, 'Brx': 51, 'Grn': 77}
 
 regions =   [ni, sc, ne, nw, yh, cy, wm, em, ea, sw, ld, se]
 # seat_tots = [7, 21, 11, 28, 21, 12, 22, 18, 24, 22, 29, 35] # 250-seat, 2017-2019
-seat_tots = [7, 21, 10, 28, 21, 12, 22, 18, 24, 22, 30, 35] # 250-seat, 2019-2024
-#seat_tots = [17,55, 28, 75, 54, 32, 58, 48, 61, 57, 75, 90] # 650-seat, Westminster since 2010
+# seat_tots = [7, 21, 10, 28, 21, 12, 22, 18, 24, 22, 30, 35] # 250-seat, 2019-2024
+seat_tots = [17,55, 28, 75, 54, 32, 58, 48, 61, 57, 75, 90] # 650-seat, Westminster since 2010
 result = []
 
 ######################## CALCULATION AND PRESENTATION ###########################
