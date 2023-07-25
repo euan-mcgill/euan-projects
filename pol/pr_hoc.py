@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-Modularising upcoming
+Modularising to be completed
 '''
 
 import pandas as pd
@@ -28,7 +28,7 @@ def dhondt(nSeats, votes, verbose=False):
         else:
             seats[next_seat]=1
 
-        if verbose:
+        if verbose: 
             print("Round {}: {}".format(sum(seats.values()),next_seat))
             for key in t_votes:
                 print("\t{} [{}]: {:.1f}".format(key,seats[key],t_votes[key]))
@@ -36,13 +36,27 @@ def dhondt(nSeats, votes, verbose=False):
         t_votes[next_seat]=votes[next_seat]/(seats[next_seat]+1)
     return seats
 
+########################################################################################################
 
-infile = 'electoral_calculus_data/2010.csv'
+infiles = ['electoral_calculus_data/1955.csv', 'electoral_calculus_data/1959.csv',
+            'electoral_calculus_data/1964.csv', 'electoral_calculus_data/1966.csv',
+            'electoral_calculus_data/1970.csv', 'electoral_calculus_data/1974f.csv',
+            'electoral_calculus_data/1974o.csv', 'electoral_calculus_data/1979.csv',
+            'electoral_calculus_data/1983.csv', 'electoral_calculus_data/1987.csv',
+            'electoral_calculus_data/1992.csv', 'electoral_calculus_data/1997.csv',
+            'electoral_calculus_data/2001.csv', 'electoral_calculus_data/2005.csv',
+            'electoral_calculus_data/2010.csv', 'electoral_calculus_data/2015.csv',
+            'electoral_calculus_data/2017.csv', 'electoral_calculus_data/2019.csv']
+infile = infiles[int(sys.argv[1])] #'electoral_calculus_data/1955.csv'
+print(infile)
 data = pd.read_csv(infile,delimiter=';')
-seat_total = 650-2 # list containing each for each?[] 
 
 seat_totals = [630-1, 630-2, 630-2, 630-2, 630-2, 635-2, 635-2, 635-2, 650-2, \
-               650-2, 651-2, 659-2, 659-2, 650-2, 650-2, 650-2, 650-2, 650-2] # Total in the actual GE - number of constituencies whose population is too low to gain a seat
+               650-2, 651-2, 659-2, 659-2, 650-2, 650-2, 650-2, 650-2, 650-2]
+               # Total in the actual GE - number of constituencies whose population is too low to gain a seat
+seat_total = seat_totals[int(sys.argv[1])] # list containing each for each?[] 
+
+########################################################################################################
 
 counties = data['County'].unique()
 county_votes = []
@@ -76,6 +90,7 @@ rnd_seats = saferound(raw_seats, places=0)
 
 for j in range(len(counties)):
     seats[counties[j]] = int(rnd_seats[j])
+print(seats)
 
 seats_ni = {}
 party_votes_ni = {}
@@ -96,6 +111,8 @@ for ky in ni_keys:
                           'MIN': data.loc[data['County'] == counties[i], 'MIN'].sum(),
                           'OTH': data.loc[data['County'] == counties[i], 'OTH'].sum()}
 
+########################################################################################################
+
 gb_res = []
 ni_res = []
 
@@ -105,12 +122,13 @@ for ok, di in party_votes_ni.items():
     results_ni = dhondt(next(niv), di, verbose=False)
     ni_res.append(results_ni)
 ni_tots = {k: sum(d[k] for d in ni_res if k in d) for k in set(k for d in ni_res for k in d)}
-print(ni_tots)
 
 gbiv = iter(rnd_seats)
 for gk, gi in party_votes.items():
     #print(gk)
     results = dhondt(next(gbiv), gi, verbose=False)
     gb_res.append(results)
-tots = ni_tots = {k: sum(d[k] for d in gb_res if k in d) for k in set(k for d in gb_res for k in d)}
+tots = {k: sum(d[k] for d in gb_res if k in d) for k in set(k for d in gb_res for k in d)}
+
+print(ni_tots)
 print(tots)
