@@ -69,11 +69,19 @@ for cou in counties:
 
 for i in range(len(counties)):
     electorates[counties[i]] = county_votes[i]
-    party_votes[counties[i]] = {'CON': data.loc[data['County'] == counties[i], 'CON'].sum(),
+    try:
+        party_votes[counties[i]] = {'CON': data.loc[data['County'] == counties[i], 'CON'].sum(),
                                 'LAB': data.loc[data['County'] == counties[i], 'LAB'].sum(),
                                 'LIB': data.loc[data['County'] == counties[i], 'LIB'].sum(),
                                 'UKIP': data.loc[data['County'] == counties[i], 'UKIP'].sum(),
                                 'Green': data.loc[data['County'] == counties[i], 'Green'].sum(),
+                                'NAT': data.loc[data['County'] == counties[i], 'NAT'].sum(),
+                                'MIN': data.loc[data['County'] == counties[i], 'MIN'].sum(),
+                                'OTH': data.loc[data['County'] == counties[i], 'OTH'].sum()}
+    except:
+        party_votes[counties[i]] = {'CON': data.loc[data['County'] == counties[i], 'CON'].sum(),
+                                'LAB': data.loc[data['County'] == counties[i], 'LAB'].sum(),
+                                'LIB': data.loc[data['County'] == counties[i], 'LIB'].sum(),
                                 'NAT': data.loc[data['County'] == counties[i], 'NAT'].sum(),
                                 'MIN': data.loc[data['County'] == counties[i], 'MIN'].sum(),
                                 'OTH': data.loc[data['County'] == counties[i], 'OTH'].sum()}
@@ -102,11 +110,19 @@ for ky in ni_keys:
     vl = seats.pop(ky)
     vl = party_votes.pop(ky)
     seats_ni[ky] = vl
-    party_votes_ni[ky] = {'UUP': data.loc[data['County'] == counties[i], 'CON'].sum(),
+    try:
+        party_votes_ni[ky] = {'UUP': data.loc[data['County'] == counties[i], 'CON'].sum(),
                           'SDLP': data.loc[data['County'] == counties[i], 'LAB'].sum(),
                           'DUP': data.loc[data['County'] == counties[i], 'LIB'].sum(),
                           'ALP': data.loc[data['County'] == counties[i], 'UKIP'].sum(),
                           'Green': data.loc[data['County'] == counties[i], 'Green'].sum(),
+                          'SF': data.loc[data['County'] == counties[i], 'NAT'].sum(),
+                          'MIN': data.loc[data['County'] == counties[i], 'MIN'].sum(),
+                          'OTH': data.loc[data['County'] == counties[i], 'OTH'].sum()}
+    except:
+        party_votes_ni[ky] = {'UUP': data.loc[data['County'] == counties[i], 'CON'].sum(),
+                          'SDLP': data.loc[data['County'] == counties[i], 'LAB'].sum(),
+                          'DUP': data.loc[data['County'] == counties[i], 'LIB'].sum(),
                           'SF': data.loc[data['County'] == counties[i], 'NAT'].sum(),
                           'MIN': data.loc[data['County'] == counties[i], 'MIN'].sum(),
                           'OTH': data.loc[data['County'] == counties[i], 'OTH'].sum()}
@@ -116,19 +132,23 @@ for ky in ni_keys:
 gb_res = []
 ni_res = []
 
+print('\n')
 niv = iter(rnd_seats_ni)
 for ok, di in party_votes_ni.items():
     #print(ok)
     results_ni = dhondt(next(niv), di, verbose=False)
     ni_res.append(results_ni)
+    print(ok,results_ni)
 ni_tots = {k: sum(d[k] for d in ni_res if k in d) for k in set(k for d in ni_res for k in d)}
 
+print('\n')
 gbiv = iter(rnd_seats)
 for gk, gi in party_votes.items():
     #print(gk)
     results = dhondt(next(gbiv), gi, verbose=False)
+    print(gk,results)
     gb_res.append(results)
 tots = {k: sum(d[k] for d in gb_res if k in d) for k in set(k for d in gb_res for k in d)}
 
-print(ni_tots)
-print(tots)
+print('\nNorthern Ireland', ni_tots)
+print('Great Britain', tots,'\n')
