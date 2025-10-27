@@ -1,0 +1,119 @@
+Election year: electoral_calculus_data/2025-07ECpoll.csv
+
+Number of seats by district (Northern Ireland calculated at-large):
+
+ {'Hampshire': 19, 'Black Country': 11, 'Central Manchester': 10, 'Derbyshire': 11, 'West Sussex': 9, 'Nottinghamshire': 11, 'Kent': 18, 'Eastern Manchester': 9, 'Buckinghamshire': 8, 'Oxfordshire': 7, 'Barking and Dagenham': 2, 'South Yorkshire': 14, 'Cumbria': 5, 'Essex': 18, 'Bristol area': 11, 'Wandsworth': 3, 'Bromley': 3, 'Bedfordshire': 6, 'Southwark': 2, 'Tower Hamlets': 2, 'Humber area': 9, 'East Sussex': 8, 'Bexley': 2, 'Merseyside': 14, 'Birmingham': 10, 'Durham': 7, 'Lancashire': 15, 'Northumberland': 3, 'Western Manchester': 9, 'Lincolnshire': 7, 'Dorset': 8, 'Berkshire': 9, 'West Yorkshire': 22, 'Brent': 2, 'Hounslow': 2, 'Somerset': 7, 'Norfolk': 9, 'Hereford and Worcestershire': 8, 'Hertfordshire': 12, 'Staffordshire': 12, 'Suffolk': 8, 'Cornwall': 6, 'Cambridgeshire': 8, 'Sutton': 2, 'Hammersmith and Fulham': 2, 'Gloucestershire': 7, 'Cheshire': 12, 'Waltham Forest': 3, 'Wiltshire': 7, 'Barnet': 3, 'City of Westminster': 2, 'Lambeth': 4, 'Northamptonshire': 7, 'Coventry and Solihull': 5, 'Newcastle area': 11, 'Croydon': 3, 'Devon': 12, 'Surrey': 12, 'Ealing': 3, 'Newham': 3, 'Enfield': 3, 'Greenwich': 3, 'Hackney': 2, 'Camden': 2, 'Leicestershire': 11, 'North Yorkshire': 9, 'Harrow': 2, 'Teesside': 6, 'Hillingdon': 3, 'Havering': 2, 'Haringey': 2, 'Redbridge': 2, 'Islington': 2, 'Warwickshire': 6, 'Kensington and Chelsea': 1, 'Kingston upon Thames': 1, 'Lewisham': 3, 'Merton': 2, 'Richmond upon Thames': 2, 'Shropshire': 5, 'West Glamorgan': 4, 'Clwyd': 5, 'Gwent': 6, 'Powys': 2, 'Mid Glamorgan': 4, 'Dyfed': 4, 'South Glamorgan': 5, 'Gwynedd': 2, 'Grampian': 6, 'Glasgow area': 15, 'Central': 3, 'Tayside': 4, 'Argyll and Bute': 1, 'Ayrshire and Lanark': 7, 'Edinburgh area': 9, 'Borders': 1, 'Highland': 2, 'Fife': 4, 'Dumfries and Galloway': 2, 'Western Isles': 1, 'Orkney and Shetland': 2, 'Antrim': 7, 'Down': 5, 'Fermanagh': 2, 'Londonderry': 2, 'Tyrone': 1, 'Armagh': 1}
+
+Results:
+
+
+Barking and Dagenham {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Barnet {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Bedfordshire {'CON': 1, 'LAB': 2, 'LIB': 1, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Berkshire {'CON': 2, 'LAB': 2, 'LIB': 2, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} CON
+Bexley {'CON': 1, 'LAB': 0, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Birmingham {'CON': 1, 'LAB': 2, 'LIB': 1, 'UKIP': 4, 'Green': 1, 'NAT': 0, 'MIN': 1, 'OTH': 0} UKIP
+Black Country {'CON': 2, 'LAB': 2, 'LIB': 1, 'UKIP': 5, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Brent {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Bristol area {'CON': 2, 'LAB': 3, 'LIB': 1, 'UKIP': 3, 'Green': 2, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Bromley {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Buckinghamshire {'CON': 2, 'LAB': 2, 'LIB': 2, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Cambridgeshire {'CON': 2, 'LAB': 1, 'LIB': 2, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Camden {'CON': 0, 'LAB': 2, 'LIB': 0, 'UKIP': 0, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Central Manchester {'CON': 1, 'LAB': 4, 'LIB': 1, 'UKIP': 3, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Cheshire {'CON': 2, 'LAB': 4, 'LIB': 1, 'UKIP': 4, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+City of Westminster {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 0, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Cornwall {'CON': 1, 'LAB': 1, 'LIB': 1, 'UKIP': 3, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Coventry and Solihull {'CON': 1, 'LAB': 2, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Croydon {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Cumbria {'CON': 1, 'LAB': 1, 'LIB': 1, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Derbyshire {'CON': 2, 'LAB': 3, 'LIB': 1, 'UKIP': 4, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Devon {'CON': 3, 'LAB': 2, 'LIB': 2, 'UKIP': 4, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Dorset {'CON': 2, 'LAB': 1, 'LIB': 2, 'UKIP': 3, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Durham {'CON': 1, 'LAB': 2, 'LIB': 0, 'UKIP': 4, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Ealing {'CON': 0, 'LAB': 2, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+East Sussex {'CON': 1, 'LAB': 2, 'LIB': 2, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Eastern Manchester {'CON': 1, 'LAB': 3, 'LIB': 1, 'UKIP': 4, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Enfield {'CON': 0, 'LAB': 2, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Essex {'CON': 5, 'LAB': 3, 'LIB': 2, 'UKIP': 7, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Gloucestershire {'CON': 2, 'LAB': 1, 'LIB': 2, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Greenwich {'CON': 0, 'LAB': 2, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Hackney {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 0, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Hammersmith and Fulham {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 0, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Hampshire {'CON': 5, 'LAB': 3, 'LIB': 4, 'UKIP': 6, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Haringey {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 0, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Harrow {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 0, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} CON
+Havering {'CON': 1, 'LAB': 0, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Hereford and Worcestershire {'CON': 2, 'LAB': 1, 'LIB': 1, 'UKIP': 3, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Hertfordshire {'CON': 3, 'LAB': 3, 'LIB': 2, 'UKIP': 3, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Hillingdon {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} CON
+Hounslow {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Humber area {'CON': 2, 'LAB': 2, 'LIB': 1, 'UKIP': 4, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Islington {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 0, 'Green': 0, 'NAT': 0, 'MIN': 1, 'OTH': 0} LAB
+Kensington and Chelsea {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 0, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Kent {'CON': 4, 'LAB': 4, 'LIB': 2, 'UKIP': 6, 'Green': 2, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Kingston upon Thames {'CON': 0, 'LAB': 0, 'LIB': 1, 'UKIP': 0, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LIB
+Lambeth {'CON': 0, 'LAB': 2, 'LIB': 1, 'UKIP': 0, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Lancashire {'CON': 3, 'LAB': 4, 'LIB': 1, 'UKIP': 6, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Leicestershire {'CON': 3, 'LAB': 2, 'LIB': 1, 'UKIP': 4, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Lewisham {'CON': 0, 'LAB': 2, 'LIB': 0, 'UKIP': 0, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Lincolnshire {'CON': 2, 'LAB': 1, 'LIB': 0, 'UKIP': 4, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Merseyside {'CON': 1, 'LAB': 5, 'LIB': 1, 'UKIP': 5, 'Green': 2, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Merton {'CON': 0, 'LAB': 1, 'LIB': 1, 'UKIP': 0, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Newcastle area {'CON': 1, 'LAB': 3, 'LIB': 1, 'UKIP': 5, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Newham {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Norfolk {'CON': 2, 'LAB': 2, 'LIB': 1, 'UKIP': 3, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+North Yorkshire {'CON': 2, 'LAB': 2, 'LIB': 1, 'UKIP': 3, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Northamptonshire {'CON': 2, 'LAB': 2, 'LIB': 0, 'UKIP': 3, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Northumberland {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Nottinghamshire {'CON': 2, 'LAB': 3, 'LIB': 1, 'UKIP': 4, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Oxfordshire {'CON': 2, 'LAB': 1, 'LIB': 2, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LIB
+Redbridge {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Richmond upon Thames {'CON': 0, 'LAB': 0, 'LIB': 2, 'UKIP': 0, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LIB
+Shropshire {'CON': 1, 'LAB': 1, 'LIB': 1, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Somerset {'CON': 2, 'LAB': 0, 'LIB': 2, 'UKIP': 3, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+South Yorkshire {'CON': 1, 'LAB': 5, 'LIB': 1, 'UKIP': 6, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Southwark {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 0, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Staffordshire {'CON': 3, 'LAB': 2, 'LIB': 1, 'UKIP': 5, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Suffolk {'CON': 2, 'LAB': 1, 'LIB': 1, 'UKIP': 3, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Surrey {'CON': 3, 'LAB': 1, 'LIB': 4, 'UKIP': 3, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} LIB
+Sutton {'CON': 0, 'LAB': 0, 'LIB': 1, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LIB
+Teesside {'CON': 1, 'LAB': 2, 'LIB': 0, 'UKIP': 3, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Tower Hamlets {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 0, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Waltham Forest {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Wandsworth {'CON': 1, 'LAB': 2, 'LIB': 0, 'UKIP': 0, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+Warwickshire {'CON': 2, 'LAB': 1, 'LIB': 1, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+West Sussex {'CON': 2, 'LAB': 2, 'LIB': 2, 'UKIP': 3, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+West Yorkshire {'CON': 3, 'LAB': 7, 'LIB': 2, 'UKIP': 8, 'Green': 2, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Western Manchester {'CON': 1, 'LAB': 3, 'LIB': 0, 'UKIP': 4, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Wiltshire {'CON': 2, 'LAB': 1, 'LIB': 2, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+
+----
+Clwyd {'CON': 1, 'LAB': 2, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+Dyfed {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 1, 'MIN': 0, 'OTH': 0} UKIP
+Gwent {'CON': 1, 'LAB': 2, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 1, 'MIN': 0, 'OTH': 0} UKIP
+Gwynedd {'CON': 0, 'LAB': 0, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 1, 'MIN': 0, 'OTH': 0} NAT
+Mid Glamorgan {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 1, 'MIN': 0, 'OTH': 0} UKIP
+Powys {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+South Glamorgan {'CON': 1, 'LAB': 2, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 1, 'MIN': 0, 'OTH': 0} LAB
+West Glamorgan {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 1, 'MIN': 0, 'OTH': 0} UKIP
+
+----
+Argyll and Bute {'CON': 0, 'LAB': 0, 'LIB': 0, 'UKIP': 0, 'Green': 0, 'NAT': 1, 'MIN': 0, 'OTH': 0} NAT
+Ayrshire and Lanark {'CON': 1, 'LAB': 2, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 2, 'MIN': 0, 'OTH': 0} NAT
+Borders {'CON': 1, 'LAB': 0, 'LIB': 0, 'UKIP': 0, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} CON
+Central {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 1, 'MIN': 0, 'OTH': 0} NAT
+Dumfries and Galloway {'CON': 1, 'LAB': 0, 'LIB': 0, 'UKIP': 0, 'Green': 0, 'NAT': 1, 'MIN': 0, 'OTH': 0} CON
+Edinburgh area {'CON': 0, 'LAB': 2, 'LIB': 1, 'UKIP': 2, 'Green': 1, 'NAT': 3, 'MIN': 0, 'OTH': 0} NAT
+Fife {'CON': 0, 'LAB': 1, 'LIB': 1, 'UKIP': 1, 'Green': 0, 'NAT': 1, 'MIN': 0, 'OTH': 0} NAT
+Glasgow area {'CON': 0, 'LAB': 4, 'LIB': 1, 'UKIP': 3, 'Green': 1, 'NAT': 6, 'MIN': 0, 'OTH': 0} NAT
+Grampian {'CON': 2, 'LAB': 0, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 3, 'MIN': 0, 'OTH': 0} NAT
+Highland {'CON': 0, 'LAB': 0, 'LIB': 1, 'UKIP': 0, 'Green': 0, 'NAT': 1, 'MIN': 0, 'OTH': 0} LIB
+Orkney and Shetland {'CON': 0, 'LAB': 0, 'LIB': 2, 'UKIP': 0, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LIB
+Tayside {'CON': 1, 'LAB': 0, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 2, 'MIN': 0, 'OTH': 0} NAT
+Western Isles {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 0, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+
+
+----
+Northern Ireland {'UUP': 2, 'SDLP': 2, 'DUP': 4, 'ALP': 3, 'Green': 1, 'SF': 6, 'MIN': 0, 'OTH': 0}
+Great Britain {'UKIP': 209, 'Green': 42, 'NAT': 27, 'LAB': 163, 'CON': 115, 'OTH': 0, 'LIB': 74, 'MIN': 2} 
