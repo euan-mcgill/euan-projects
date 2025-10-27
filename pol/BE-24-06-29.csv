@@ -1,0 +1,651 @@
+Country;Constituency;Area;County;Electorate;CON;LAB;LIB;UKIP;Green;NAT;MIN;OTH
+England;Aldershot;South East;Hampshire;76765;3160;3240;1150;1570;450;0;0;420
+England;Aldridge-Brownhills;West Midlands;Black Country;73122;3170;2990;670;2540;640;0;0;0
+England;Altrincham and Sale West;North West;Central Manchester;73934;2670;4610;710;1140;380;0;0;490
+England;Amber Valley;East Midlands;Derbyshire;70625;2930;3500;660;2220;690;0;0;0
+England;Arundel and South Downs;South East;West Sussex;76974;2590;2150;1780;2060;880;0;0;540
+England;Ashfield;East Midlands;Nottinghamshire;69819;2000;2960;890;1710;200;0;0;2240
+England;Ashford;South East;Kent;73546;2470;2840;980;2380;740;0;0;590
+England;Ashton-under-Lyne;North West;Eastern Manchester;72278;1580;5050;660;1910;540;0;0;270
+England;Aylesbury;South East;Buckinghamshire;75636;2320;2070;2720;2080;450;0;0;360
+England;Banbury;South East;Oxfordshire;69943;2970;3530;1340;1340;440;0;0;390
+England;Barking;London;Barking and Dagenham;71822;1140;6120;390;1780;370;0;0;200
+England;Barnsley North;Yorkshire and The Humber;South Yorkshire;76794;1920;4590;490;2230;370;0;0;400
+England;Barnsley South;Yorkshire and The Humber;South Yorkshire;75896;1090;4790;730;2650;470;0;0;270
+England;Barrow and Furness;North West;Cumbria;76603;3440;5040;260;1070;190;0;0;0
+England;Basildon and Billericay;East of England;Essex;76993;2760;2720;780;2530;630;0;0;580
+England;Basingstoke;South East;Hampshire;77050;2900;3770;890;1450;460;0;0;530
+England;Bassetlaw;East Midlands;Nottinghamshire;75773;3780;4190;400;1490;130;0;0;0
+England;Bath;South West;Bristol area;73241;1530;1250;5590;870;460;0;0;300
+England;Battersea;London;Wandsworth;71949;2060;5420;1000;860;380;0;0;270
+England;Beaconsfield;South East;Buckinghamshire;72315;2540;1710;2300;2010;680;0;0;760
+England;Beckenham and Penge;London;Bromley;76625;2370;5060;1110;1020;450;0;0;0
+England;Bedford;East of England;Bedfordshire;70068;2350;5270;690;1070;300;0;0;320
+England;Bermondsey and Old Southwark;London;Southwark;70602;520;5240;3340;500;270;0;0;130
+England;Bethnal Green and Stepney;London;Tower Hamlets;77000;460;7600;920;340;520;0;0;170
+England;Beverley and Holderness;Yorkshire and The Humber;Humber area;71102;2640;3050;910;2010;680;0;0;700
+England;Bexhill and Battle;South East;East Sussex;70869;2650;2660;1260;2200;770;0;0;450
+England;Bexleyheath and Crayford;London;Bexley;69948;3330;3850;470;1960;390;0;0;0
+England;Bicester and Woodstock;South East;Oxfordshire;70389;3100;2320;3150;810;620;0;0;0
+England;Birkenhead;North West;Merseyside;76271;730;6550;640;560;910;0;0;610
+England;Birmingham Edgbaston;West Midlands;Birmingham;71354;1610;5740;720;1190;470;0;0;280
+England;Birmingham Erdington;West Midlands;Birmingham;76856;1810;5310;560;1550;460;0;0;310
+England;Birmingham Hall Green and Moseley;West Midlands;Birmingham;75781;660;6680;980;470;310;0;0;900
+England;Birmingham Hodge Hill and Solihull North;West Midlands;Birmingham;76922;1210;6000;860;1040;620;0;0;270
+England;Birmingham Ladywood;West Midlands;Birmingham;76585;590;7750;910;160;470;0;0;120
+England;Birmingham Northfield;West Midlands;Birmingham;73483;2990;5300;350;1050;260;0;0;050
+England;Birmingham Perry Barr;West Midlands;Birmingham;74048;890;6870;990;720;340;0;0;180
+England;Birmingham Selly Oak;West Midlands;Birmingham;76285;1400;5890;830;1100;540;0;0;240
+England;Birmingham Yardley;West Midlands;Birmingham;71912;1130;5820;1330;1180;340;0;0;190
+England;Bishop Auckland;North East;Durham;70879;3360;4720;420;1200;250;0;0;060
+England;Blackburn;North West;Lancashire;70586;1040;6860;540;960;360;0;0;250
+England;Blackley and Middleton South;North West;Central Manchester;71735;1230;6070;580;1700;420;0;0;0
+England;Blackpool North and Fleetwood;North West;Lancashire;75396;3530;4720;340;1110;210;0;0;080
+England;Blackpool South;North West;Lancashire;76071;3170;5040;300;1210;200;0;0;080
+England;Blaydon and Consett;North East;Durham;70163;2070;5070;520;1290;410;0;0;650
+England;Blyth and Ashington;North East;Northumberland;75452;2370;5690;530;1160;250;0;0;0
+England;Bognor Regis and Littlehampton;South East;West Sussex;76985;2590;2420;1220;2420;690;0;0;660
+England;Bolsover;East Midlands;Derbyshire;74680;3220;4670;320;1520;270;0;0;0
+England;Bolton North East;North West;Western Manchester;77020;3000;5260;300;1260;180;0;0;0
+England;Bolton South and Walkden;North West;Western Manchester;75716;1350;5740;560;1720;400;0;0;230
+England;Bolton West;North West;Western Manchester;72125;3570;4650;370;1210;200;0;0;0
+England;Bootle;North West;Merseyside;75194;410;8120;560;470;370;0;0;070
+England;Boston and Skegness;East Midlands;Lincolnshire;75806;2720;1920;500;3610;530;0;0;720
+England;Bournemouth East;South West;Dorset;73173;3390;4330;830;870;630;0;0;-050
+England;Bournemouth West;South West;Dorset;72094;3490;4190;800;910;610;0;0;0
+England;Bracknell;South East;Berkshire;70247;2410;3070;1330;1970;690;0;0;530
+England;Bradford East;Yorkshire and The Humber;West Yorkshire;72150;960;6490;1340;770;270;0;0;160
+England;Bradford South;Yorkshire and The Humber;West Yorkshire;70890;2270;5060;460;1590;350;0;0;280
+England;Bradford West;Yorkshire and The Humber;West Yorkshire;71258;680;7830;430;540;390;0;0;140
+England;Braintree;East of England;Essex;75662;2790;2380;880;2290;780;0;0;870
+England;Brent East;London;Brent;75880;990;6270;1350;710;520;0;0;170
+England;Brent West;London;Brent;76443;1510;5720;930;1080;450;0;0;310
+England;Brentford and Isleworth;London;Hounslow;76354;1270;5390;1610;910;610;0;0;220
+England;Brentwood and Ongar;East of England;Essex;74937;2970;2070;1290;2380;680;0;0;610
+England;Bridgwater;South West;Somerset;71418;2520;2650;1680;2040;520;0;0;590
+England;Bridlington and The Wolds;Yorkshire and The Humber;Humber area;72501;2860;2630;750;2330;640;0;0;800
+England;Brigg and Immingham;Yorkshire and The Humber;Humber area;71628;3130;2750;660;2800;670;0;0;0
+England;Brighton Kemptown and Peacehaven;South East;East Sussex;69865;1750;6280;800;0;870;0;0;300
+England;Brighton Pavilion;South East;East Sussex;75722;800;3720;440;130;4710;0;0;190
+England;Bristol Central;South West;Bristol area;70227;630;3920;1210;120;4050;0;0;070
+England;Bristol East;South West;Bristol area;75936;1090;6440;1220;0;1050;0;0;190
+England;Bristol North East;South West;Bristol area;69793;2120;5590;510;1010;490;0;0;290
+England;Bristol North West;South West;Bristol area;76783;1530;5000;1130;1100;980;0;0;260
+England;Bristol South;South West;Bristol area;74696;1390;5270;960;1220;920;0;0;240
+England;Broadland and Fakenham;East of England;Norfolk;72907;2700;2880;1610;2220;600;0;0;0
+England;Bromley and Biggin Hill;London;Bromley;71515;2390;3070;1540;1830;690;0;0;480
+England;Bromsgrove;West Midlands;Hereford and Worcestershire;75305;2750;2710;1190;2190;690;0;0;470
+England;Broxbourne;East of England;Hertfordshire;75454;2760;3000;850;2310;620;0;0;470
+England;Broxtowe;East Midlands;Nottinghamshire;72461;2470;4690;540;1120;370;0;0;810
+England;Buckingham and Bletchley;South East;Buckinghamshire;73644;2860;3480;980;1780;390;0;0;520
+England;Burnley;North West;Lancashire;75436;2720;5020;630;1060;330;0;0;250
+England;Burton and Uttoxeter;West Midlands;Staffordshire;75460;2630;3660;600;2040;620;0;0;450
+England;Bury North;North West;Western Manchester;77009;2980;5450;330;940;270;0;0;030
+England;Bury South;North West;Western Manchester;74598;2850;5210;440;960;250;0;0;300
+England;Bury St Edmunds and Stowmarket;East of England;Suffolk;75655;3220;3030;600;1500;950;0;0;690
+England;Calder Valley;Yorkshire and The Humber;West Yorkshire;75987;2640;4810;580;1170;310;0;0;490
+England;Camborne and Redruth;South West;Cornwall;73568;2800;4140;860;1320;370;0;0;510
+England;Cambridge;East of England;Cambridgeshire;72560;650;4790;3770;0;640;0;0;150
+England;Cannock Chase;West Midlands;Staffordshire;75582;2920;3170;570;2360;980;0;0;0
+England;Canterbury;South East;Kent;75499;2280;5170;690;1070;400;0;0;390
+England;Carlisle;North West;Cumbria;75868;2450;3970;610;1840;470;0;0;650
+England;Carshalton and Wallington;London;Sutton;72755;2040;1350;4530;1280;440;0;0;360
+England;Castle Point;East of England;Essex;70923;3060;2270;580;3480;600;0;0;0
+England;Central Devon;South West;Devon;73491;2640;2420;2290;1610;620;0;0;420
+England;Central Suffolk and North Ipswich;East of England;Essex;71020;2670;2780;1020;2100;980;0;0;460
+England;Chatham and Aylesford;South East;Kent;74840;2750;2970;620;2570;580;0;0;510
+England;Cheadle;North West;Eastern Manchester;73775;2180;1380;4590;1300;200;0;0;350
+England;Chelmsford;East of England;Essex;76454;2550;1870;3150;1580;340;0;0;510
+England;Chelsea and Fulham;London;Hammersmith and Fulham;76481;2660;3910;1550;1100;350;0;0;430
+England;Cheltenham;South West;Gloucestershire;75292;3150;1050;5340;0;490;0;0;-030
+England;Chesham and Amersham;South East;Buckinghamshire;74155;3270;1780;3470;870;720;0;0;-120
+England;Chester North and Neston;North West;Cheshire;72327;1770;5650;730;1300;550;0;0;0
+England;Chester South and Eddisbury;North West;Cheshire;71975;3180;3310;1090;1450;450;0;0;510
+England;Chesterfield;East Midlands;Derbyshire;70722;2640;5160;790;1090;230;0;0;080
+England;Chichester;South East;West Sussex;76785;3550;1890;2720;1110;750;0;0;-020
+England;Chingford and Woodford Green;London;Waltham Forest;75677;3100;5370;480;650;400;0;0;0
+England;Chippenham;South West;Wiltshire;71648;3430;1600;3600;860;510;0;0;0
+England;Chipping Barnet;London;Barnet;76187;3180;5070;710;620;430;0;0;000
+England;Chorley;North West;Lancashire;74568;0;0;0;0;1100;0;0;8900
+England;Christchurch;South West;Dorset;71598;2730;1880;1580;2610;740;0;0;470
+England;Cities of London and Westminster;London;City of Westminster;73140;2500;3950;1830;980;390;0;0;350
+England;City of Durham;North East;Durham;72878;2040;5210;1140;920;400;0;0;290
+England;Clacton;East of England;Essex;75959;2330;1710;460;4500;600;0;0;400
+England;Clapham and Brixton Hill;London;Lambeth;75460;860;5730;1920;610;730;0;0;150
+England;Colchester;East of England;Essex;76843;3520;4170;1130;700;480;0;0;0
+England;Colne Valley;Yorkshire and The Humber;West Yorkshire;71518;2210;4070;1060;1610;500;0;0;540
+England;Congleton;North West;Cheshire;69836;2600;2970;1220;1960;680;0;0;570
+England;Corby and East Northamptonshire;East Midlands;Northamptonshire;76748;2830;4560;480;1360;370;0;0;400
+England;Coventry East;West Midlands;Coventry and Solihull;73389;1570;5630;680;1370;480;0;0;270
+England;Coventry North West;West Midlands;Coventry and Solihull;73431;2420;5160;460;1200;440;0;0;330
+England;Coventry South;West Midlands;Coventry and Solihull;70998;2380;5270;470;1090;370;0;0;420
+England;Cramlington and Killingworth;North East;Newcastle area;73295;2710;5420;510;1140;230;0;0;0
+England;Crawley;South East;West Sussex;74446;2850;4520;430;1370;410;0;0;400
+England;Crewe and Nantwich;North West;Cheshire;76236;2740;4700;400;1330;420;0;0;410
+England;Croydon East;London;Croydon;75436;2330;5730;490;1060;380;0;0;0
+England;Croydon South;London;Croydon;71541;3000;3790;920;1360;430;0;0;500
+England;Croydon West;London;Croydon;70812;960;6930;680;700;490;0;0;240
+England;Dagenham and Rainham;London;Barking and Dagenham;73627;2310;4670;360;1990;300;0;0;380
+England;Darlington;North East;Durham;70446;3140;4950;480;1010;420;0;0;0
+England;Dartford;South East;Kent;72048;3310;3870;520;1920;380;0;0;0
+England;Daventry;East Midlands;Northamptonshire;76539;2920;2530;1300;2340;910;0;0;0
+England;Derby North;East Midlands;Derbyshire;71876;2650;5040;720;1260;340;0;0;0
+England;Derby South;East Midlands;Derbyshire;72067;1630;5470;790;1530;310;0;0;280
+England;Derbyshire Dales;East Midlands;Derbyshire;71435;2600;3040;1230;1950;730;0;0;450
+England;Dewsbury and Batley;Yorkshire and The Humber;West Yorkshire;70226;1170;5570;480;940;470;0;0;1370
+England;Didcot and Wantage;South East;Oxfordshire;74456;3040;1850;3760;820;600;0;0;-080
+England;Doncaster Central;Yorkshire and The Humber;South Yorkshire;75007;2640;4760;450;1680;280;0;0;190
+England;Doncaster East and the Isle of Axholme;Yorkshire and The Humber;South Yorkshire;70113;3520;4010;370;1670;240;0;0;180
+England;Doncaster North;Yorkshire and The Humber;South Yorkshire;71739;2580;6130;420;0;310;0;0;550
+England;Dorking and Horley;South East;Surrey;70317;3220;1440;3860;850;630;0;0;0
+England;Dover and Deal;South East;Kent;75855;2920;3950;450;1570;500;0;0;600
+England;Droitwich and Evesham;West Midlands;Hereford and Worcestershire;74345;2830;2350;1140;2340;750;0;0;600
+England;Dudley;West Midlands;Black Country;71083;3770;3920;260;1820;230;0;0;0
+England;Dulwich and West Norwood;London;Lambeth;74314;700;6260;750;500;1620;0;0;180
+England;Dunstable and Leighton Buzzard;East of England;Bedfordshire;74069;3180;3660;750;1520;460;0;0;440
+England;Ealing Central and Acton;London;Ealing;75399;1140;5520;1690;820;630;0;0;200
+England;Ealing North;London;Ealing;72985;1400;5920;850;1010;580;0;0;240
+England;Ealing Southall;London;Ealing;75085;1080;6330;970;770;580;0;0;280
+England;Earley and Woodley;South East;Berkshire;70083;3010;4360;1630;0;570;0;0;430
+England;Easington;North East;Durham;70043;1270;5250;670;1790;420;0;0;600
+England;East Grinstead and Uckfield;South East;West Sussex;72356;3310;1960;3390;0;790;0;0;550
+England;East Ham;London;Newham;70902;640;7820;480;470;440;0;0;160
+England;East Hampshire;South East;Hampshire;69959;2820;1490;2730;1680;680;0;0;600
+England;East Surrey;South East;Surrey;73145;3690;1760;2720;1300;640;0;0;-110
+England;East Thanet;South East;Kent;73790;2640;3880;440;2220;480;0;0;330
+England;East Wiltshire;South West;Wiltshire;71109;2900;2290;1400;2190;730;0;0;500
+England;East Worthing and Shoreham;South East;West Sussex;75466;2710;4390;660;1410;420;0;0;420
+England;Eastbourne;South East;East Sussex;73322;2250;970;4610;1390;390;0;0;400
+England;Eastleigh;South East;Hampshire;69982;2440;1360;3850;1510;460;0;0;390
+England;Edmonton and Winchmore Hill;London;Enfield;75204;1390;6180;660;1000;520;0;0;250
+England;Ellesmere Port and Bromborough;North West;Cheshire;71027;1220;6300;750;960;560;0;0;210
+England;Eltham and Chislehurst;London;Greenwich;74179;2570;4840;540;1250;440;0;0;360
+England;Ely and East Cambridgeshire;East of England;Cambridgeshire;76279;3350;1810;3610;840;450;0;0;-070
+England;Enfield North;London;Enfield;76824;1600;5740;640;1160;590;0;0;270
+England;Epping Forest;East of England;Essex;74553;3560;3400;1300;0;1040;0;0;700
+England;Epsom and Ewell;South East;Surrey;76844;3380;2030;3200;890;570;0;0;-080
+England;Erewash;East Midlands;Derbyshire;71986;2420;3950;640;1850;580;0;0;550
+England;Erith and Thamesmead;London;Greenwich;76728;1260;6200;530;1160;570;0;0;280
+England;Esher and Walton;South East;Surrey;73280;2960;1110;4750;740;480;0;0;-040
+England;Exeter;South West;Devon;71713;1360;5550;690;1000;1060;0;0;340
+England;Exmouth and Exeter East;South West;Devon;74502;2370;2040;2180;1880;730;0;0;800
+England;Fareham and Waterlooville;South East;Hampshire;77036;2650;2200;1800;2160;740;0;0;450
+England;Farnham and Bordon;South East;Surrey;72938;3600;1250;3770;900;480;0;0;0
+England;Faversham and Mid Kent;South East;Kent;71798;2680;2570;1170;2240;800;0;0;550
+England;Feltham and Heston;London;Hounslow;75226;1600;5590;650;1310;590;0;0;270
+England;Filton and Bradley Stoke;South West;Bristol area;73598;3410;4660;720;750;460;0;0;0
+England;Finchley and Golders Green;London;Barnet;75761;3210;3740;2080;560;410;0;0;0
+England;Folkestone and Hythe;South East;Kent;70023;2920;3370;740;1760;640;0;0;560
+England;Forest of Dean;South West;Gloucestershire;71510;3000;3590;510;1530;740;0;0;640
+England;Frome and East Somerset;South West;Somerset;70177;3020;2280;3230;760;750;0;0;-030
+England;Fylde;North West;Lancashire;75114;2720;3140;790;2030;680;0;0;640
+England;Gainsborough;East Midlands;Lincolnshire;74750;2820;2730;1030;2140;590;0;0;690
+England;Gateshead Central and Whickham;North East;Newcastle area;70994;1460;5050;1190;1490;560;0;0;250
+England;Gedling;East Midlands;Nottinghamshire;75795;3050;5340;330;1020;260;0;0;0
+England;Gillingham and Rainham;South East;Kent;73951;3130;3560;510;1780;350;0;0;680
+England;Glastonbury and Somerton;South West;Somerset;70015;3430;1440;3760;850;520;0;0;0
+England;Gloucester;South West;Gloucestershire;76695;2900;4340;570;1400;390;0;0;410
+England;Godalming and Ash;South East;Surrey;71399;3350;1390;4040;830;460;0;0;-070
+England;Goole and Pocklington;Yorkshire and The Humber;Humber area;76337;2830;2690;830;2150;740;0;0;760
+England;Gorton and Denton;North West;Central Manchester;74306;840;6920;990;680;360;0;0;210
+England;Gosport;South East;Hampshire;73763;2830;2460;1150;2340;740;0;0;480
+England;Grantham and Bourne;East Midlands;Lincolnshire;72071;2840;2640;850;2310;780;0;0;570
+England;Gravesham;South East;Kent;72866;3350;3870;440;1930;420;0;0;0
+England;Great Grimsby and Cleethorpes;Yorkshire and The Humber;Humber area;77050;3510;4170;430;1620;250;0;0;030
+England;Great Yarmouth;East of England;Norfolk;70077;2650;2930;500;2620;590;0;0;710
+England;Greenwich and Woolwich;London;Greenwich;69824;1020;5800;1430;760;730;0;0;250
+England;Guildford;South East;Surrey;71367;3010;1320;4760;750;430;0;0;-270
+England;Hackney North and Stoke Newington;London;Hackney;75401;580;7110;880;410;870;0;0;140
+England;Hackney South and Shoreditch;London;Hackney;75197;460;7500;870;340;720;0;0;100
+England;Halesowen;West Midlands;Black Country;69907;2640;3870;540;2370;580;0;0;0
+England;Halifax;Yorkshire and The Humber;West Yorkshire;74563;2340;5360;510;1130;350;0;0;320
+England;Hamble Valley;South East;Hampshire;76902;2940;1600;2670;1820;510;0;0;470
+England;Hammersmith and Chiswick;London;Hammersmith and Fulham;74746;1370;5490;1370;980;560;0;0;240
+England;Hampstead and Highgate;London;Camden;74222;1040;5060;2390;740;600;0;0;180
+England;Harborough, Oadby and Wigston;East Midlands;Leicestershire;74810;2380;3030;1620;1820;670;0;0;480
+England;Harlow;East of England;Essex;73479;3290;3740;440;1690;360;0;0;470
+England;Harpenden and Berkhamsted;East of England;Hertfordshire;71635;3570;1650;3540;890;600;0;0;-240
+England;Harrogate and Knaresborough;Yorkshire and The Humber;North Yorkshire;75800;2440;1200;3970;1450;330;0;0;610
+England;Harrow East;London;Harrow;76299;3550;4800;560;700;400;0;0;0
+England;Harrow West;London;Harrow;74060;1560;5720;810;1110;540;0;0;270
+England;Hartlepool;North East;Teesside;71228;1990;4460;320;3020;140;0;0;070
+England;Harwich and North Essex;East of England;Essex;74838;2670;3320;1070;2200;740;0;0;0
+England;Hastings and Rye;South East;East Sussex;75581;2550;4840;510;1220;410;0;0;460
+England;Havant;South East;Hampshire;72766;2720;2360;1130;2580;680;0;0;540
+England;Hayes and Harlington;London;Hillingdon;72897;1570;6050;440;1210;430;0;0;310
+England;Hazel Grove;North West;Eastern Manchester;72941;2160;1680;4190;1340;290;0;0;350
+England;Hemel Hempstead;East of England;Hertfordshire;70496;3180;3990;830;1500;500;0;0;0
+England;Hendon;London;Barnet;71496;3230;5090;620;630;420;0;0;0
+England;Henley and Thame;South East;Oxfordshire;70626;3360;1380;3800;840;630;0;0;0
+England;Hereford and South Herefordshire;West Midlands;Hereford and Worcestershire;71125;2600;2530;1520;2090;810;0;0;440
+England;Herne Bay and Sandwich;South East;Kent;76028;2610;2870;710;2960;850;0;0;0
+England;Hertford and Stortford;East of England;Hertfordshire;75396;2460;2960;1370;1840;770;0;0;600
+England;Hertsmere;East of England;Hertfordshire;73256;2860;2800;1050;2140;670;0;0;490
+England;Hexham;North East;Northumberland;72738;2890;4520;1290;0;800;0;0;500
+England;Heywood and Middleton North;North West;Eastern Manchester;73306;2810;4810;460;1910;0;0;0;0
+England;High Peak;East Midlands;Derbyshire;73960;2540;5360;490;1130;480;0;0;0
+England;Hinckley and Bosworth;East Midlands;Leicestershire;75683;2820;2100;1740;2170;690;0;0;480
+England;Hitchin;East of England;Hertfordshire;72112;3420;3960;1630;660;390;0;0;-060
+England;Holborn and St Pancras;London;Camden;75475;680;6860;1210;490;600;0;0;160
+England;Honiton and Sidmouth;South West;Devon;74365;2800;1610;2530;1830;410;0;0;810
+England;Hornchurch and Upminster;London;Havering;76938;2600;2680;620;2890;680;0;0;530
+England;Hornsey and Friern Barnet;London;Haringey;70565;360;5960;2770;350;410;0;0;150
+England;Horsham;South East;West Sussex;76981;2640;1710;3030;1630;480;0;0;510
+England;Houghton and Sunderland South;North East;Newcastle area;76883;2280;5130;470;1780;340;0;0;0
+England;Hove and Portslade;South East;East Sussex;73726;1760;5640;1090;300;960;0;0;250
+England;Huddersfield;Yorkshire and The Humber;West Yorkshire;76044;1610;5510;890;1260;740;0;0;0
+England;Huntingdon;East of England;Cambridgeshire;75590;2560;2650;1330;2120;670;0;0;680
+England;Hyndburn;North West;Lancashire;69971;3130;5080;250;1330;230;0;0;0
+England;Ilford North;London;Redbridge;74684;1620;5780;530;1180;420;0;0;470
+England;Ilford South;London;Redbridge;74065;920;6630;600;680;360;0;0;810
+England;Ipswich;East of England;Suffolk;75117;2700;4730;530;1280;380;0;0;380
+England;Isle of Wight East;South East;Hampshire;56805;2170;2590;900;2110;1470;0;0;760
+England;Isle of Wight West;South East;Hampshire;54911;2080;2600;930;2020;1660;0;0;710
+England;Islington North;London;Islington;73970;490;4130;1070;360;1060;0;0;2890
+England;Islington South and Finsbury;London;Islington;75905;740;5960;1950;540;660;0;0;160
+England;Jarrow and Gateshead East;North East;Newcastle area;71106;1060;5210;750;1470;460;0;0;1050
+England;Keighley and Ilkley;Yorkshire and The Humber;West Yorkshire;72954;2520;5020;390;1160;420;0;0;500
+England;Kenilworth and Southam;West Midlands;Warwickshire;71541;2620;2540;1650;1910;750;0;0;530
+England;Kensington and Bayswater;London;Kensington and Chelsea;75980;2280;4800;1320;940;340;0;0;320
+England;Kettering;East Midlands;Northamptonshire;76163;2610;3270;640;1930;790;0;0;760
+England;Kingston and Surbiton;London;Kingston upon Thames;75410;1590;1100;5550;920;450;0;0;390
+England;Kingston upon Hull East;Yorkshire and The Humber;Humber area;72622;2250;5060;690;1660;330;0;0;0
+England;Kingston upon Hull North and Cottingham;Yorkshire and The Humber;Humber area;76039;1480;5020;1210;1520;510;0;0;250
+England;Kingston upon Hull West and Haltemprice;Yorkshire and The Humber;Humber area;74321;2610;4350;780;1590;330;0;0;330
+England;Kingswinford and South Staffordshire;West Midlands;Staffordshire;71896;3170;2400;650;2500;740;0;0;540
+England;Knowsley;North West;Merseyside;71228;390;8090;550;360;460;0;0;150
+England;Lancaster and Wyre;North West;Lancashire;74992;2690;5190;410;1200;500;0;0;0
+England;Leeds Central and Headingley;Yorkshire and The Humber;West Yorkshire;75396;1120;6120;1360;280;1000;0;0;120
+England;Leeds East;Yorkshire and The Humber;West Yorkshire;75330;2280;5280;410;1310;360;0;0;360
+England;Leeds North East;Yorkshire and The Humber;West Yorkshire;70976;1080;6190;1130;800;590;0;0;220
+England;Leeds North West;Yorkshire and The Humber;West Yorkshire;71607;2410;4790;950;1000;380;0;0;470
+England;Leeds South;Yorkshire and The Humber;West Yorkshire;71376;1310;6870;870;0;650;0;0;300
+England;Leeds South West and Morley;Yorkshire and The Humber;West Yorkshire;74726;3290;4680;340;1130;370;0;0;190
+England;Leeds West and Pudsey;Yorkshire and The Humber;West Yorkshire;70270;2260;5420;480;1040;340;0;0;460
+England;Leicester East;East Midlands;Leicestershire;76465;1730;5570;560;1260;520;0;0;360
+England;Leicester South;East Midlands;Leicestershire;71007;940;6810;840;700;560;0;0;160
+England;Leicester West;East Midlands;Leicestershire;76992;1580;5180;990;1360;620;0;0;270
+England;Leigh and Atherton;North West;Western Manchester;76363;2880;5210;400;1220;090;0;0;200
+England;Lewes;South East;East Sussex;75091;2920;1130;4490;720;740;0;0;-010
+England;Lewisham East;London;Lewisham;71706;890;6500;1070;670;610;0;0;260
+England;Lewisham North;London;Lewisham;73504;540;7060;1080;400;790;0;0;130
+England;Lewisham West and East Dulwich;London;Lewisham;69904;650;6810;1060;470;850;0;0;160
+England;Leyton and Wanstead;London;Waltham Forest;71330;880;6540;1050;640;650;0;0;240
+England;Lichfield;West Midlands;Staffordshire;74942;2780;2740;1000;2220;670;0;0;580
+England;Lincoln;East Midlands;Lincolnshire;74128;2590;4860;500;1180;340;0;0;540
+England;Liverpool Garston;North West;Merseyside;70372;540;7430;1060;460;350;0;0;170
+England;Liverpool Riverside;North West;Merseyside;70157;470;8020;730;150;530;0;0;090
+England;Liverpool Walton;North West;Merseyside;75926;440;8260;500;350;240;0;0;210
+England;Liverpool Wavertree;North West;Merseyside;71076;600;6950;1260;160;850;0;0;180
+England;Liverpool West Derby;North West;Merseyside;70730;390;8000;560;330;250;0;0;460
+England;Loughborough;East Midlands;Leicestershire;73902;2830;4900;570;1320;380;0;0;0
+England;Louth and Horncastle;East Midlands;Lincolnshire;75959;2960;2360;820;2710;470;0;0;690
+England;Lowestoft;East of England;Suffolk;73967;3340;3880;440;1690;650;0;0;0
+England;Luton North;East of England;Bedfordshire;73266;1540;5830;520;1220;380;0;0;510
+England;Luton South and South Bedfordshire;East of England;Bedfordshire;70197;1570;5500;660;1200;450;0;0;630
+England;Macclesfield;North West;Cheshire;75881;2310;3800;1020;1700;770;0;0;400
+England;Maidenhead;South East;Berkshire;73463;3230;2080;3490;0;670;0;0;540
+England;Maidstone and Malling;South East;Kent;73084;2540;2420;1780;2060;700;0;0;510
+England;Makerfield;North West;Western Manchester;76517;2150;5200;450;1630;310;0;0;260
+England;Maldon;East of England;Essex;76794;3300;2120;1170;2590;820;0;0;0
+England;Manchester Central;North West;Central Manchester;75311;1290;6210;1040;620;680;0;0;160
+England;Manchester Rusholme;North West;Central Manchester;70692;620;8240;0;220;830;0;0;090
+England;Manchester Withington;North West;Central Manchester;71614;720;6590;1730;140;730;0;0;080
+England;Mansfield;East Midlands;Nottinghamshire;74680;3770;3800;310;1810;140;0;0;160
+England;Melksham and Devizes;South West;Wiltshire;71823;2860;1510;3370;1750;500;0;0;0
+England;Melton and Syston;East Midlands;Leicestershire;71615;2740;2960;760;2180;890;0;0;470
+England;Meriden and Solihull East;West Midlands;Coventry and Solihull;74211;2810;2810;1340;2130;910;0;0;0
+England;Mid Bedfordshire;East of England;Bedfordshire;71748;4060;3630;990;870;560;0;0;-110
+England;Mid Buckinghamshire;South East;Buckinghamshire;72240;2470;1990;1730;2660;730;0;0;420
+England;Mid Cheshire;North West;Cheshire;69775;2570;4970;560;1160;380;0;0;350
+England;Mid Derbyshire;East Midlands;Derbyshire;70085;2620;3320;930;1970;710;0;0;450
+England;Mid Dorset and North Poole;South West;Dorset;74305;3370;1350;4030;0;680;0;0;560
+England;Mid Leicestershire;East Midlands;Leicestershire;76173;2840;3340;850;2180;780;0;0;0
+England;Mid Norfolk;East of England;Norfolk;71060;2810;2940;1000;2550;700;0;0;0
+England;Mid Sussex;South East;West Sussex;72255;2450;1870;3150;1480;540;0;0;500
+England;Middlesbrough and Thornaby East;North East;Teesside;71742;1370;5780;710;1260;360;0;0;520
+England;Middlesbrough South and East Cleveland;North East;Teesside;69967;3080;4950;720;0;660;0;0;600
+England;Milton Keynes Central;South East;Buckinghamshire;76708;2590;4600;730;1210;370;0;0;500
+England;Milton Keynes North;South East;Buckinghamshire;70620;2850;4810;580;1350;410;0;0;0
+England;Mitcham and Morden;London;Merton;76877;1200;6100;1070;880;500;0;0;250
+England;Morecambe and Lunesdale;North West;Lancashire;76040;2510;3580;1600;1870;450;0;0;0
+England;New Forest East;South East;Hampshire;73823;2790;2130;1380;2270;820;0;0;610
+England;New Forest West;South East;Hampshire;71009;2780;1970;1460;2210;1110;0;0;480
+England;Newark;East Midlands;Nottinghamshire;76478;2790;3060;930;2080;660;0;0;480
+England;Newbury;South East;Berkshire;71631;2600;1080;3640;1530;680;0;0;480
+England;Newcastle upon Tyne Central and West;North East;Newcastle area;76460;1170;6160;660;1290;520;0;0;200
+England;Newcastle upon Tyne East and Wallsend;North East;Newcastle area;76875;1050;6190;1070;990;520;0;0;180
+England;Newcastle upon Tyne North;North East;Newcastle area;76503;1450;4920;1530;1240;600;0;0;250
+England;Newcastle-under-Lyme;West Midlands;Staffordshire;70025;3400;4610;400;1330;260;0;0;0
+England;Newton Abbot;South West;Devon;72956;2620;1860;2820;1610;520;0;0;570
+England;Newton Aycliffe and Spennymoor;North East;Durham;71299;3070;4930;480;1170;260;0;0;080
+England;Normanton and Hemsworth;Yorkshire and The Humber;West Yorkshire;75388;2540;5210;350;1660;250;0;0;0
+England;North Bedfordshire;East of England;Bedfordshire;76319;2900;2750;1370;2310;670;0;0;0
+England;North Cornwall;South West;Cornwall;75034;2750;1260;3380;1690;360;0;0;570
+England;North Cotswolds;South West;Gloucestershire;70915;2630;2300;1750;1960;910;0;0;450
+England;North Devon;South West;Devon;76455;2620;1180;3350;1700;630;0;0;520
+England;North Dorset;South West;Dorset;72109;2980;1470;2560;1940;570;0;0;470
+England;North Durham;North East;Durham;73079;2470;5510;440;1050;310;0;0;210
+England;North East Cambridgeshire;East of England;Cambridgeshire;70806;3030;2230;660;2870;690;0;0;520
+England;North East Derbyshire;East Midlands;Derbyshire;72344;3640;4370;490;1240;260;0;0;0
+England;North East Hampshire;South East;Hampshire;73306;2930;1340;2740;1720;560;0;0;710
+England;North East Hertfordshire;East of England;Hertfordshire;76849;2610;3100;1560;1950;770;0;0;0
+England;North East Somerset and Hanham;South West;Bristol area;73113;3770;3940;1060;760;530;0;0;-060
+England;North Herefordshire;West Midlands;Hereford and Worcestershire;70894;2780;1710;650;1260;3000;0;0;600
+England;North Norfolk;East of England;Norfolk;70719;2870;1150;3570;1930;480;0;0;0
+England;North Northumberland;North East;Northumberland;72541;2530;2980;1600;1790;670;0;0;430
+England;North Shropshire;West Midlands;Shropshire;77052;2600;2000;2620;1730;580;0;0;480
+England;North Somerset;South West;Bristol area;73963;2350;3050;1600;1770;830;0;0;400
+England;North Warwickshire and Bedworth;West Midlands;Warwickshire;70245;3020;3510;500;2300;670;0;0;0
+England;North West Cambridgeshire;East of England;Cambridgeshire;73556;2590;2950;1040;2570;840;0;0;0
+England;North West Essex;East of England;Essex;76280;2720;2040;1900;2060;820;0;0;460
+England;North West Hampshire;South East;Hampshire;76004;2640;2330;1780;2010;790;0;0;450
+England;North West Leicestershire;East Midlands;Leicestershire;75373;2720;3170;660;2080;800;0;0;560
+England;North West Norfolk;East of England;Norfolk;75200;2920;2980;920;2390;790;0;0;0
+England;Northampton North;East Midlands;Northamptonshire;75713;2590;4750;610;1290;420;0;0;350
+England;Northampton South;East Midlands;Northamptonshire;71512;2480;3600;800;2010;690;0;0;420
+England;Norwich North;East of England;Norfolk;71441;2700;4580;500;1300;450;0;0;470
+England;Norwich South;East of England;Norfolk;73201;1270;5580;1090;950;890;0;0;220
+England;Nottingham East;East Midlands;Nottinghamshire;75327;1290;6020;1130;290;820;0;0;460
+England;Nottingham North and Kimberley;East Midlands;Nottinghamshire;74515;2380;5550;440;1290;340;0;0;0
+England;Nottingham South;East Midlands;Nottinghamshire;76076;1410;5770;820;1150;600;0;0;240
+England;Nuneaton;West Midlands;Warwickshire;70335;2600;3680;580;1960;750;0;0;440
+England;Old Bexley and Sidcup;London;Bexley;74317;2750;2990;780;2290;680;0;0;510
+England;Oldham East and Saddleworth;North West;Eastern Manchester;72997;2260;4900;720;1300;250;0;0;560
+England;Oldham West, Chadderton and Royton;North West;Eastern Manchester;74183;1280;5600;670;1720;310;0;0;420
+England;Orpington;London;Bromley;71571;2690;2600;1390;2160;700;0;0;460
+England;Ossett and Denby Dale;Yorkshire and The Humber;West Yorkshire;71595;3470;4310;380;1170;340;0;0;340
+England;Oxford East;South East;Oxfordshire;72731;1390;5650;1620;0;1080;0;0;260
+England;Oxford West and Abingdon;South East;Oxfordshire;72004;2180;890;5790;320;610;0;0;220
+England;Peckham;London;Southwark;71176;510;7320;1030;370;650;0;0;120
+England;Pendle and Clitheroe;North West;Lancashire;76941;3600;4510;500;1120;220;0;0;050
+England;Penistone and Stocksbridge;Yorkshire and The Humber;South Yorkshire;71377;3230;4340;590;1630;200;0;0;0
+England;Penrith and Solway;North West;Cumbria;76720;2420;3600;790;1960;620;0;0;610
+England;Peterborough;East of England;Cambridgeshire;72273;2510;4840;530;1340;320;0;0;460
+England;Plymouth Moor View;South West;Devon;73378;3170;4000;520;1940;380;0;0;0
+England;Plymouth Sutton and Devonport;South West;Devon;73495;2130;5440;640;1160;340;0;0;280
+England;Pontefract, Castleford and Knottingley;Yorkshire and The Humber;West Yorkshire;72751;2640;4830;470;1540;170;0;0;350
+England;Poole;South West;Dorset;72162;2520;2610;1440;2040;790;0;0;600
+England;Poplar and Limehouse;London;Tower Hamlets;75814;800;6370;1540;580;500;0;0;210
+England;Portsmouth North;South East;Hampshire;71844;3470;3640;560;1880;450;0;0;0
+England;Portsmouth South;South East;Hampshire;74253;2190;4410;1750;480;890;0;0;280
+England;Preston;North West;Lancashire;72946;1310;5970;910;1160;430;0;0;220
+England;Putney;London;Wandsworth;73041;2130;5240;1110;880;370;0;0;280
+England;Queen's Park and Maida Vale;London;City of Westminster;75256;880;6420;1360;630;530;0;0;180
+England;Rawmarsh and Conisbrough;Yorkshire and The Humber;South Yorkshire;70272;2300;4520;370;1970;300;0;0;530
+England;Rayleigh and Wickford;East of England;Essex;76422;3160;2310;730;2980;820;0;0;0
+England;Reading Central;South East;Berkshire;71283;2160;4830;1000;390;1360;0;0;260
+England;Reading West and Mid Berkshire;South East;Berkshire;69999;3320;3120;1730;980;850;0;0;0
+England;Redcar;North East;Teesside;71331;3010;4550;750;1170;270;0;0;250
+England;Redditch;West Midlands;Hereford and Worcestershire;69921;2780;3190;690;2230;650;0;0;480
+England;Reigate;South East;Surrey;76139;2810;1910;2770;1690;830;0;0;0
+England;Ribble Valley;North West;Lancashire;75993;2620;3370;770;2010;610;0;0;620
+England;Richmond and Northallerton;Yorkshire and The Humber;North Yorkshire;72744;2870;2300;1070;2110;760;0;0;890
+England;Richmond Park;London;Richmond upon Thames;75037;1890;750;5450;1090;460;0;0;350
+England;Rochdale;North West;Eastern Manchester;71697;1200;4600;1040;1360;420;0;0;1380
+England;Rochester and Strood;South East;Kent;72155;2940;3280;490;2250;340;0;0;710
+England;Romford;London;Havering;72730;3290;3380;430;2010;430;0;0;460
+England;Romsey and Southampton North;South East;Hampshire;73831;3560;1670;3450;890;470;0;0;-040
+England;Rossendale and Darwen;North West;Lancashire;74593;2410;4130;640;1820;580;0;0;410
+England;Rother Valley;Yorkshire and The Humber;South Yorkshire;70814;3190;4190;370;1950;300;0;0;0
+England;Rotherham;Yorkshire and The Humber;South Yorkshire;75345;0;4570;730;3670;480;0;0;560
+England;Rugby;West Midlands;Warwickshire;72603;2530;3720;800;1860;640;0;0;430
+England;Ruislip, Northwood and Pinner;London;Hillingdon;72168;2570;3260;1550;1880;740;0;0;0
+England;Runcorn and Helsby;North West;Cheshire;70950;1670;5390;700;1300;660;0;0;290
+England;Runnymede and Weybridge;South East;Surrey;73778;3380;2110;3090;960;590;0;0;-130
+England;Rushcliffe;East Midlands;Nottinghamshire;76171;2050;3920;1520;1540;460;0;0;520
+England;Rutland and Stamford;East Midlands;Leicestershire;70864;2750;2110;1510;2220;700;0;0;720
+England;Salford;North West;Central Manchester;72169;1450;5500;1210;820;880;0;0;150
+England;Salisbury;South West;Wiltshire;70242;2440;2460;1890;1840;810;0;0;560
+England;Scarborough and Whitby;Yorkshire and The Humber;North Yorkshire;73862;2300;3820;810;1900;450;0;0;730
+England;Scunthorpe;Yorkshire and The Humber;Humber area;74278;3550;4550;360;1330;200;0;0;0
+England;Sefton Central;North West;Merseyside;74746;1530;5660;820;1190;470;0;0;340
+England;Selby;Yorkshire and The Humber;North Yorkshire;74761;2560;4190;660;1950;640;0;0;0
+England;Sevenoaks;South East;Kent;73684;2650;1960;1830;2200;710;0;0;640
+England;Sheffield Brightside and Hillsborough;Yorkshire and The Humber;South Yorkshire;71154;1270;6710;820;0;810;0;0;380
+England;Sheffield Central;Yorkshire and The Humber;South Yorkshire;70453;730;6060;1390;0;1620;0;0;200
+England;Sheffield Hallam;Yorkshire and The Humber;South Yorkshire;76637;790;4280;4120;0;540;0;0;270
+England;Sheffield Heeley;Yorkshire and The Humber;South Yorkshire;74614;1350;6370;1210;0;830;0;0;230
+England;Sheffield South East;Yorkshire and The Humber;South Yorkshire;76223;2050;6390;630;0;360;0;0;570
+England;Sherwood Forest;East Midlands;Nottinghamshire;76543;2640;3530;600;1990;650;0;0;580
+England;Shipley;Yorkshire and The Humber;West Yorkshire;74095;2680;4670;470;1160;490;0;0;530
+England;Shrewsbury;West Midlands;Shropshire;75139;2140;3990;1090;1650;640;0;0;480
+England;Sittingbourne and Sheppey;South East;Kent;76818;2690;2560;610;2620;690;0;0;830
+England;Skipton and Ripon;Yorkshire and The Humber;North Yorkshire;76758;2560;2510;1570;1930;790;0;0;630
+England;Sleaford and North Hykeham;East Midlands;Lincolnshire;73380;2880;2520;780;2300;600;0;0;920
+England;Slough;South East;Berkshire;75287;1890;5830;880;430;760;0;0;200
+England;Smethwick;West Midlands;Black Country;71195;1330;5960;610;1400;480;0;0;230
+England;Solihull West and Shirley;West Midlands;Coventry and Solihull;70537;2640;2550;1490;1930;930;0;0;450
+England;South Basildon and East Thurrock;East of England;Essex;73322;2450;2590;450;3010;510;0;0;990
+England;South Cambridgeshire;East of England;Cambridgeshire;75484;2630;1690;4600;650;420;0;0;0
+England;South Cotswolds;South West;Gloucestershire;72865;2750;1350;3250;1660;550;0;0;440
+England;South Derbyshire;East Midlands;Derbyshire;71202;2720;3350;700;2090;670;0;0;470
+England;South Devon;South West;Devon;71691;2440;1720;3260;1570;530;0;0;480
+England;South Dorset;South West;Dorset;76640;2570;3060;1020;1960;870;0;0;530
+England;South East Cornwall;South West;Cornwall;71734;2590;2650;1570;1980;590;0;0;610
+England;South Holland and the Deepings;East Midlands;Lincolnshire;76139;3120;1990;600;2910;750;0;0;630
+England;South Leicestershire;East Midlands;Leicestershire;75634;3020;2790;950;2450;790;0;0;0
+England;South Norfolk;East of England;Norfolk;69837;2470;2910;1630;1880;690;0;0;420
+England;South Northamptonshire;East Midlands;Northamptonshire;76555;2760;2730;1070;2080;780;0;0;580
+England;South Ribble;North West;Lancashire;72029;2440;4320;770;1860;610;0;0;0
+England;South Shields;North East;Newcastle area;69725;1110;4560;530;2050;710;0;0;1040
+England;South Shropshire;West Midlands;Shropshire;77034;3240;1900;2290;1990;580;0;0;0
+England;South Suffolk;East of England;Suffolk;71070;2780;2620;1260;2230;1110;0;0;0
+England;South West Devon;South West;Devon;75371;2720;2770;1160;2170;720;0;0;470
+England;South West Hertfordshire;East of England;Hertfordshire;71552;3250;2780;2400;970;690;0;0;-090
+England;South West Norfolk;East of England;Norfolk;72496;2800;2370;800;2730;670;0;0;640
+England;South West Wiltshire;South West;Wiltshire;71551;2530;2730;1570;2060;680;0;0;430
+England;Southampton Itchen;South East;Hampshire;72150;2640;4760;540;1260;330;0;0;470
+England;Southampton Test;South East;Hampshire;69960;2250;4830;1140;510;980;0;0;290
+England;Southend East and Rochford;East of England;Essex;70094;2960;3700;540;1780;350;0;0;690
+England;Southend West and Leigh;East of England;Essex;76824;3060;3670;790;1580;340;0;0;550
+England;Southgate and Wood Green;London;Enfield;76034;1270;6090;970;910;550;0;0;220
+England;Southport;North West;Merseyside;74168;2130;4030;1370;1760;350;0;0;360
+England;Spelthorne;South East;Surrey;72897;2410;2600;1360;2430;780;0;0;410
+England;Spen Valley;Yorkshire and The Humber;West Yorkshire;72169;1920;3650;700;1530;500;0;0;1710
+England;St Albans;East of England;Hertfordshire;70881;1860;1030;5230;1090;480;0;0;320
+England;St Austell and Newquay;South West;Cornwall;74585;2950;3510;960;1400;400;0;0;770
+England;St Helens North;North West;Merseyside;76082;1240;5770;780;1300;690;0;0;210
+England;St Helens South and Whiston;North West;Merseyside;70302;970;6180;840;1060;790;0;0;170
+England;St Ives;South West;Cornwall;70107;2310;1140;4260;1420;420;0;0;450
+England;St Neots and Mid Cambridgeshire;East of England;Cambridgeshire;74699;3150;2100;3400;860;540;0;0;-050
+England;Stafford;West Midlands;Staffordshire;70537;2530;3700;630;1930;770;0;0;430
+England;Staffordshire Moorlands;West Midlands;Staffordshire;70113;2880;3410;640;2290;780;0;0;0
+England;Stalybridge and Hyde;North West;Eastern Manchester;73028;2230;5210;460;1350;370;0;0;390
+England;Stevenage;East of England;Hertfordshire;70370;2860;4360;610;1370;400;0;0;400
+England;Stockport;North West;Eastern Manchester;74769;1300;5940;870;1130;530;0;0;220
+England;Stockton North;North East;Teesside;69779;2320;5700;440;1370;180;0;0;0
+England;Stockton West;North East;Teesside;70108;2550;4080;620;1900;410;0;0;440
+England;Stoke-on-Trent Central;West Midlands;Staffordshire;70550;2980;4940;400;1490;190;0;0;0
+England;Stoke-on-Trent North;West Midlands;Staffordshire;69821;3390;4260;360;1760;160;0;0;060
+England;Stoke-on-Trent South;West Midlands;Staffordshire;69831;3900;4160;410;1340;190;0;0;0
+England;Stone, Great Wyrley and Penkridge;West Midlands;Staffordshire;70701;3830;3660;940;0;910;0;0;660
+England;Stourbridge;West Midlands;Black Country;69840;2630;3430;630;2180;560;0;0;580
+England;Stratford and Bow;London;Newham;73849;640;7200;880;480;680;0;0;110
+England;Stratford-on-Avon;West Midlands;Warwickshire;72388;2860;1420;2980;1730;560;0;0;460
+England;Streatham and Croydon North;London;Lambeth;76050;840;6000;1710;600;700;0;0;140
+England;Stretford and Urmston;North West;Central Manchester;73212;1240;6440;710;970;430;0;0;210
+England;Stroud;South West;Gloucestershire;76249;2460;4900;410;1100;700;0;0;430
+England;Suffolk Coastal;East of England;Suffolk;72683;2660;2930;1560;2040;800;0;0;0
+England;Sunderland Central;North East;Newcastle area;72688;2300;5270;530;1550;350;0;0;0
+England;Surrey Heath;South East;Surrey;70825;3590;1460;3420;970;600;0;0;-040
+England;Sussex Weald;South East;East Sussex;70075;2720;2100;1580;2180;950;0;0;470
+England;Sutton and Cheam;London;Sutton;71284;2370;1560;3830;1400;460;0;0;380
+England;Sutton Coldfield;West Midlands;Birmingham;74584;2660;2990;1170;2010;720;0;0;450
+England;Swindon North;South West;Wiltshire;72163;3100;3920;560;1560;410;0;0;440
+England;Swindon South;South West;Wiltshire;72468;2720;4740;530;1310;310;0;0;380
+England;Tamworth;West Midlands;Staffordshire;73644;3260;3630;420;1630;360;0;0;700
+England;Tatton;North West;Cheshire;75538;2660;3010;1650;1930;750;0;0;0
+England;Taunton and Wellington;South West;Somerset;76049;3290;1300;4260;870;410;0;0;-140
+England;Telford;West Midlands;Shropshire;70768;2650;4100;670;2180;400;0;0;0
+England;Tewkesbury;South West;Gloucestershire;72426;2760;1740;2800;1670;580;0;0;440
+England;The Wrekin;West Midlands;Shropshire;76143;2800;3070;760;2250;640;0;0;480
+England;Thirsk and Malton;Yorkshire and The Humber;North Yorkshire;76623;2710;2410;1190;2180;780;0;0;730
+England;Thornbury and Yate;South West;Bristol area;74985;3510;1380;3740;880;510;0;0;0
+England;Thurrock;East of England;Essex;73347;2830;3340;340;2650;310;0;0;540
+England;Tipton and Wednesbury;West Midlands;Black Country;73820;3220;4640;280;1590;260;0;0;0
+England;Tiverton and Minehead;South West;Somerset;70829;2800;1690;3010;1900;600;0;0;0
+England;Tonbridge;South East;Kent;73692;2820;2170;1170;2230;1130;0;0;480
+England;Tooting;London;Wandsworth;76986;1270;5640;1400;900;570;0;0;230
+England;Torbay;South West;Devon;75742;2760;1510;2920;1700;550;0;0;560
+England;Torridge and Tavistock;South West;Devon;74802;2530;2330;1670;2100;850;0;0;530
+England;Tottenham;London;Haringey;75968;490;7830;620;350;580;0;0;130
+England;Truro and Falmouth;South West;Cornwall;73326;2530;4580;900;1160;410;0;0;420
+England;Tunbridge Wells;South East;Kent;75213;3370;1830;3480;900;490;0;0;-060
+England;Twickenham;London;Richmond upon Thames;75889;1600;970;5790;920;460;0;0;250
+England;Tynemouth;North East;Newcastle area;73022;2280;5550;450;1050;360;0;0;310
+England;Uxbridge and South Ruislip;London;Hillingdon;75042;2780;4450;520;1350;400;0;0;500
+England;Vauxhall and Camberwell Green;London;Lambeth;69995;650;6240;1870;470;630;0;0;140
+England;Wakefield and Rothwell;Yorkshire and The Humber;West Yorkshire;73968;2850;5020;590;1010;200;0;0;330
+England;Wallasey;North West;Merseyside;73054;1160;6700;530;910;500;0;0;200
+England;Walsall and Bloxwich;West Midlands;Black Country;74886;3040;5200;290;1200;210;0;0;050
+England;Walthamstow;London;Waltham Forest;70867;520;7360;1010;380;600;0;0;140
+England;Warrington North;North West;Cheshire;72350;2330;5190;560;1200;400;0;0;310
+England;Warrington South;North West;Cheshire;76639;2420;5200;630;1050;330;0;0;360
+England;Warwick and Leamington;West Midlands;Warwickshire;75440;2290;5150;690;980;540;0;0;350
+England;Washington and Gateshead South;North East;Newcastle area;71775;2130;5090;480;1520;340;0;0;440
+England;Watford;East of England;Hertfordshire;70576;2920;4960;1200;570;380;0;0;-020
+England;Waveney Valley;East of England;Suffolk;70540;2810;2270;600;1270;2900;0;0;150
+England;Weald of Kent;South East;Kent;70110;3290;2260;1010;2620;810;0;0;0
+England;Wellingborough and Rushden;East Midlands;Northamptonshire;76669;2920;4130;500;1550;430;0;0;470
+England;Wells and Mendip Hills;South West;Somerset;69843;3470;1550;3690;870;450;0;0;-040
+England;Welwyn Hatfield;East of England;Hertfordshire;74535;3010;4260;900;1410;430;0;0;0
+England;West Bromwich;West Midlands;Black Country;72208;3020;5040;290;1290;240;0;0;120
+England;West Dorset;South West;Dorset;75390;3580;1530;4140;0;750;0;0;0
+England;West Ham and Beckton;London;Newham;70590;730;7240;590;540;620;0;0;270
+England;West Lancashire;North West;Lancashire;73652;1700;5910;590;1330;460;0;0;0
+England;West Suffolk;East of England;Suffolk;76243;2650;2710;890;2550;750;0;0;450
+England;West Worcestershire;West Midlands;Hereford and Worcestershire;76638;2670;2290;1750;2030;800;0;0;460
+England;Westmorland and Lonsdale;North West;Cumbria;72322;2390;990;4420;1410;340;0;0;450
+England;Weston-super-Mare;South West;Bristol area;70722;3170;3820;960;1600;450;0;0;0
+England;Wetherby and Easingwold;Yorkshire and The Humber;North Yorkshire;71455;3020;2560;770;2190;770;0;0;690
+England;Whitehaven and Workington;North West;Cumbria;73385;3100;5400;250;1090;170;0;0;0
+England;Widnes and Halewood;North West;Cheshire;70865;940;7010;500;880;510;0;0;160
+England;Wigan;North West;Western Manchester;75607;1470;5220;670;1900;490;0;0;250
+England;Wimbledon;London;Merton;74641;2440;2100;4470;580;430;0;0;-020
+England;Winchester;South East;Hampshire;76577;3280;1030;4400;810;500;0;0;-020
+England;Windsor;South East;Berkshire;74338;2490;2570;1840;1850;660;0;0;600
+England;Wirral West;North West;Merseyside;72126;2520;5520;430;1100;430;0;0;0
+England;Witham;East of England;Essex;75064;2870;2400;940;2280;1010;0;0;490
+England;Witney;South East;Oxfordshire;70042;3510;1900;3240;870;500;0;0;-020
+England;Woking;South East;Surrey;71737;3010;1940;3820;780;490;0;0;-040
+England;Wokingham;South East;Berkshire;70235;3390;1450;3790;840;520;0;0;0
+England;Wolverhampton North East;West Midlands;Black Country;70449;3500;4580;310;1410;200;0;0;0
+England;Wolverhampton South East;West Midlands;Black Country;75685;2710;5470;330;1320;170;0;0;0
+England;Wolverhampton West;West Midlands;Black Country;75592;3020;5550;330;980;120;0;0;0
+England;Worcester;West Midlands;Hereford and Worcestershire;73928;2160;4120;770;1640;840;0;0;480
+England;Worsley and Eccles;North West;Central Manchester;76915;1710;5080;700;1740;470;0;0;290
+England;Worthing West;South East;West Sussex;76293;2990;3780;710;1560;460;0;0;500
+England;Wycombe;South East;Buckinghamshire;71769;3040;5160;830;630;460;0;0;-110
+England;Wyre Forest;West Midlands;Hereford and Worcestershire;77015;2800;2900;760;2260;810;0;0;480
+England;Wythenshawe and Sale East;North West;Central Manchester;76971;1340;5680;900;1320;520;0;0;240
+England;Yeovil;South West;Somerset;76056;3620;1230;3690;960;550;0;0;-060
+England;York Central;Yorkshire and The Humber;North Yorkshire;74854;1710;5370;1110;330;1160;0;0;320
+England;York Outer;Yorkshire and The Humber;North Yorkshire;72720;2170;3480;1790;1570;510;0;0;500
+Scotland;Aberdeen North;Scotland;Grampian;76895;1780;2410;690;240;0;4700;0;180
+Scotland;Aberdeen South;Scotland;Grampian;76560;2490;2080;960;250;0;4030;0;190
+Scotland;Aberdeenshire North and Moray East;Scotland;Grampian;71485;4000;1460;260;330;020;3940;0;0
+Scotland;Airdrie and Shotts;Scotland;Glasgow area;70420;860;4850;190;190;0;3760;0;140
+Scotland;Alloa and Grangemouth;Scotland;Central;72265;1770;2650;470;230;0;4610;0;270
+Scotland;Angus and Perthshire Glens;Scotland;Tayside;77006;3340;1270;290;270;020;4600;0;220
+Scotland;Arbroath and Broughty Ferry;Scotland;Tayside;76810;2180;2150;710;230;0;4490;0;240
+Scotland;Argyll, Bute and South Lochaber;Scotland;Argyll and Bute;71707;2500;1880;1270;250;0;3920;0;190
+Scotland;Ayr, Carrick and Cumnock;Scotland;Ayrshire and Lanark;72057;2710;2660;400;270;0;3750;0;200
+Scotland;Bathgate and Linlithgow;Scotland;Edinburgh area;71650;1820;3060;750;200;0;3880;0;300
+Scotland;Berwickshire, Roxburgh and Selkirk;Scotland;Borders;74867;4020;1470;450;320;020;3450;0;260
+Scotland;Caithness, Sutherland and Easter Ross;Scotland;Highland;75173;820;1150;3870;180;0;3680;0;310
+Scotland;Central Ayrshire;Scotland;Ayrshire and Lanark;69779;2470;2650;430;250;0;4020;0;190
+Scotland;Coatbridge and Bellshill;Scotland;Glasgow area;72507;570;5020;160;200;0;3900;0;150
+Scotland;Cowdenbeath and Kirkcaldy;Scotland;Fife;70329;1190;4830;370;170;0;3310;0;130
+Scotland;Cumbernauld and Kirkintilloch;Scotland;Glasgow area;70579;740;4350;300;220;0;4380;0;0
+Scotland;Dumfries and Galloway;Scotland;Dumfries and Galloway;76863;3680;1770;340;290;020;3650;0;240
+Scotland;Dumfriesshire, Clydesdale and Tweeddale;Scotland;Dumfries and Galloway;70738;3900;1730;410;310;020;3380;0;250
+Scotland;Dundee Central;Scotland;Tayside;75298;750;3610;470;240;0;4700;0;240
+Scotland;Dunfermline and Dollar;Scotland;Fife;70725;1110;4190;470;200;0;3890;0;150
+Scotland;East Kilbride and Strathaven;Scotland;Ayrshire and Lanark;75161;1510;3320;600;210;0;4080;0;280
+Scotland;East Renfrewshire;Scotland;Glasgow area;72959;2500;2470;670;250;0;3920;0;190
+Scotland;Edinburgh East and Musselburgh;Scotland;Edinburgh area;75705;710;4330;370;210;0;4210;0;160
+Scotland;Edinburgh North and Leith;Scotland;Edinburgh area;76770;920;4110;690;200;0;3900;0;180
+Scotland;Edinburgh South;Scotland;Edinburgh area;73315;850;6260;440;120;0;2230;0;090
+Scotland;Edinburgh South West;Scotland;Edinburgh area;70980;1810;2620;870;220;0;4290;0;190
+Scotland;Edinburgh West;Scotland;Edinburgh area;76723;840;1430;4340;170;0;3090;0;130
+Scotland;Falkirk;Scotland;Central;75067;1900;2420;620;240;0;4650;0;180
+Scotland;Glasgow East;Scotland;Glasgow area;69748;600;4810;210;200;0;4030;0;150
+Scotland;Glasgow North;Scotland;Glasgow area;75236;440;4930;270;200;0;4010;0;150
+Scotland;Glasgow North East;Scotland;Glasgow area;73210;520;5100;170;200;0;3860;0;150
+Scotland;Glasgow South;Scotland;Glasgow area;70431;630;4570;320;210;0;4110;0;160
+Scotland;Glasgow South West;Scotland;Glasgow area;71344;620;4890;230;200;0;3910;0;150
+Scotland;Glasgow West;Scotland;Glasgow area;72499;750;4430;390;210;0;4070;0;160
+Scotland;Glenrothes and Mid Fife;Scotland;Fife;69734;780;4440;250;220;0;4310;0;0
+Scotland;Gordon and Buchan;Scotland;Grampian;70238;4050;1360;640;310;020;3610;0;0
+Scotland;Hamilton and Clyde Valley;Scotland;Ayrshire and Lanark;74577;1290;4410;220;190;0;3750;0;140
+Scotland;Inverclyde and Renfrewshire West;Scotland;Glasgow area;70418;880;4440;340;200;0;3980;0;150
+Scotland;Inverness, Skye and West Ross-shire;Scotland;Highland;76903;1730;2070;1390;220;0;4420;0;170
+Scotland;Kilmarnock and Loudoun;Scotland;Ayrshire and Lanark;74801;1690;3050;440;220;0;4340;0;260
+Scotland;Livingston;Scotland;Edinburgh area;75454;1130;4000;350;210;0;4150;0;160
+Scotland;Lothian East;Scotland;Edinburgh area;71287;1380;4860;350;190;0;2970;0;250
+Scotland;Mid Dunbartonshire;Scotland;Glasgow area;75099;710;1490;3870;170;0;3490;0;260
+Scotland;Midlothian;Scotland;Edinburgh area;71210;1090;4670;380;180;0;3550;0;140
+Scotland;Moray West, Nairn and Strathspey;Scotland;Grampian;76237;3480;1340;340;280;020;4230;0;320
+Scotland;Motherwell, Wishaw and Carluke;Scotland;Glasgow area;72318;1050;4340;220;200;0;3890;0;300
+Scotland;Na h-Eileanan an Iar;Scotland;Western Isles;21177;1110;4470;240;190;0;3840;0;150
+Scotland;North Ayrshire and Arran;Scotland;Ayrshire and Lanark;73588;2260;2590;400;220;0;4360;0;170
+Scotland;North East Fife;Scotland;Fife;70452;630;1170;4240;180;0;3780;0;0
+Scotland;Orkney and Shetland;Scotland;Orkney and Shetland;34824;470;1350;4770;200;0;3220;0;0
+Scotland;Paisley and Renfrewshire North;Scotland;Glasgow area;69941;990;4160;410;210;0;4220;0;0
+Scotland;Paisley and Renfrewshire South;Scotland;Glasgow area;69813;900;4230;330;210;0;4180;0;160
+Scotland;Perth and Kinross-shire;Scotland;Tayside;76320;3540;1360;450;280;020;4120;0;230
+Scotland;Rutherglen;Scotland;Ayrshire and Lanark;71612;850;4700;380;180;0;3610;0;280
+Scotland;Stirling and Strathallan;Scotland;Central;77008;3150;1510;350;250;020;4720;0;0
+Scotland;West Aberdeenshire and Kincardine;Scotland;Grampian;73634;3750;1350;650;290;020;3710;0;240
+Scotland;West Dunbartonshire;Scotland;Glasgow area;70286;700;4380;220;210;0;4160;0;330
+Wales;Aberafan Maesteg;Wales;West Glamorgan;69817;1250;5510;540;1070;410;1040;0;180
+Wales;Alyn and Deeside;Wales;Clwyd;75695;2740;4830;420;1080;330;580;0;030
+Wales;Bangor Aberconwy;Wales;Clwyd;70468;2470;4220;360;820;310;1790;0;030
+Wales;Blaenau Gwent and Rhymney;Wales;Gwent;71079;1340;6520;640;0;420;940;0;130
+Wales;Brecon, Radnor and Cwm Tawe;Wales;Powys;72113;2790;1680;3160;1180;430;610;0;150
+Wales;Bridgend;Wales;Mid Glamorgan;70770;2840;4430;470;1060;400;770;0;030
+Wales;Caerfyrddin;Wales;Dyfed;72683;2420;2390;270;1080;410;3400;0;030
+Wales;Caerphilly;Wales;Gwent;72458;1530;4500;420;1580;370;1610;0;0
+Wales;Cardiff East;Wales;South Glamorgan;72463;1250;6150;1110;660;420;290;0;120
+Wales;Cardiff North;Wales;South Glamorgan;71143;1980;5290;660;1010;500;550;0;0
+Wales;Cardiff South and Penarth;Wales;South Glamorgan;72269;1900;5230;1160;420;840;450;0;0
+Wales;Cardiff West;Wales;South Glamorgan;73947;1650;5280;590;920;480;1030;0;050
+Wales;Ceredigion Preseli;Wales;Dyfed;74063;2010;2070;990;840;480;3580;0;020
+Wales;Clwyd East;Wales;Clwyd;76395;3040;4320;350;1150;370;730;0;030
+Wales;Clwyd North;Wales;Clwyd;76150;2850;4490;320;990;380;960;0;0
+Wales;Dwyfor Meirionnydd;Wales;Gwynedd;72533;1410;2410;370;780;340;4670;0;020
+Wales;Gower;Wales;West Glamorgan;76801;2550;5070;510;880;250;720;0;030
+Wales;Llanelli;Wales;Dyfed;69895;2020;4280;220;940;250;2280;0;020
+Wales;Merthyr Tydfil and Aberdare;Wales;Mid Glamorgan;74805;1090;5180;740;1240;300;910;0;550
+Wales;Mid and South Pembrokeshire;Wales;Dyfed;76820;2780;3910;460;1440;570;800;0;030
+Wales;Monmouthshire;Wales;Gwent;72681;2850;3500;810;1510;670;540;0;120
+Wales;Montgomeryshire and Glyndwr;Wales;Powys;74223;2960;2850;1440;1580;600;580;0;0
+Wales;Neath and Swansea East;Wales;West Glamorgan;74705;1590;5070;600;1310;370;1050;0;0
+Wales;Newport East;Wales;Gwent;76159;2380;5150;550;1060;380;450;0;020
+Wales;Newport West and Islwyn;Wales;Gwent;76234;2580;4830;330;1170;370;700;0;030
+Wales;Pontypridd;Wales;Mid Glamorgan;73743;1450;4700;710;1040;380;1210;0;510
+Wales;Rhondda and Ogmore;Wales;Mid Glamorgan;73557;890;6090;470;800;340;1410;0;0
+Wales;Swansea West;Wales;West Glamorgan;74612;1560;5320;870;1030;460;750;0;020
+Wales;Torfaen;Wales;Gwent;70591;2400;4930;420;1310;350;570;0;020
+Wales;Vale of Glamorgan;Wales;South Glamorgan;70426;2910;4720;280;970;590;410;0;130
+Wales;Wrexham;Wales;Clwyd;70964;2910;4280;490;1070;360;860;0;030
+Wales;Ynys Mon;Wales;Gwynedd;52415;1640;3330;220;1290;250;3250;0;030
+Northern Ireland;Antrim East;1;Antrim;69936;5943;241;12312;9406;946;3247;0;5167
+Northern Ireland;Antrim North;1;Antrim;71165;8805;785;15400;5334;371;7237;0;6119
+Northern Ireland;Antrim South;1;Antrim;71646;13045;610;10220;7315;326;6297;0;5160
+Northern Ireland;Belfast East;1;Antrim;70076;3000;0;15554;18190;270;1166;0;4266
+Northern Ireland;Belfast North;1;Antrim;71732;540;0;15216;3841;301;24379;0;4760
+Northern Ireland;Belfast South;1;Antrim;71978;2001;23606;6630;5822;414;1787;0;7091
+Northern Ireland;Belfast West;1;Antrim;71921;499;796;1418;1499;278;22067;6194;6031
+Northern Ireland;Down North;1;Down;70412;5372;0;10647;17530;243;1050;0;5801
+Northern Ireland;Down South;1;Down;71772;4059;10868;2670;5902;419;17948;0;7895
+Northern Ireland;Fermanagh and South Tyrone;1;Fermanagh;74643;22169;919;0;2110;134;22564;0;2866
+Northern Ireland;Foyle;1;Londonderry;69890;1731;23424;272;1009;358;11319;2032;6999
+Northern Ireland;Lagan Valley;1;Antrim;76332;9208;469;14104;12162;336;2548;0;6578
+Northern Ireland;Londonderry East;1;Londonderry;72213;4251;3276;11111;5121;364;7699;0;7481
+Northern Ireland;Newry and Armagh;1;Armagh;74585;4977;5725;5704;3353;431;22149;0;8441
+Northern Ireland;Strangford;1;Down;70070;4560;532;13062;9871;1090;1849;0;6521
+Northern Ireland;Tyrone West;1;Tyrone;70614;3411;4310;4759;3169;876;18078;0;6584
+Northern Ireland;Ulster Mid;1;Tyrone;70094;3295;3112;6185;2808;381;22120;0;6719
+Northern Ireland;Upper Bann;1;Armagh;76969;7008;1233;14542;5414;452;14245;0;7151

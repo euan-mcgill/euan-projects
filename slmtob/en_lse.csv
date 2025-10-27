@@ -1,0 +1,1134 @@
+ID,Start_time,End_time,English,Español,Gloss
+1,705,9815,A long time ago in Central America in Nicaragua in that country.,(Hace) mucho tiempo en Centroamérica en donde está Nicaragua en ese país, PASADO(2Msu) CENTROAMÉRICA DÓNDE B:CENTROAMÉRICA SIGNO B:CENTROAMÉRICA NICARAGUA DL:NICARAGUA INDX.DEM PAÍS 
+2,10590,11657,There was a village.,(había) un pueblo.,INDX.DEM PUEBLO 
+3,11707,16594,This village was among lush mountains.,(Ese) pueblo estaba entre frondosas montañas., MONTAÑA BOSQUE PUEBLO cl.e(Xa):localización-pueblo 
+4,16594,17424,Among the people living there ,(Entre las) personas (que) allí vivían , VIVIR PERSONA B 
+5,17441,20209,was the village chief,uno (era) el jefe,UNO cl.e(1):PERSONA RESPONSABLE JEFE 
+6,20226,22569,called Kuma,se llamaba Kuma, NOMBRE DL:KUMA 
+7,22573,25004,I have assigned him this sign.,le he dado este signo.,SIGNO DAR(2M) SN:KUMA 
+8,25135,28011,Kuma was a strong and courageous person ,Kuma (era) una persona fuerte y valiente,INDX.PRO:3sg PERSONA FUERTE DEPORTE G 
+9,28021,34082,He could face animals such as the tiger the puma and many more.,Podía enfrentarse a los animales: el tigre el puma y muchos más.,PODER CONTRA CONTRA ANIMAL2 G TIGRE cl.c(5d):garras-andar DL:PUMA ETC 
+10,34088,35383,He could face these animals,Podía enfrentarse a los animales, ANIMAL2 CONTRA CONTRA PODER 
+11,35390,36580,because he was strong and brave.,(porque era) fuerte (y) valiente., FUERTE DEPORTE 
+12,38049,39419,How/what happened?,Cómo/Qué pasó,CÓMO TRANSCURRIR 
+13,39419,42127,One night Kuma was at home sleeping ,(pues) una noche (Kuma estaba) en casa durmiendo , NOCHE DORMIR CASA 
+14,42127,44226,He was asleep and,(estaba) dormido (y), G:dormido DORMIR G:dormir 
+15,44226,45327,He felt a roar,(sintió) un estruendo, SONIDO(2M) 
+16,45327,46605,He woke up.,(que le) despertó., DESPERTAR 
+17,46605,47256,went out,Salió,cl.e(2d):PERSONA-salir-tienda cl.e(Bd):TIENDA 
+18,47256,50205,looked down on (the place),oteó (el lugar y),MIRAR 
+19,50205,54020,and found a girl,encontró una niña,MIRAR INDX.PRO:3sg MUJER PEQUEÑO2 
+20,54020,55751,who was crying and,(que) tenía los ojos llorosos (y), cl.c(5d):OJOS-llorosos 
+21,55751,58165,naked.,(estaba) desnuda., G:conmovido DESNUDO G:conmovido 
+22,58165,59994,Kuma looked at her and,Kuma la miró y,SN:KUMA MIRAR 
+23,59994,63451,he felt sorry for the girl.,se le encogió el corazón., CORAZÓN.FORMA cl.d(5d&amp;gt;A):encogerse-corazón 
+24,63451,65405,and decided to pick her up.,Decidió recogerla.,G:pensar cl.m(5d&amp;gt;A):coger-persona 
+25,65405,69280,"""I will take care of you and my seven children","""La cuidaré [a ella] y a mis siete hijos",QUERER CUIDAR MÁS.SUMA INDX PROPIO(2M) SIETE NACER 
+26,69280,71775,I will take care of the seven and this girl.,cuidaré a los siete y a esta niña., SIETE MÁS.SUMA INDX MUJER INDX CUIDAR 
+27,71820,74683,"You will be called Arua.""","Te llamarás Arúa.""",INDX NOMBRE DL:ARUA 
+28,74683,78006,"meaning ""star of the night""","(Que) significa ""estrella de la noche""", SIGNIFICAR TÍTULO ESTRELLA NOCHE 
+29,78006,79243,in short.,sintetizado., CORTO 
+30,79263,80811,He assigned Arua,Le puso Arúa,DL:ARUA DAR(2M) 
+31,80811,82752,"(her) sign ""Star"".","(su) signo ""Estrella"".",SIGNO SN:ARÚA INDX.PRO 
+32,82752,84434,Kuma took Arua home and looked after her.,Kuma se llevó a Arúa y la cuidó., G:Kuma cl.m(C):colocar-persona 
+33,84434,85695,Kuma took Arua home and looked after her.,Kuma se llevó a Arúa y la cuidó., CUIDAR 
+34,85857,88493,Years passed,Pasó el tiempo, TRANSCURRIR 
+35,88515,92245,Arua and Kuma’s boys grew up together.,Arúa y los hijos [de Kuma] crecieron., CRECER(2M) PEQUEÑO2(2M) CRECER(2M) 
+36,92268,98835,Arua was obedient good-hearted and very pretty.,Arúa era obediente de buen corazón y muy guapa.,INDX MUJER SN:ARÚA YA G OBEDECER BUENO.CORAZÓN BONITO^MARAVILLA G 
+37,99074,104124,One of the children the eldest approached Kuma,Uno (de los hijos) el mayor se acercó a Kuma,INDX HOMBRE hhh PRIMERO PRINCIPAL G:acercar-Kuma 
+38,104124,106820,"and said to him: ""I want to marry Arua""","(le dijo a Kuma:) ""Quiero casarme (con Arúa).""",QUERER LOS-DOS CASAR 
+39,108078,111116,"Kuma: ""Wait wait.""","Kuma: ""Espera espera.""", G:impresionado SN:KUMA G:impresionado 
+40,111141,113256,Later another brother also said he’d want to marry her:,Otro hermano después también se lo pidió:,OTRO HERMANO DESPUÉS PEDIR(1M) TAMBIÉN 
+41,113256,114902,"""I want to marry Arua""","""Quiero casarme (con Arúa).""",QUERER LOS-DOS CASAR 
+42,114913,116296,"Kuma: ""Wait wait.""","(Kuma:) ""Espera espera.""", ESPERAR2(2M) 
+43,116349,119190,The seven brothers stood before Kuma,Vinieron (ante Kuma) los siete, EXPLICAR- ALGUNO.PERSONA SIETE cl.e(2):PERSONAS7-aproximarse cl.e(5):PERSONAS7-aproximarse 
+44,119292,120955,and so did Arua.,vino (ante Kuma) Arúa., SN:ARÚA cl.e(1):PERSONA-aproximarse 
+45,121283,122212,"Kuma: ""Wait wait.""","(Kuma:) ""Esperad esperad""", ESPERAR2(2M) 
+46,122212,123946,All were arguing,(todos) discutían, DISCUTIR 
+47,123946,125222,"""Wait wait.""","""Esperad esperad.", ESPERAR2(2M) 
+48,125469,128481,Let’s make a deal let her decide,(Hagamos) mejor un trato (que) decida ella,INDX BIEN DIRECTOR ESCOGER 
+49,128481,130732,Whether she wants to marry or not.,(si) quiere casarse (o) no.,SENTIR SÍ-O-NO INDX CASAR 
+50,130829,133111,"I should not decide she should"".","Yo no debo decidir sino ella"".",INDX.PRO:1sg SENTIR NO INDX.PRO 
+51,134022,136614,"Arua: ""Wait""","Arúa: ""Esperad""",SN:ARÚA G:pensárselo ESPERAR2(2M) 
+52,136614,139151,She thought about it a little,lo pensó (un poco), G:pensar PENSAR(2Msu) 
+53,139151,140419,"""I want to wait ","""quiero esperar ",INDX.PRO:1sg QUERER ESPERAR2(2M) 
+54,140419,142679,When I think about it,cuando lo piense,FUTURO PENSAR(2Msu) 
+55,142679,143358,I will let you know,os responderé, RESPONDER 
+56,143358,143962,"in the mean time wait.""","(mientras tanto) esperad.""", ESPERAR2(2M) 
+57,144590,146693,"""I feel happy","""Me siento contento", G:pensativo SENTIR CONTENTO 
+58,146693,149142,"I think waiting is good"" thought Kuma.","pienso que (está) bien esperar"" (pensó Kuma.)", PENSAR(2Msu) BIEN(2M) ESPERAR2(2M) 
+59,149268,151646,Years passed and,Pasó el tiempo (y), TRANSCURRIR 
+60,151646,155308,The eldest son went again to Kuma,el hijo mayor acudió otra vez a Kuma,INDX.PRO:3sg OTRA-VEZ INDX.PRO:3sg HIJO MAYOR G:acercar-Kuma 
+61,155333,156432,"""(What) does (Arua) want?","""(¿Qué) quiere (Arúa?)",QUERER G:interrogativo 
+62,156438,158333,She did not speak a word.,No ha (dicho) nada.,INDX.PRO:3sg NADA G:duda 
+63,158333,159722,"I would like to ask her again to marry me""","Quiero decirle otra vez (que nos) casemos.""",QUERER DECIR OTRA-VEZ CASAR 
+64,159730,160395,(but) [Arua] (stayed) silent ,(Pero) [Arúa] (sigue) en silencio ,SILENCIO 
+65,160398,162781,"Arua has not said anything.""","Arúa (no ha dicho) nada.""", NADA INDX.PRO:3sg SN:ARÚA G:interrogativo 
+66,162808,166840,"This son and the other sons (asked themselves): ""How do we resolve this?","Éste y otros hijos (se preguntaron): ""¿Cómo lo solucionamos/cuál (es) la solución?",INDX.PRO:3sg INDX.PRO:3sg HIJO OTRO G:interrogativo CÓMO SOLUCIÓN CUÁL 
+67,166840,168171,(because) Arua (has not said) anything about marriage   ,(Porque) Arúa (no ha dicho) nada del casamiento  ,INDX SN:ARÚA CASAR NADA 
+68,168171,169549,"(she continues) to be silent"".","(sigue) callada"".", SILENCIO^SUELO 
+69,169549,171235,"All present there said: ""Okay","Los presentes: ""De acuerdo",INDX.PRO:1pl G:pensar ACUERDO 
+70,171235,174266,The seven of us will have to fight each other,los siete nos enfrentaremos,INDX.PRO:1pl SIETE cl.e(1):PERSONA-enfrentarse-persona 
+71,174266,178940,"the one who wins in strength and skills will marry Arua"".","el que triunfe en fuerza y destreza se casará con Arúa"".", VICTORIA FUERTE DEPORTE INDX.PRO:3sg COGER CASAR INDX SN:ARÚA 
+72,179771,182985,The father (was) behind them hiding and,El padre (estaba) detrás de ellos escondido (y),PADRE cl.e(1):PERSONA-detrás-localización cl.e(1):LOCALIZACIÓN ESCONDER 
+73,182985,184475,he listened.,(los) escuchó.,ESCUCHAR B 
+74,184475,187314,"""(My) children want to ((?))"" he said to himself concerned.","""(Mis) hijos quieren ((?))""( pensó) preocupado.", HIJO QUERER INDX.PRO:3pl G:pensar-con-preocupación 
+75,187805,190664,The seven kids left.,Los siete hijos se fueron., ALEJARSE(2Msu) 
+76,190681,192487,The father (stayed) thinking.,El padre (se quedó) pensando.,PADRE PENSAR(2Msu) G:resulución 
+77,192487,196193,"""I'm going to go to consult the wizard.""","""Voy a ir a casa del brujo.""",INDX.PRO:1sg MENTE IR CASA BRUJO G 
+78,196193,198206,"""I want to ask you the wizard...","""Te pregunto Brujo...",INDX.PRO:1sg LLAMAR BRUJO G 
+79,198206,200091,Let me explain,Te explico,INDX.PRO:1sg EXPLICAR 
+80,200091,203289,My seven children want to fight each other to death,mis siete hijos quieren matarse (entre ellos),INDX.PRO:3pl PROPIO(2M) SIETE HIJO QUERER MORIR(2Msu) 
+81,203289,204441,The one who wins,el (que) venza,UNO VICTORIA 
+82,204441,206440,will get married to Arua.,se casará con Arúa., CASAR INDX.PRO:3sg SN:ARÚA G 
+83,206477,208164,I need your advice.,Aconséjame cómo (hago).,CÓMO ACONSEJAR G 
+84,208164,209567,"Help me please.""","Ayúdame por favor.""",POR-FAVOR AYUDAR G 
+85,210818,214687,"(The wizard looked at him) ""You..."".","(El brujo lo miró) ""Tú..."".", G:pausa INDX.PRO:2sg G:pensar 
+86,214687,215814,I'm going to give you a solution,"""Te voy a dar (una) solución",INDX.PRO:1sg DAR(L)(2M) SOLUCIÓN 
+87,215814,216810,There is a solution and,hay una (y),HABER UNO 
+88,216810,217418,I'm going to give it to you,te la voy a dar, DAR(L)(2M) 
+89,217418,219858,but it is very painful,pero es muy dolorosa, ENTONCES DOLOR FUERTE 
+90,219858,222498,Not as bad as the death of your children,no [tanto] como la muerte de tus hijos,INDX.PRO MORIR(2Msu) IGUAL2 HIJO NO 
+91,222498,225010,"a little less painful.""","(un poco) menos doloroso.""",DOLOR MENOS(2M) G:prosódico 
+92,225745,226513,"""What?","""¿Cuál?", CUÁL 
+93,226513,227406,"Please advise!"" (said Kuma.)","¡Aconséjame!""( dijo Kuma).", ACONSEJAR G 
+94,228299,232902,"""Kill Arua it should be better for you.""","""Haz que Arúa muera (sería) mejor (para) ti.""", G:pausa INDX.PRO:2sg SN:ARÚA INDX.PRO:2sg BIEN INDX.PRO:3sg MORIR(MP) INDX.PRO:3sg 
+95,234072,239447,(Kuma) reflected on the words.,(Kuma) reflexionó., G:extrañeza PENSAR(2Msu) 
+96,239518,243561,"""It’s quite clear! You had adopted her","""¡(Es) evidente! Tú a ella la acogiste", G:brujo G:evidencia INDX.PRO:2sg INDX.PRO:3sg cl.m(5d):coger-persona 
+97,243561,244150,You brought her up,la cuidaste, CUIDAR 
+98,244150,246559,and now what?,(Y al) final ¿qué?, G:evidencia CÓMO FIN CUÁL G:pausa 
+99,246559,248551,"Are you happy for adopting her?""","¿(Eres) feliz (por) haberla acogido?""",INDX.PRO:2sg FELIZ cl.m(5d):coger-persona G:prosódico 
+100,249820,253647,(Kuma) reflected on the words.,(Kuma siguió) reflexionando., PENSAR(2Msu) 
+101,253704,255861,Night approached,Se había hecho de noche,YA NOCHE 
+102,255861,257165,(Kuma) walked away,(Kuma) se alejaba,ALEJARSE 
+103,257165,260012,into the distance,caminando, CAMINAR(MP) 
+104,260013,260815,thinking all along.,(sin dejar de) pensar., PENSAR(2Msu) 
+105,260849,261462,"""How [can this be possible]?","""¿Cómo [es posible]?",CÓMO 
+106,261462,263124,When I saw (the child) I had felt sorry for her,Cuando (la) vi,PASADO MIRAR 
+107,263124,264748,I felt sorry for that child and,me compadecí de esa niña (y),PENA PEQUEÑO2 G 
+108,264748,266393,I took her into my arms.,la acogí., cl.m(5d):coger-persona 
+109,266393,270068,If another [child] appeared in the future I would (likewise) take it in..,(Si) en el futuro (apareciese) otro [niño] lo acogería (igualmente de todos modos).,FUTURO OTRO cl.m(5d):coger-persona MENTE G:interrogativo 
+110,270068,273011,Kuma (continued to) think about the solution.,Kuma (siguió) pensando en la solución., SOLUCIÓN PENSAR(2Msu) 
+111,273011,274946,He went home.,Se fue a casa., IR CASA(M-AB) G:prosódico 
+112,275130,278560,The next day at sunrise,Al día siguiente al (salir) el sol,MAÑANA DÍA 
+113,278560,281476,(Kuma) went to the wizard’s house again.,(Kuma) fue otra vez a casa del brujo., OTRA-VEZ IR CASA(M-AB) BRUJO 
+114,281489,282461,and called out (to the wizard).,Llamó (al brujo).,LLAMAR 
+115,282742,284307,"""I have found another solution","""He encontrado otra solución",YA SOLUCIÓN HABER 
+116,284307,285892,"I give you other solution.""","aporto otra solución.""", DAR(L)(2M) OTRO SOLUCIÓN 
+117,287140,288224,"""Do you have [another solution]?","""¿Tienes [otra]?",HABER G:interrogativo 
+118,288224,288818,What is it?,¿Cuál?, CUÁL 
+119,288818,291121,"Explain the other solution to me.""","Explícame (la) otra (solución).""", EXPLICAR G:extrañeza OTRO G:extrañeza 
+120,292781,298689,"""It would be better leave Arua in the middle of the forest""","""(Es) mejor dejar a Arúa en medio del bosque""",INDX.PRO:1sg BIEN(2M) SN:ARÚA ARROJAR MONTAÑA ARROJAR 
+121,299800,303497,"""But how are you going to leave her (in the forest)?","""¿Cómo vas a dejarla (en el bosque)?", G:extrañeza CÓMO G:interrogativo ARROJAR 
+122,303497,306563,You know that there are animals there: tigers pumas...,Sabes que allí (hay) animales trigres pumas...,SABER INDX ANIMAL2 G:prosódico TIGRE cl.c(5d):garras-andar G:pausa 
+123,306563,307085,They will eat her,se la comerán,COMER2 
+124,307085,307726,They will catch ,la cogerán (y),COGER 
+125,307726,309083,her and kill her.,aniquilarán., ANIQUILAR G:prosódico 
+126,309083,310177,You are cold blooded. [?],(Eres) frío. [?],HIELO G:¡venga! 
+127,311353,312325,G,G, G:impotencia 
+128,312751,316130,Moreover (your) seven sons will miss (her) company,Además (a tus) siete hijos les faltará (su) compañía,MÁS.SUMA HIJO SIETE NECESITAR(MP) AVAL 
+129,316130,317716,and they will surely go looking for her.,seguro (que la) buscarán., BUSCAR(2Msu) ES.SEGURO(1M) G 
+130,319109,322495,(Kuma was) thoughtful.,(Kuma quedó) pensativo., G PENSAR(2Msu) 
+131,322495,323161,[And finally] went (and),[Pero finalmente] fue (y), CAMINAR(MP) 
+132,323161,325418,left her on mount.,la dejó en la montaña.,ARROJAR MONTAÑA 
+133,325422,327701,to her fate.,y la abandonó a su suerte.,YA G:indiferencia MORIR(MP) ABANDONAR B 
+134,328813,334470,The next morning she was alone in the forest.,A la mañana siguiente ella (estaba) sola en el bosque., TRANSCURRIR DÍA G INDX SOLO2 MONTAÑA 
+135,334470,337082,Arua was alone (and scared).,Arúa (estaba) sola (temerosa).,SOLO2 SN:ARÚA SOLO2 
+136,337082,339780,In the evening (Arua feared the approaching) night.,Por la tarde (Arúa contemplaba atemorizada cómo se iba haciendo) de noche.,TARDE NOCHE 
+137,339780,340329,and walked (terrified),Caminaba (aterrorizada), CAMINAR(MP) 
+138,340329,344160,She felt a pain in her heart.,sentía en el corazón el dolor de la herida.,SENTIR CORAZÓN.FORMA DOLOR B APUÑALAR G 
+139,344707,345596,(Arua) walked,(Arúa) caminaba, CAMINAR(MP) 
+140,345596,348501,The forest became darker,el bosque (se hacía cada vez más) oscuro, OSCURO BOSQUE 
+141,348501,350498,and shadows covered her.,las sombras (la) cubrían., SOMBRA 
+142,350498,352220,As she walked,(A medida que) caminaba, CAMINAR(MP) 
+143,352220,354826,She looked around,miraba (a su alrededor),MIRAR 
+144,354826,356477,stopped,se detuvo,cl.e(2d):PERSONA-sentarse-suelo cl.e(Bh):SUELO 
+145,356477,357804,She looked around,miró (a su alrededor).,MIRAR B 
+146,357804,359274,She had felt the presence [of something],Había sentido la presencia [de algo],SENTIR HABER 
+147,359274,361729,A tiger was approaching,un tigre (que) se aproximaba, ANIMAL2 TIGRE cl.c(5d):garras-andar 
+148,361729,362903, (but) she saw (nothing), (pero) no vio (nada),VER-MAL 
+149,362903,364477,She looked in all directions;,miró (en todas direcciones);,MIRAR 
+150,364477,365573,She felt comforted,se sintió consolada,SENTIR CONTENTO 
+151,365573,366111,There was nothing.,no había (nada).,HABER-NO 
+152,366111,367841,"What a melancholy! How painful!"".",¡Qué melancolía! ¡Qué dolor!, DEPRESIÓN DOLOR G:prosódico 
+153,367841,369574,(Arua) walked,(Arúa retomó) la marcha, CAMINAR(MP) 
+154,369574,370668,and she stopped again,(pero) paró otra vez, OTRA-VEZ PARAR 
+155,370668,371173,She couldn't (walk any more).,no podía [más/caminar],PODER2 B 
+156,371173,372604,and sat scared,(y) se sentó (asustada),cl.e(2d):PERSONA-sentarse-suelo cl.e(Bh):SUELO 
+157,372726,375866,It was completely dark.,había oscurecido por completo., G:pensar-narrador OSCURO NEGRO G:prosódico 
+158,377352,380224,and there was a ray of light in the forest and,Sobre el bosque se abrió un claro (y), BOSQUE cl.d(5):nubes-abrirse 
+159,380224,383244,the moon lit up over her.,la luna la iluminó.,cl.d(Lc&amp;gt;L&amp;gt;Lc):luna-forma LUZ 
+160,383244,385431,(Arua) looked at the moon.,(Arúa la) miró., G:Arúa MIRAR 
+161,386692,387994,"""I will help you.","""Te ayudaré",INDX.PRO:1sg AYUDAR 
+162,387994,389593,Let me explain,te explico,INDX.PRO:1sg EXPLICAR 
+163,389593,391674,I will give you shelter and take care of you.,te cobijaré (y) cuidaré.,INDX.PRO:2sg B CASA CUIDAR INDX.PRO:2sg 
+164,391674,394813,I will defend you from the animals from the tiger.,Te defenderé de los animales del tigre.,INDX ANIMAL2 TIGRE G:animal-atacar INDX.PRO:2sg DEFENDER 
+165,394813,396991,"Calm down I will help you.""","Tranquila (te) ayudaré.""", TRANQUILO AYUDAR 
+166,398004,401537,"(Arua gazed up at the moon amazed) ""You are talking to me.""","(Arúa miraba la luna con asombro) ""Hablas (conmigo).""",G:mirar-asombrado EXPLICAR 
+167,401537,405392,A flower blossomed in front of the dumbfounded Arua,Enfrente de Arúa (que contemplaba estupefacta) se abrió una flor,FLOR cl.e(Cc&amp;gt;5d):FLOR-abrirse 
+168,405392,408017,illuminated by the light of the moon.,iluminada por la luz de la luna.,LUZ cl.e(Cc&amp;gt;5d):FLOR-abrirse 
+169,408019,409287,I do not recognise this (she thought),"""No (la) conozco"" (pensó Arúa)",CONOCER NO 
+170,409287,411224,while she looked at the flower.,(mientras) miraba la flor.,MIRAR FLOR MIRAR 
+171,411224,417943,The petals opened more and more,Los pétalos (de la flor) se abrieron más y más,cl.e(C&amp;gt;5d):FLOR-abrirse cl.d(L&amp;gt;Lc):pétalos-forma cl.e(C&amp;gt;5d):FLOR-abrirse cl.e(5d):FLOR-ascender 
+172,417943,420088,and wrapped around her completely.,(hasta) envolver (a Arúa) por completo., cl.d(5):flor-cubrir-Arúa 
+173,420088,422996,Arua fell asleep inside the flower,(Arúa) se durmió (en el interior de la flor),DORMIRSE 
+174,422996,423955,She did not feel any pain and,no había(/sentía) dolor (y),DOLOR HABER-NO 
+175,423955,426281,relaxed ,se relajó , EMOCIÓN RELAJAR 
+176,426281,430922,as the flower closed completely around her.,(a medida que) la flor se cerraba completamente sobre ella., cl.d(5):flor-cubrir-Arúa cl.e(5d&amp;gt;Cc):FLOR-cerrarse-persona cl.e(1):PERSONA 
+177,431100,435147,The next day at sunrise,Por la mañana al salir el sol,DÍA AMANECER 
+178,435147,437265,The seven sons of Kuma [began] looking for her and,los siete hijos de Kuma [empezaron a] buscar (y), HIJO SIETE SN:KUMA BUSCAR(2Msu) 
+179,437265,438672,searched everywhere,mirar (por todas partes)., MIRAR(2M) 
+180,438672,441028,"""Where could Arua be?"" (they asked).","""¿Dónde estará Arúa?""( se preguntaron).", CUÁL SN:ARÚA DÓNDE(2M) CUÁL 
+181,441028,442077,(And started) to search.,(Empezaron a) buscar., BUSCAR(2Msu) 
+182,442077,443705,There were a few foot prints in the ground,Había unas pisadas en el suelo, cl.c(I):PIE-pisar LO-DE-ANTES 
+183,443705,445711,They followed the footprints,siguieron las huellas, cl.c(I):PIE-pisar cl.e(1):PERSONAS-desplazarse 
+184,445711,447477,They walked in a row following the footsteps,(fueron) en fila siguiendo las huellas, cl.c(I):PIE-pisar cl.e(1):PERSONAS-desplazarse 
+185,447477,448847,(to the point where) the footprints disappeared.,(hasta el lugar en el que) las huellas desaparecían., cl.c(I):PIE-pisar DESAPARECER 
+186,448847,451015,"""She is not here"" they said astounded upon reach that point.","""No está"" (dijeron extrañados al llegar a ese punto).", cl.c(I):PIE-pisar HABER-NO(2M) G:extrañeza 
+187,451015,454130,The seven looked for Arua around the place,Los siete buscaron a Arúa por los alrededores, BUSCAR(2Msu) cl.e(2):PERSONAS7-desplazarse cl.e(5):PERSONAS7-desplazarse G:hijo-buscando cl.e(2):PERSONAS7-desplazarse cl.e(5):PERSONAS7-desplazarse 
+188,454130,454850,"""Where (could she be)?""","""¿Dónde (estará) Arúa?""", SN:ARÚA DÓNDE 
+189,454850,455992,The seven gazed into the distance,Los siete dirigieron (su mirada),cl.e(2):PERSONAS7-girarse cl.e(5):PERSONAS7-girarse 
+190,455992,457743,at the flower containing Arua.,hacia la flor que contenía a Arúa.,cl.e(5d&amp;gt;Cc):FLOR-cerrarse-persona cl.e(1):PERSONA 
+191,457970,459073,When the seven looked at the flower,Al mirar los siete,cl.e(2):PERSONAS7-girarse+mirar cl.e(5):PERSONAS7-girarse+mirar 
+192,459073,460125,The flower containing Arua closed,la flor (de Arúa) se cerró,cl.e(5d&amp;gt;Cc):FLOR-cerrarse-persona cl.e(1):PERSONA 
+193,460125,460615,The petals closed.,se cerraron los pétalos, G:persona-encogerse 
+194,460615,461385,with Arua inside.,(que) contenían a Arúa., G:flor-cubrir-cabeza cl.e(Cc):FLOR-cerrada-persona cl.e(1):PERSONA 
+195,461698,462312,Upon seeing this,Al ver (esto),cl.e(2):PERSONAS7 cl.e(5):PERSONAS7 
+196,462312,464162,The seven headed (towards the flower).,los siete se dirigieron (hacia la flor).,cl.e(2):PERSONAS7-aproximarse cl.e(5):PERSONAS7-aproximarse 
+197,464162,464759,as they approached  it,Al acercarse (a ella),B CERCA 
+198,464759,467101,The seven were transformed into butterflies and,los siete se transformaron en mariposas (y),cl.e(2):PERSONAS7-moverse cl.e(5):PERSONAS7-moverse MARIPOSA 
+199,467101,469343,(began to) flit around the flower,(empezaron a) revolotear sobre la flor, cl.e(55):MARIPOSA-volar 
+200,469343,470765,(but) not close (to it),(pero) no cerca (de ella), CERCA NO 
+201,470765,471513,(That) would kill them,(eso) las mataría, MORIR(MP) 
+202,471513,473110,It was a dangerous flower.,(es) una flor peligrosa.,VER^DEBER FLOR 
+203,473110,475185,The butterflies rose in the air flying,Las mariposas ascendieron volando, cl.e(55):MARIPOSA-ascender 
+204,475185,476667,and disappeared into the distance.,(hasta) desaparecer., DESAPARECER 
+1,276,3522,A dog sitting opposite,Un dormitorio con una cama; un niño sentado a los pies de la cama, HABITACIÓN CAMA HOMBRE cl.e(2d):PERSONA-sentada 
+2,3522,5159,Hmm...,un perro sentado enfrente,B:cl.e(2d):PERSONA-sentada PERRO cl.e(2d):PERSONA-sentada-con+perro cl.e(Hd):PERRO-sentado-con+persona 
+3,5159,8999,They look at the jar surprised,Un frasco con una rana dentro, cl.d(5d):frasco RANA cl.e(Hd):RANA-en-frasco cl.e(C):FRASCO 
+4,8999,12637,Leaves It,(El niño y perro) miran (fijamente la rana)., MIRAR(2M) 
+5,12637,13985,and begins to search here,El niño y el perro se van, B:MIRAR cl.e(2b):PERSONA-desplazarse-con+perro cl.e(2b):PERRO-desplazarse-con+persona 
+6,13985,16130,to search here,(el niño) se mete en cama, CAMA ACOSTARSE 
+7,16130,18947,it looks carefully,(y el perro) se sube a la cama,B:ACOSTARSE PERRO cl.e(Bh):CAMA cl.e(2d):PERRO-ascender+a-cama cl.e:CAMA cl.e(2d):PERRO-posarse-cama 
+8,18947,20476,stands up and looks inside something,La rana está dentro del frasco, cl.d(5d):frasco cl.e(Hd):RANA-en-frasco cl.e(C):FRASCO 
+9,20476,21295,The boy looks out the window,trepa por él,cl.e(2d):RANA-ascender+a-frasco B:cl.e(C):FRASCO 
+10,21295,22721,looking from inside the bottle,salta fuera,cl.e(2d):RANA-saltar+de-frasco B:cl.e(C):FRASCO 
+11,22721,25823,until,y se aleja,cl.e(Hd):RANA-alejarse-frasco B:cl.e(C):FRASCO 
+12,25823,26883,and the jar breaks,Desaparece, DESAPARECER 
+13,28081,30616,and gets blown into smithereens,(Se hace) de día, DÍA 
+14,30616,32160,when suddenly he sees the dog,Mmm..., G:mmm G:mmm 
+15,32160,33166,and caresses it,El niño se levanta,cl.e(2b):PERSONA-descender+de-cama cl.e(Bh):CAMA 
+16,33166,34840,The two begin to explore the place,el perro se levanta con el niño,cl.e(2d):PERRO-descender+de-cama B:cl.e(Bh):CAMA PERRO B:cl.e(Bh):CAMA cl.e(2d):PERRO-descender+de-cama B:cl.e(Bh):CAMA cl.e(2d):PERRO-con+persona cl.e(2d):PERSONA-con+perro 
+17,34840,35514,They see something that makes them stop,miran (extrañados el frasco), MIRAR(2M) 
+18,35514,38352,In front of them is a wood,(El niño) examina el frasco, cl.d(5d):frasco cl.m(C):examinar-frasco 
+19,38352,39149, there is a hive in one of the trees,lo deja, cl.m(C):colocar-frasco 
+20,39149,39651,with bees swarming,(y se pone) a buscar (por aquí), BUSCAR(2Msu) 
+21,39651,40433,The boy sees the hive,a buscar (por allá), BUSCAR(2Msu) 
+22,40433,41422,The dog runs toward the tree,a buscar (por aquí), BUSCAR(2Msu) 
+23,41422,43256,and moves towards the hive,a buscar (por allá), BUSCAR(2Msu) 
+24,43256,45466,It sniffs,El perro mira dentro del frasco,PERRO B:BUSCAR(2Msu) cl.e(C):frasco B:cl.e(C):frasco 
+25,45466,45989,and approaches leaping,lo observa (escrupulosamente),MIRAR B:cl.e(C):frasco 
+26,45989,47205,to the place where there are bees,El frasco se le mete en la cabeza, cl.e(C):FRASCO-descender 
+27,47205,49987,coming out of the hive,y le queda encajado, cl.e(C):FRASCO 
+28,49987,51997,The dog is on all fours,El niño (sigue) buscando,HOMBRE PEQUEÑO2 BUSCAR(2Msu) 
+29,51997,53288,and exits fleeing,Levanta y mira en el interior de algo, cl.m(Q):levantar-objeto 
+30,53288,56466,chased by a swarm of bees,coge una prenda de ropa (y la examina incrédulo), ROPA cl.m(5&amp;gt;Q):coger-prenda cl.m(Xc):examinar-prenda cl.m(Xc):agarrar-prenda 
+31,56466,58297,The boy sees an owl in the distance.,Los dos se asoman por la ventana, VENTANA cl.e(2d):PERSONA-asomarse-con+perro cl.e(2d):PERRO-asomarse-con+persona 
+32,58297,59233,The owl glides towards the boy,el niño mira por la ventana,cl.e(1):PERSONA cl.e(2d):PERRO B:cl.e(1):PERSONA cl.e(2d):PERRO 
+33,59233,61889,and the boy runs away,(y) el perro (está) en la ventana con el frasco en la cabeza, VENTANA B:VENTANA cl.e(2d):PERRO-asomado PERRO B:cl.e(2d):PERRO-asomado cl.e(C):FRASCO-en-cabeza 
+34,61889,66161,at a certain distance the dog also runs,El niño está mirando (con detenimiento en todas direcciones),HOMBRE MIRAR(MP) 
+35,66161,68292,pursued by the swarm,El perro está sacudiéndose con el frasco en la cabeza,PERRO B:MIRAR(MP) cl.e(C):FRASCO-en-cabeza 
+36,68292,68835,"The boy is running ""Ahh!""",mirando desde dentro del frasco,MIRAR cl.e(C):FRASCO-en-cabeza 
+37,68835,69434,The owl flies over him,hasta que, cl.e(C):FRASCO-en-cabeza 
+38,69434,72580,The boy escapes,cae de cabeza por la ventana,cl.e(2d):PERRO-caer+de-ventana cl.e(Bh):VENTANA 
+39,72580,73429,and the owl pursues him,y el frasco estalla, cl.d(A&amp;gt;5h):frasco-estallar 
+40,73429,74127,Hmm...,El frasco impacta, cl.e(5d):FRASCO-descender 
+41,74127,74570,on the way he comes across a rock.,y estalla en añicos, cl.d(A&amp;gt;5):frasco-estallar 
+42,74570,76493,The boy climbs on the rock,El perro sale rodando,cl.e(2d):PERRO-en-localización cl.e(Bh):LOCALIZACIÓN PERRO B:cl.e(Bh):LOCALIZACIÓN cl.e(2d):PERRO-rodar-localización B:cl.e(Bh):LOCALIZACIÓN 
+43,76493,77372,The owl flies away,El niño (sigue) mirando (a su alrededor), MIRAR(MP) 
+44,77372,77985,to a perch on a tree branch,cuando de repente ve al perro, B:MIRAR(MP) 
+45,77985,80096,The boy climbs on the rock,lo coge en sus brazos, cl.m(Bd):coger-perro 
+46,80096,82394,Looks from one side to another,y lo acaricia,cl.m(Bd):sostener-perro ACARICIAR 
+47,83058,86049,and sees something down,Los dos empiezan a recorrer el lugar,cl.e(1):PERSONA-desplazarse-con+perro cl.e(2d):PERRO-desplazarse-con+persona 
+48,86049,86512,It is a deer,Ven algo que los hace parar,B:cl.e(1):PERSONA-desplazarse-con+perro B:cl.e(2d):PERRO-desplazarse-con+persona 
+49,86512,89919,which looks at him in the eyes,Delante (de ellos se extendía) un bosque, MIRAR(MP) BOSQUE 
+50,89919,92185,with the deer gazing at him the boy is scared and leaps,En uno de los árboles hay una colmena,INDX ÁRBOL(1M) cl.d(Qd&amp;gt;Q):colmena-en-árbol cl.e(5):ÁRBOL 
+51,92185,95013,falls on the head of the deer,con abejas revoloteando,ABEJA B:cl.e(5):ÁRBOL cl.e(Lc):INSECTO-volar-árbol B:cl.e(5):ÁRBOL 
+52,95013,95975,The deer puzzled with the stowaway starts to move its head,(El niño) advirtie la colmena,MIRAR B:cl.e(5):ÁRBOL 
+53,95975,96865,and to gallop with the boy on its head,El perro corre hacia el árbol,PERRO B:cl.e(5):ÁRBOL cl.e(Hd):PERRO-aproximarse-árbol B:cl.e(5):ÁRBOL 
+54,96865,97433,The boy dangles between the deer’s horns during the gallop,se yergue hacia la colmena,cl.e(Hd):PERRO-levantarse+hacia-árbol B:cl.e(5):ÁRBOL 
+55,97433,97883,The deer gallops,la olisquea,RESPIRAR B:cl.e(5):ÁRBOL 
+56,97883,98893,and gallops with the boy bouncing about,se acerca dando saltos,cl.e(Hd):PERRO-saltar+hacia-árbol B:cl.e(5):ÁRBOL 
+57,98893,99571,They run to the bottom of a slope,al lugar en el que están las abejas,cl.e(Lc):INSECTO-volar B:cl.e(5):ÁRBOL 
+58,99571,101134,where the deer stops suddenly.,que salen de la colmena, cl.e(Lc):INSECTOS-volar 
+59,101134,102510,The boy falls off the stag’s back into a river,El perro se pone a cuatro patas,cl.e(Hd):PERRO-girarse+hacia-árbol cl.e(5):ÁRBOL 
+60,102510,103583,creating a surface wave in the water,y sale huyendo,cl.e(Hd):PERRO-alejarse-árbol B:cl.e(5):ÁRBOL 
+61,103583,106410,The dog also falls into the water,perseguido por un enjambre de abejas,cl.e(Hd):PERRO-huir-abejas cl.e(Lc):ABEJAS-seguir-perro 
+62,106410,110788,The boy continues to look around,El niño ve (a lo lejos) un búho.,HOMBRE MIRAR BÚHO^VOLAR 
+63,110788,112068,He is in the middle of the river,El búho planea hacia el niño, cl.e(55):AVE-volar 
+64,112068,114512,On  his left he sees a trunk,y el niño huye corriendo,cl.e(1):PERSONA-desplazarse cl.c(B):garras-correr CORRER B:CORRER cl.e(1):PERSONA-correr 
+65,114512,115474,stares ,A cierta distancia el perro también corre,PERRO B:cl.e(1):PERSONA-correr cl.e(Hd):PERRO-correr-persona+detrás cl.e(1):PERSONA-correr-perro+delante 
+66,115474,116474,"""Quiet"" he shouts to the dog",perseguido por el enjambre,cl.e(Hd):PERRO-huir-abejas cl.e(Lc):INSECTOS-seguir-perro 
+67,116474,117151,The dog is behind him // both stare for a while.,"El niño corre ""¡Ahh!""",B:cl.e(Hd):PERRO-huir-abejas cl.e(1):PERSONA-correr 
+68,117151,119302,The dog looks at him from below without moving,El búho vuela encima de él, cl.e(55):AVE-volar B:cl.e(55):AVE-volar cl.e(1):AVE-localización VOLAR 
+69,119302,120255,"The boy from above: ""Don't make noise""",El niño escapa,cl.e(1):PERSONA-correr 
+70,120255,120936,"""Let's go.""",y el búho lo persigue, cl.e(55):AVE-volar 
+71,120936,122073,"""to that tree trunk""",[Mmm...],G.ADA 
+72,122073,123520,The dog begins to walk towards the trunk,(En su camino se encuentran con) una roca., PIEDRA cl.e(5d):PIEDRA 
+73,123520,125770, the dog stealthily,El niño se sube a la roca,cl.e(5d):PIEDRA cl.e(1):PERSONA-ascender+a-piedra 
+74,125770,127383,approaches the boy ,El búho va volando, cl.e(55):AVE-volar 
+75,127383,130035,The trunk is near now,hasta posarse en la rama de un árbol,cl.e(2d):AVE-posarse-árbol cl.e(5):ÁRBOL 
+76,130035,132196,The boy looks at the trunk,El niño se sube a la roca,HOMBRE B:cl.e(5):ÁRBOL cl.e(5d):PIEDRA B:cl.e(5):ÁRBOL B:cl.e(5d):PIEDRA cl.e(2d):PERSONA-ascender+a-piedra 
+77,132196,134075,The dog also looks at the trunk,mira (de lado a lado),MIRAR 
+78,134075,135928,down below is the frog surprised to see them,y (hacia abajo) ve (algo),MIRAR 
+79,135928,136716,The boy looks surprised at the frog which in turn looks at him.,(Es un) ciervo, CIERVO 
+80,136716,137411,Next to the frog,que le mira a los ojos,MIRAR 
+81,137411,138911,is a row of frogs,Al ser mirado (por el ciervo) el niño asusta (y da un salto),B:MIRAR ASUSTAR(2M) 
+82,138911,140146,and next to it their progeny in a row,Cae sobre la cabeza del ciervo,cl.e(2b):PERSONA-caer-ciervo 
+83,140146,143218,The boy and dog are looking astonished at the frog.,El ciervo (desconcertado con el polizón) empieza a mover la cabeza, CIERVO cl.e(2b):PERSONA-sobre-cabeza+ciervo B:CIERVO 
+84,143218,145473,with a wide smile,y a galopar con el niño en la cabeza,cl.e(2b):PERSONA-sobre-ciervo cl.e(Hd):CIERVO-correr 
+85,145473,146974,The frogs are on top of the trunk in a row from largest to the smallest,El niño va a trompicones entre las astas del ciervo durante el galope, CIERVO cl.e(2b):PERSONA-sobre-cabeza+ciervo B:CIERVO 
+86,146974,149640,The boy extends his hand,El ciervo galopa, cl.c(A):pezuñas-correr 
+87,149640,151470,One frog climbs into his hand,galopa con el niño encima dando botes,cl.e(2b):PERSONA-sobre-ciervo cl.e(Hd):CIERVO-correr 
+88,151470,153916,It hesitates but stays on his hand,Van corriendo hasta el fondo de un talud,cl.e(2b):PERSONA-sobre-ciervo cl.e(Hd):CIERVO-correr cl.d(5d):talud cl.d(2d):talud cl.e(2b):PERSONA-sobre-ciervo cl.e(Hd):CIERVO-correr 
+89,153916,155488,The boy starts to walk with the frog in his hand,(donde) el ciervo frena, cl.c(A):pezuñas-frenar 
+90,155488,162183,The dog walks at their side,El niño cae del lomo del ciervo a un río,cl.e(2b):PERSONA-caer+de-ciervo cl.e(Hd):CIERVO-arrodillado CAMINO AGUA B:CAMINO cl.e(2b):PERSONA-caer-charco cl.e(Xa):CHARCO 
+91,162183,164062,The two of them walk,creando una onda superficial en el agua, SALPICAR cl.e(Xa):ONDA-abrirse 
+92,164062,166837,into the distance.,El perro (también) cae al agua,PERRO B:cl.e(Xa):ONDA-abrirse cl.e(2b):PERRO-caer-charco B:cl.e(Xa):ONDA-abrirse cl.d(5d):poza-agua 
+93,166837,169691,[Applause],(El niño) mira a su alrededor,INDX G:asomarse MIRAR 
+1,71,3880,"""The three pigs and the wolf"".","""Los tres cerdos y el lobo"".", TÍTULO TRES CERDO OTRO UNO LOBO 
+2,3975,5090,I’m going to tell (this story).,Voy a contar.,INDX.PRO:1sg EXPLICAR 
+3,6677,8262,(There are) three pigs,(Hay) tres cerdos,TRES HERMANO- CERDO TRES 
+4,8331,10866,The two... three of them are siblings.,los dos... los tres (son) hermanos.,LOS-DOS LOS-TRES TAMBIÉN HERMANO LOS-TRES 
+5,10996,12851,Each one has a different character.,Cada uno (tiene) un carácter diferente.,CADA-UNO TIPO DIFERENTE 
+6,13460,15825,The first loves to play,Al primero le encanta jugar,INDX:primero B.L(1) ENCANTAR JUGAR(CT) 
+7,15892,17130,The second also (likes) playing,al segundo también (le gusta) jugar,INDX:segundo B.L(2) TAMBIÉN B.L(2) JUGAR 
+8,17269,18637,and the third is serious,y el tercero (es) serio,INDX:tercero B.L(3) UNO B.L(3) TRISTE B.L(3) 
+9,18654,20194,focused on work.,centrado en trabajar., MENTE^CONCENTRAR TRABAJAR G(B):vale B:TRABAJAR 
+10,20321,21386,Let me explain.,Explico.,INDX.PRO:1sg EXPLICAR 
+11,21581,23761,Another (personality is) the wolf which wants to eat (them),Otro (personaje es) un lobo que quiere comer(los),OTRO LOBO LOBO MENTE^OBJETIVO MENTE^OBJETIVO COMER 
+12,23791,24391,eat them,comerlos,MORDER 
+13,24431,26681,It wants to eat the three pigs all three of them.,quiere comer a los tres cerdos a todos quiere (comer).,QUERER TRES CERDO COMER TODO QUERER G(B):vale 
+14,27206,28588,I am going to explain.,Empiezo a explicar., EMPEZAR INDX EXPLICAR 
+15,28863,30658,A person... No sorry.,Una persona... No perdón.,UNO PERSONA PERDÓN 
+16,30784,37048,A pig is building what? a house how do he does that? with bundles of straw.,Un cerdo (está) haciendo (¿qué?) una casa( ¿cómo la hacía?) con manojos de paja.,UNO CERDO SECCIÓN(1M) ARREGLAR OBJETIVO CUÁL CASA CÓMO LIGERO MADERA PALO 
+17,37099,37659,It is working (fast),Trabaja (rápido), ARREGLAR 
+18,37672,40428,to finish the house quickly.,para acabar la casa rápidamente., PORQUE RÁPIDO INSTANTE CASA(M-AB) YA B:CASA(M-AB) 
+19,41125,41971,(The pig) has just finished,(El cerdo) acaba la obra,INDX ARREGLAR LISTO 
+20,42024,42761,and leaves/goes.,(y) sale/va.,INDX CAMINAR 
+21,42791,43429,The pig calls:,El cerdo llama:,CERDO LLAMAR 
+22,43448,44850,"""Look brother I won ","""Mira hermano (soy) el primero ",VER HERMANO PRIMERO B:HERMANO 
+23,44859,46237,"The house of straw bundles is already finished.""","la casa de manojos (de paja) ya (está) acabada.""", CASA PALO YA LISTO 
+24,46354,47051,The brother is surprised: Oh! ,"(El hermano se sorprende:) ""Oh!"" ",HOMBRE- (CNM) 
+25,47176,50871,Another pig the second one is also working (on a house) a wooden house.,Otro cerdo el segundo también trabaja (en una casa) de madera.,OTRO CERDO B.L(2) INDX:segundo TAMBIÉN ARREGLAR CÓMO MADERA 
+26,50918,53198,And works quite a bit.,Trabaja bastante., ARREGLAR SECCIÓN- B:ARREGLAR BASTANTE B:ARREGLAR ARREGLAR 
+27,53222,54421,The house is finished.,La casa (está) acabada.,YA CASA LISTO 
+28,54455,55689,"""Look the two (houses have been built) the same"" (said the pig with the wooden house).","""Mira las dos (casas han sido hechas) igual"" (dijo el cerdo de la casa de madera).",VER B:LISTO LOS-DOS B:LISTO IGUAL VER LISTO 
+29,55719,58252,Let’s see how  the third and final pig (is building its) house.,A ver cómo (está haciendo) la casa el tercer y último cerdo.,VER ÚLTIMO B.L(3) INDX:tercero INDX CÓMO CASA CÓMO 
+30,58256,59002,(It is making it) with bricks,(Está haciéndola) de ladrillos, CONSTRUIR 
+31,59145,61420,It is taking a long time (to build the house).,(está) tardando mucho tiempo (en hacer la casa).,G(5):mucho G:mucho HORA DURAR 
+32,61472,62349,"""Brother","""Hermano",INDX LLAMAR INDX 
+33,62373,63743,"You are working (very hard)"" said the pig.","(estás) trabajando (muy duro)"" (le dijo el cerdo).", G:demasiado TRABAJAR 
+34,63981,65406,"The pig (responds): ""I know I know.","El cerdo (le responde): ""Lo sé lo sé.",HOMBRE- CERDO SABER INDX 
+35,65442,66451,"Stop it will be safe"".","tranquilo así (es) segura.""", TRANQUILO ES.ASÍ(1M) B:TRANQUILO ES.SEGURO 
+36,66501,67841,He (continues) working,(Y sigue) trabajando., CONSTRUIR 
+37,67881,69849,The two (siblings) continue talking,Los dos (hermanos) prosiguen hablando,LOS-DOS CÓMO CONTINUAR CONTACTO 
+38,69862,70841,and playing.,y jugando., JUGAR 
+39,71027,71298,And as they move away,Al alejarse,ALEJARSE 
+40,71301,73256,by chance the wolf hears them.,por casualidad el lobo les oye.,CASUAL LOBO ESCUCHAR 
+41,73295,73770,(The wolf) comes nearer (quietly),(El lobo) se acerca (sigilosamente), cl.c(1):PATAS-andar 
+42,73783,75604,It sees them,los ve,INDX.PRO:1sg B:cl.c(1):PATAS-andar MIRAR B:cl.c(1):PATAS-andar 
+43,75632,75955,It prepares itself:,se prepara:, PREPARAR 
+44,75967,76382,to take a step,da un paso, cl.c(B):pies-andar 
+45,76400,77217,(but) makes noise,(pero) hace ruido, SONIDO(2M) 
+46,77254,79459,and the two (pigs) the same ones as before which were playing hear (the noise).,(y) los dos (cerdos) los mismos de antes que (estaban) jugando lo oyen.,DOS MISMO LO-DE-ANTES DOS JUGAR(CT) ESCUCHAR(2M) 
+47,79469,79917,"""Warning!: ","""¡Aviso: ",G B:ESCUCHAR(2M) AVISAR B:ESCUCHAR(2M) 
+48,79922,80593,the wolf is here,está aquí el lobo,INDX B:ESCUCHAR(2M) HABER B:ESCUCHAR(2M) PERRO B:ESCUCHAR(2M) 
+49,80603,81522," The wolf comes!"" (the pigs scream)."," viene el lobo!"" (gritan los cerdos).",VENIR B:ESCUCHAR(2M) LOBO YA 
+50,81531,82035,They escape each running away on its own,Se van (corriendo cada uno por su lado), ALEJARSE(2Msu) 
+51,82052,82788,They escape each running away on its own,los dos se van (corriendo cada uno por su lado),DOS B:ALEJARSE(2Msu) ALEJARSE(2M) 
+52,82793,86168,(One) to the house of b... bundles of straw and enters,(uno) a la casa de m... manojos de paja entra, OBJETIVO CASA MADERA PALO DENTRO YA 
+53,86247,88255,another enters the wooden house,otro entra en la casa de madera,OTRO CASA MADERA DENTRO 
+54,88280,90246,and the third in the one built with bricks enters (also at home).,y el otro (el que estaba) construía con ladrillos entra (también en su casa).,OTRO CONSTRUIR LISTO AHORA DENTRO 
+55,90311,91945,The wolf approaches quietly,El lobo se acerca,INDX LOBO cl.c(1):PATAS-andar 
+56,91960,93401,"""Hello"" (says joker).","""Hola""( dice guasón).", G:mímica-lobo SALUDO 
+57,93809,95654,One of the (terrified) pigs look out the window.,Uno de los cerdos mira (aterrorizado) por la ventana.,INDX CERDO UNO VENTANA cl.m(A):apoyarse-ventana 
+58,95668,97666,"""Hey the wolf is coming"" (it thought).","""Uf viene el lobo""( piensa).",VENIR B:cl.m(A):apoyarse-ventana LOBO(1M) B:cl.m(A):apoyarse-ventana INTENSO B:cl.m(A):apoyarse-ventana 
+59,97739,98526,and warns:,advierte:,AVISAR 
+60,98548,100646,I will huff 'n puff with ease,"""Soplaré y con facilidad",FÁCIL LOBO SOPLAR 
+61,100686,101548,"and bring (your) house down"".","volaré (tu) casa"".", cl.e:CASA-desintegrarse 
+62,101825,102631,"""No (I don’t think so"" says) the pig.","""No (creo)"" (le dice) el cerdo.",CERDO (CNM) 
+63,102662,103359,"""Yes yes"" (answers the wolf convincingly.)","""Sí sí"" (responde convencido el lobo).", (CNM) 
+64,103375,104279,(The wolf) gets ready,(El lobo) se prepara:,AHORA MÁS-O-MENOS PREPARAR(1M) 
+65,104294,105795,The wolf moves back.,el lobo retrocede., LOBO cl.c(1):PATAS-retroceder 
+66,106034,106992,"""the house is there"" (it calculates).","""Ahí (está) la casa"" (calcula el lobo).",INDX cl.e:CASA 
+67,107008,107869,(The wolf) takes a deep breath,(El lobo) respira (profundamente),RESPIRAR 
+68,107880,108856,(and after) filling its chest (with air),(y un vez que) llena el pecho (de aire), cl.d(5d):pecho-hinchar 
+69,108949,109787,blows (strongly).,sopla (intensamente).,SOPLAR 
+70,109817,110928,The house is shaken.,La casa se tambalea., cl.e:CASA-moverse 
+71,111122,113183,The pig watches in desperation,El cerdo lo presencia (desesperado),CERDO cl.m(5):vibrar-ventana 
+72,113371,114075,The bales of hay are thrown about,los manojos (empiezan a) salir despedidos, cl.e(1):PALOS-ascender 
+73,114160,115283,and the house is torn down.,(y) la casa se despedaza., cl.e:CASA-desintegrarse 
+74,115428,117591,stunned the pig flees,(Atónito) el cerdo huye, G(5):desesperación cl.e(2b):PERSONA-sobre-suelo cl.e(Bh):SUELO cl.e(A&amp;gt;5):POLVAREDA-alejarse-suelo B:cl.e(Bh):SUELO 
+75,117650,118039,and runs to,(y) corriendo, cl.c(1):PATAS-correr 
+76,118165,120092,the wooden house,va a la casa de madera, OBJETIVO IR MADERA CASA 
+77,120128,121472,where its brother had entered.,en la que (su) hermano (ya había) entrado.,LO-DE-ANTES HERMANO INDX DENTRO 
+78,121537,122174,(Pig) enters.,(El cerdito) entra., DENTRO YA 
+79,122215,122531,"""Brother","""Hermano",AVISAR 
+80,122544,123724,My house has been blown down,mi casa se ha roto,INDX.PRO:1sg PROPIO CASA ROMPER 
+81,123777,124257,down,ha volado, cl.e:CASA-desintegrarse 
+82,124296,125259,by the wolf.,por el soplido del lobo.,MOTIVO LOBO SOPLAR 
+83,125292,128384,"""Blown down? Really?"" (it asked the brother puzzled).","""¿Por un soplido? ¿En serio?"" (Le pregunta extrañado) el hermano.", HERMANO B:HERMANO SOPLAR(2M) MIRA-TÚ 
+84,128479,129525,"""Yes now it is coming (to your house)"".","""Sí ahora le toca (a esta casa).""", (CNM) AHORA TURNO 
+85,129544,130415,The (brother): Relax,"El (hermano): ""Tranquilo",INDX TRANQUILO 
+86,130422,131284,One can hardly (pull down) a wooden house,difícilmente (podrá tirar) una casa de madera, MADERA DIFÍCIL 
+87,131311,132620," It is solid""."," es sólida.""", CASA FUERTE 
+88,132936,133967,The (wolf) moves back.,El (lobo) continúa,INDX CONTINUAR 
+89,134013,134687,The wolf continues.,el lobo continúa., LOBO CONTINUAR 
+90,134725,135302,It walks (tracking the area).,Camina (rastreando la zona)., cl.c(1):PATAS-andar 
+91,135417,135619,"""There","""Ahí",MIRAR 
+92,135623,136579,There is a wooden house,hay una casa de madera, HABER CASA MADERA 
+93,136631,137848,"There is the second house"" thought the wolf.","ahí (está) la segunda casa"" (pensó el lobo).",MIRAR B.L(2) INDX:segundo INDX B:INDX:segundo cl.e:CASA 
+94,137884,138544,It goes near (the house),Se acerca (a la casa),AHORA cl.c(1):PATAS-andar 
+95,138572,139119,(and jokingly says): Hello!,"(y dice burlesco:) ""Hola"".",SALUDO 
+96,139186,141551,The two (terrified) pigs look out the window.,Los dos cerdos miraban (espantados) por la ventana, VENTANA LOS-DOS CERDO cl.m(5):apoyarse-ventana 
+97,141570,142329,They look at each other,se miran mutuamente., MIRAR(2M) 
+98,142329,142780,,, MIRAR(2M) 
+99,142970,143631,"""Wait"" (said) the wolf to them.","""Esperad"" (les dice el lobo.", LOBO ESPERAR2 
+100,143639,144458,(The wolf) moves back.,(El lobo) retrocede, cl.c(1):PATAS-retroceder 
+101,144473,144904,It is prepared,(está) preparado, PREPARAR 
+102,144951,145827,breathes (deeply),respira (profundamente),RESPIRAR 
+103,145841,146589,(until) its lungs are full (of air),(hasta) llenar el pecho (de aire), cl.d(5):pecho-hinchar 
+104,146601,146823,and blows (the air) out,(y) descarga (el aire), cl.d(5):pecho-deshinchar 
+105,146833,147281,blows.,sopla., SOPLAR(2M) 
+106,147314,148278,The house is shaken.,La casa se tambalea.,cl.e:CASA-moverse 
+107,148313,149641,"""Almost.. Its tough tough","""Cas.. Cuesta cuesta", CASA- COSTAR COSTAR 
+108,149676,150255,I have blown,he soplado,SOPLAR 
+109,150303,151274,"and it has (only) been shaken"" (thought the wolf).","(y sólo) se ha tambaleado""( pensó el lobo).", cl.e:CASA-moverse 
+110,151293,152809,I will do it a second time.,Lo haré unha segunda vez., OTRA-VEZ B.L(2) INDX:segundo 
+111,152840,154463,(The wolf) takes a (deep) breath,(El lobo) respira (profundamente),RESPIRAR- DOBLE cl.d(5&amp;gt;5d):aire-respirar 
+112,154515,155114,(and after) filling its lungs (with air),(y un vez que) llena el pecho (de aire), cl.d:pecho-hinchar 
+113,155161,155690,blows (strongly).,sopla (intensamente)., SOPLAR(2M) 
+114,155711,156062,The house is shaken.,La casa se tambalea, cl.e:CASA-moverse 
+115,156069,156672,until it breaks apart.,hasta despedazarse., cl.e:CASA-desintegrarse 
+116,156694,157491,The wooden poles fly off.,Los palos de madera salen volando., MADERA cl.e(1):PALOS-ascender 
+117,157512,159058,The two pigs (witness) that the house is breaking apart,Los dos cerdos (presencian desconcertados que la casa) se deshace,DOS CERDO cl.e(1):PALOS-ascender 
+118,159098,159543,(until there stands) an empty space.,(hasta quedar el espacio) vacío., VACÍO 
+119,159751,160663,(The two pigs desperately) run,(Los dos cerdos desesperados) corren, G(5):desesperación CORRER(5) 
+120,160680,161629,and flee.,(y) huyen.,cl.e(2):PERSONAS2-alejarse-suelo cl.e(Bh):SUELO 
+121,161836,162871,The wolf (stays) calm:,El lobo (está) tranquilo:, LOBO TRANQUILO 
+122,162954,164263,"""Now for the last and third house (to fall) for sure.","""Ahora la última y tercera casa seguro (que cae) ",AHORA ÚLTIMO B.L(3) INDX:tercero ES.SEGURO(1M) B:INDX 
+123,164272,165178,"The one made with bricks"".","esa de ladrillos"".",INDX CONSTRUIR MIRAR 
+124,165187,166270,The two (pigs) enter (the third house).,Los dos (cerdos) entran (en la tercera casa).,LOS-DOS DENTRO 
+125,166510,167047,"""Brother brother!""","""¡Hermano hermano!""",AVISAR AVISAR 
+126,167073,168099,"(The brother who was) building: ""What?""","(El hermano que estaba) construyendo: ""¿Qué?""", CONSTRUIR QUÉ 
+127,168376,168973,"""Brother","""Hermano",AVISAR 
+128,169008,169513,Look.,mira,VER 
+129,169579,173253,"The two houses of your two brothers his and mine have disappeared"" (they say nervously).","se han esfumado las dos casas de los dos hermanos la suya y la segunda la mía"" (le dice nervioso el cerdito).", HERMANO DOS INDX SEGUNDO PROPIO LOS-DOS HERMANO CASA DESAPARECER 
+130,173332,174818,"because the wolf has blown"" (them said the pig nervously).","porque el lobo les ha soplado"" (dijo nervioso el  cerdo).", PORQUE LOBO SOPLAR(2M) 
+131,175397,176341,"The third (brother): ""I know","El tercer (hermano: ""Ya) sé",hhh B.L(3) INDX:tercero SABER 
+132,176355,178543,Calm down this  house is impossible (to break),(pero) tranquilos aquí (es) imposible, TRANQUILO INDX IMPOSIBLE(M-RE) 
+133,178594,179975,"The construction is solid"" (said the third pig).","la construcción es sólida"" (dijo el tercer cerdo).", CONSTRUIR PIEDRA 
+134,180215,181928,"""Are you sure?"" (asked) the brother.","""¿(Estás) seguro?""( le pregunta) el hermano.",INDX HERMANO ES.SEGURO(1M) 
+135,181978,182801,"""Do you know why?","""¿Tú sabes por qué?",MOTIVO INDX.PRO:2sg SABER 
+136,182835,184777,I have worked for very long on this house,he trabajado durante tanto tiempo en (esta) construcción?,INDX.PRO:1sg TRABAJAR HORA CONSTRUIR 
+137,184825,185599,to (make the house) safe.,Para que (la casa sea) segura.,MOTIVO ES.SEGURO 
+138,185647,186303,Now it is finished,Ahora (está) acabada,AHORA LISTO 
+139,186331,187706,"Well almost finished"" (says the third pig).","(está) casí acabada la casa""( replica el tercer cerdo).",CASI cl.e:CASA LISTO 
+140,188444,190388,You (built) yours too fast - the two brothers- ,Por (ser) tan rápidos -los dos hermanos- ,MOTIVO INDX LOS-DOS HERMANO RÁPIDO 
+141,190403,191936,That is why (your homes are) weak.,por (eso sus casas son) débiles.,MOTIVO DÉBIL 
+142,192019,193376,"The two brothers (stay) silent: ""Aha","Los dos hermanos (se quedan) en silencio: ""Ajá",LOS-DOS HERMANO SILENCIO MIRA-TÚ 
+143,193425,193951,Are you sure?,¿(estás) seguro?,ES.SEGURO(1M) 
+144,194034,194547,"(The wolf) is coming!""",Viene (el lobo),AHORA VENIR 
+145,194562,195023,"(The wolf) is coming!""","viene (el lobo).""",AHORA VENIR 
+146,195048,195856,The wolf comes nearer (quietly),El lobo se acerca,LOBO(1M) cl.c(B):pies-andar cl.c(B):pies-anda 
+147,195885,196800,"""There is the house","""(Ahí está) la casa",VER CASA 
+148,196832,197555,How beautiful!,qué bonita,BONITO B:CASA 
+149,197576,198482,"It is a strong house"" (thought the wolf).","es una casa robusta""( piensa el lobo).", CASA(M-AB) DURO2 
+150,198816,199433,It approaches (the house),Va (a la casa), cl.c(1):PATAS-andar 
+151,199447,199890,"""Hello” (says the wolf mockingly).","""hola""(se mofa el lobo.)",SALUDO 
+152,199933,201296,The three pigs approach the window.,Los tres cerdos se aproximan a la ventana., VENTANA cl.e(3):PERSONAS3-aproximarse B:VENTANA 
+153,201340,203538,The two brothers are trembling with fear,Los dos hermanos tiemblan de miedo,DOS HERMANO G(1d):miedo cl.c(1):PATAS-temblar MIEDO cl.c(1):PATAS-temblar 
+154,203555,204463,They both look at (the third brother).,miran (al tercer hermano) los dos., MIRAR(2M) DOS 
+155,204485,206283,"The last brother the third one says: ""Relax"".","El último hermano el tercero: ""Tranquilos.""", HERMANO ÚLTIMO(1M) B:HERMANO B.L(3) INDX:tercero TRANQUILO 
+156,206305,207625,Look through the window,Mira por la ventana impasible.,CARA B:TRANQUILO TRANQUILO MIRAR G:esperar 
+157,207870,208907,"""I’m going to prepare myself wait"".","""(Me voy a) preparar esperad.""",AHORA PREPARAR(1M) AHORA cl.c(1):PATAS ESPERAR2 B:cl.c(1):PATAS 
+158,208933,210014,The wolf moves back.,El lobo retrocede, LOBO cl.c(1):PATAS-retroceder 
+159,210117,210745,It is ready,(ya está) preparado.,AHORA B:cl.c(1):PATAS-retroceder PREPARAR(1M) B:cl.c(1):PATAS-retroceder 
+160,210770,211587,(The wolf) fills its lungs (with air),(El lobo) llena el pecho (de aire), cl.d(5):pecho-hinchar 
+161,211613,212169,and blows.,y sopla., SOPLAR(2M) 
+162,212215,212677,The house does not move,La casa no se mueve, cl.e:CASA 
+163,212684,213032,It is solid.,es sólida,DURO B:cl.e:CASA 
+164,213042,213247,and does not move.,y no se mueve.,cl.e:CASA B:cl.e:CASA 
+165,213259,214580,There is no movement inside the house,(En) la casa (no hay) ningún movimiento,MISMO B:cl.e:CASA INDX B:cl.e:CASA cl.e:CASA-moverse NINGUNO 
+166,214649,215223,It stays upright.,(permanece) estable., cl.e:CASA 
+167,215610,216567,"""I don't understand","""No lo entiendo", LOBO MENTE^APAGAR 
+168,216619,217443,"I('ll try) again"" (thinks the wolf).","(lo intentaré) otra vez"" (piensa el lobo).", OTRA-VEZ 
+169,217448,218631,(The wolf) moves back.,(El lobo) retrocede, G:respirar cl.c(1):PATAS-retroceder 
+170,218665,219418,breathes twice,respira el doble,RESPIRAR DOBLE 
+171,219452,220180,until the lungs are full of air,llena el pecho de aire, cl.d(5):pecho-hinchar 
+172,220231,220405,and blows.,(y) sopla, SOPLAR(2M) 
+173,220422,220725,The mass of air impinges on the house.,la masa de aire incide sobre la casa., cl.d(5):aire-contra-casa 
+174,220733,221216,(The wolf) continues blowing,(El lobo) sopla,cl.d(5):flujo-aire cl.d(5):suelo 
+175,221265,222047,(but) the house (just) vibrates,(pero) la casa (apenas) vibra, cl.e:CASA-moverse 
+176,222057,223315, Nothing (happens), no (pasa nada)., cl.e:CASA 
+177,223533,224553,"""I'll try for the third time"" (thinks) the wolf.","""Soplaré por tercera vez""(piensa) el lobo.", LOBO B.L(3) INDX:tercero 
+178,224596,225283,It breathes in once more,Una vez más respira, OTRA-VEZ RESPIRAR 
+179,225402,226039,and blows.,sopla,SOPLAR 
+180,226059,227233,It turns red from the effort,se pone rojo del esfuerzo, INTENTAR ROJO B:INTENTAR RUBOR B:INTENTAR 
+181,227251,227632,and after blowing out all the air,(y) al acabársele el aire,cl.d(5):flujo-aire B:INTENTAR 
+182,227653,228810,its jaw gets dislocated.,se le desencaja la mandíbula.,CARA cl.e(Xa):MANDÍBULA-descender 
+183,229874,230402,The house had not moved.,La casa no se había movido., cl.e:CASA 
+184,230434,231327,"""How (can that be? thinks the unbelieving wolf).","""¿Cómo (puede ser? piensa incrédulo el lobo).", G:incredulidad CÓMO 
+185,231387,232401,This is impossible,Es imposible, IMPOSIBLE hhh 
+186,232522,233677,The house is solid.,la casa (es) sólida., CASA PIEDRA 
+187,233802,234963,(The wolf takes) a look (at the house),(El lobo echa) un vistazo (a la casa), G:concentración MIRAR 
+188,234993,235904,and sees (something at the top).,(en la parte superior) ve (algo).,B:MIRAR MIRAR 
+189,235988,236293,(The wolf has) an idea,(El lobo tiene) una idea,MENTE 
+190,236360,237494,On the roof is a chimney,en el tejado hay una chimenea, CASA cl.d(B):chimenea-sobre-casa cl.e:CASA HABER B:cl.e:CASA 
+191,237543,238175,that is billowing smoke.,que echa humo.,cl.d(5d):humo B:cl.e:CASA cl.e(5d):CHIMENEA B:cl.e:CASA 
+192,238229,239245,"""I will take advantage of the chimney"" (thinks the wolf).","""Aprovecharé la chimenea""( piensa el lobo).",INDX B:cl.e:CASA APROVECHAR B:cl.e:CASA 
+193,239278,240375,The wolf climbs on the roof.,El lobo sube al tejado trepando., TREPAR cl.e(2d):PERSONA-ascender+a-casa cl.e:CASA 
+194,240817,243102,"The three brothers... the two: ""Look Up Up Up Up!""","Los tres hermanos... los dos: ""¡MIra arriba arriba!""",VER TRES HERMANO hhh DOS VER INDX 
+195,243170,243974,"The (third brother): ""Relax","El (tercer hermano): ""Tranquilos",INDX TRANQUILO 
+196,243992,244528,"Come.""","venid.""",VENIR2 
+197,244710,246171,Lights a fire.,(El cerdo) pone una olla en la chimenea, cl.m(Xc):colocar-olla SABER COCINAR 
+198,246179,248075,The wolf ignores (this),la olla la había llenado de agua, cl.d(5d):olla-grande AGUA B:cl.d(5d):olla-grande cl.m(A):botella-echar-agua B:cl.d(5d):olla-grande LLENAR B:cl.d(5d):olla-grande 
+199,248098,249172,and climbs on the roof,(la pone) al fuego., COCINAR 
+200,250048,250711,and goes down the chimney,El lobo ignoraba (esto), LOBO MENTE^NORMAL 
+201,250806,251165,"(thinking): ""I will now go down easily through here"".",(y) sube al tejado,cl.e(2d):PERSONA-ascender+a-tejado cl.e(B):TEJADO 
+202,251189,251765,The wolf is at the mouth of the chimney,(y) se mete por la chimenea,cl.e(2d):PERSONA-entrar-chimenea cl.e(C):CHIMENEA 
+203,251826,252932,It begins to descend,"(mientras piensa:) ""Ahora descenderé fácilmente (por aquí)"".",FÁCIL B:cl.e(C):CHIMENEA cl.e(2b):LOBO-descender+por-chimenea B:cl.e(C):CHIMENEA 
+204,253082,253647,"and to get to the bottom... ""Burning hot!"" (shouts the wolf).",El lobo está en la boca de la chimenea,cl.e(2d):PERSONA-sobre-chimenea B:cl.e(C):CHIMENEA 
+205,253663,254137,and quickly goes up the fireplace,empieza a descender,G(5 2M):descender-por-interior-chimenea G:descender-por-interior-chimenea 
+206,254156,255640,and escapes steaming.,"(y) al llegar al fondo... ""¡Quema!"" (grita el lobo).",cl.e(2d):PERSONA-descender+por-chimenea cl.e(C):CHIMENEA LLAMA B:cl.e(C):CHIMENEA 
+207,255698,256717,"The third (brother): ""Are you guys OK?""",asciende (rápidamente) por la chimenea,cl.e(2d):PERSONA-ascender+por-chimenea B:cl.e(C):CHIMENEA 
+208,256743,257697,"The two men: ""were right ",(y) escapa humeante.,cl.e:HUMO-alejarse-localización cl.e(B):LOCALIZACIÓN 
+209,258071,259949,"the house is safe.""","El tercer (hermano): ""¿Ya (estáis) tranquilos?""",TRES YA VER TRANQUILO G 
+210,259971,261663,End.,"Los dos hombres: ""(Tenías) razón ",HOMBRE DOS VERDAD 
+1,842,3720,[In the story there is] a child whose sign is this [hair-child],[En la historia hay] Un niño su signo es este [pelo-niño],HOMBRE PEQUEÑO2 SIGNO SN:NIÑO 
+2,3752,6872,A dog whose sign is this [dog-ear],un perro su signo es este [oreja-de-perro],OTRO PERRO SIGNO SN:PERRO 
+3,6911,9857,And a frog whose sign is this [sack-vowel-of-frog].,y una rana su signo es este [saco-vocal-de-rana].,OTRO ANIMAL RANA SIGNO SN:RANA 
+4,10005,12087,The child (was in) his room,El niño (estaba en) su habitación, HABITACIÓN SU SN:NIÑO 
+5,12087,14650,(and it) was night,(y) era denoche, FECHA SITUACIÓN NOCHE 
+6,14710,15881,(They were) in bed both of them,(Estaban) en cama los dos, CAMA LOS-DOS B:CAMA 
+7,15881,18059, with a glass jar (in which was) a frog [its sign], con un frasco de cristal (en el que estaba) la rana [su signo],CRISTAL cl.d(C):frasco INDX cl.e(C):FRASCO SN:RANA B:cl.e(C):FRASCO 
+8,18587,21658,The two (were) looking (at the jar),Los dos (estaban) mirando (el frasco),SN:NIÑO B:cl.e(C):FRASCO cl.e(1):PERSONA B:cl.e(C):FRASCO PERRO B:cl.e(C):FRASCO MIRAR(2M) MIRAR cl.e(C):FRASCO 
+9,21684,24202,and the frog looked at (them),y la rana los miraba (a ellos),SN:RANA B:cl.e(C):FRASCO MIRAR SN:RANA 
+10,24229,27052,They got into bed and fell asleep. ,Se metieron en cama y se durmieron. ,MISMO HORA.RELOJ ACOSTARSE DORMIR(MP) 
+11,27112,29339,The frog pulled itself out the mouth of the jar,La rana se asomó por la boca del frasco,INDX SN:RANA cl.e(2d):RANA-salir-frasco cl.e(C):FRASCO 
+12,29349,30281,stretched its legs to get out,estiró sus patas para salir de él, cl.c(X):PATAS-andar 
+13,30288,31662,and left.,y se fue.,ALEJARSE 
+14,31678,34034,The child and the dog slept until sunrise,El niño y el perro durmieron hasta que salió el sol,INDX DORMIR(MP) HASTA DÍA 
+15,34081,35446,They woke up with the frog in mind,Despertaron con la rana en mente, DESPERTAR MENTE^OBJETIVO SN:RANA B:MENTE^OBJETIVO 
+16,35452,36196,(but) when they got up,(pero) al levantarse, G:niño-se-levanta 
+17,36203,37102,The glass jar was empty:,en el frasco de cristal no había nada:, cl.d(C):frasco CRISTAL DESAPARECER 
+18,37105,38170,"""How can that be?""","""¿Cómo puede ser?""", cl.e(C):FRASCO G:incomprensión B:cl.e(C):FRASCO MENTE-APAGADA 
+19,38433,42087,The dog [dog-ear] looked searched and rummaged everywhere,El perro [oreja-de-perro] miró buscó y rebuscó por todas partes,PERRO B:MENTE-APAGADA SN:PERRO B:MENTE-APAGADA MIRAR B:MENTE-APAGADA BUSCAR(2Msu) BUSCAR(2Msu) cl.e(1):PERRO-desplazarse BUSCAR(2Msu) 
+20,42105,43110,Looked under the bed and,pasó por debajo de cama e, CAMA cl.e(1):PERRO-desplazarse+bajo-cama cl.e(1I):CAMA 
+21,43129,45042,even looked inside a boot.,incluso miró en el interior de una bota., HASTA BOTA cl.m(A):levantar-bota 
+22,45139,46077,Where could it be?,¿Dónde estará?, BUSCAR(2Msu) G:interrogativo G:interrogativo 
+23,46079,47233,They also called out to it (where could it be?),también la llamaron (¿dónde estará),MISMO B:G:interrogativo LLAMAR B:G:interrogativo G:interrogativo 
+24,47260,49096,The boy opened the window,El niño abrió la ventana, VENTANA cl.e(L):VENTANA-ascender cl.m(A):subir-ventana 
+25,49110,50637,And he called out frog.,y llamó a gritos a la rana., VENTANA GRITAR2 B:VENTANA LLAMAR B:VENTANA 
+26,50798,53731,The dog who had his snout in the jar jumped out of the window.,El perro que había metido la cabeza en el frasco saltó por la ventana.,PERRO B:VENTANA INDX B:VENTANA cl.e(Hd):PERRO-entrar-frasco cl.e(B):FRASCO cl.e(C):FRASCO-descender cl.e(Q):CABEZA-salir-ventana cl.e(B):VENTANA 
+27,53772,55530,The boy (who was) looking for (the frog) and calling (the frog) felt a (big) rumble.,El niño (estaba) buscando y llamando (a la rana) sintió un (gran) estruendo.,BUSCAR B:cl.e(B):VENTANA GRITAR2 B:cl.e(B):VENTANA SONIDO B:cl.e(B):VENTANA 
+28,55600,57201,"""It was the dog when it jumped out the window"" (he said) and (also) jumped out.","""Ha sido el perro al saltar por la ventana"" (se dijo) y bajó él (también).",cl.e(2d):PERRO-descender+de-ventana B:cl.e(B):VENTANA INDX B:cl.e(B):VENTANA cl.e(2d):PERRO-descender+de-ventana B:cl.e(B):VENTANA 
+29,57207,57978,Lifted the animal in his arms,Cogió en brazos al animal, cl.m(Bd):coger-perro 
+30,57984,58599,and it licked his face,y este le lamió la cara,cl.c(B):LENGUA-lamer B:cl.m(Bd):coger-perro 
+31,58610,59996,because the glass jar had shattered on the floor.,porque el cristal se había despedazado por el suelo.,MOTIVO B:cl.m(Bd):coger-perro CRISTAL B:cl.m(Bd):coger-perro GRIETA B:cl.m(Bd):coger-perro ROMPER cl.d(5h):esparcirse-añicos B:ROMPER 
+32,60003,60373,He took it in his arms,Lo cogio en brazos, cl.m(Bd):coger-perro 
+33,60377,60972,and it licked his face,el perro le lamió la cara,cl.c(B):LENGUA-lamer B:cl.m(Bd):coger-perro 
+34,61014,61972,and they began to walk,y se pusieron a caminar, CAMINAR(MP) 
+35,61986,63070,calling out to the frog.,llamando a la rana.,GRITAR2 B:CAMINAR(MP) 
+36,63087,67530,(They arrived) to a forest with many trees and there was a wasp hive in one of them.,(Llegaron) a un bosque en el que (había) muchos árboles en uno de ellos pendía una colmena de avispas., PAISAJE UNO ÁRBOL cl.d(5h):copas-árboles UNO ÁRBOL cl.e(Q):COLMENA-en-árbol cl.e(5):ÁRBOL HABER B:cl.e(5):ÁRBOL AVISPA 
+37,68070,68714,The child called out (to the frog),El niño llamaba (a la rana),GRITAR2 
+38,68724,70437,and the dog meanwhile was walking through the forest.,y el perro mientras andaba por el bosque.,SN:PERRO MIENTRAS cl.e(Hd):PERRO-desplazarse+de-suelo cl.e(Bh):SUELO 
+39,70444,71574,"""Frog! You Frog!""","""¡Rana! ¡Rana!""",GRITAR2 
+40,71609,72185,searching among the grass it discovered something,Buscando entre la hierba descubrió algo, cl.m(5h):rebuscar-en+hierba INDX 
+41,72211,75180,"A hidden burrow. It approached the burrow and called: Frog!""","una madriguera escondida. Se acercó llamó: ""¿Rana?""",cl.d(1):madriguera-forma cl.e(C):MADRIGUERA cl.d(5):hierba-sobre-madriguera B:cl.e(C):MADRIGUERA cl.d(1):madriguera-forma B:cl.e(C):MADRIGUERA LLAMAR B:cl.e(C):MADRIGUERA GRITAR2 B:cl.e(C):MADRIGUERA 
+42,75255,77177,and from inside came out a smelly rodent.,y de su interior salió un roedor maloliente.,RATÓN B:cl.e(C):MADRIGUERA G:repugnancia B:cl.e(C):MADRIGUERA OLER^MAL-OLOR B:cl.e(C):MADRIGUERA INDX B:cl.e(C):MADRIGUERA RATÓN B:cl.e(C):MADRIGUERA 
+43,77203,81482,while the dog jumped trying to reach the hive.,Mientras el perro saltaba intentando alcanzar la colmena.,INDX B:cl.e(C):MADRIGUERA MIENTRAS B:cl.e(C):MADRIGUERA SN:PERRO B:cl.e(C):MADRIGUERA cl.e(Hd):PERRO-saltar+sobre-suelo cl.e(Bh):SUELO MENTE^OBJETIVO AVISPA cl.e(Hd):PERRO-saltar-localización cl.e(B):LOCALIZACIÓN 
+44,81574,83101,The boy continued searching.,El niño seguía con la búsqueda.,SN:NIÑO CONTINUAR BUSCAR B:CONTINUAR 
+45,83119,85145,There was a dark hole in a tree ,En un árbol había un agujero oscuro ,INDX B:CONTINUAR ÁRBOL cl.d(1):hueco-forma cl.d(C):hueco-en-tronco OSCURO 
+46,85172,85458,The boy,el niño, cl.m(5):apoyarse-en+tronco 
+47,85461,85954,climbed up,se subió,cl.e(2b):PERSONA-ascender+por-tronco cl.e(B):TRONCO 
+48,85973,86748,and looked inside.,y miró en su interior., cl.m(5):apoyarse-en+tronco 
+49,86781,89393,An owl a nocturnal bird with large eyes flew out the hole and scared him,Del agujero salió un buho un ave nocturna de grandes ojos y lo asustó,ASUSTAR B:cl.m(5):apoyarse-en+tronco cl.e(Q):CABEZA+ANIMAL-ascender B:cl.m(5):apoyarse-en+tronco RAPAZ^VOLAR cl.d(Xa):ojos-grandes NOCHE 
+50,89493,90479,The boy fell backwards.,El niño cayó hacia atrás.,cl.e(2d):PERSONA-caer+de-tronco cl.e(Bh):TRONCO cl.e(2b):PERSONA-caer-suelo cl.e(Bh):SUELO 
+51,90484,94364,at that moment the dog was chased by a swarm of wasps,En ese momento el perro era perseguido por un enjambre de avispas,INDX MISMO HORA.RELOJ INDX B:HORA.RELOJ SN:PERRO B:HORA.RELOJ cl.d(Cc&amp;gt;5):perro-huir B:HORA.RELOJ AVISPA(1M) B:HORA.RELOJ cl.d(5):enjambre-desplazarse 
+52,94430,96064,and the dog ran away.,y el perro se alejó corriendo.,SN:PERRO cl.c(B):garras-correr ALEJARSE 
+53,96114,97006,"""Complicated"" (thought) the child which had fallen","""Qué complicado"" (pensó) el niño que había caído",cl.e(2d):PERSONA-caer-suelo cl.e(Bh):SUELO COMPLICADO 
+54,97018,97544,They continued on their way,(Siguieron) caminando, CAMINAR(MP) 
+55,97553,98617,searching,y buscando, BUSCAR(2Msu) 
+56,98955,100959,The child climbed up on a stone,El niño se subió a una piedra,INDX PIEDRA cl.d(5d):piedra cl.d(5d):piedra cl.e(2d):PERSONA-ascender+a-piedra cl.e(5d):PIEDRA 
+57,100979,103133,behind which were some branches.,detrás de la que había una especie de ramas., hhh cl.d(1):ramas 
+58,103145,105162,He touched them and they began to move.,Al agarrarse a ellas (notó) que se movían., cl.m(5&amp;gt;A):agarrar-ramas MOVER cl.m(A):agarrar-ramas 
+59,105192,106809,He was standing on something that was also moving (without knowing what it was),Montó sus piernas en algo que también se movía (sin saber de qué se trataba),cl.e(2b):PERSONA-sobre-entidad cl.e(1):ENTIDAD cl.m(A):agarrar-ramas G:¿Qué B:cl.m(A):agarrar-ramas 
+60,106818,107769,and when he was relaxed an animal emerged.,y en un momento en el que se relajó emergió un animal., G:niño-relajarse cl.e(2b):PERSONA-sobre-entidad cl.e(1):ENTIDAD-ascender 
+61,107782,108927,What a fright! it was a deer,Qué susto ¡era un ciervo, ASUSTAR(2M) cl.d(4):cornamenta-forma 
+62,108937,109740,and he had stood on its back!,y él estaba en su lomo!,cl.e(1):PERSONA-sobre-ciervo cl.m(A):agarrar-cuernos G:estupefacción B:cl.m(A):agarrar-cuernos 
+63,109756,111195,I could not understand how (this was possible),No podía comprender cómo (era posible),SN:NIÑO B:cl.m(A):agarrar-cuernos MENTE^APAGAR cl.m(A):agarrar-cuernos MOTIVO B:cl.m(A):agarrar-cuernos cl.m(A):agarrar-cuernos 
+64,111286,112177,The dog barked,El perro ladraba,PERRO B:cl.m(A):agarrar-cuernos LADRAR(MP) 
+65,112382,113706,while the child galloped on the back of the deer,mientras el niño galopaba a lomos del ciervo,SN:NIÑO cl.e(2d):PERSONA-botar-ciervo cl.e(Bh):CIERVO cl.c(A):pezuñas-correr 
+66,113757,114746,at full speed,a toda velocidad, cl.m(A):agarrar-cuernos 
+67,114755,115579,until the ruminant stopped,hasta que el rumiante paró, cl.m(A):agarrar-cuernos 
+68,115598,116433,and the boy flew out.,y salió despedido.,cl.e(2b):PERSONA-caer+de-ciervo cl.e(Bh):CIERVO 
+69,116667,118148,The dog which was barking was likewise thrown,El can ladrando salió igualmente despedido,PERRO B:cl.e(Bh):CIERVO LADRAR B:cl.e(Bh):CIERVO cl.e(2d):PERRO-caer cl.e(Bh):CIERVO 
+70,118155,120160,The two rushed,Los dos se precipitaron,LOS-DOS B:cl.e(Bh):CIERVO cl.e(2d):PERSONA-caer-con+perro cl.e(2d):PERRO-caer-con+persona 
+71,120207,121914,and fell into the water.,y cayeron al agua.,AGUA B:cl.e(2d):PERRO-caer-con+persona cl.e(2d):PERSONA-caer-con+perro cl.e(2d):PERRO-caer-con+persona cl.d(A&amp;gt;5):onda-acuática cl.d(5h):onda-acuática 
+72,121919,124050,"When in the water (he said) ""What a fright!""","Ya en el agua (se dijo) ""¡Qué susto!""",AGUA B:cl.d(5h):onda-acuática cl.d(5):agua-superficie ASUSTAR B:cl.d(5):agua-superficie G:alivio B:cl.d(5):agua-superficie 
+73,124331,125777,The dog barks,El perro jadeando...,PERRO B:B:cl.d(5):agua-superficie G:perro 
+74,125807,129288,"""Shh! I've heard the frog it is there."" ","""¡Shh! He oído a la rana está aí."" ",ESCUCHAR B:G:perro INDX G:pausa G:pausa B:G:pausa SILENCIO B:G:pausa ESCUCHAR B:G:pausa HABER B:G:pausa SN:RANA B:G:pausa INDX B:G:pausa 
+75,129307,129826,He placed his hands (on the ground),Apoyó sus manos, cl.m(5):apoyarse-árbol 
+76,130084,132374,There was a fallen tree,había un árbol caído, ÁRBOL EMPUJAR cl.e(1):ÁRBOL-caído cl.e(Bh):SUELO 
+77,132875,133575,He placed his hands,apoyó sus manos,SN:NIÑO cl.m(5):apoyarse-en+tronco 
+78,133581,134267,and he peered over the top.,y se asomó por encima.,cl.e(2d):PERSONA-ascender+a-tronco cl.e(Bh):TRONCO 
+79,134277,136237,The dog also peered,El perro también se asomó,TAMBIÉN B:cl.e(Bh):TRONCO SN:PERRO B:cl.e(Bh):TRONCO cl.e(2d):PERRO-ascender+a-tronco cl.e(Bh):TRONCO 
+80,136242,137189,supporting its feet on the trunk.,apoyando sus patas en el tronco., cl.m(Bd):apoyarse-en+tronco 
+81,137198,137524,The child searched for the frog from there.,Desde allí el niño buscó la rana.,cl.e(2d):PERSONA-asomarse B:cl.m(Bd):apoyarse-en+tronco 
+82,137534,140409,"""Oh!"" Amazing! The two our frog and another they are a couple are wedded.","""¡Oh!"" ¡Asombroso! Las dos nuestra rana y otra son pareja son novias.",INDX B:cl.m(Bd):apoyarse-en+tronco MENTE-APAGADA(1M) B:cl.m(Bd):apoyarse-en+tronco LOS-DOS B::cl.m(Bd):apoyarse-en+tronco SN:RANA LOS-DOS PAREJA NOVIO 
+83,140414,141227,Surprising.,Sorprendente., G:sorpresa MENTE-APAGADA(1M) 
+84,141253,142315,"How beautiful!""","Qué bonito.""",INDX cl.m(5d):apoyarse-en+tronco BONITO2 
+85,142320,144964,Incredible (they have had) many offspring,Increíble (han tenido) muchas crías, SORPRESA NACER cl.e(5):RANAS-fila MENTE-APAGADA 
+86,144979,146130,(All) jumping.,(Todas) dando saltos., cl.e(Hd):RANAS-saltar RANA 
+87,146133,147122,"""Beautiful.""","""Qué hermoso.""",G:niño-observa cl.m(5):apoyarse-en+tronco BONITO B:cl.m(5):apoyarse-en+tronco 
+88,147133,148986,The boy picked his frog in his hand ,El niño cogió su rana en mano ,INDX B:cl.m(5):apoyarse-en+tronco cl.m(5d):coger-rana INDX B:cl.m(5d):coger-rana cl.m(5d):coger-rana 
+89,148989,149879,and was walking away (but),y se alejaba (pero),ALEJARSE cl.m(5d):agarrar-rana G:cambio-de-parecer B:cl.m(5d):agarrar-rana 
+90,149886,151510,he returned again,volvió de nuevo,INDX B:cl.m(5d):agarrar-rana OTRA-VEZ VOLVER 
+91,151514,152797,returned the frog,devolvió la rana, DAR(2M) 
+92,152904,153968,and said goodbye.,y (les) dijo adiós.,DECIR B:DAR(2M) SALUDO B:DAR(2M) 
+1,2144,5040,In a field between green mountains  ,En un lugar entre montañas verdes había un campo , PAISAJE VERDE B:PAISAJE cl.d(5):hierba-recubriendo-monte B:PAISAJE CAMPO cl.e(L):CAMPO-localización 
+2,5270,6188,lay  a tree.,en el que se encontraba un árbol., ÁRBOL cl.e(5):ÁRBOL 
+3,6552,9177,The weather was hot like in the summer.,Hacía muy buen tiempo como de verano.,CLIMA BUENO IGUAL VERANO B:IGUAL ES.ASÍ 
+4,9239,9570,continues,Sigo.,G:prosigo 
+5,10221,12413,A man climbed up the tree (with a ladder),Un hombre estaba subido a un árbol (con ayuda de una escalera),HOMBRE PERSONA ÁRBOL cl.e(2d):PERSONA-ascender+a-árbol cl.e(5):ÁRBOL 
+6,12809,14972,this was a pear tree.,Era un peral.,QUÉ TIPO PERA 
+7,15118,16334,He began picking pears to pack into the sack he was carrying.,Comenzó a recoger peras para el saco que portaba.,cl.m(5d&amp;gt;5):coger+guardar-fruta cl.e(B):SACO 
+8,16445,17512,He had a beard and was wearing a wide-brimmed hat,Tenía barba y llevaba puesto un sombrero de ala ancha., cl.d(Qa):sombrero-ala-ancha cl.d(5d):barba-forma 
+9,17580,18521,(and) was plucking pears from different branches,Estaba cogiendo peras de distintas ramas,cl.m(5d&amp;gt;5):coger+guardar-fruta cl.e(B):SACO 
+10,18528,18970,The man was at the tree top ,Subido en lo alto del árbol,cl.e(2d):PERSONA-ascender+a-árbol cl.e(5):ÁRBOL 
+11,18977,20372,picking the pears.,cogía y cogía las peras.,cl.m(5d&amp;gt;5):coger+guardar-fruta cl.e(B):SACO 
+12,20454,21807,when a pear fell rolling outside the sack.,Una pera cayó rodando por fuera del saco.,UNO B:cl.e(B):SACO MANZ- B:cl.e(B):SACO PERA2 B:cl.e(B):SACO cl.e(Cc):FRUTA-caer+de-saco B:cl.e(B):SACO 
+13,22034,23209,The man continued picking pears and upon finishing,El hombre siguió recogiendo peras y al acabar,cl.m(A&amp;gt;5):coger+guardar-fruta B:cl.e(B):SACO LISTO(1M) B:cl.e(B):SACO 
+14,23292,24414,he climbed down the tree,bajó del árbol.,cl.e(2d):PERSONA-descender+de-árbol cl.e(5):ÁRBOL LISTO(1M) B:cl.e(5):ÁRBOL 
+15,24698,27176,(Under the tree) there was a line of three baskets,(Bajo el árbol) situadas en línea estaban tres cestas, CESTO TRES B:CESTO CESTO TRES B:CESTO 
+16,27389,29162,containing pears (that the man had emptied) from the sack,que contenían las peras (que el hombre echaba) del saco, cl.d(5d):saco-del-regazo AHORA HABER PERA cl.d(5d):cestas-llenas-de-peras 
+17,29299,30706,He put the pears in the baskets.,Vació las peras en las cestas., cl.m(Cc&amp;gt;5d):echar-fruta 
+18,30775,32328,He picked a pear and observed it carefully.,Tomó una pera y la observó bien.,UNO B:cl.m(Cc&amp;gt;5d):echar-fruta cl.m(5d):coger-fruta cl.m(5d):examinar-fruta 
+19,33036,34244,It was the pear that had fallen earlier.,Era la pera que previamente había caído al suelo.,LO-DE-ANTES cl.e(Cc):FRUTA-caer-suelo cl.e(Bh):SUELO INDX 
+20,34333,36327,He took it in his hands and looked to see if it was clean,La tomó en sus manos y observó detenidamente si estaba limpia,COGER cl.m(5d):examinar-fruta PURO cl.m(5d):agarrar-fruta 
+21,36363,38791,"""Ah!"" ""I (can) clean it with the handkerchief” (he thought)","""Ah!"" (se dijo) ""Con el pañuelo (puedo) limpiar la pera""",G:¡ah! cl.m(5d):agarrar-pera PAÑOLETA cl.m(4d):frotar-fruta cl.m(C):agarrar-fruta PURO B:cl.m(C):agarrar-fruta 
+22,38801,40065,and put it in the basket with care.,Y la depositó en el cesto con cuidado.,cl.m(4d):colocar-fruta cl.m(C):colocar-fruta PREPARAR LISTO 
+23,40176,41161,He saw that the baskets were getting full,Vio que las cestas estaban listas,MIRAR B:ASÍ LISTO 
+24,41241,42629,climbed back into the tree,subió de nuevo al árbol,AHORA OTRA-VEZ cl.e(2d):PERSONA-ascender+a-árbol cl.e(5):ÁRBOL 
+25,42831,43572,(and) continued collecting pears.,siguió recogiendo peras.,cl.m(5d):coger+guardar-fruta cl.e(B):SACO 
+26,43988,49754,Then came another person a boy wearing a hat on a huge bike.,Entonces llegó otra persona un niño con sombrero pedaleando en una bicicleta enorme.,OTRO B:cl.e(B):SACO VENIR B:cl.e(B):SACO UNO B:cl.e(B):SACO HOMBRE B:cl.e(B):SACO PEQUEÑO2 B:cl.e(B):SACO CON SOMBRERO CON BICICLETA ENORME B: BICICLETA BICICLETA BICICLETA cl.m(A):agarrar-manillar 
+27,49928,50662,The man continued plucking pears.,El hombre seguía recogiendo peras.,cl.m(5d):coger+guardar-fruta cl.e(B):SACO 
+28,51077,53757,The child on the bike approached  pedalling at a good pace.,El niño de la bici se iba acercando pedaleando a buen ritmo.,cl.e(Xa):BICICLETA-aproximarse cl.e(B):SACO BICICLETA HOMBRE B: BICICLETA BICICLETA BICICLETA 
+29,53821,54749,He looked up the tree,Miró hacia lo alto del árbol,MIRAR B:BICICLETA ÁRBOL MIRAR B:ÁRBOL 
+30,54761,56594,(and) saw a man.,(y vio que) allí había un hombre.,HABER B:ÁRBOL HOMBRE B:ÁRBOL INDX B:ÁRBOL G:efectivamente B:ÁRBOL 
+31,56765,57305,He looked down,Miró hacia abajo,MIRAR B:ÁRBOL 
+32,57316,59274,"""I want one of these pears from the basket"" (he thought).","""Quiero una pera de esas [de la cesta]"" (se dijo).",INDX B:ÁRBOL QUERER B:ÁRBOL INDX B:ÁRBOL PERA2 B:ÁRBOL INDX B:ÁRBOL G:¿cómo-puedo-hacer? B:ÁRBOL 
+33,59438,60438,He looked back at the man.,Volvió a mirar al hombre.,MIRAR B:ÁRBOL 
+34,60488,62073,"""just one"" (he thought)","""Una nada más"" (pensó)",INDX.LOC B:ÁRBOL UNO B:ÁRBOL B:UNO cl.m(5d):coger-fruta NO B:cl.m(5d):coger-fruta 
+35,62087,64527,"""to hell I prefer a basket.""","""Al cuerno prefiero una cesta.""",A-POR-TODAS B:cl.m(5d):coger-fruta UNO B:cl.m(5d):coger-fruta CESTO QUERER B:CESTO INDX B:CESTO 
+36,64579,66033,He looked (at the man at the tree top and decided).,Miró (al hombre en lo alto y se decidió).,MIRAR B:CESTO G:incumplimiento B:CESTO 
+37,66082,69091,Then he took the basket picked it up and placed it (on the handlebar),Entonces agarró la cesta la levantó y la colocó (en su bicicleta sobre el manillar), G:se-dispone-a-agarrar-cesta AHORA MISMO INDX cl.m(5d):colocar-cesta cl.m(Xc):colocar-cesta 
+38,69751,71574,After loading the basket on the bike ,Una vez cargada la cesta en su bicicleta , BICICLETA cl.m(Xc):colocar-cesta-en+bicicleta cl.e(Bl):BICICLETA 
+39,71583,72020,he climbed on the bike,el niño se montó en ella.,cl.e(2b):PERSONA-ascender+a-bicicleta B:cl.e(Bl):BICICLETA 
+40,72153,73090,but could hardly manage to ride the bike,A duras penas conseguía manejar la bicicleta, cl.m(A):agarrar-manillar COSTAR B:cl.m(A):agarrar-manillar cl.m(A):agarrar-manillar 
+41,73105,73742,because (the handlebar) was heavy.,porque (su manillar) pesaba mucho., IGUAL PESADO 
+42,73775,75018,He continued pedalling with difficulty and continued on his way.,Siguió pedaleando con dificultad y en la bicicleta continuó su camino., BICICLETA cl.e(Xa):BICICLETA-alejarse-suelo cl.e(Bh):SUELO 
+43,75288,76309,In the meantime the man in the tree was oblivious to everything,Mientras tanto el hombre en el árbol seguía ajeno a todo,HOMBRE B:cl.e(Bh):SUELO cl.e(1):PERSONA-localización B:cl.e(Bh):SUELO MENTE^NORMAL 
+44,76344,77960,and picking fruit,recogiendo fruta,cl.m(5d&amp;gt;5):coger+guardar-fruta cl.e(B):SACO 
+45,77968,78289,not concerned about anything,sin preocuparse, MENTE^NORMAL 
+46,78298,79116,all by himself,siguiendo a lo suyo, CONTINUAR G:a-su-manera 
+47,79192,80718,The man kept (at his task which is what) saved the child (who) disappeared into the distance,El hombre siguió (a lo suyo fue lo que) salvó al niño (que) se alejó,HOMBRE PERSONA CONTINUAR SALVAR ALEJARSE 
+48,80752,82354,cycling the heavy bike with difficulty ,manejando con esfuerzo la pesada bicicleta , BICICLETA FUERTE cl.m(A):agarrar-manillar 
+49,82375,83528,zig zagging along.,que zizagueante seguía su curso.,cl.e(Bl):BICICLETA-desplazarse-suelo cl.e(Bh):SUELO cl.e(Xa):BICICLETA-desplazarse-suelo B:cl.e(Bh):SUELO 
+50,83537,85377,It is hard cycling a bike around bends.,Realmente dar las curvas con la bici cargada cuesta., cl.m(A):agarrar-manillar G:dubitación COSTAR cl.m(A):agarrar-manillar 
+51,85402,87200,A girl happened to also pass by on a bike ,Casualmente pasaba por allí en bicicleta una niña ,CASUAL B:cl.m(A):agarrar-manillar MUJER B:cl.m(A):agarrar-manillar OTRO B:cl.m(A):agarrar-manillar BICICLETA 
+52,87205,88639,of a similar age to the boy.,de una edad similar a la del niño.,IGUAL2(1M) EDAD ALTURA-SEMEJANTE LOS-DOS B:ALTURA-SEMEJANTE 
+53,88878,89809,The (girl’s) bike was approaching.,La bici (de la niña) se aproximaba.,cl.e(Xa):BICICLETA-desplazarse B:ALTURA-SEMEJANTE 
+54,89815,90684,and the boy was still trying to manage his bike,y el niño ahí seguía tratando de manejar la suya, cl.m(A):agarrar-manillar 
+55,90879,92455,The girl was cycling gracefully.,La niña pedaleaba con elegancia.,MUJER BICICLETA 
+56,92464,92998,(She was) a little pretentious,(era) un poco presumida, IGUAL PRESUMIDO 
+57,93008,93361,and very pretty,y muy guapa,BONITO^MARAVILLA 
+58,93367,93862,(and was) riding (her bike),(iba) pedaleando, BICICLETA 
+59,93965,94537,Both bikes crossed.,Ambas bicicletas se cruzaron., cl.e(Xa):BICICLETA-aproximarse-bicicleta 
+60,94654,95830,the boy continued pedalling spellbound,El chico sigue pedaleando como embobado,HOMBRE cl.m(A):agarrar-manillar BOBO B:cl.m(A):agarrar-manillar cl.m(A):agarrar-manillar 
+61,95902,96515,He looked at her spellbound.,La miraba como un bobo.,MIRAR B:cl.m(A):agarrar-manillar BOBO B:cl.m(A):agarrar-manillar 
+62,96614,96913,His hat fell (to the ground),Se le cayó el sombrero.,cl.d(Q&amp;gt;5):sombrero-caerse-hacia-atrás cl.d(Lc&amp;gt;5):sombrero-caerse-hacia-atrás 
+63,97046,97344,but he continued pedalling without taking his eyes off her,Siguió pedaleando sin apartar sus ojos de ella, cl.m(A):agarrar-manillar 
+64,97620,98030,along the road,circulando por el camino,cl.e(Xa):BICICLETA-sobre-suelo cl.e(Bh):SUELO 
+65,98036,98744,when the bike collided with a stone,la bicicleta choca con una piedra, PIEDRA cl.e(Xa):BICICLETA-chocar-piedra cl.e(5d):PIEDRA 
+66,98746,99220,(and) he fell,(y) se cae,cl.e(Xa):BICICLETA-caer B:cl.e(5d):PIEDRA 
+67,99601,101640,The pears he was carrying in the basket on the handlebar rolled and scattered on the floor.,Las peras que llevaba en el cesto sobre el manillar salieron rodando dispersándose por todas partes.,PERA B:cl.e(5d):PIEDRA cl.d(A):manillar-de-bici CESTO cl.d(A&amp;gt;5):peras-expandirse 
+68,102284,103876,and the girl continued (as if nothing had happened),Y la niña se fue (como si nada),AHORA INDX MUJER ALEJARSE 
+69,103952,104646,(The boy got injured) when he fell,Al caerse (el niño se hizo daño),cl.e(2b):PERSONA-caer-suelo cl.e(Bh):SUELO SUFRIR B:cl.e(Bh):SUELO 
+70,104691,106946,"""I have hurt my knee badly!""-he said in pain and began to rub it.","""¡Qué daño me he hecho en la rodilla!""-se dijo dolorido y comenzó a frotársela.",DOLOR B:cl.e(Bh):SUELO G:¡uuuy! B:cl.e(Bh):SUELO DOLOR B:cl.e(Bh):SUELO INDX cl.c(1):PIERNA G:frotarse-rodilla DOLOR cl.c(1):PIERNA FROTAR B:cl.c(1):PIERNA 
+71,107148,109296,He then saw three young boys,Casualmente vio tres jóvenes,CASUAL B:cl.c(1):PIERNA MIRAR B:cl.c(1):PIERNA TRES B:cl.c(1):PIERNA JOVEN B:cl.c(1):PIERNA TRES B:cl.c(1):PIERNA 
+72,109307,109700,approaching,(que) se acercaron.,cl.e(3):PERSONAS3-aproximarse B:cl.c(1):PIERNA 
+73,109795,112313,They had seen the whole scene ,Ellos habían visto toda la escena ,MIRAR B:cl.c(1):PIERNA TODO PELÍCULA PASADO 
+74,112324,112775,(and had seen) him falling from the bike. ,(habían visto) como se había caído de la bicicleta. ,cl.e(Xa):BICICLETA-caer+de-suelo cl.e(Bh):SUELO 
+75,112789,113096,They had seen him,lo habían visto,MIRAR 
+76,113101,113619,"""Look at him!"" (they thought)","""¡Mira tú!"" (pensaron)",MIRA-TÚ 
+77,113744,115173,One of the youngsters carried a ball on a racket.,Uno de los jóvenes hacía botar una pelota sobre una raqueta.,HOMBRE PERSONA UNO cl.m(Xc):accionar-raqueta 
+78,115275,116265,It was a spade type racket with a ball tied to it that bounced back and forth.,Era una raqueta tipo pala con una pelota atada que se hace botar sobre ella.,cl.d(1):raqueta cl.m(Xc):raqueta VER cl.e(Cc):PELOTA-botar cl.m(Xc):accionar-raqueta 
+79,116356,117826,He was playing with it without much enthusiasm.,Iba jugando a eso sin mucho entusiasmo.,cl.m(Xc):accionar-raqueta 
+80,117892,118310,What did the three do?,¿Qué hicieron los tres?,LOS-TRES 
+81,118422,119055,(They) help(ed him).,Ayudar., AYUDAR 
+82,119142,119621,Since the child had fallen ,Como el niño se había caído ,MOTIVO B:AYUDAR cl.e(Xa):BICICLETA-caer-suelo cl.e(Bh):SUELO 
+83,119628,119916,they helped him.,le ayudaron.,AYUDAR 
+84,119983,120529,Two of them approached the boy,Dos de ellos se acercaron, cl.e(1):PERSONAS2-aproximarse 
+85,120535,121148, wondering what they could do., preguntándose qué podían hacer., G:ayudaremos 
+86,121213,123197,They began to put back all the pears in the basket.,Se pusieron a meter de nuevo todas las peras en la cesta., cl.m(5):echar-fruta PERA B:cl.m(5):echar-fruta cl.m(A&amp;gt;5):echar-fruta cl.m(5):echar-fruta cl.m(A&amp;gt;5d):echar-fruta-en+cesta cl.e(Xc):CESTA cl.m(5d):echar-fruta cl.m(A&amp;gt;5d):echar-fruta 
+87,123248,124154,everything was back in place in the basket.,Ya estaba todo en su sitio en la cesta., LISTO G:todo-preparado CESTO 
+88,124331,125014,The boy climbed on the bike,El niño se montó de nuevo en la bicicleta,cl.e(2b):PERSONA-ascender+a-bicicleta cl.e(Bl):BICICLETA 
+89,125024,125631,and thanked the youngsters,y dio las gracias a los jóvenes,HOMBRE B:cl.e(Bl):BICICLETA GRACIAS 
+90,125697,126953,He put the basket (on the handlebar).,Subió la cesta (sobre el manillar), hhh PERA cl.m(Xc):colocar-cesta cl.m(Xc):colocar-cesta 
+91,126961,128112,and cycled away,y la colocó, B:cl.m(Xc):colocar-cesta LISTO 
+92,128157,129383,The three youngsters walked away,Los tres jóvenes se alejaron,ALEJARSE B:ASÍ TRES B:ASÍ cl.e(3):PERSONAS3-alejarse B:ASÍ 
+93,129401,130888,While the boy cycled into the distance.,a la par que se alejaba el niño en su bicicleta.,cl.e(3):PERSONAS3-alejarse-bicicleta cl.e(Xa):BICICLETA-alejarse-personas3 
+94,130950,132337,The three children were walking two continued (and),Los tres niños caminaban dos prosiguieron (y),B:cl.e(3):PERSONAS3 B:cl.e(3):PERSONAS3 INDX CAMINAR cl.e(2):PERSONAS2-alejarse INDX 
+95,132343,133541,one noticed,uno (lo) vio,UNO MIRAR 
+96,133554,135161,the forgotten hat ,el sombrero olvidado,OLVIDAR SU(1M) SOMBRERO 
+97,135170,135716,that had fallen to the ground,que había caído al suelo, cl.d(Q):sombrero-caído 
+98,135974,136976,and he whistled to the boy.,y le silba.,INDX.PRO SILBAR 
+99,137308,137857,The boy on the bicycle heard the whistle ,El niño de la bicicleta oyó el silbido , BICICLETA OÍR cl.e(Xa):BICICLETA 
+100,137866,138924,and turned to see where it came from,y se giró para ver de donde provenía,MIRAR B:cl.e(Xa):BICICLETA 
+101,138977,139688,"""Wait!""","""Espera!""",ESPERAR2 B:cl.e(Xa):BICICLETA ESPERAR2 B:cl.e(Xa):BICICLETA 
+102,139709,140409,He took the hat to the boy ,Se acercó con el sombrero , cl.m(Q):agarrar-sombrero 
+103,140430,141261,and handed it over. ,y se lo entregó. ,YA B:cl.m(Q):agarrar-sombrero cl.m(Q):dar-sombrero 
+104,141609,146003,The boy gave him three pears in appreciation for having recovered his hat.,En agradecimiento a estos tres jóvenes por haber recuperado su sombrero el niño le entregó tres peras.,HOMBRE TRES LO-DE-ANTES COMPENSACIÓN GRACIAS SOMBRERO TRES PERA cl.m(5d):dar-fruta cl.m(5d):dar-fruta 
+105,146128,146765,Upon receiving the fruit the boy thanked him,Al recibir la fruta el chico le dio las gracias, cl.m(5d):agarrar-fruta GRACIAS(1M) B:cl.m(5d):agarrar-fruta 
+106,146799,147152,"""Thank You he said""","""Gracias""",GRACIAS(1M) B:cl.m(5d):agarrar-fruta 
+107,147256,147638,and left.,y se marchó,ALEJARSE B:cl.m(5d):agarrar-fruta 
+108,147704,148237,The boy on the bicycle also left,El niño de la bicicleta también se fue,INDX ALEJARSE 
+109,148258,149037,One of the three boys who were walking ,Uno de los tres chicos que iban andando ,cl.e(3):PERSONAS3 INDX cl.e(3):PERSONAS3-desplazarse 
+110,149071,149765,distributed the pears between them.,repartía las peras con los otros., REPARTIR 
+111,149821,150835,They continued walking.,Seguían caminando.,cl.e(3):PERSONAS3-desplazarse CONTINUAR 
+112,150990,153294,In the meantime the man who was up in the tree climbed down.,Entretanto el hombre que estaba subido al árbol bajó de éste.,G:mmm OTRO HOMBRE cl.e(2d):PERSONA-ascender+a-árbol cl.e(5):ÁRBOL cl.e(2d):PERSONA-descender+de-árbol cl.e(5):ÁRBOL 
+113,153390,154733,loaded with pears  ,Cargado de peras  , cl.m(4d):agarrar-delantal AHORA B:cl.m(4d):agarrar-delantal cl.m(4d):agarrar-delantal 
+114,154769,155190,He was surprised ,se quedó atónito ,MENTE-APAGADA(1M) B:cl.m(4d):agarrar-delantal 
+115,155208,156276, to see that one of the three baskets,al ver que antes había tres cestas,MIRAR B:cl.m(4d):agarrar-delantal LO-DE-ANTES B:cl.m(4d):agarrar-delantal TRES B:cl.m(4d):agarrar-delantal 
+116,156368,157461,"had disappeared. ""It can't be"" he said.","y (una había) desaparecido. ""No puede ser"" se dijo.", DESAPARECER PODER3 B:DESAPARECER 
+117,157489,158594,He looked back (at the baskets),Volvió a mirar,B:PODER3 B:DESAPARECER MIRAR B:DESAPARECER 
+118,158647,160526,"""This is weird! Very confusing!"" He said unbelievingly","""¡Qué raro es todo esto! ¡Qué confuso! "" se dijo incrédulo", COMPLICADO POCO B:COMPLICADO COMPLICADO 
+119,160548,161587,learning on the tree trunk.,apoyándose en el tronco del árbol.,cl.e(2b):PERSONA-apoyarse-tronco cl.e(B):TRONCO 
+120,161850,163446,When the three boys approached ,A medida que se acercaban los tres chicos ,cl.e(3):PERSONAS3-aproximarse B:cl.e(B):TRONCO 
+121,163521,164731,he looked at them attentively,Los observó con atención,MIRAR B:cl.e(B):TRONCO 
+122,164745,165550,(and saw that) they had pears.,(pudo comprobar que) llevaban peras.,HABER cl.m(B):llevar-peras PERA 
+123,165566,166140,They continued on their way,Siguieron su camino,TRES cl.e(3):PERSONAS3-desplazarse 
+124,166156,167556,"""How strange!"" he thought ""this can’t be true."" ","""¡Qué extraño!"" pensó ""Sí que es raro"". ", MENTE-APAGADA RARO 
+125,167569,168405,(The youngsters) went away,(Los chicos) se alejaron,ALEJARSE G:mano-en-cintura G:¡qué-raro! B:G:mano-en-cintura 
+126,171063,171643,End.,Fin., FIN 
+1,256,1266,Can we start?,¿Empezamos?, EMPEZAR 
+2,1496,2316,Do you want me to?,¿Quieres,QUERER 
+3,2316,4526,Tell you a past story?,(que te) cuente (una) historia pasada?, INFORMAR PASADO(2Msu) HISTORIA 
+4,4526,7346,A child whose sign is this,Un niño (su signo es) éste,INDX HOMBRE PERSONA SN:niño 
+5,7346,9296,A frog whose sign is this,(una) rana (su) signo (es) éste, RANA SIGNO SN:rana 
+6,9296,11706,And a dog whose sign is this,(y un) perro (su signo es) éste.,PERRO SN:perro 
+7,12016,15806,Then the child [with this sign] is facing the frog [whose sign is],Entonces el niño [su signo] (está) mirando la rana [su signo], ENTONCES HOMBRE PEQUEÑO2 SN:niño MIRAR RANA SN:rana 
+8,15806,17406,which is in a glass jar,(que está) dentro de un frasco de cristal, DENTRO CRISTAL2 cl.d(B):frasco-forma 
+9,17406,19186,The dog (which is near) is also looking,El perro (al lado también está) mirando,PERRO SN:perro MIRAR 
+10,19196,20136,and playing (with the frog),(y) jugando (con la rana), JUGAR 
+11,20136,21256,the bed is behind them,(tiene) la cama detrás, CAMA cl.e:CAMA-localización 
+12,21256,22646,and playing (with the frog),(está) jugando (con la rana)., JUGAR 
+13,22806,23536,It is night,(Es) de noche, NOCHE 
+14,23536,26230,There is a glass window in front,hay enfrente unha ventana de cristales, VENTANA MIRAR cl.d(4):ventana-forma 
+15,26230,26905,that is open,que está abierta,cl.e(B):VENTANA-ascender cl.e(Bh):VENTANA 
+16,26905,28780,(and one can see) the sun set,(y se ve) el sol caer, ANOCHECER 
+17,28836,31006,The boy has gone to bed,El niño se ha metido en cama,HOMBRE PEQUEÑO2 ACOSTARSE 
+18,31006,32676,and the dog (sleeps) at the foot of the bed,(y) el perro (duerme) a los pies de la cama,PERRO B:ACOSTARSE cl.e(2d):PERRO-sobre-cama cl.e(Bh):CAMA 
+19,32736,34706,The sun has risen,Ha salido el sol,YA AMANECER SOL 
+20,34846,35890,(The child goes to) see (the frog),(El niño se dirige a) ver (la rana),MIRAR 
+21,35890,37946,(But) the frog has disappeared,(pero) la rana ha desaparecido,PERRO- RANA DESAPARECER 
+22,37986,40596,"(The child asks) ""Where is it?""","(El niño) ""¿Dónde (está)?""",MIRAR B:DESAPARECER DÓNDE G(5)(2M):interrogativo 
+23,40596,41837,(The child begins to) worry ,(El niño empieza a) preocuparse, PROBLEMA 
+24,41956,44916,(That) the frog would bite her at night ,La rana antes por la noche pícara ella, RANA ANTES2 NOCHE G(X)(2M):maquinación 
+25,44916,46996,(since) the bottle (it was in) had no lid on it,(como) el frasco de cristal (en el que estaba) no tenía tapa,CRISTAL2 cl.d(B):forma-frasco cl.m(5d):abrir-tapa B:cl.d(B):forma-frasco NADA(1M) B:cl.d(B):forma-frasco 
+26,46996,47776,The frog looked out,se asomó,cl.e(2d):asomarse-frasco cl.e(B):FRASCO 
+27,47776,48276,stretched a leg to the ground,estiró una anca hasta el suelo,cl.c(X):PATA-estirar cl.c(X):PATA 
+28,48276,49096,And walked stealthily,caminó sigilosa, cl.c(X):PATAS-andar 
+29,49096,49696,and disappeared.,(y) desapareció.,DESAPARECER(1M) 
+30,49806,51178,Then what is the matter?,Entonces ¿cuál (es) la cuestión?, ENTONCES PROBLEMA QUÉ 
+31,51178,53537,The child is looking for it,El niño busca dónde está,SN:niño BUSCAR(2Msu) DÓNDE 
+32,53537,54079,looking for it,busca, BUSCAR(2Msu) 
+33,54079,54997,He calls out (to it),(la) llama,GRITAR2 
+34,54997,55422,looking for it,busca..., BUSCAR(2Msu) 
+35,55546,56486,The dog sniffs the jar,El perro se mete en el frasco,PERRO MIRAR- cl.e(2d):PERRO-entrar-frasco cl.e(B):FRASCO 
+36,56496,57071,to smell it,(para) olerlo,OLER2 B:cl.e(B):FRASCO 
+37,57071,57679,It is sniffing the jar ,está oliendo el frasco,cl.e(2d):PERRO+FRASCO-desplazarse cl.e(B):PERRO+FRASCO-desplazarse 
+38,57679,58320,and it is stuck,y se le queda atorado, cl.e(C):FRASCO-en-cabeza 
+39,58320,59219,with its snout inside,con la cabeza dentro,cl.c(A):cabeza-entrar-frasco cl.e(C):FRASCO 
+40,59221,59772,What a disappointment,qué chasco,IRREVERSIBLE B:cl.e(C):FRASCO 
+41,59775,60597,It remains there with its snout in the jar.,se queda aí con la cabeza en el frasco., cl.e(C):FRASCO-en-cabeza 
+42,60886,62195,The child continues the search,El niño busca,HOMBRE SN:niño BUSCAR(2Msu) 
+43,62195,63060,Looks inside a boot,mira en una bota, BOTA MIRAR 
+44,63060,63441,looking for it,busca,BUSCAR 
+45,63441,63793,It is not there,(allí) no (está),NO 
+46,63794,64710,Looks under the bed,Va por debajo de la cama, CAMA cl.e(1):TRAIECTORIA-desplazarse-cama cl.e(Bh):CAMA 
+47,64710,65020,"""Not there""","""no (está)""",NO 
+48,65020,66299,searches everywhere,busca (por todas partes), BUSCAR(2Msu) 
+49,66304,67154,in the window,En la ventana,MIRAR VENTANA 
+50,67154,68342,It surely must be there,seguro (que está) ahí,INDX ES.SEGURO 
+51,68342,68973,(approaches and) looks out the window,(Se acerca y) mira por la ventana,MIRAR VENTANA 
+52,68973,69870,Calls out (to the frog),llama (a la rana),GRITAR2 
+53,69981,71188,The dog is (next to the child),El perro está (al lado del niño),PERRO MIRAR 
+54,71188,72259,It falls out the window,cae por la ventana,cl.e(2d):PERRO-caer+de-ventana cl.e(Bh):VENTANA 
+55,72259,72966,And the bottle with the snout falls to the ground,y el frasco de la cabeza cae al suelo, cl.e(C):FRASCO-descender 
+56,72966,73652,and breaks into pieces,y se rompe en añicos, cl.d(A&amp;gt;5):frasco-desintegrarse 
+57,73652,74488,The dog rejoices,él se alegra,INDX CONTENTO 
+58,74488,76594,The child jumps out the window,El niño salta por la ventana,INDX HOMBRE SN:niño cl.e(2d):PERSONA-saltar+de-ventana cl.e(Bh):VENTANA 
+59,76594,77177,takes the dog in his arms,coge al perro en brazos, cl.m(C):coger-perro 
+60,77177,78216,and it licks his face,que le lame la cara,cl.c(B):LENGUA-lamer cl.m(C):sostener-perro 
+61,78216,79102,(The boy is) angry,(El niño está) enojado,RABIA B:cl.m(C):sostener-perro 
+62,79102,80327,thinking of the frog,pensando en la rana, MENTE^OBJETIVO RANA 
+63,80327,80759,thinking about,pensando en, MENTE^OBJETIVO 
+64,80759,82206,Find where it is,buscar dónde (está), BUSCAR(2Msu) DÓNDE 
+65,82231,83631,The dog is looking for it,El perro (está) buscando,INDX? SN:perro BUSCAR(2Msu) 
+66,83631,84270,Looking for it,va buscando,cl.e(2d):PERRO-desplazarse 
+67,84270,85277,The boy goes with the dog,el niño va con el perro,SN:niño cl.e(1):PERRO-desplazarse+con-persona cl.e(1):PERSONA-desplazarse+con-perro 
+68,85277,86495,The dog and the boy are walking.,van el perro y el niño.,cl.e(2d):PERRO-desplazarse+con-persona cl.e(1):PERSONA-desplazarse+con-perro 
+69,86734,87313,They are searching.,Miran,MIRAR 
+70,87313,87735,while on the go,mientras se desplazan,cl.e(2d):PERRO-desplazarse+con-persona cl.e(1):PERSONA-desplazarse+con-perro 
+71,87735,88288,Where (could the frog be)?,dónde [puede estar la rana],DÓNDE 
+72,88288,89963,Then the boy looks up high,Entonces el niño ve en lo alto, ENTONCES SN:niño MIRAR 
+73,89968,91182,"""It is in this tree","""(Está) en este árbol", ÁRBOL INDX 
+74,91182,91588,I sensed it.,lo intuyo.,OLER 
+75,91588,91890,I've heard it,Lo he escuchado,ESCUCHAR(2) 
+76,91890,92473,I think so.,"me parece.""", PARECER(2M) 
+77,92473,93473,sees a burrow (on the ground),(En el suelo) ve una madriguera,MIRAR cl.d(1):madriguera-forma cl.e(C):MADRIGUERA 
+78,93473,93938,and screams within her,grita dentro de ella, cl.e(C):MADRIGUERA 
+79,93938,94931,An animal comes out of the burrow and slams her face,un animal sale de su interior y se estampa en su cara,cl.e(5d&amp;gt;Cc):ANIMAL-ascender-madriguera cl.e(C):MADRIGUERA 
+80,94941,95498,(What a disappointment),(qué chasco)., G(5)(2M):chasco 
+81,95498,96409,The animal goes,El animal se va,cl.e(2d):ANIMAL-chocar cl.e(C):MADRIGUERA cl.e(2d):ANIMAL cl.e(C):MADRIGUERA 
+82,96409,97102,Leaper with its rodent teeth,saltarín con sus dientes de roedor,INDX cl.e(2d):ANIMAL-ascender-madriguera cl.e(B):MADRIGUERA 
+83,97102,98466,moves into the distance.,se aleja,cl.e(2d):ANIMAL-alejarse-madriguera cl.e(B):MADRIGUERA G(5):allá-va 
+84,98466,100734,The dog sees a hive at the tree top,El perro ve una colmena (que hay en la copa de un) árbol,PERRO MIRAR ÁRBOL COLMENA 
+85,100734,102523,with wasps swirling around,con avispas volando alrededor, cl.e(Lc):AVISPAS-volar VOLAR cl.e(Lc):AVISPAS-volar 
+86,102523,103341,they sting!,¡(que) pican!,cl.e(Lc):AVISPA-chocar-brazo cl.c:brazo G(5):dolor 
+87,103341,104276,and swirl around,vuelan alrededor, cl.e(Lc):AVISPAS-volar 
+88,104306,105191,The dog gets up,El perro,INDX PERRO cl.c(Bg):orejas 
+89,105191,105498,sees [something] (at the top),ve [algo] (en lo alto),MIRAR 
+90,105498,105806,on two legs,está sobre las dos patas,BUSCAR 
+91,105806,108636,It slams the hive with one leg ,con una pata le da le da a la colmena con la pata , cl.c(5d):patas-moverse cl.m(5d):tocar-colmena cl.m(5d):pata cl.e(5d):colmena cl.m(5d):tocar-colmena B:cl.e(5d):COLMENA cl.c(5d):patas-moverse 
+92,108666,109681,And the child,(Por otro lado) el niño,MIRAR SN:niño 
+93,109681,112255, sees a hole in a tree trunk , ve un hueco en el tronco de un árbol,MIRAR cl.d(1):círculo-forma cl.e(B):CÍRCULO ÁRBOL cl.e(5):ÁRBOL cl.d(Oa):tronco 
+94,112255,112627,(and wants) to peep inside,(quiere) mirar,MIRAR 
+95,112627,113210,and puts his head inside,y mete la cabeza dentro, cl.m(B):apoyarse-tronco 
+96,113210,114601,An owl comes out from within,Un búho sale de dentro, RAPAZ^VOLAR cl.c(O):OJOS-acercarse 
+97,114601,115029,and frightens (the boy).,(y) asusta (al niño), ASUSTAR 
+98,115029,116776,who falls from the tree to the ground,(que) cae del árbol al suelo,cl.e(2d):PERSONA-caer+de-tronco cl.e(5):TRONCO ACABAR 
+99,116806,117822,The dog which was playing with the hive,El perro que estaba jugando con la colmena,PERRO VER cl.m(5d):tocar-colmena 
+100,117822,118480,is frightened,se asusta, G(5)(2M):asustarse 
+101,118480,119405,because a swarm starts to leave the hive,porque empieza a salir un enjambre de la colmena, cl.d(5d):avispas-desplazarse 
+102,119405,120112,wasps swarm out,salen avispas,cl.e(Lc):avispas-desplazarse cl.d(Lc):avispas-desplazarse 
+103,120112,122751,The dog runs in terror,el perro corre despavorido,PERRO cl.c(B):patas-correr SN:perro cl.c(B):patas-correr 
+104,122751,124108,and flees the place,y huye del lugar,cl.e(1):PERRO-alejarse-localización cl.e(Bh):LOCALIZACIÓN 
+105,124153,126134,The boy moves away from the [owl’s] nest,El niño se aleja del sitio [del búho],INDX SN:niño cl.e(2d):PERSONA-alejarse-suelo cl.e(Bh):SUELO 
+106,126134,127597,He sees a large stone,ve una piedra grande, PIEDRA cl.d(C):piedra-forma B:cl.d(C):piedra-forma MIRAR 
+107,127597,128476,still annoyed,(aún estaba) molesto,RABIA B:cl.d(C):piedra-forma 
+108,128488,130033,(because) the owl had besieged him,(porque) el búho lo había asediado,INDX RAPAZ^VOLAR cl.e(2d):BÚHO-acercarse 
+109,130033,130815,and he had left fleeing,(y se había ido) volando, VOLAR 
+110,130815,131586,and he was annoyed,(y estaba) fastidiado,INDX B G(1):fastidio B 
+111,131586,134386,(Then) he sees branches arranged like a fan (opposite him),(Entonces) ve unas ramas en abanico (enfrente),MIRAR cl.d(Lc):rama-forma cl.e(4):RAMAS-fila 
+112,134398,135040,He grabs the branches,agarra las ramas, cl.m(5&amp;gt;A):agarrar-rama 
+113,135040,135311,(and from there) looks,(y desde ahí) mira,MIRAR B:cl.m(A):agarrar-rama 
+114,135311,136086,and screams,(y) grita,GRITAR2 B:cl.m(A):agarrar-rama 
+115,136086,137586,"""Frog where are you?""","""Rana ¿dónde estás?""", RANA SN:rana DÓNDE 
+116,137586,138477,and screams,grita,GRITAR2 
+117,138477,139259,(suddenly) the branches begin to move,(De repente) las ramas empiezan a moverse, cl.m(A):agarrar-ramas 
+118,139259,139980,(The child) is astonished with this,(el niño) se queda en blanco con aquello, MENTE-APAGADA INDX 
+119,139980,141986,It was a deer,(que era) un ciervo, CIERVO cl.d(5):cuernos-tamaño 
+120,142052,143206,(The boy) falls.,(El niño) se cae,cl.e(2d):PERSONA-caer+de-suelo cl.e(Bh):SUELO cl.e(2d):PERSONA-caer-ciervo cl.e(Bh):CIERVO 
+121,143206,143762,falls on the head of the deer,cae en la cabeza del ciervo,cl.e(2d):PERSONA-caer-cabeza 
+122,143785,145986, The deer starts running, El ciervo (empieza a) correr, cl.d(5):cuernos-tamaño cl.c(A):patas-correr 
+123,146016,147262,The dog (follows them in parallel) barking:,El perro (los sigue en paralelo) gritando:,PERRO GRITAR2 
+124,147262,148149,"""Child [his sign] come/down""","""niño [su signo] ven/bájate""",SN:niño VENIR2 
+125,148149,149022,"and screams: ""Child [his sign]""","Le grita: ""niño [su signo]""",GRITAR2 SN:niño 
+126,149022,150330,The deer runs (furiously),El ciervo corre (enfurecido), cl.c(A):patas-correr CIERVO 
+127,150330,150781,and down there,(y allí abajo),MIRAR 
+128,150781,151405,when the deer stops suddenly,al frenar el ciervo, cl.c(B):patas-frenar 
+129,151405,152956,the child falls to the ground,cae el niño,cl.e(2d):PERSONA-caer 
+130,152996,153416,and is stunned.,(que se queda) atónito., MENTE-APAGADA 
+131,153416,153837,(falling from the top),(Desde lo alto),MIRAR 
+132,153837,155563,The two fall down,caen los dos,cl.e(Ap&amp;gt;2d):PERRO-caer+con-persona cl.e(Ap&amp;gt;2d):PERSONA-caer+con-perro 
+133,155563,156507,into the water,caen al agua,AGUA cl.d(5):agua-ascender 
+134,156507,157319,and get completely wet.,y se mojan completamente., cl.d(A&amp;gt;5):agua-descender 
+135,157360,159025,The child hears something,El niño escucha algo,INDX ESCUCHAR(2) INDX G(5):calma 
+136,159025,159484,Listen [something],escucha [algo],ESCUCHAR(2) B:G(5):calma 
+137,159484,161281,"""(is coming) from that fallen tree""","""(viene) de ese árbol caído""", ÁRBOL cl.e(5):ÁRBOL-caer ESCUCHAR(2) INDX 
+138,161450,162089,Listen!,(lo vuele) escuchar,ESCUCHAR2 INDX 
+139,162089,162462,(The dog) barks,(el perro) ladra,GRITAR2 
+140,162469,163356,"""Shhh! Wait""","""¡Shhh! espera""",SILENCIO ESPERAR2 
+141,163371,164709,"""Dog [his sign] silence wait""","""Perro [su signo] silencio espera""", SN:perro SILENCIO ESPERAR2 
+142,164709,165462,"""Wait!""","""Espera""", ESPERAR2(2M) 
+143,165462,166153,"""Silence""","""Silencio""",SILENCIO ESPERAR2 
+144,166153,167266,(The child) sees something (in the distance),(El niño) ve algo (a lo lejos),MIRAR 
+145,167266,167946,There it was,Allí (estaba),INDX 
+146,167946,168499,Incredible,Increíble, MENTE-APAGADA 
+147,168499,170657,The frog [its sign] was there,la rana  [su signo] estaba allí, RANA INDX SN:rana HABER 
+148,170657,172458,It was with its partner,(está) con su pareja, cl.e(1):RANA-con-rana PAREJA 
+149,172458,174649,and their children,y sus hijos, HIJO HOMBRE PEQUEÑO2(2M) G(5)(2M):evidencia 
+150,174649,175751,There in a row,(allí) en fila, cl.e(2d):RANAS-fila 
+151,175751,177319,The dog [his sign] sees them,El perro [su signo] las ve, G(Bd)(2M):ilativo SN:perro MIRAR 
+152,177319,178315,and is happy.,(y se pone) contento.,CONTENTO 
+153,178315,179416,The child [his sign] sees them,El niño [su signo] las ve,INDX HOMBRE SN:niño MIRAR 
+154,179416,180074,and is happy.,(y se pone) contento.,CONTENTO 
+155,180074,181010,Picks the frog gently,Coge (la rana) con delicadeza,cl.m(Qa):coger-rana cl.m(Bd):coger-rana 
+156,181010,184018,and returns home happily.,(y) vuelve a casa feliz., VOLVER CASA FELIZ 
+1,610,1288,Can I start?,¿Empiezo?, EMPEZAR 
+2,2899,4604,(In an) orchard,(En una) arboleda,cl.e(5):ÁRBOL-fila-suelo cl.e(Bh):SUELO 
+3,5316,6116,(there is) a man,(hay un) hombre,HOMBRE PERSONA 
+4,6116,7147,wearing a hat,con un sombrero, cl.d(Xa):sombrero 
+5,7147,8025,and a scarf on his neck,una pañoleta en el cuello, PAÑOLETA 
+6,8025,9044,and an apron,y un delantal, cl.d(Xa):tira-delantal 
+7,9044,10407,with a pocket,con un bolsillo, hhh cl.d(L&amp;gt;B):bolsillo-delantal 
+8,10407,11712,(to) keep things in,(para) guardar cosas, COSA ARROJAR(2Msu) 
+9,11712,12650,[The apron] is tied at the back.,atado [el delantal] a la espalda., cl.m(Xc):atar-delantal 
+10,13465,15407,(There is) a ladder up the tree.,(Hay) una escalera hasta un árbol.,cl.e(2d):ESCALERA-sobre-suelo cl.e(Bh):SUELO cl.e(5):ÁRBOL-sobre-suelo cl.e(Bh):SUELO 
+11,15837,18933,The man (is) working picking pears,El hombre (está) trabajando en las peras.,HOMBRE PERSONA TRABAJAR PERA4(Q) 
+12,19831,20978,How (does) he (work)?,(Esta) persona cómo (hace),PERSONA CÓMO cl.c(X):PIERNA 
+13,20978,23112,(Well) he climbs up the ladder,sube la escalera, cl.c(X):PIERNAs-ascender+por 
+14,23112,23632,and plucks a pear,coge una pera,cl.m(5d):coger-fruta cl.e(C):SACO 
+15,23632,24326,puts it in ...,la mete en un...,cl.m(5d):agarrar-fruta B:cl.e(C):SACO 
+16,24326,25040,puts it in his apron pocket,la mete en el bolsillo del delantal,cl.m(5d):guardar-fruta B:cl.e(C):SACO 
+17,25040,25614,plucks another pear,arranca otra pera,cl.m(5d):arrancar-fruta B:cl.e(C):SACO 
+18,25614,26490,puts it in the apron...,la mete en el delantal...,cl.m(5d):guardar-fruta B:cl.e(C):SACO 
+19,26490,29838,(way up in the) tree (top)... (there are many) pears,(En la copa del) árbol... (hay muchas) peras, ÁRBOL cl.e(5):ÁRBOL hhh PIEDRA- PERA4 PERA4(Q) cl.e(5d):PERAS-en-árbol cl.e(C):ÁRBOL-tronco 
+20,29838,30607,(The man) is plucking pears,(el hombre está) cogiendo peras,B:cl.e(5d):PERAS-en-árbol cl.m(5d):coger-fruta cl.m(5d):guardar-fruta B:cl.m(5d):coger-fruta 
+21,30607,32095,(and suddenly) a pear falls to the ground.,(y de repente) una pera cae al suelo.,cl.e(1):TRAIECTORIA-caer 
+22,32095,33790,(The man is annoyed but continues) plucking the pears.,(El hombre se muestra molesto y sigue) cogiendo peras.,G cl.m(5d):coger+guardar-fruta cl.e(5d):delantal 
+23,33790,36930,(The man) sees a goat with a bell,(El hombre) ve una cabra con cencerro,MIRAR INDX cl.e(Qa):CAMPANA cl.d(L):cuernos-forma 
+24,36930,37715,approaching,(que) se acerca, cl.c(A):pezuñas-caminar 
+25,37715,38195,in the distance.,a cierta distancia.,B:cl.c(A):pezuñas-caminar cl.e(1):localización-cabra 
+26,38289,40599,(The man continues) plucking pears,(El hombre sigue) recogiendo peras.,cl.m(5d):coger+echar-fruta-en+saco cl.e(5h):SACO 
+27,40718,43929,He climbs down the tree,Baja del árbol,cl.e(2d):PERSONA-descender+de-localización cl.e(Bh):LOCALIZACIÓN 
+28,43929,45680,takes a pear,coge una pera, G:hombre cl.m(Q):coger-fruta 
+29,45680,47249,unties his scarf,se saca la pañoleta del cuello,cl.m(5d):agarrar-fruta cl.m(Xc):desatar-pañoleta 
+30,47249,49338,cleans the pear with it,limpia con ella la pera,B:cl.m(5d):agarrar-fruta cl.m(E):limpiar-fruta 
+31,49338,51212,and leaves the fruit in a basket.,y deja la fruta en una cesta.,cl.d(5d):cesta cl.d(5):cesta ARROJAR B:cl.d(5):cesta 
+32,51258,52438,He ties the scarf on his neck again.,Vuelve a ponerse la pañoleta., cl.m(Xc):atar-pañoleta 
+33,52549,53335,empties the contents of the apron pocket in the basket,Vuelca el bolsillo del delantal en la cesta, cl.m(5&amp;gt;A):coger-bolsillo cl.m(A):vaciar-bolsillo 
+34,53335,54039,The fruit falls,la fruta cae, cl.d(5):peras-caer+colectivo 
+35,54039,55034,pears.,caen las peras., cl.e(5d):peras-caer+individual 
+36,55234,59405,(There are) three baskets.,(Hay) tres cestas... hay., cl.d(5):cesta cl.d(5):cesta cl.d(5):cesta TRES HABER 
+37,60514,64109,(The man) climbs up the ladder again,(El hombre) sube otra vez la escalera,OTRA-VEZ(1M) cl.c(X):PIERNAs-ascender+por 
+38,64109,65840,(and continues) picking pears from the tree,(y sigue) cogiendo peras del árbol, ÁRBOL cl.m(5d&amp;gt;5):coger+guardar-fruta cl.m(5):agarrar-saco 
+39,65840,69253,(and) puts them in his apron pocket.,(que) guarda en el bolsillo de su delantal., cl.d(C):bolsillo-delantal cl.m(5d&amp;gt;5):coger+guardar-fruta cl.d(C):bolsillo-delantal 
+40,69875,73417,(There appears) a little blond boy wearing a hat and a scarf,(Aparece) un niño rubio con sombrero y pañoleta,HOMBRE PEQUEÑO2 RUBIO cl.d(Xa):sombrero PAÑOLETA 
+41,73417,74985,Just like his father (the man on the tree),igual su padre (era el hombre del árbol), IGUAL2 PADRE(2p) INDX.AUX cl.e(1):PERSONA 
+42,74985,75565,Who knows!,¡quién sabe!, G:quién-sabe 
+43,75566,77922,The (child is riding) a bike,El (niño va) en bicicleta,INDX BICICLETA 
+44,77922,79308,He looks up (into the tree),mira (a la cima del árbol),MIRAR 
+45,79308,80171,(continues) looking,(vuelve a) mirar,MIRAR 
+46,80171,81903,gets off the bike,se baja de la bicicleta , BICICLETA cl.e(2d):PERSONA-descender+de-bicicleta cl.e(Bh):BICICLETA 
+47,81903,83071,looks (mischievously at the man),mira (pícaro al hombre),MIRAR 
+48,83071,84319,(and looks at the baskets with) pears in front of him.,(tiene) las peras (de los cestos) delante.,PERA4 INDX 
+49,84319,85231,Looks up (at the man),Mira (al hombre),MIRAR 
+50,85231,86378,(continues) looking,(vuelve a) mirar y,MIRAR 
+51,86378,87088,picks up a pear,coge una pera;,cl.m(5d):coger-fruta 
+52,87088,88218,holds it,la sostiene,cl.m(5d):agarrar-fruta 
+53,88218,89233,(but) leaves it (in the basket),(pero) la deja (en la cesta),cl.m(5d&amp;gt;5):echar-fruta 
+54,89233,90574,(He makes sure that no one is looking).,(comprueba que nadie lo mira).,B:cl.m(5d&amp;gt;5):echar-fruta 
+55,90574,91471,The bike (is) lying (on the floor),La bicicleta (está) acostada (en el suelo), BICICLETA cl.d(Xa):bicicleta-en-suelo 
+56,91471,92015,then takes the...,coge la..., cl.m(5):coger-cesta 
+57,92015,92726,he uprights the bike,levanta la bicicleta y,cl.e(Xa):BICICLETA-levantarse-cesta+referencia cl.e(Xa):CESTA 
+58,92726,94768,puts the basket on the handlebar.,pone la cesta en el manillar., cl.m(A):colocar-cesta 
+59,94769,95258,(checks that the man is not looking at him),(Comprueba que el hombre no le mira y), B:cl.m(A):colocar-cesta 
+60,95258,96941,climbs on the bike,se sube en la bicicleta,cl.e(2b):PERSONA-ascender+a-bicicleta cl.e(B):BICICLETA 
+61,96941,97560,(checks that the man is not looking at him),(comprueba que el hombre no lo ha visto y),B:cl.e(2b):PERSONA-ascender+a-bicicleta 
+62,97560,98110,(and starts) pedalling,(empieza a) pedalear, BICICLETA 
+63,98110,99351,into the distance.,alejándose.,cl.e(2b):PERSONA-ascender+a-bicicleta cl.e(1):BICICLETA G 
+64,101086,104978,Three children on foot (come by).,(Aparecen) tres niños caminando.,HOMBRE cl.e(3):PERSONAS3-aproximarse 
+65,104978,105927,one (is) waving (a tennis) [racquet],Uno (va) dándole [a una raqueta],cl.e(1):PERSONA cl.m(Xc):accionar-raqueta 
+66,105927,106815,(a tennis) racquet,una raqueta,cl.m(Xc):sostener-raqueta cl.d(Ca):forma-raqueta 
+67,106815,107391,(hitting) a ball,con una pelota,B:cl.m(Xc):sostener-raqueta cl.e(O):PELOTA 
+68,107391,108186,attached to the racquet by a rope,conectada por una cuerda a la raqueta,B:cl.m(Xc):sostener-raqueta CUERDA 
+69,108186,109290,that bounces back and forth;,que bota adelante y atrás;,B:cl.m(Xc):sostener-raqueta cl.e(O):PELOTA-botar 
+70,109290,109668,By moving the racquet,al darle a la raqueta,cl.m(Xc):accionar-raqueta 
+71,109668,110528,the ball bounces back and forth;,bota adelante y atrás,cl.m(Xc):sostener-raqueta cl.e(O):PELOTA-botar 
+72,110528,110936,and,le das (y),cl.m(Xc):accionar-raqueta 
+73,110936,111442,the ball bounces.,la pelota bota.,cl.m(Xc):sostener-raqueta cl.e(O):PELOTA-botar 
+74,111442,111871,(The child continues) slamming [the ball] with the racquet,(El niño va) dándole a la raqueta,cl.m(Xc):accionar-raqueta 
+75,111871,113325,(as) he walks with the other two boys.,(mientras) camina con los otros dos niños.,cl.e(2):PERSONAS2-desplazarse 
+76,114222,115155,The boy that fled on the bicycle,El niño que huía en bicicleta, cl.m(A):agarrar-manillar 
+77,115467,118436,(and a) girl on a bike meet,(y una) niña en bicicleta se encuentran,MUJER cl.e(Xa):BICICLETA cl.e(Xa):BICICLETA-aproximarse-bicicleta BICICLETA cl.e(Xa):BICICLETA-aproximarse-bicicleta 
+78,118436,120068,(She has two) braids,(ella lleva dos) trenzas, TRENZA TRENZA 
+79,120068,122016,and they are about to cross each other,están a punto de cruzarse, cl.e(Xa):BICICLETA-aproximarse-bicicleta 
+80,122107,123535,The child (looks at the girl) open mouthed,el niño se queda embobado (mirando a la niña y),HOMBRE BICICLETA 
+81,123535,124667,The girl with braids ,la niña (que va toda pincha) con sus trenzas ,MUJER cl.d(2p):trenzas 
+82,124667,125335,slaps him,le pega un manotazo,G:manotazo 
+83,125393,126839,(and) (the boy’s) hat fell off.,(que) le tira el sombrero (al niño)., cl.e(Xa):sombrero-caer 
+84,126839,127710,(The boy) continues cycling ,(El niño) sigue circulando (y),cl.e(Xa):BICICLETA-desplazarse 
+85,127710,128251,spellbound,(como) va embobado,cl.e(Xa):BICICLETA-desplazarse 
+86,128251,130412,and hits a stone,colisiona con una piedra, PIEDRA cl.e(Xa):BICICLETA-chocar-piedra cl.e(Xa):PIEDRA 
+87,130412,132154,(when) the girl disappears into the distance.,(mientras) la niña se aleja.,MUJER ALEJARSE 
+88,132744,135677,The boy... the three boys approach (the blond boy),El niño las... los tres niños se acercan (al niño rubio),INDX MUJER HOMBRE PEQUEÑO2 TRES cl.e(3):PERSONAS3-aproximarse 
+89,135677,136172,see (him on the floor),ven (al niño accidentado y),MIRAR 
+90,136172,137115,(and) help him.,le ayudan., AYUDAR 
+91,137115,138517,The blond boy (is) sitting:,El niño rubio (está) sentado:,HOMBRE RUBIO SENTAR 
+92,138517,139099,"""it hurts!"" (he says)","""¡(Cómo) duele!""",DOLOR 
+93,139099,139699,(He pulls) up one sock,(Lleva) el calcetín subido,cl.d(B):calcetín-subido cl.c(B):pierna 
+94,139699,140421,and looks at the knee.,se mira la rodilla.,MIRAR XXX 
+95,140421,141777,The sock (is) halfway (up to) the shin bone.,El calcetín (subido hasta) la mitad de la canilla., CALCETÍN2 cl.d(Bl):calcetín-subido cl.c(Bl):pierna 
+96,141777,142447,"""The knee hurts"" (he says).","""(Cómo me) duele la rodilla.""",DOLOR INDX G:tocarse-rodilla 
+97,142447,143038,(He is) sitting,(Está) sentado,cl.e(2d):PERSONA-sentarse cl.e(Bh):SUELO 
+98,143038,143824,"""it hurts"" (a lot...)","""(Cómo) duele"" (tal...)",DOLOR G 
+99,143824,144880,He rises,se levanta.,cl.e(2b):PERSONA-levantarse-suelo cl.e(Bh):SUELO 
+100,144880,146563,the children help him to ,Los niños le ayudan.,INDX HOMBRE AYUDAR 
+101,146631,151590,put the pears in the basket (and),Ponen las peras en la cesta (y), PERA4(2M) ARROJAR(2Msu) cl.d(5):cesta LO-DE-ANTES B:cl.d(5):cesta ARROJAR(2Msu) 
+102,151590,153308,(then) place the basket (on the bike),suben la cesta (y),INDX cl.m(C):colocar-cesta 
+103,153308,155247,The boy climbs on the bike,El niño se sube en la bicicleta, BICICLETA cl.e(2b):PERSONA-ascender+a-bicicleta cl.e(1):BICICLETA 
+104,155248,156454,(and starts) pedalling,(empieza a) pedalear., BICICLETA 
+105,156455,157378,The three boys go away,Los tres niños se van,cl.e(3):PERSONAS3-alejarse 
+106,157378,160089,(The one with the racquet) continues to play with the ball,(el de la raqueta) sigue jugando con la pala de la pelotita, CONTINUAR cl.m(Xc):accionar-raqueta cl.e(O):PELOTA-botar cl.m(Cc):sostener-raqueta CONTINUAR 
+107,160089,160553,(while) walking,(va) caminando (y),cl.e(1):PERSONA-alejarse 
+108,160553,162569,He sees a hat on the floor.,ve el sombrero en el suelo.,MIRAR SOMBRERO(Xc) cl.e(Xa):sombrero-tirado 
+109,162696,164840,(The boy with the racquet) looks at the blond boy in the distance,(El niño de la raqueta) mira al niño rubio a lo lejos,MIRAR RUBIO cl.e(1):PERSONA 
+110,164952,165493,The (blond boy sees the hat),el (niño rubio lo ve), BICICLETA B:BICICLETA 
+111,165790,166605,(and decides) to return.,(decide) volver., VOLVER 
+112,166605,167727,He gets off the bike (and),baja de la bicicleta (y),cl.e(Xa):BICICLETA cl.e(2d):PERSONA-descender+de-bicicleta cl.e(Bh):BICICLETA 
+113,167727,169149,walks (towards the boy with the racquet).,camina (hasta el niño de la raqueta).,cl.e(2b):PERSONA-aproximarse 
+114,169149,170550,The (boy with the racket) gives him the hat,El (niño de la raqueta) le da el sombrero (y),INDX cl.m(Q):dar-sombrero 
+115,170550,173735,The (blond boy) gives a pear for each one.,él (niño rubio) le regala una pera para cada uno.,INDX REGALAR PERA4 UNO UNO 
+116,173867,174537,(and) leaves,(El niño rubio) se va:,ALEJARSE 
+117,174538,175087,on his bike,monta en la bicicleta (y),cl.e(2b):PERSONA-ascender+a-bicicleta cl.e(1):BICICLETA 
+118,175087,176050,Pedalling (into the distance).,(se aleja) pedaleando., BICICLETA G:alejarse 
+119,176165,177040,(The three) boys walk by.,(Los tres) niños caminan,HOMBRE cl.e(3):PERSONAS3-desplazarse 
+120,177040,177892,(The one with the racquet) continues to play with the ball,(el de la raqueta sigue) jugando con la raqueta.,cl.m(Xc):accionar-raqueta 
+121,177892,179398,The earlier man,El hombre de antes,HOMBRE PERSONA LO-DE-ANTES cl.e(2d):PERSONA-en-árbol cl.e(5):ÁRBOL 
+122,179398,180674,the fat one wearing a hat and scarf,gordo de sombrero y pañoleta, GORDO SOMBRERO PAÑOLETA 
+123,180674,182118,(is) collecting pears.,(está) recogiendo peras.,G:hombre cl.m(5d):coger+guardar-fruta cl.m(5):agarrar-saco 
+124,182119,183020,He climbs down the tree,Baja del árbol,AHORA cl.e(2d):PERSONA-descender+de-árbol B:cl.e(5):ÁRBOL 
+125,183020,183962,and holds the apron (to empty its contents into the basket and),agarra el delantal (para vaciar su contenido en una cesta y), cl.m(A):coger-delantal 
+126,183962,185025,is surprised.,se queda en blanco., MENTE-APAGADA 
+127,185025,187963,"""One basket of pears has disappeared","""Ha desaparecido una cesta de peras", DESAPARECER UNO cl.d(B):cesta PERA4 
+128,187963,189130,"Where is it?""","¿dónde estará?""",DÓNDE 
+129,189257,189805,Looks on one side...,Mira al lado...,MIRAR 
+130,189805,191352,and sees the three boys,El hombre ve pasar los tres niños,HOMBRE cl.e(3):PERSONAS3-aproximarse 
+131,191352,192740,eating the fruit,comiendo la fruta,cl.m(5d):agarrar+comer-fruta 
+132,192740,193996,walking past him,pasan por delante del hombre,cl.e(3):PERSONAS3-alejarse 
+133,193996,194386,(The man) looks at them (but),(el hombre) los ve (y),MIRAR 
+134,194386,195402,says nothing.,no dice nada.,SILENCIO 
+135,203587,204872,(He lacks) proof,(Le falta) sustancia, SUSTANCIA 
+136,204925,205979,(a bit) strange.,(un poco) raro.,RARO G 
+1,1214,2918,Hello!,¡Hola!,HOLA 
+2,2992,6796,I am going to narrate (a story) about pears,Voy a hablar de (la historia) de las peras, TEMA PERA4(Xc) DL:PERA 
+3,6869,8458,I am going to narrate it.,voy a contarla.,AHORA EXPLICAR 
+4,8503,12648,The scene of this story is a grove with pears,El escenario de la historia es un bosque con peras , SITUACIÓN INDX BOSQUE(M-AD) MÁS.SUMA PERA4(Xc) 
+5,12703,15283,A man with a hat,Un hombre con sombrero,HOMBRE PERSONA SOMBRERO(Xc) B:SOMBRERO(Xc) 
+6,15538,16870,(was) picking [pears],cogiendo [peras], COGER(2Msu) 
+7,16870,18235,up in the tree.,arriba en un árbol.,INDX PERA4(Xc)- ÁRBOL 
+8,18235,19063,He climbs up the ladder,Sube por la escalera,cl.e(2d):PERSONA-ascender-árbol cl.e(5):ÁRBOL 
+9,19063,19548,Climbs down,baja,cl.e(2d):PERSONA-descender-árbol B:cl.e(5):ÁRBOL 
+10,19548,19913,Climbs up...,sube...,cl.e(2d):PERSONA-ascender-árbol B:cl.e(5):ÁRBOL 
+11,19961,21571,(There are) three baskets.,(Hay) tres cestas., CESTO cl.m(Xc):posar-cesta cl.m(Xc):posar-cesta cl.m(Xc):posar-cesta 
+12,21571,22764,He continues working,Sigue trabajando, TRABAJAR CONTINUAR 
+13,22764,24331,Until he,hasta (que con las) peras (que) coge (del árbol), HASTA COGER(2Msu) 
+14,24331,25576,fills three (baskets) with the pears he picked from the tree.,llena las tres (cestas)., LLENAR(MP) LLENAR(MP) LLENAR(MP) 
+15,25878,26372,And just then...,Casualmente...,CASUAL 
+16,27913,30245,a man passes by,Viene un hombre,HOMBRE VENIR 
+17,30273,30996,(The first man) sees the second one,(El primer hombre) lo ve,MIRAR 
+18,30996,33629,(He was walking) with a goat,(va) con (una) cabra, CON CABRA 
+19,33657,34742,He walked past with the goat on a leash,pasa con la cabra por una correa,cl.m(Xc):agarrar-correa 
+20,34744,35543,Strolling along,paseando, PASEAR 
+21,35543,37112,And then... [The first man] is still up,Entonces... [El hombre] sigue arriba,ENTONCES(1M) ENTONCES xxx INDX CONTINUAR 
+22,37112,37940,The man (is) up in the tree,el hombre (está) en lo alto del árbol,HOMBRE cl.e(2d):PERSONA-ascender-árbol cl.e(5):ÁRBOL 
+23,37940,38355,harvesting,sigue, CONTINUAR 
+24,38355,39388,[the pears].,cogiendo [peras]., COGER(2Msu) 
+25,39510,41400,The man walking the goat,El hombre que pasea con la cabra,HOMBRE PASEAR CON CABRA 
+26,41400,42781,passed by with the leash in hand,pasa con la correa en mano,cl.m(Xc):agarrar-corea 
+27,42781,43808,into the distance,hasta alejarse, HASTA cl.e(1):TRAIECTORIA-desplazarse 
+28,43808,44598,(and) disappeared,(y) desaparecer,ALEJARSE 
+29,44600,45587,into the distance.,se va.,cl.e(1):TRAIECTORIA-desplazarse 
+30,46411,49182,Another (person) a boy,Otra (persona) un niño,OTRO xxx HOMBRE PEQUEÑO2 
+31,49222,50880,on a bike,que va en bicicleta,INDX BICICLETA 
+32,51394,52532,approaches,Se acerca la bicicleta,cl.e(Bl):BICICLETA-aproximarse BICICLETA 
+33,52543,52924,(The child) looks (on the floor),mira (en el suelo),MIRAR 
+34,52927,53427,(and) sees,descubre,DESCUBRIR 
+35,53427,54631,three baskets there.,(que hay) tres cestas allí.,INDX TRES CESTO 
+36,54631,55538,He looks up,Mira arriba,MIRAR 
+37,55538,56100,[The man] continues (picking pears),[el hombre] continúa, CONTINUAR 
+38,56100,57773,working away,trabajando, TRABAJAR 
+39,57773,58384,picking pears,cogiendo peras,COGER PERA4(Xc) 
+40,58384,59145,and placing them in his apron,y echándolas en el mandil,cl.m(A&amp;gt;5d):echar-peras-mandil cl.e(B):MANDIL 
+41,59145,59579,(The child) looks at him,(El niño) lo mira,MIRAR 
+42,59579,60000,and looks at (the baskets),mira (las cestas),MIRAR 
+43,60000,60422,(and wonders whether to),(y se decide),B:MIRAR 
+44,60422,61107,take [?],coge [?],COGER 
+45,61107,62604,take a basket,coge una cesta, cl.m(Xc):coger-cesta 
+46,62611,63925,He uprights the bike,levanta la bicicleta, BICICLETA cl.m(A):levantar-bicicleta 
+47,63925,65545,puts the basket on top of the bicycle,pone la cesta encima de la bicicleta, cl.m(Xc):colocar-cesta 
+48,65575,66898,(and) leaves.,(y) se va.,ALEJARSE 
+49,67313,68153,pedalling,(Va) pedaleando, BICICLETA 
+50,68153,69275,into the distance.,(y) se marcha.,ALEJARSE 
+51,69766,71017,The man (is) working up (in the tree),El hombre (está) trabajando arriba (en el árbol),HOMBRE TRABAJAR INDX 
+52,71017,71849,picking (pears),cogiendo (peras), COGER(2Msu) 
+53,71849,72966,and then climbs down the tree,baja del árbol,cl.e(2d):PERSONA-descender-árbol cl.e(5):ÁRBOL 
+54,73077,73929,he kneels on the ground,se arrodilla,AHORA cl.e(2b&amp;gt;2d):PERSONA-arrodillarse-suelo cl.e(5):SUELO 
+55,73985,74200,You know what?,¿sabes?,SABER 
+56,74200,74839,he kneels,se arrodilla,cl.e(2b&amp;gt;2d):PERSONA-arrodillarse-suelo cl.e(5):SUELO 
+57,74977,77663,(and) empties the pears from his apron.,(y) vacía las peras del mandil.,cl.m(A&amp;gt;5):ARROJAR-peras cl.e:MANDIL 
+58,78170,80704,(Strange he thought) I had left it here...,(Qué raro) yo la había dejado aquí...,G:incomprensión INDX.PRO:1sg LO-DE-ANTES VERDAD2 INDX.PRO:1sg G:incomprensión 
+59,80704,81751,(there) were three,(Había) tres,TRES 
+60,81751,83845,(There are only) two now...,(ahora hay) dos...,DOS G:incomprensión 
+61,83929,85735,He rises,Se levanta,cl.e(2b):PERSONA-levantarse-suelo cl.e(B):SUELO 
+62,85735,86725,leans against the tree,se apoya al árbol, ÁRBOL cl.e(2b):PERSONA-apoyarse-árbol cl.e(5):ÁRBOL 
+63,86725,89029,"to think: ""Weird""","a pensar: ""Qué raro""",PENSAR RARO G:pensar 
+64,89168,95623,Just then three children come by,Casualmente se acercaban los tres niños,CASUAL INDX NIÑO HOMBRE TRES PEQUEÑO2 TRES cl.e(3):PERSONAS3-aproximarse 
+65,95688,97472,eating pears,comiendo peras,PERA4(Xc) cl.m(5d):agarrar+comer-pera 
+66,97479,98517,(The man) looked at them,(El hombre) los miró,MIRAR 
+67,98517,103621,The child on a bike yes him,El niño de antes el que se había ido en bicicleta ése,INDX LO-DE-ANTES INDX BICICLETA ALEJARSE INDX 
+68,103700,105323,(Continues riding) the bike,(va en la) bicicleta, BICICLETA 
+69,105323,109191,(when) another girl also on a bike approached,(cuando) se acercó otra niña también en bicicleta,MUJER OTRO MUJER PEQUEÑO2 TAMBIÉN BICICLETA cl.e(Bl):BICICLETA-aproximarse-bicicleta 
+70,109281,110223,The boy cycled hooking his gaze (at the girl) ,El niño iba (embobado) mirando,MIRAR 
+71,110223,110984,they approached,se acercaron,MIRAR(2M) 
+72,110995,111441,[something] went wrong,[algo] falló, FALLO 
+73,111441,112493,and they crashed,chocaron,INDX BATALLA 
+74,112493,114071,and fell to the ground.,(y) se cayó., CAER 
+75,114071,115967,The pears fell,Las peras cayeron,PERA4(Xc) cl.d(A&amp;gt;5):peras-caer 
+76,115967,117566,(and) scattered on the floor.,(y) se esparcieron., DIFUNDIR 
+77,117566,118829,The girl cycled into the distance.,La mujer se alejó.,MUJER ALEJARSE 
+78,118829,120646,Three children came by,Aparecieron los tres niños,HOMBRE cl.e(3):PERSONAS3 PEQUEÑO2 
+79,120646,121368,(and) saw (the boy on the ground),(y) vieron (al niño en el suelo),MIRAR 
+80,121368,122289,This is why he fell,Por eso se había caído,MOTIVO CAER 
+81,122289,123163,it was clear.,claro.,G: 
+82,123163,123783,They approached the boy,Se acercaron,cl.e(3):PERSONAS3-aproximarse 
+83,123783,125289,(and) helped him.,(y) ayudaron al niño., AYUDAR INDX 
+84,125344,126891,The boy had fallen,El niño se había caído,HOMBRE PEQUEÑO2 CAER 
+85,126891,128235,(and) the basket too,(y) el cesto se había caído., CESTO cl.e(A):CESTO-caer 
+86,128235,129571,They began putting the pears back into the (basket) [that had fallen to the ground],En ese (cesto) [que se había caído] echaron las peras,LO-DE-ANTES cl.m(A&amp;gt;5d):arrojar-peras cl.e(5):CESTO 
+87,129571,130804,(and when it was) full,(y cuando estuvo) lleno, cl.d(5):peras-superficie LISTO 
+88,130804,132214,They put the basket in place,lo subieron otra vez (al sitio de) antes, cl.m(A):subir-cesto OTRA-VEZ(1M) LO-DE-ANTES 
+89,132214,133157,on the bicycle,lo subieron a la bicicleta, cl.m(A):subir-cesto BICICLETA 
+90,133157,134327,(and the boy) thanked them,(y el niño) les dio las gracias, GRACIAS INDX(B) 
+91,134566,135616,The bike was ready to move,La bicicleta estuvo lista, BICICLETA LISTO 
+92,135616,136143,and (the boy) left.,y se alejó.,ALEJARSE 
+93,136143,136512,[One of the three children] saw a hat.,[Uno de los tres niños] encontró el sombrero.,cl.m(Q):coger-sombrero 
+94,136512,137251,The boy had forgotten the hat,Se le ha olvidado el sombrero,SOMBRERO(1M) B:cl.m(Q):coger-sombrero OLVIDAR B:cl.m(Q):coger-sombrero 
+95,137251,137714,and he was getting away.,y se aleja.,ALEJARSE B:cl.m(Q):coger-sombrero 
+96,137717,137973,"""Wait!""","""¡Espera!""",ESPERAR2 B:cl.m(Q):coger-sombrero 
+97,137973,138980,"""the hat""","""El sombrero""",cl.m(Q):elevar-sombrero 
+98,138988,139853,"""Ah!""","""¡Ah!""",G:¡ah! B:cl.m(Q):elevar-sombrero 
+99,139853,142451,"""They gave the hat""",Le da el sombrero., cl.m(Q):dar-sombrero SOMBRERO(Xc) G:narrador 
+100,142590,145697,The child thanked them,"El niño ""Me siento agradecido""",HOMBRE G SENTIR GRACIAS G 
+101,145697,148797,"""Here three pears for helping me.""","""Tres peras por haberme ayudado""",TRES PERA4(Xc) AYUDAR MOTIVO G 
+102,148808,149680,He takes three (pears from the basket),Coge tres (del cesto), cl.m(5d):coger-peras TRES 
+103,149680,150579,(and) gave them to the children.,(y) se las da.,DAR 
+104,150611,152326,"The [other] boy receiving the pears said ""Thank You""","El [otro] niño con las peras en mano ""Gracias""",HOMBRE cl.m(Bd)sostener-peras GRACIAS(1M) B:cl.m(Bd)sostener-peras G 
+105,152353,153224,(and) they leave.,(y) se va.,ALEJARSE cl.m(Bd)sostener-peras 
+106,153228,154435,(The boy) distributed the pears.,Reparte las peras., cl.m(Cc):dar-peras G 
+107,154520,155620,Those three children who are coming,Esos tres niños que se acercaban,INDX cl.e(3):PERSONAS3-desplazarse 
+108,155620,156720,(are) the same ones as before,(son) los mismos de antes,MISMO LO-DE-ANTES 
+109,156720,157824,(the ones I mentioned) before,(a los que me refería) antes, PASADO(2Msu) INDX 
+110,158038,158808,The three children passed by.,Los tres niños pasaron.,cl.e(3):PERSONAS3-desplazarse 
+111,158831,159929,The man followed them with his eyes,El hombre los seguía con la mirada,HOMBRE MIRAR 
+112,159964,161185,He though they had stolen the pears.,piensa que ellos le robaron.,PENSAR INDX ROBAR INDX 
+113,161185,163501,No (it was the) other (boy): the boy on the bicycle.,No (había sido) otro: el niño de la bicicleta.,NO OTRO2 HOMBRE BICICLETA 
+114,163536,165084,The man was confused.,El hombre estaba confuso.,HOMBRE COMPLICADO 
+115,165084,166660,We have come to the end,Hemos llegado al final, HASTA FIN 
+116,166670,167388,Right?,¿vale?, (CNM) 
