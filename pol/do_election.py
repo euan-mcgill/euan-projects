@@ -101,7 +101,8 @@ def main():
                     'electoral_calculus_data/1992.csv', 'electoral_calculus_data/1997.csv',
                     'electoral_calculus_data/2001.csv', 'electoral_calculus_data/2005.csv', ]
     eight_election = [ 'electoral_calculus_data/2010.csv', 'electoral_calculus_data/2015.csv',
-                       'electoral_calculus_data/2017.csv', 'electoral_calculus_data/2019.csv', ]
+                       'electoral_calculus_data/2017.csv', 'electoral_calculus_data/2019.csv',
+                       'electoral_calculus_data/2024.csv', 'PLMR-25Q4-NTV-C.csv', 'PLMR-25Q4-TV-C.csv']
 
     election_frames = []
     prompt_one = input("Type in electoral system, Hamilton/Largest Remainder (HW) or the D'Hondt Method (DH): ")
