@@ -67,7 +67,12 @@ infiles = ['electoral_calculus_data/1955.csv', 'electoral_calculus_data/1959.csv
             'electoral_calculus_data/2025-09ECpoll-London.csv', 'electoral_calculus_data/2025-09ECpoll-District.csv',
             'PLMR-25Q4-NTV-C.csv', 'PLMR-25Q4-NTV-D.csv',
             'PLMR-25Q4-TV-C.csv', 'PLMR-25Q4-TV-D.csv',
-            'electoral_calculus_data/2024-district.csv'] # now add values to seat_totals
+            'electoral_calculus_data/2024-district.csv',
+            'electoral_calculus_data/2025-12ECpoll-District.csv', 'electoral_calculus_data/2025-12ECpoll-County.csv',
+            'electoral_calculus_data/2019-district.csv',
+            'electoral_calculus_data/2026-01ECpoll-District.csv', 'electoral_calculus_data/2026-01ECpoll-County.csv',
+            'electoral_calculus_data/2026-02ECpoll-District.csv', 'electoral_calculus_data/2026-02ECpoll-County.csv',
+            'electoral_calculus_data/2026-04ECpoll-District.csv', 'electoral_calculus_data/2026-04ECpoll-County.csv'] # now add values to seat_totals
 
 for i, val in enumerate(infiles):
     print(f'{i}: {val}')
@@ -80,7 +85,8 @@ seat_totals = [630-1, 630-2, 630-2, 630-2, 630-2, 635-2, 635-2, 635-2, 650-2, \
                650-2, 651-2, 659-2, 659-2, 650-2, 650-2, 650-2, 650-2, 650-2, \
                650, 650, 650, 650-2, 650-2, 650, 650-2, 650-2, 650-2, 650-2, \
                650-2, 650-2, 650-2, 650-2, 650-2, 650-2, 650-2, 650-2, 650-2, 650-2, 650-2, 650-2,
-               650-2, 650-2, 650-2, 650-1, 650-2, 650-1, 650-2, 650-1, 650-1] # now choose NI counties!
+               650-2, 650-2, 650-2, 650-1, 650-2, 650-1, 650-2, 650-1, 650-1, 650, 650-2, 650-2,
+               650, 650-2, 650, 650-2, 650, 650-2] # now choose NI counties!
                # Total in the actual GE - number of constituencies whose population is too low to gain a seat
 seat_total = seat_totals[int(sys.argv[1])] # list containing each for each?[] 
 
@@ -140,10 +146,14 @@ rnd_seats = saferound(raw_seats, places=0)
 for j in range(len(counties)):
     seats[counties[j]] = int(rnd_seats[j])
 print('\nNumber of seats by district (Northern Ireland calculated at-large for County-level):\n\n',seats)
+print(sum(seats.values()))
 
 seats_ni = {}
 party_votes_ni = {}
-rnd_seats_ni = rnd_seats[-6:]
+if district:
+    rnd_seats_ni = rnd_seats[-4:]
+else:
+    rnd_seats_ni = rnd_seats[-6:]
 
 # county-by-county
 if district:
@@ -153,25 +163,24 @@ else:
 
 
 for ky in ni_keys:
-    vl = seats.pop(ky)
-    vl = party_votes.pop(ky)
-    seats_ni[ky] = vl
+    seats_ni[ky] = seats.pop(ky)
+    party_votes_ni[ky] = party_votes.pop(ky)
     try:
-        party_votes_ni[ky] = {'UUP': data.loc[data['County'] == counties[i], 'CON'].sum(),
-                          'SDLP': data.loc[data['County'] == counties[i], 'LAB'].sum(),
-                          'DUP': data.loc[data['County'] == counties[i], 'LIB'].sum(),
-                          'ALP': data.loc[data['County'] == counties[i], 'UKIP'].sum(),
-                          'Green': data.loc[data['County'] == counties[i], 'Green'].sum(),
-                          'SF': data.loc[data['County'] == counties[i], 'NAT'].sum(),
-                          'MIN': data.loc[data['County'] == counties[i], 'MIN'].sum(),
-                          'OTH': data.loc[data['County'] == counties[i], 'OTH'].sum()}
+        party_votes_ni[ky] = {'UUP': data.loc[data['County'] == ky, 'CON'].sum(),
+                          'SDLP': data.loc[data['County'] == ky, 'LAB'].sum(),
+                          'DUP': data.loc[data['County'] == ky, 'LIB'].sum(),
+                          'ALP': data.loc[data['County'] == ky, 'UKIP'].sum(),
+                          'Green': data.loc[data['County'] == ky, 'Green'].sum(),
+                          'SF': data.loc[data['County'] == ky, 'NAT'].sum(),
+                          'MIN': data.loc[data['County'] == ky, 'MIN'].sum(),
+                          'OTH': data.loc[data['County'] == ky, 'OTH'].sum()}
     except:
-        party_votes_ni[ky] = {'UUP': data.loc[data['County'] == counties[i], 'CON'].sum(),
-                          'SDLP': data.loc[data['County'] == counties[i], 'LAB'].sum(),
-                          'DUP': data.loc[data['County'] == counties[i], 'LIB'].sum(),
-                          'SF': data.loc[data['County'] == counties[i], 'NAT'].sum(),
-                          'MIN': data.loc[data['County'] == counties[i], 'MIN'].sum(),
-                          'OTH': data.loc[data['County'] == counties[i], 'OTH'].sum()}
+        party_votes_ni[ky] = {'UUP': data.loc[data['County'] == ky, 'CON'].sum(),
+                          'SDLP': data.loc[data['County'] == ky, 'LAB'].sum(),
+                          'DUP': data.loc[data['County'] == ky, 'LIB'].sum(),
+                          'SF': data.loc[data['County'] == ky, 'NAT'].sum(),
+                          'MIN': data.loc[data['County'] == ky, 'MIN'].sum(),
+                          'OTH': data.loc[data['County'] == ky, 'OTH'].sum()}
 
 # NI at large
 try:
@@ -204,6 +213,10 @@ for ok, di in party_votes_ni.items():
     results_ni = dhondt(next(niv), di, verbose=False)
     ni_res.append(results_ni)
     print(ok,results_ni, max(di, key=di.get))
+    print(
+    [(k, v, f"{v / sum(di.values()):.2%}") for k, v in
+     sorted(di.items(), key=lambda x: x[1], reverse=True)], '\n'
+    )
 ni_tots = {k: sum(d[k] for d in ni_res if k in d) for k in set(k for d in ni_res for k in d)}
 
 # NI at large
@@ -219,6 +232,10 @@ for gk, gi in party_votes.items():
     results = dhondt(next(gbiv), gi, verbose=False)
     print(gk,results, max(gi, key=gi.get)) #,max(gi.values()))
     #print(gk,results)
+    print(
+    [(k, v, f"{v / sum(gi.values()):.2%}") for k, v in
+     sorted(gi.items(), key=lambda x: x[1], reverse=True)], '\n'
+    ) # UNCOMMENT TO SHOW SEATS IN ORDER and values for each seat
     gb_res.append(results)
 tots = {k: sum(d[k] for d in gb_res if k in d) for k in set(k for d in gb_res for k in d)}
 

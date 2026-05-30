@@ -54,13 +54,13 @@ oth_total = 0
 # parl = 0
 
 # Cambridgeshire
-# seats = {'Cambridge': 12, 'East Cambs': 8, 'Fenland': 9, 'Hunts': 17, 'South Cambs': 15}
-# votes = [{'Con': 3959, 'Lab': 10117, 'LIB': 7904, 'Brx': 3242, 'Grn': 7890, 'Nat': 0, 'Min': 0, 'Ind': 123, 'Oth': 0},
-#          {'Con': 5762, 'Lab': 1625, 'LIB': 8589, 'Brx': 5896, 'Grn': 1677, 'Nat': 0, 'Min': 0, 'Ind': 0, 'Oth': 0},
-#          {'Con': 9815, 'Lab': 2500, 'LIB': 2282, 'Brx': 11088, 'Grn': 1277, 'Nat': 0, 'Min': 0, 'Ind': 756, 'Oth': 0},
-#          {'Con': 12826, 'Lab': 4628, 'LIB': 10205, 'Brx': 12951, 'Grn': 3091, 'Nat': 0, 'Min': 50, 'Ind': 2781, 'Oth': 0},
-#          {'Con': 11721, 'Lab': 5606, 'LIB': 21939, 'Brx': 9520, 'Grn': 5380, 'Nat': 0, 'Min': 0, 'Ind': 547, 'Oth': 0}]
-# parl = 8
+seats = {'Cambridge': 12, 'East Cambs': 8, 'Fenland': 9, 'Hunts': 17, 'South Cambs': 15}
+votes = [{'Con': 3959, 'Lab': 10117, 'LIB': 7904, 'Brx': 3242, 'Grn': 7890, 'Nat': 0, 'Min': 0, 'Ind': 123, 'Oth': 0},
+         {'Con': 5762, 'Lab': 1625, 'LIB': 8589, 'Brx': 5896, 'Grn': 1677, 'Nat': 0, 'Min': 0, 'Ind': 0, 'Oth': 0},
+         {'Con': 9815, 'Lab': 2500, 'LIB': 2282, 'Brx': 11088, 'Grn': 1277, 'Nat': 0, 'Min': 0, 'Ind': 756, 'Oth': 0},
+         {'Con': 12826, 'Lab': 4628, 'LIB': 10205, 'Brx': 12951, 'Grn': 3091, 'Nat': 0, 'Min': 50, 'Ind': 2781, 'Oth': 0},
+         {'Con': 11721, 'Lab': 5606, 'LIB': 21939, 'Brx': 9520, 'Grn': 5380, 'Nat': 0, 'Min': 0, 'Ind': 547, 'Oth': 0}]
+parl = 8
 
 # Devon
 # seats = {'East Devon': 11, 'Exeter': 9, 'Mid Devon': 6, 'North Devon': 8, 'South Hams': 7,\
@@ -104,22 +104,22 @@ oth_total = 0
 # parl = 0
 
 # Lancashire
-seats = {'Burnley': 6, 'Chorley': 8, 'Fylde': 6, 'Hyndburn': 6, 'Lancaster': 10, 'Pendle': 6,\
-         'Preston': 9, 'Ribble Valley': 4, 'Rossendale': 5, 'South Ribble': 8, 'West Lancs': 8, \
-         'Wyre': 8}
-votes = [{'Con': 3769, 'Lab': 2496, 'LIB': 1564, 'Brx': 8319, 'Grn': 1842, 'Nat': 0, 'Min': 0, 'Ind': 3896, 'Oth': 39},
-         {'Con': 5290, 'Lab': 9639, 'LIB': 988, 'Brx': 10863, 'Grn': 2658, 'Nat': 0, 'Min': 0, 'Ind': 23, 'Oth': 271},
-         {'Con': 7923, 'Lab': 2390, 'LIB': 1208, 'Brx': 7160, 'Grn': 1054, 'Nat': 0, 'Min': 0, 'Ind': 3358, 'Oth': 71},
-         {'Con': 6159, 'Lab': 7064, 'LIB': 0, 'Brx': 11628, 'Grn': 3031, 'Nat': 0, 'Min': 0, 'Ind': 0, 'Oth': 0},
-         {'Con': 4692, 'Lab': 6505, 'LIB': 3874, 'Brx': 10984, 'Grn': 8699, 'Nat': 0, 'Min': 0, 'Ind': 0, 'Oth': 0},
-         {'Con': 7753, 'Lab': 2193, 'LIB': 6571, 'Brx': 8943, 'Grn': 1158, 'Nat': 0, 'Min': 0, 'Ind': 4904, 'Oth': 18},
-         {'Con': 3931, 'Lab': 6064, 'LIB': 7498, 'Brx': 8749, 'Grn': 1377, 'Nat': 0, 'Min': 0, 'Ind': 3799, 'Oth': 48},
-         {'Con': 4145, 'Lab': 2849, 'LIB': 1700, 'Brx': 7183, 'Grn': 1163, 'Nat': 0, 'Min': 0, 'Ind': 1915, 'Oth': 0},
-         {'Con': 3745, 'Lab': 4929, 'LIB': 196, 'Brx': 8237, 'Grn': 1814, 'Nat': 0, 'Min': 0, 'Ind': 0, 'Oth': 0},
-         {'Con': 7170, 'Lab': 6624, 'LIB': 3891, 'Brx': 11527, 'Grn': 1304, 'Nat': 0, 'Min': 0, 'Ind': 0, 'Oth': 51},
-         {'Con': 5618, 'Lab': 6239, 'LIB': 1307, 'Brx': 10018, 'Grn': 1854, 'Nat': 0, 'Min': 4066, 'Ind': 0, 'Oth': 0},
-         {'Con': 9553, 'Lab': 5422, 'LIB': 929, 'Brx': 14096, 'Grn': 1675, 'Nat': 0, 'Min': 0, 'Ind': 129, 'Oth': 0}]
-parl = 0
+# seats = {'Burnley': 6, 'Chorley': 8, 'Fylde': 6, 'Hyndburn': 6, 'Lancaster': 10, 'Pendle': 6,\
+#          'Preston': 9, 'Ribble Valley': 4, 'Rossendale': 5, 'South Ribble': 8, 'West Lancs': 8, \
+#          'Wyre': 8}
+# votes = [{'Con': 3769, 'Lab': 2496, 'LIB': 1564, 'Brx': 8319, 'Grn': 1842, 'Nat': 0, 'Min': 0, 'Ind': 3896, 'Oth': 39},
+#          {'Con': 5290, 'Lab': 9639, 'LIB': 988, 'Brx': 10863, 'Grn': 2658, 'Nat': 0, 'Min': 0, 'Ind': 23, 'Oth': 271},
+#          {'Con': 7923, 'Lab': 2390, 'LIB': 1208, 'Brx': 7160, 'Grn': 1054, 'Nat': 0, 'Min': 0, 'Ind': 3358, 'Oth': 71},
+#          {'Con': 6159, 'Lab': 7064, 'LIB': 0, 'Brx': 11628, 'Grn': 3031, 'Nat': 0, 'Min': 0, 'Ind': 0, 'Oth': 0},
+#          {'Con': 4692, 'Lab': 6505, 'LIB': 3874, 'Brx': 10984, 'Grn': 8699, 'Nat': 0, 'Min': 0, 'Ind': 0, 'Oth': 0},
+#          {'Con': 7753, 'Lab': 2193, 'LIB': 6571, 'Brx': 8943, 'Grn': 1158, 'Nat': 0, 'Min': 0, 'Ind': 4904, 'Oth': 18},
+#          {'Con': 3931, 'Lab': 6064, 'LIB': 7498, 'Brx': 8749, 'Grn': 1377, 'Nat': 0, 'Min': 0, 'Ind': 3799, 'Oth': 48},
+#          {'Con': 4145, 'Lab': 2849, 'LIB': 1700, 'Brx': 7183, 'Grn': 1163, 'Nat': 0, 'Min': 0, 'Ind': 1915, 'Oth': 0},
+#          {'Con': 3745, 'Lab': 4929, 'LIB': 196, 'Brx': 8237, 'Grn': 1814, 'Nat': 0, 'Min': 0, 'Ind': 0, 'Oth': 0},
+#          {'Con': 7170, 'Lab': 6624, 'LIB': 3891, 'Brx': 11527, 'Grn': 1304, 'Nat': 0, 'Min': 0, 'Ind': 0, 'Oth': 51},
+#          {'Con': 5618, 'Lab': 6239, 'LIB': 1307, 'Brx': 10018, 'Grn': 1854, 'Nat': 0, 'Min': 4066, 'Ind': 0, 'Oth': 0},
+#          {'Con': 9553, 'Lab': 5422, 'LIB': 929, 'Brx': 14096, 'Grn': 1675, 'Nat': 0, 'Min': 0, 'Ind': 129, 'Oth': 0}]
+# parl = 0
 
 # Staffordshire
 # seats = {'Cannock Chase': 7, 'East Staffs': 9, 'Lichfield': 8, 'Newcastle-under-Lyme': 9, 'South Staffs': 8, 'Stafford': 9,\

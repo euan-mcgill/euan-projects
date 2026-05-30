@@ -45,19 +45,61 @@ def dhondt(nSeats, votes, verbose=False):
 # ld = {'Con': 0, 'Lab': 0, 'LIB': 0, 'Brx': 0, 'Grn': 0}
 # se = {'Con': 0, 'Lab': 0, 'LIB': 0, 'Brx': 0, 'Grn': 0}
 
-print("Electoral Calculus poll of polls 7/2025 and Belfast Telegraph 5/2025")
-ni = {'SF': 260, 'DUP': 180, 'APNI': 130, 'UUP': 120, 'SDLP': 110, 'TUV': 120, 'Grn': 30, 'Oth': 20}
-sc = {'Con': 115, 'Lab': 195, 'LIB': 95, 'Brx': 210, 'Grn': 60, 'SNP': 315}
-ne = {'Con': 142, 'Lab': 284, 'LIB': 88, 'Brx': 379, 'Grn': 84}
-nw = {'Con': 138, 'Lab': 291, 'LIB': 108, 'Brx': 330, 'Grn': 94}
-yh = {'Con': 157, 'Lab': 263, 'LIB': 103, 'Brx': 343, 'Grn': 97}
-cy = {'Con': 143, 'Lab': 250, 'LIB': 76, 'Brx': 293, 'Grn': 52, 'PC': 169}
-wm = {'Con': 194, 'Lab': 207, 'LIB': 115, 'Brx': 349, 'Grn': 95}
-em = {'Con': 206, 'Lab': 230, 'LIB': 100, 'Brx': 349, 'Grn': 85}
-ea = {'Con': 227, 'Lab': 200, 'LIB': 143, 'Brx': 315, 'Grn': 93}
-sw = {'Con': 217, 'Lab': 179, 'LIB': 211, 'Brx': 279, 'Grn': 99}
-ld = {'Con': 157, 'Lab': 299, 'LIB': 150, 'Brx': 212, 'Grn': 135}
-se = {'Con': 236, 'Lab': 179, 'LIB': 203, 'Brx': 270, 'Grn': 93}
+print("Electoral Calculus poll of polls 4/2026 and Belfast Telegraph 1/2026")
+ni = {'SF': 250, 'DUP': 190, 'APNI': 110, 'UUP': 130, 'SDLP': 110, 'TUV': 110, 'Grn': 40, 'Oth': 60}
+sc = {'Con': 101, 'Lab': 163, 'LIB': 90, 'Brx': 209, 'Grn': 94, 'SNP': 320}
+ne = {'Con': 157, 'Lab': 225, 'LIB': 70, 'Brx': 340, 'Grn': 164}
+nw = {'Con': 149, 'Lab': 229, 'LIB': 90, 'Brx': 299, 'Grn': 173}
+yh = {'Con': 173, 'Lab': 210, 'LIB': 87, 'Brx': 305, 'Grn': 169}
+cy = {'Con': 157, 'Lab': 170, 'LIB': 80, 'Brx': 260, 'Grn': 110, 'PC': 192}
+wm = {'Con': 197, 'Lab': 181, 'LIB': 101, 'Brx': 316, 'Grn': 153}
+em = {'Con': 220, 'Lab': 197, 'LIB': 80, 'Brx': 313, 'Grn': 146}
+ea = {'Con': 229, 'Lab': 169, 'LIB': 128, 'Brx': 291, 'Grn': 148}
+sw = {'Con': 212, 'Lab': 153, 'LIB': 194, 'Brx': 243, 'Grn': 164}
+ld = {'Con': 158, 'Lab': 218, 'LIB': 122, 'Brx': 175, 'Grn': 260}
+se = {'Con': 233, 'Lab': 156, 'LIB': 179, 'Brx': 243, 'Grn': 154}
+
+# print("Electoral Calculus poll of polls 2/2026 and Belfast Telegraph 1/2026")
+# ni = {'SF': 250, 'DUP': 190, 'APNI': 110, 'UUP': 130, 'SDLP': 110, 'TUV': 110, 'Grn': 40, 'Oth': 60}
+# sc = {'Con': 115, 'Lab': 170, 'LIB': 90, 'Brx': 210, 'Grn': 75, 'SNP': 315}
+# ne = {'Con': 151, 'Lab': 237, 'LIB': 68, 'Brx': 363, 'Grn': 143}
+# nw = {'Con': 144, 'Lab': 243, 'LIB': 87, 'Brx': 322, 'Grn': 151}
+# yh = {'Con': 167, 'Lab': 224, 'LIB': 84, 'Brx': 327, 'Grn': 148}
+# cy = {'Con': 151, 'Lab': 182, 'LIB': 77, 'Brx': 283, 'Grn': 88, 'PC': 192}
+# wm = {'Con': 192, 'Lab': 194, 'LIB': 99, 'Brx': 339, 'Grn': 131}
+# em = {'Con': 214, 'Lab': 210, 'LIB': 77, 'Brx': 335, 'Grn': 124}
+# ea = {'Con': 223, 'Lab': 182, 'LIB': 125, 'Brx': 313, 'Grn': 126}
+# sw = {'Con': 206, 'Lab': 166, 'LIB': 191, 'Brx': 266, 'Grn': 142}
+# ld = {'Con': 152, 'Lab': 232, 'LIB': 119, 'Brx': 197, 'Grn': 239}
+# se = {'Con': 227, 'Lab': 169, 'LIB': 176, 'Brx': 265, 'Grn': 133}
+
+# print("Electoral Calculus poll of polls 12/2025 and UoL 11/2025")
+# ni = {'SF': 253, 'DUP': 192, 'APNI': 126, 'UUP': 120, 'SDLP': 92, 'TUV': 104, 'Grn': 51, 'Oth': 6.2}
+# sc = {'Con': 106, 'Lab': 165, 'LIB': 97, 'Brx': 223, 'Grn': 63, 'SNP': 306}
+# ne = {'Con': 141, 'Lab': 216, 'LIB': 87, 'Brx': 370, 'Grn': 131}
+# nw = {'Con': 142, 'Lab': 227, 'LIB': 100, 'Brx': 312, 'Grn': 148}
+# yh = {'Con': 158, 'Lab': 201, 'LIB': 95, 'Brx': 332, 'Grn': 147}
+# cy = {'Con': 140, 'Lab': 183, 'LIB': 81, 'Brx': 273, 'Grn': 121, 'PC': 156}
+# wm = {'Con': 204, 'Lab': 181, 'LIB': 105, 'Brx': 340, 'Grn': 125}
+# em = {'Con': 186, 'Lab': 177, 'LIB': 96, 'Brx': 365, 'Grn': 126}
+# ea = {'Con': 224, 'Lab': 166, 'LIB': 131, 'Brx': 323, 'Grn': 123}
+# sw = {'Con': 206, 'Lab': 150, 'LIB': 199, 'Brx': 287, 'Grn': 126}
+# ld = {'Con': 172, 'Lab': 259, 'LIB': 114, 'Brx': 179, 'Grn': 199}
+# se = {'Con': 226, 'Lab': 152, 'LIB': 184, 'Brx': 281, 'Grn': 125}
+
+# print("Electoral Calculus poll of polls 7/2025 and Belfast Telegraph 5/2025")
+# ni = {'SF': 260, 'DUP': 180, 'APNI': 130, 'UUP': 120, 'SDLP': 110, 'TUV': 120, 'Grn': 30, 'Oth': 20}
+# sc = {'Con': 115, 'Lab': 195, 'LIB': 95, 'Brx': 210, 'Grn': 60, 'SNP': 315}
+# ne = {'Con': 142, 'Lab': 284, 'LIB': 88, 'Brx': 379, 'Grn': 84}
+# nw = {'Con': 138, 'Lab': 291, 'LIB': 108, 'Brx': 330, 'Grn': 94}
+# yh = {'Con': 157, 'Lab': 263, 'LIB': 103, 'Brx': 343, 'Grn': 97}
+# cy = {'Con': 143, 'Lab': 250, 'LIB': 76, 'Brx': 293, 'Grn': 52, 'PC': 169}
+# wm = {'Con': 194, 'Lab': 207, 'LIB': 115, 'Brx': 349, 'Grn': 95}
+# em = {'Con': 206, 'Lab': 230, 'LIB': 100, 'Brx': 349, 'Grn': 85}
+# ea = {'Con': 227, 'Lab': 200, 'LIB': 143, 'Brx': 315, 'Grn': 93}
+# sw = {'Con': 217, 'Lab': 179, 'LIB': 211, 'Brx': 279, 'Grn': 99}
+# ld = {'Con': 157, 'Lab': 299, 'LIB': 150, 'Brx': 212, 'Grn': 135}
+# se = {'Con': 236, 'Lab': 179, 'LIB': 203, 'Brx': 270, 'Grn': 93}
 
 # print("Electoral Calculus poll of polls 4/2025 and  Belfast Telegraph 2/2025")
 # ni = {'SF': 280, 'DUP': 190, 'APNI': 140, 'UUP': 110, 'SDLP': 110, 'TUV': 110, 'Grn': 20, 'Oth': 40}

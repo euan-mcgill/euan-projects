@@ -1,0 +1,452 @@
+0: electoral_calculus_data/1955.csv
+1: electoral_calculus_data/1959.csv
+2: electoral_calculus_data/1964.csv
+3: electoral_calculus_data/1966.csv
+4: electoral_calculus_data/1970.csv
+5: electoral_calculus_data/1974f.csv
+6: electoral_calculus_data/1974o.csv
+7: electoral_calculus_data/1979.csv
+8: electoral_calculus_data/1983.csv
+9: electoral_calculus_data/1987.csv
+10: electoral_calculus_data/1992.csv
+11: electoral_calculus_data/1997.csv
+12: electoral_calculus_data/2001.csv
+13: electoral_calculus_data/2005.csv
+14: electoral_calculus_data/2010.csv
+15: electoral_calculus_data/2015.csv
+16: electoral_calculus_data/2017.csv
+17: electoral_calculus_data/2019.csv
+18: electoral_calculus_data/2024-05ECpoll.csv
+19: electoral_calculus_data/2024-052ECpoll.csv
+20: electoral_calculus_data/2024-06-07ECpoll.csv
+21: YG-24-06-01.csv
+22: BE-24-06-07.csv
+23: electoral_calculus_data/2024-06-14ECpoll.csv
+24: BE-24-06-16.csv
+25: IPSOS-24-06-18.csv
+26: electoral_calculus_data/2024-06-21ECpoll.csv
+27: BE-24-06-22.csv
+28: BE-24-06-29.csv
+29: electoral_calculus_data/2024-06-27ECpoll.csv
+30: YG-24-06-22.csv
+31: electoral_calculus_data/2024-06-30ECpoll.csv
+32: YG-24-07-03.csv
+33: electoral_calculus_data/2024-07-04ECpoll.csv
+34: electoral_calculus_data/2024.csv
+35: electoral_calculus_data/2024-10-17ECpoll.csv
+36: MIC-2024-12-28.csv
+37: electoral_calculus_data/2025-04ECpoll.csv
+38: electoral_calculus_data/2025-06ECpoll.csv
+39: electoral_calculus_data/2025-07ECpoll.csv
+40: electoral_calculus_data/2025-08ECpoll.csv
+41: electoral_calculus_data/2025-09ECpoll.csv
+42: electoral_calculus_data/2025-09ECpoll-London.csv
+43: electoral_calculus_data/2025-09ECpoll-District.csv
+44: PLMR-25Q4-NTV-C.csv
+45: PLMR-25Q4-NTV-D.csv
+46: PLMR-25Q4-TV-C.csv
+47: PLMR-25Q4-TV-D.csv
+48: electoral_calculus_data/2024-district.csv
+49: electoral_calculus_data/2025-12ECpoll-District.csv
+50: electoral_calculus_data/2025-12ECpoll-County.csv
+51: electoral_calculus_data/2019-district.csv
+52: electoral_calculus_data/2026-01ECpoll-District.csv
+53: electoral_calculus_data/2026-01ECpoll-County.csv
+54: electoral_calculus_data/2026-02ECpoll-District.csv
+55: electoral_calculus_data/2026-02ECpoll-County.csv
+56: electoral_calculus_data/2026-04ECpoll-District.csv
+57: electoral_calculus_data/2026-04ECpoll-County.csv
+
+Election year: electoral_calculus_data/2026-04ECpoll-District.csv
+[C] County (administrative areas) or [D] District (4-7 seat constituencies)? 
+
+Number of seats by district (Northern Ireland calculated at-large for County-level):
+
+ {'Surrey West and Aldershot': 6, 'Wolverhampton and Walsall': 5, 'Manchester Central and Trafford': 6, 'Derbyshire North': 6, 'Sussex West': 5, 'Nottinghamshire North': 5, 'Kent South': 4, 'Manchester East': 6, 'Buckinghamshire North': 4, 'Oxfordshire': 7, 'Dagenham and Redbridge': 6, 'Barnsley and Sheffield West': 4, 'Cumbria': 5, 'Essex South West': 6, 'Hampshire': 5, 'Avon South': 5, 'Lambeth and Wandsworth': 6, 'Buckinghamshire South': 5, 'Croydon': 5, 'Bedfordshire': 6, 'South East London': 6, 'Hackney and Tower Hamlets': 4, 'East Yorkshire': 6, 'Sussex East': 6, 'Bexley and Bromley': 6, 'Wirral and Chester North': 5, 'Birmingham South': 6, 'Birmingham North': 5, 'County Durham': 7, 'Lancashire East': 5, 'Manchester North East': 7, 'Lancashire West': 7, 'Northumberland': 4, 'South Coast': 6, 'Manchester North West': 7, 'Merseyside West and Liverpool': 7, 'Lincolnshire South': 5, 'Bournemouth': 4, 'Berkshire': 6, 'Bradford': 5, 'Essex North': 6, 'Brent Harrow Barnet': 7, 'South West London': 5, 'Somerset West and Barnstaple': 4, 'Lincolnshire North': 5, 'Avon North': 5, 'Norfolk North': 5, 'Worcestershire': 6, 'Hertfordshire East': 6, 'Nottinghamshire South': 6, 'Staffordshire South': 6, 'Suffolk West and Ipswich': 4, 'Huddersfield and Halifax': 4, 'Cornwall': 6, 'Cambridgeshire South': 4, 'Cambridgeshire North': 4, 'Kent East': 4, 'Wimbledon and Sutton': 4, 'Essex South East': 6, 'Medway and Maidstone': 6, 'West London': 5, 'Gloucestershire': 6, 'Cheshire': 7, 'Lea Valley': 6, 'Swindon and Chippenham': 4, 'Lancashire South': 6, 'Central London': 5, 'Northamptonshire': 7, 'Coventry and Meriden': 4, 'Teesside': 6, 'Kent West': 4, 'Derbyshire South': 5, 'Devon Central and East': 6, 'Devon South': 5, 'Wakefield and Dewsbury': 6, 'Doncaster and Rotherham': 6, 'Surrey East': 4, 'Dorset': 4, 'Black Country': 6, 'Southall': 5, 'Southampton': 5, 'Enfield and Haringey': 5, 'Runnymede': 5, 'Portsmouth': 5, 'Somerset East and Weston': 5, 'Tyne and Wear South': 6, 'Leicestershire East and Rutland': 6, 'Hertfordshire West': 6, 'York': 5, 'English Marches': 7, 'Leicestershire West': 5, 'Isle of Wight and the New Forest': 4, 'Warwickshire': 6, 'Merseyside East and Warrington': 6, 'Leeds': 7, 'Suffolk East': 4, 'Wiltshire South': 4, 'Tyne and Wear North': 4, 'Staffordshire North': 6, 'Norfolk South': 4, 'North Yorkshire': 4, 'Sheffield': 4, 'West Glamorgan': 4, 'Clwyd': 4, 'Gogledd Cymru': 4, 'Gwent': 5, "Gorllewin Cymru a'r Canolbarth": 5, 'Cardiff and Bridgend': 6, 'The Valleys': 4, 'Moray and Aberdeenshire': 6, 'Lanarkshire': 4, 'Forth Valley': 4, 'Heart of Scotland': 5, 'Highlands and Islands': 4, 'South West Scotland': 5, 'Southern Scotland': 4, 'Fife': 4, 'Dunbartonshire and Glasgow North': 5, 'Clyde Valley': 4, 'Edinburgh': 5, 'Renfrewshire and Glasgow South': 6, 'Antrim and the Lagan Valley': 4, 'Belfast': 4, 'Armagh and Down': 5, 'Ulster West': 5}
+650
+
+Results:
+Antrim and the Lagan Valley {'UUP': 1, 'SDLP': 0, 'DUP': 2, 'ALP': 1, 'Green': 0, 'SF': 0, 'MIN': 0, 'OTH': 0} DUP
+[('DUP', 47176, '27.29%'), ('UUP', 40926, '23.68%'), ('ALP', 37776, '21.86%'), ('Green', 20549, '11.89%'), ('SF', 18668, '10.80%'), ('SDLP', 5136, '2.97%'), ('OTH', 2616, '1.51%'), ('MIN', 0, '0.00%')] 
+
+Belfast {'UUP': 0, 'SDLP': 1, 'DUP': 1, 'ALP': 1, 'Green': 0, 'SF': 1, 'MIN': 0, 'OTH': 0} DUP
+[('DUP', 43176, '25.95%'), ('SF', 38637, '23.22%'), ('ALP', 31360, '18.85%'), ('SDLP', 27629, '16.60%'), ('Green', 8948, '5.38%'), ('OTH', 6591, '3.96%'), ('MIN', 5048, '3.03%'), ('UUP', 5004, '3.01%')] 
+
+Armagh and Down {'UUP': 0, 'SDLP': 0, 'DUP': 2, 'ALP': 1, 'Green': 0, 'SF': 2, 'MIN': 0, 'OTH': 0} SF
+[('SF', 58931, '26.70%'), ('DUP', 50528, '22.89%'), ('ALP', 36171, '16.39%'), ('SDLP', 21077, '9.55%'), ('MIN', 20913, '9.47%'), ('UUP', 19040, '8.63%'), ('Green', 9059, '4.10%'), ('OTH', 5029, '2.28%')] 
+
+Ulster West {'UUP': 0, 'SDLP': 1, 'DUP': 1, 'ALP': 0, 'Green': 0, 'SF': 3, 'MIN': 0, 'OTH': 0} SF
+[('SF', 94322, '42.90%'), ('SDLP', 32719, '14.88%'), ('DUP', 31465, '14.31%'), ('UUP', 30171, '13.72%'), ('ALP', 11670, '5.31%'), ('Green', 9792, '4.45%'), ('OTH', 9715, '4.42%'), ('MIN', 0, '0.00%')] 
+
+
+
+Surrey West and Aldershot {'CON': 2, 'LAB': 0, 'LIB': 3, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LIB
+[('LIB', 100029, '32.97%'), ('CON', 86889, '28.64%'), ('UKIP', 51179, '16.87%'), ('Green', 30094, '9.92%'), ('LAB', 27620, '9.10%'), ('OTH', 5209, '1.72%'), ('MIN', 2338, '0.77%'), ('NAT', 0, '0.00%')] 
+
+Wolverhampton and Walsall {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 74162, '36.22%'), ('CON', 43328, '21.16%'), ('LAB', 33878, '16.55%'), ('Green', 29915, '14.61%'), ('LIB', 12860, '6.28%'), ('MIN', 7191, '3.51%'), ('OTH', 3427, '1.67%'), ('NAT', 0, '0.00%')] 
+
+Manchester Central and Trafford {'CON': 1, 'LAB': 2, 'LIB': 0, 'UKIP': 1, 'Green': 2, 'NAT': 0, 'MIN': 0, 'OTH': 0} Green
+[('Green', 72345, '28.77%'), ('LAB', 61066, '24.29%'), ('UKIP', 50026, '19.90%'), ('CON', 28658, '11.40%'), ('LIB', 19888, '7.91%'), ('MIN', 10065, '4.00%'), ('OTH', 9379, '3.73%'), ('NAT', 0, '0.00%')] 
+
+Derbyshire North {'CON': 1, 'LAB': 2, 'LIB': 0, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 92934, '34.15%'), ('LAB', 70876, '26.05%'), ('CON', 48019, '17.65%'), ('Green', 31699, '11.65%'), ('LIB', 18234, '6.70%'), ('MIN', 6517, '2.39%'), ('OTH', 3850, '1.41%'), ('NAT', 0, '0.00%')] 
+
+Sussex West {'CON': 2, 'LAB': 0, 'LIB': 2, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} CON
+[('CON', 70028, '26.57%'), ('LIB', 64611, '24.51%'), ('UKIP', 59430, '22.55%'), ('Green', 30608, '11.61%'), ('LAB', 30158, '11.44%'), ('OTH', 5246, '1.99%'), ('MIN', 3490, '1.32%'), ('NAT', 0, '0.00%')] 
+
+Nottinghamshire North {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 3, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 89764, '38.17%'), ('CON', 56613, '24.07%'), ('LAB', 41267, '17.55%'), ('Green', 27558, '11.72%'), ('LIB', 11985, '5.10%'), ('MIN', 4711, '2.00%'), ('OTH', 3260, '1.39%'), ('NAT', 0, '0.00%')] 
+
+Kent South {'CON': 2, 'LAB': 0, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} CON
+[('CON', 60331, '29.77%'), ('UKIP', 58378, '28.80%'), ('LIB', 27621, '13.63%'), ('Green', 25994, '12.83%'), ('LAB', 24468, '12.07%'), ('OTH', 3696, '1.82%'), ('MIN', 2180, '1.08%'), ('NAT', 0, '0.00%')] 
+
+Manchester East {'CON': 1, 'LAB': 1, 'LIB': 1, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 72080, '27.91%'), ('LAB', 50551, '19.57%'), ('Green', 46689, '18.08%'), ('LIB', 39428, '15.27%'), ('CON', 33755, '13.07%'), ('MIN', 8227, '3.19%'), ('OTH', 7541, '2.92%'), ('NAT', 0, '0.00%')] 
+
+Buckinghamshire North {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 42626, '22.70%'), ('CON', 40931, '21.80%'), ('LAB', 40892, '21.78%'), ('Green', 31328, '16.69%'), ('LIB', 25818, '13.75%'), ('OTH', 3348, '1.78%'), ('MIN', 2807, '1.50%'), ('NAT', 0, '0.00%')] 
+
+Oxfordshire {'CON': 2, 'LAB': 1, 'LIB': 2, 'UKIP': 1, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} LIB
+[('LIB', 95688, '26.93%'), ('CON', 76593, '21.55%'), ('UKIP', 65086, '18.32%'), ('Green', 55521, '15.62%'), ('LAB', 46178, '13.00%'), ('OTH', 11556, '3.25%'), ('MIN', 4728, '1.33%'), ('NAT', 0, '0.00%')] 
+
+Dagenham and Redbridge {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 3, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 85125, '33.17%'), ('CON', 55878, '21.77%'), ('Green', 46287, '18.04%'), ('LAB', 34664, '13.51%'), ('MIN', 19766, '7.70%'), ('LIB', 10813, '4.21%'), ('OTH', 4090, '1.59%'), ('NAT', 0, '0.00%')] 
+
+Barnsley and Sheffield West {'CON': 0, 'LAB': 2, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 64864, '35.63%'), ('LAB', 55100, '30.26%'), ('Green', 22544, '12.38%'), ('LIB', 17058, '9.37%'), ('CON', 14332, '7.87%'), ('OTH', 4262, '2.34%'), ('MIN', 3909, '2.15%'), ('NAT', 0, '0.00%')] 
+
+Cumbria {'CON': 1, 'LAB': 1, 'LIB': 1, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 73981, '31.58%'), ('LAB', 53421, '22.80%'), ('CON', 40497, '17.29%'), ('LIB', 33806, '14.43%'), ('Green', 24444, '10.43%'), ('MIN', 4282, '1.83%'), ('OTH', 3844, '1.64%'), ('NAT', 0, '0.00%')] 
+
+Essex South West {'CON': 2, 'LAB': 1, 'LIB': 0, 'UKIP': 3, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 99246, '36.94%'), ('CON', 67945, '25.29%'), ('LAB', 42015, '15.64%'), ('Green', 30987, '11.54%'), ('LIB', 19349, '7.20%'), ('OTH', 5630, '2.10%'), ('MIN', 3462, '1.29%'), ('NAT', 0, '0.00%')] 
+
+Hampshire {'CON': 2, 'LAB': 0, 'LIB': 2, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} CON
+[('CON', 76391, '28.77%'), ('LIB', 69491, '26.17%'), ('UKIP', 50906, '19.17%'), ('LAB', 32152, '12.11%'), ('Green', 30406, '11.45%'), ('OTH', 4121, '1.55%'), ('MIN', 2062, '0.78%'), ('NAT', 0, '0.00%')] 
+
+Avon South {'CON': 1, 'LAB': 1, 'LIB': 1, 'UKIP': 1, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} Green
+[('Green', 69254, '26.89%'), ('UKIP', 50891, '19.76%'), ('LAB', 45095, '17.51%'), ('CON', 44387, '17.23%'), ('LIB', 36540, '14.19%'), ('OTH', 7054, '2.74%'), ('MIN', 4340, '1.69%'), ('NAT', 0, '0.00%')] 
+
+Lambeth and Wandsworth {'CON': 1, 'LAB': 2, 'LIB': 1, 'UKIP': 0, 'Green': 2, 'NAT': 0, 'MIN': 0, 'OTH': 0} Green
+[('Green', 95160, '33.71%'), ('LAB', 75688, '26.81%'), ('CON', 35531, '12.59%'), ('LIB', 34168, '12.10%'), ('UKIP', 28620, '10.14%'), ('MIN', 7026, '2.49%'), ('OTH', 6084, '2.16%'), ('NAT', 0, '0.00%')] 
+
+Buckinghamshire South {'CON': 2, 'LAB': 0, 'LIB': 2, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LIB
+[('LIB', 76494, '30.80%'), ('CON', 75427, '30.37%'), ('UKIP', 39808, '16.03%'), ('LAB', 23822, '9.59%'), ('Green', 23600, '9.50%'), ('OTH', 5593, '2.25%'), ('MIN', 3619, '1.46%'), ('NAT', 0, '0.00%')] 
+
+Croydon {'CON': 1, 'LAB': 1, 'LIB': 1, 'UKIP': 1, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} Green
+[('Green', 55182, '23.82%'), ('LAB', 53062, '22.91%'), ('CON', 45004, '19.43%'), ('UKIP', 39060, '16.86%'), ('LIB', 29724, '12.83%'), ('OTH', 4925, '2.13%'), ('MIN', 4689, '2.02%'), ('NAT', 0, '0.00%')] 
+
+Bedfordshire {'CON': 2, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 84855, '30.67%'), ('CON', 72276, '26.12%'), ('LAB', 47790, '17.27%'), ('Green', 33281, '12.03%'), ('LIB', 20020, '7.24%'), ('MIN', 10578, '3.82%'), ('OTH', 7908, '2.86%'), ('NAT', 0, '0.00%')] 
+
+South East London {'CON': 0, 'LAB': 2, 'LIB': 0, 'UKIP': 1, 'Green': 3, 'NAT': 0, 'MIN': 0, 'OTH': 0} Green
+[('Green', 99033, '39.02%'), ('LAB', 66523, '26.21%'), ('UKIP', 31705, '12.49%'), ('LIB', 22219, '8.76%'), ('CON', 21046, '8.29%'), ('OTH', 6976, '2.75%'), ('MIN', 6282, '2.48%'), ('NAT', 0, '0.00%')] 
+
+Hackney and Tower Hamlets {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 0, 'Green': 3, 'NAT': 0, 'MIN': 0, 'OTH': 0} Green
+[('Green', 74772, '40.64%'), ('LAB', 36540, '19.86%'), ('UKIP', 22384, '12.17%'), ('CON', 16061, '8.73%'), ('LIB', 14996, '8.15%'), ('MIN', 14492, '7.88%'), ('OTH', 4741, '2.58%'), ('NAT', 0, '0.00%')] 
+
+East Yorkshire {'CON': 2, 'LAB': 1, 'LIB': 0, 'UKIP': 3, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 102463, '39.19%'), ('CON', 58912, '22.53%'), ('LAB', 50380, '19.27%'), ('Green', 24247, '9.27%'), ('LIB', 15621, '5.97%'), ('OTH', 5057, '1.93%'), ('MIN', 4770, '1.82%'), ('NAT', 0, '0.00%')] 
+
+Sussex East {'CON': 2, 'LAB': 0, 'LIB': 1, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} CON
+[('CON', 83266, '27.38%'), ('UKIP', 73404, '24.14%'), ('LIB', 61688, '20.29%'), ('Green', 38773, '12.75%'), ('LAB', 34425, '11.32%'), ('OTH', 8769, '2.88%'), ('MIN', 3755, '1.23%'), ('NAT', 0, '0.00%')] 
+
+Bexley and Bromley {'CON': 2, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 82247, '29.93%'), ('CON', 79785, '29.04%'), ('LAB', 44551, '16.21%'), ('Green', 37645, '13.70%'), ('LIB', 21886, '7.96%'), ('OTH', 4485, '1.63%'), ('MIN', 4188, '1.52%'), ('NAT', 0, '0.00%')] 
+
+Wirral and Chester North {'CON': 0, 'LAB': 2, 'LIB': 0, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+[('LAB', 69528, '30.27%'), ('UKIP', 66053, '28.75%'), ('Green', 38811, '16.89%'), ('CON', 27578, '12.00%'), ('LIB', 16586, '7.22%'), ('MIN', 7231, '3.15%'), ('OTH', 3936, '1.71%'), ('NAT', 0, '0.00%')] 
+
+Birmingham South {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 2, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 61006, '25.26%'), ('Green', 51067, '21.14%'), ('LAB', 42107, '17.43%'), ('CON', 37592, '15.56%'), ('LIB', 23890, '9.89%'), ('MIN', 19361, '8.02%'), ('OTH', 6499, '2.69%'), ('NAT', 0, '0.00%')] 
+
+Birmingham North {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 52434, '27.31%'), ('Green', 39200, '20.41%'), ('LAB', 33065, '17.22%'), ('CON', 27940, '14.55%'), ('MIN', 21835, '11.37%'), ('LIB', 14171, '7.38%'), ('OTH', 3378, '1.76%'), ('NAT', 0, '0.00%')] 
+
+County Durham {'CON': 1, 'LAB': 2, 'LIB': 0, 'UKIP': 3, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 109786, '37.68%'), ('LAB', 70237, '24.11%'), ('Green', 45199, '15.51%'), ('CON', 38390, '13.18%'), ('LIB', 15994, '5.49%'), ('MIN', 6471, '2.22%'), ('OTH', 5287, '1.81%'), ('NAT', 0, '0.00%')] 
+
+Lancashire East {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 66554, '32.37%'), ('CON', 37633, '18.30%'), ('LAB', 36918, '17.96%'), ('Green', 28732, '13.98%'), ('LIB', 17634, '8.58%'), ('OTH', 12182, '5.93%'), ('MIN', 5942, '2.89%'), ('NAT', 0, '0.00%')] 
+
+Manchester North East {'CON': 1, 'LAB': 2, 'LIB': 0, 'UKIP': 3, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 95355, '34.40%'), ('LAB', 59645, '21.52%'), ('Green', 40607, '14.65%'), ('CON', 36405, '13.14%'), ('LIB', 18231, '6.58%'), ('MIN', 17904, '6.46%'), ('OTH', 9011, '3.25%'), ('NAT', 0, '0.00%')] 
+
+Lancashire West {'CON': 2, 'LAB': 1, 'LIB': 0, 'UKIP': 3, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 105915, '32.65%'), ('CON', 67840, '20.91%'), ('LAB', 61794, '19.05%'), ('Green', 42572, '13.12%'), ('LIB', 27579, '8.50%'), ('MIN', 10169, '3.13%'), ('OTH', 8539, '2.63%'), ('NAT', 0, '0.00%')] 
+
+Northumberland {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 55700, '29.08%'), ('LAB', 47536, '24.81%'), ('CON', 36155, '18.87%'), ('Green', 27795, '14.51%'), ('LIB', 15900, '8.30%'), ('MIN', 4259, '2.22%'), ('OTH', 4228, '2.21%'), ('NAT', 0, '0.00%')] 
+
+South Coast {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 2, 'NAT': 0, 'MIN': 0, 'OTH': 0} Green
+[('Green', 83091, '27.46%'), ('UKIP', 70496, '23.30%'), ('LAB', 69362, '22.92%'), ('CON', 43879, '14.50%'), ('LIB', 22870, '7.56%'), ('OTH', 7282, '2.41%'), ('MIN', 5639, '1.86%'), ('NAT', 0, '0.00%')] 
+
+Manchester North West {'CON': 1, 'LAB': 2, 'LIB': 0, 'UKIP': 3, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 92786, '35.30%'), ('LAB', 57783, '21.99%'), ('Green', 46577, '17.72%'), ('CON', 34711, '13.21%'), ('LIB', 16325, '6.21%'), ('MIN', 8317, '3.16%'), ('OTH', 6318, '2.40%'), ('NAT', 0, '0.00%')] 
+
+Merseyside West and Liverpool {'CON': 0, 'LAB': 3, 'LIB': 0, 'UKIP': 3, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+[('LAB', 108490, '37.77%'), ('UKIP', 84646, '29.47%'), ('Green', 43689, '15.21%'), ('CON', 19300, '6.72%'), ('LIB', 14947, '5.20%'), ('MIN', 8766, '3.05%'), ('OTH', 7376, '2.57%'), ('NAT', 0, '0.00%')] 
+
+Lincolnshire South {'CON': 2, 'LAB': 0, 'LIB': 0, 'UKIP': 3, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 100684, '42.44%'), ('CON', 91214, '38.45%'), ('LAB', 17929, '7.56%'), ('Green', 13526, '5.70%'), ('LIB', 6707, '2.83%'), ('OTH', 4440, '1.87%'), ('MIN', 2758, '1.16%'), ('NAT', 0, '0.00%')] 
+
+Bournemouth {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 53989, '29.20%'), ('CON', 52298, '28.28%'), ('LAB', 29841, '16.14%'), ('Green', 24407, '13.20%'), ('LIB', 18338, '9.92%'), ('OTH', 4319, '2.34%'), ('MIN', 1709, '0.92%'), ('NAT', 0, '0.00%')] 
+
+Berkshire {'CON': 2, 'LAB': 1, 'LIB': 1, 'UKIP': 1, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} CON
+[('CON', 64583, '23.05%'), ('LIB', 56689, '20.23%'), ('UKIP', 55587, '19.84%'), ('LAB', 49796, '17.77%'), ('Green', 43478, '15.52%'), ('OTH', 5953, '2.12%'), ('MIN', 4141, '1.48%'), ('NAT', 0, '0.00%')] 
+
+Bradford {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 52760, '26.95%'), ('LAB', 38100, '19.46%'), ('Green', 35423, '18.09%'), ('CON', 33765, '17.24%'), ('MIN', 17844, '9.11%'), ('LIB', 13396, '6.84%'), ('OTH', 4515, '2.31%'), ('NAT', 0, '0.00%')] 
+
+Essex North {'CON': 2, 'LAB': 1, 'LIB': 0, 'UKIP': 3, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 106071, '34.74%'), ('CON', 91916, '30.10%'), ('LAB', 45647, '14.95%'), ('Green', 32333, '10.59%'), ('LIB', 21947, '7.19%'), ('OTH', 4332, '1.42%'), ('MIN', 3085, '1.01%'), ('NAT', 0, '0.00%')] 
+
+Brent Harrow Barnet {'CON': 2, 'LAB': 2, 'LIB': 0, 'UKIP': 1, 'Green': 2, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+[('LAB', 68596, '24.06%'), ('CON', 68170, '23.91%'), ('Green', 57579, '20.20%'), ('UKIP', 50539, '17.73%'), ('LIB', 23738, '8.33%'), ('OTH', 9624, '3.38%'), ('MIN', 6850, '2.40%'), ('NAT', 0, '0.00%')] 
+
+South West London {'CON': 1, 'LAB': 1, 'LIB': 2, 'UKIP': 0, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} LIB
+[('LIB', 72092, '29.91%'), ('Green', 44508, '18.46%'), ('LAB', 38157, '15.83%'), ('CON', 35998, '14.93%'), ('UKIP', 35795, '14.85%'), ('OTH', 8602, '3.57%'), ('MIN', 5896, '2.45%'), ('NAT', 0, '0.00%')] 
+
+Somerset West and Barnstaple {'CON': 1, 'LAB': 0, 'LIB': 1, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 55862, '27.76%'), ('LIB', 54266, '26.97%'), ('CON', 41648, '20.70%'), ('Green', 23346, '11.60%'), ('LAB', 19891, '9.89%'), ('OTH', 4073, '2.02%'), ('MIN', 2119, '1.05%'), ('NAT', 0, '0.00%')] 
+
+Lincolnshire North {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 3, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 80971, '37.92%'), ('CON', 50791, '23.79%'), ('LAB', 42506, '19.91%'), ('Green', 19684, '9.22%'), ('LIB', 12240, '5.73%'), ('MIN', 4337, '2.03%'), ('OTH', 3012, '1.41%'), ('NAT', 0, '0.00%')] 
+
+Avon North {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 2, 'NAT': 0, 'MIN': 0, 'OTH': 0} Green
+[('Green', 80809, '32.03%'), ('UKIP', 49110, '19.47%'), ('LAB', 43183, '17.12%'), ('CON', 35589, '14.11%'), ('LIB', 33395, '13.24%'), ('OTH', 5419, '2.15%'), ('MIN', 4766, '1.89%'), ('NAT', 0, '0.00%')] 
+
+Norfolk North {'CON': 2, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 80204, '34.12%'), ('CON', 56480, '24.02%'), ('LAB', 36334, '15.46%'), ('LIB', 28218, '12.00%'), ('Green', 27569, '11.73%'), ('OTH', 3251, '1.38%'), ('MIN', 3038, '1.29%'), ('NAT', 0, '0.00%')] 
+
+Worcestershire {'CON': 2, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 98079, '32.71%'), ('CON', 92824, '30.96%'), ('LAB', 39938, '13.32%'), ('Green', 33646, '11.22%'), ('LIB', 25539, '8.52%'), ('OTH', 5794, '1.93%'), ('MIN', 4027, '1.34%'), ('NAT', 0, '0.00%')] 
+
+Hertfordshire East {'CON': 2, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 80722, '27.28%'), ('CON', 69896, '23.62%'), ('LAB', 65548, '22.15%'), ('Green', 42829, '14.47%'), ('LIB', 28408, '9.60%'), ('OTH', 4600, '1.55%'), ('MIN', 3882, '1.31%'), ('NAT', 0, '0.00%')] 
+
+Nottinghamshire South {'CON': 1, 'LAB': 2, 'LIB': 0, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 74585, '28.19%'), ('LAB', 70656, '26.71%'), ('Green', 48235, '18.23%'), ('CON', 39382, '14.89%'), ('LIB', 18150, '6.86%'), ('MIN', 7534, '2.85%'), ('OTH', 6015, '2.27%'), ('NAT', 0, '0.00%')] 
+
+Staffordshire South {'CON': 2, 'LAB': 1, 'LIB': 0, 'UKIP': 3, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 101411, '35.74%'), ('CON', 74240, '26.16%'), ('LAB', 48266, '17.01%'), ('Green', 30884, '10.88%'), ('LIB', 20190, '7.12%'), ('OTH', 4887, '1.72%'), ('MIN', 3867, '1.36%'), ('NAT', 0, '0.00%')] 
+
+Suffolk West and Ipswich {'CON': 2, 'LAB': 0, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 63849, '32.07%'), ('CON', 63633, '31.96%'), ('LAB', 26566, '13.34%'), ('Green', 26026, '13.07%'), ('LIB', 12912, '6.48%'), ('OTH', 3807, '1.91%'), ('MIN', 2313, '1.16%'), ('NAT', 0, '0.00%')] 
+
+Huddersfield and Halifax {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 58261, '32.01%'), ('Green', 40205, '22.09%'), ('LAB', 38935, '21.39%'), ('CON', 24850, '13.65%'), ('LIB', 10147, '5.57%'), ('MIN', 5258, '2.89%'), ('OTH', 4356, '2.39%'), ('NAT', 0, '0.00%')] 
+
+Cornwall {'CON': 1, 'LAB': 1, 'LIB': 1, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 77432, '25.54%'), ('CON', 65689, '21.67%'), ('LIB', 53347, '17.60%'), ('LAB', 50570, '16.68%'), ('Green', 47505, '15.67%'), ('OTH', 5456, '1.80%'), ('MIN', 3141, '1.04%'), ('NAT', 0, '0.00%')] 
+
+Cambridgeshire South {'CON': 1, 'LAB': 0, 'LIB': 2, 'UKIP': 0, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} LIB
+[('LIB', 68949, '32.75%'), ('CON', 46530, '22.10%'), ('Green', 33706, '16.01%'), ('UKIP', 27799, '13.21%'), ('LAB', 24456, '11.62%'), ('OTH', 6702, '3.18%'), ('MIN', 2371, '1.13%'), ('NAT', 0, '0.00%')] 
+
+Cambridgeshire North {'CON': 2, 'LAB': 0, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 61854, '34.01%'), ('CON', 54393, '29.90%'), ('LAB', 26112, '14.36%'), ('Green', 19891, '10.94%'), ('LIB', 12406, '6.82%'), ('MIN', 4067, '2.24%'), ('OTH', 3163, '1.74%'), ('NAT', 0, '0.00%')] 
+
+Kent East {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 62403, '32.44%'), ('LAB', 39790, '20.68%'), ('CON', 39039, '20.29%'), ('Green', 30052, '15.62%'), ('LIB', 14603, '7.59%'), ('MIN', 3264, '1.70%'), ('OTH', 3235, '1.68%'), ('NAT', 0, '0.00%')] 
+
+Wimbledon and Sutton {'CON': 1, 'LAB': 1, 'LIB': 1, 'UKIP': 0, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} LIB
+[('LIB', 59592, '30.27%'), ('CON', 36143, '18.36%'), ('Green', 32125, '16.32%'), ('LAB', 30552, '15.52%'), ('UKIP', 30286, '15.38%'), ('OTH', 5109, '2.59%'), ('MIN', 3080, '1.56%'), ('NAT', 0, '0.00%')] 
+
+Essex South East {'CON': 2, 'LAB': 1, 'LIB': 0, 'UKIP': 3, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 99988, '34.34%'), ('CON', 92686, '31.83%'), ('LAB', 34488, '11.84%'), ('Green', 29837, '10.25%'), ('LIB', 27840, '9.56%'), ('OTH', 4136, '1.42%'), ('MIN', 2205, '0.76%'), ('NAT', 0, '0.00%')] 
+
+Medway and Maidstone {'CON': 2, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 96717, '34.66%'), ('CON', 79259, '28.41%'), ('LAB', 38344, '13.74%'), ('Green', 35969, '12.89%'), ('LIB', 19965, '7.16%'), ('OTH', 5875, '2.11%'), ('MIN', 2888, '1.04%'), ('NAT', 0, '0.00%')] 
+
+West London {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 2, 'NAT': 0, 'MIN': 0, 'OTH': 0} Green
+[('Green', 59490, '26.04%'), ('LAB', 53882, '23.59%'), ('CON', 40751, '17.84%'), ('UKIP', 33999, '14.88%'), ('LIB', 27303, '11.95%'), ('OTH', 7077, '3.10%'), ('MIN', 5946, '2.60%'), ('NAT', 0, '0.00%')] 
+
+Gloucestershire {'CON': 2, 'LAB': 1, 'LIB': 1, 'UKIP': 1, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} CON
+[('CON', 79240, '26.08%'), ('UKIP', 67462, '22.20%'), ('LIB', 65864, '21.68%'), ('LAB', 41382, '13.62%'), ('Green', 39518, '13.00%'), ('OTH', 6321, '2.08%'), ('MIN', 4081, '1.34%'), ('NAT', 0, '0.00%')] 
+
+Cheshire {'CON': 2, 'LAB': 2, 'LIB': 0, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 96606, '28.42%'), ('LAB', 91532, '26.93%'), ('CON', 70011, '20.60%'), ('Green', 38867, '11.43%'), ('LIB', 29648, '8.72%'), ('MIN', 7050, '2.07%'), ('OTH', 6210, '1.83%'), ('NAT', 0, '0.00%')] 
+
+Lea Valley {'CON': 1, 'LAB': 2, 'LIB': 0, 'UKIP': 1, 'Green': 2, 'NAT': 0, 'MIN': 0, 'OTH': 0} Green
+[('Green', 74307, '30.58%'), ('LAB', 52877, '21.76%'), ('UKIP', 40329, '16.60%'), ('CON', 27985, '11.52%'), ('MIN', 18619, '7.66%'), ('LIB', 16199, '6.67%'), ('OTH', 12676, '5.22%'), ('NAT', 0, '0.00%')] 
+
+Swindon and Chippenham {'CON': 1, 'LAB': 1, 'LIB': 1, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 44551, '23.53%'), ('CON', 40806, '21.56%'), ('LIB', 40304, '21.29%'), ('LAB', 30669, '16.20%'), ('Green', 26724, '14.12%'), ('OTH', 4115, '2.17%'), ('MIN', 2136, '1.13%'), ('NAT', 0, '0.00%')] 
+
+Lancashire South {'CON': 0, 'LAB': 2, 'LIB': 0, 'UKIP': 3, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 101023, '38.03%'), ('LAB', 79031, '29.75%'), ('Green', 33746, '12.70%'), ('CON', 25850, '9.73%'), ('LIB', 13054, '4.91%'), ('OTH', 6512, '2.45%'), ('MIN', 6411, '2.41%'), ('NAT', 0, '0.00%')] 
+
+Central London {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 2, 'NAT': 0, 'MIN': 0, 'OTH': 0} Green
+[('Green', 70731, '31.58%'), ('LAB', 50204, '22.42%'), ('UKIP', 27774, '12.40%'), ('CON', 25130, '11.22%'), ('LIB', 23963, '10.70%'), ('MIN', 20032, '8.94%'), ('OTH', 6113, '2.73%'), ('NAT', 0, '0.00%')] 
+
+Northamptonshire {'CON': 2, 'LAB': 1, 'LIB': 0, 'UKIP': 3, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 94814, '28.43%'), ('CON', 89056, '26.71%'), ('LAB', 60156, '18.04%'), ('Green', 54553, '16.36%'), ('LIB', 22964, '6.89%'), ('MIN', 6434, '1.93%'), ('OTH', 5491, '1.65%'), ('NAT', 0, '0.00%')] 
+
+Coventry and Meriden {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 50515, '29.58%'), ('CON', 36840, '21.57%'), ('LAB', 34035, '19.93%'), ('Green', 29059, '17.02%'), ('LIB', 12900, '7.55%'), ('OTH', 4013, '2.35%'), ('MIN', 3408, '2.00%'), ('NAT', 0, '0.00%')] 
+
+Teesside {'CON': 1, 'LAB': 2, 'LIB': 0, 'UKIP': 3, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 83158, '34.41%'), ('LAB', 58630, '24.26%'), ('CON', 49784, '20.60%'), ('Green', 27321, '11.31%'), ('LIB', 13466, '5.57%'), ('MIN', 5311, '2.20%'), ('OTH', 3968, '1.64%'), ('NAT', 0, '0.00%')] 
+
+Kent West {'CON': 2, 'LAB': 0, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 59109, '31.28%'), ('CON', 55187, '29.21%'), ('LAB', 24943, '13.20%'), ('Green', 23057, '12.20%'), ('LIB', 21410, '11.33%'), ('OTH', 2798, '1.48%'), ('MIN', 2452, '1.30%'), ('NAT', 0, '0.00%')] 
+
+Derbyshire South {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 72148, '33.01%'), ('LAB', 50644, '23.17%'), ('CON', 38319, '17.53%'), ('Green', 30013, '13.73%'), ('LIB', 16396, '7.50%'), ('MIN', 6920, '3.17%'), ('OTH', 4156, '1.90%'), ('NAT', 0, '0.00%')] 
+
+Devon Central and East {'CON': 1, 'LAB': 1, 'LIB': 1, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 82790, '26.72%'), ('CON', 71132, '22.96%'), ('LIB', 55650, '17.96%'), ('LAB', 45080, '14.55%'), ('Green', 44947, '14.51%'), ('OTH', 7024, '2.27%'), ('MIN', 3168, '1.02%'), ('NAT', 0, '0.00%')] 
+
+Devon South {'CON': 1, 'LAB': 1, 'LIB': 1, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 73011, '30.00%'), ('CON', 50665, '20.82%'), ('LIB', 42076, '17.29%'), ('LAB', 36556, '15.02%'), ('Green', 33915, '13.93%'), ('OTH', 3941, '1.62%'), ('MIN', 3216, '1.32%'), ('NAT', 0, '0.00%')] 
+
+Wakefield and Dewsbury {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 3, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 97290, '38.14%'), ('LAB', 52182, '20.46%'), ('CON', 36040, '14.13%'), ('Green', 35889, '14.07%'), ('LIB', 16918, '6.63%'), ('OTH', 10490, '4.11%'), ('MIN', 6276, '2.46%'), ('NAT', 0, '0.00%')] 
+
+Doncaster and Rotherham {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 3, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 88515, '38.54%'), ('LAB', 53087, '23.11%'), ('CON', 33292, '14.50%'), ('Green', 31519, '13.72%'), ('LIB', 11723, '5.10%'), ('OTH', 5785, '2.52%'), ('MIN', 5745, '2.50%'), ('NAT', 0, '0.00%')] 
+
+Surrey East {'CON': 2, 'LAB': 0, 'LIB': 1, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} CON
+[('CON', 64224, '30.75%'), ('UKIP', 49740, '23.81%'), ('LIB', 38014, '18.20%'), ('Green', 26124, '12.51%'), ('LAB', 25141, '12.04%'), ('OTH', 3825, '1.83%'), ('MIN', 1820, '0.87%'), ('NAT', 0, '0.00%')] 
+
+Dorset {'CON': 1, 'LAB': 0, 'LIB': 2, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LIB
+[('LIB', 66715, '33.77%'), ('CON', 59885, '30.31%'), ('UKIP', 35106, '17.77%'), ('LAB', 16168, '8.18%'), ('Green', 14463, '7.32%'), ('OTH', 3673, '1.86%'), ('MIN', 1576, '0.80%'), ('NAT', 0, '0.00%')] 
+
+Black Country {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 3, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 84243, '36.92%'), ('LAB', 46210, '20.25%'), ('CON', 37739, '16.54%'), ('Green', 33446, '14.66%'), ('LIB', 15346, '6.73%'), ('OTH', 6456, '2.83%'), ('MIN', 4740, '2.08%'), ('NAT', 0, '0.00%')] 
+
+Southall {'CON': 1, 'LAB': 2, 'LIB': 0, 'UKIP': 1, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+[('LAB', 45844, '22.00%'), ('UKIP', 44463, '21.34%'), ('Green', 43401, '20.83%'), ('CON', 41486, '19.91%'), ('LIB', 19769, '9.49%'), ('MIN', 6843, '3.28%'), ('OTH', 6564, '3.15%'), ('NAT', 0, '0.00%')] 
+
+Southampton {'CON': 1, 'LAB': 1, 'LIB': 1, 'UKIP': 1, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 56760, '25.05%'), ('CON', 50925, '22.48%'), ('LIB', 43669, '19.28%'), ('LAB', 34661, '15.30%'), ('Green', 33345, '14.72%'), ('OTH', 4278, '1.89%'), ('MIN', 2918, '1.29%'), ('NAT', 0, '0.00%')] 
+
+Enfield and Haringey {'CON': 0, 'LAB': 2, 'LIB': 0, 'UKIP': 1, 'Green': 2, 'NAT': 0, 'MIN': 0, 'OTH': 0} Green
+[('Green', 68919, '30.89%'), ('LAB', 55713, '24.97%'), ('UKIP', 36833, '16.51%'), ('CON', 25604, '11.48%'), ('LIB', 22077, '9.90%'), ('OTH', 8061, '3.61%'), ('MIN', 5879, '2.64%'), ('NAT', 0, '0.00%')] 
+
+Runnymede {'CON': 2, 'LAB': 0, 'LIB': 1, 'UKIP': 1, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} CON
+[('CON', 69548, '28.96%'), ('LIB', 54045, '22.50%'), ('UKIP', 48409, '20.16%'), ('Green', 27096, '11.28%'), ('LAB', 26797, '11.16%'), ('MIN', 10669, '4.44%'), ('OTH', 3611, '1.50%'), ('NAT', 0, '0.00%')] 
+
+Portsmouth {'CON': 2, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 76076, '33.43%'), ('CON', 59626, '26.20%'), ('LAB', 36798, '16.17%'), ('Green', 28521, '12.53%'), ('LIB', 20176, '8.87%'), ('OTH', 3683, '1.62%'), ('MIN', 2687, '1.18%'), ('NAT', 0, '0.00%')] 
+
+Somerset East and Weston {'CON': 1, 'LAB': 0, 'LIB': 2, 'UKIP': 1, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} LIB
+[('LIB', 75043, '30.46%'), ('UKIP', 60841, '24.70%'), ('CON', 44922, '18.23%'), ('Green', 30699, '12.46%'), ('LAB', 26022, '10.56%'), ('OTH', 5909, '2.40%'), ('MIN', 2915, '1.18%'), ('NAT', 0, '0.00%')] 
+
+Tyne and Wear South {'CON': 0, 'LAB': 2, 'LIB': 0, 'UKIP': 3, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 107471, '41.78%'), ('LAB', 62763, '24.40%'), ('Green', 36293, '14.11%'), ('CON', 25087, '9.75%'), ('LIB', 15109, '5.87%'), ('MIN', 5557, '2.16%'), ('OTH', 4961, '1.93%'), ('NAT', 0, '0.00%')] 
+
+Leicestershire East and Rutland {'CON': 2, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} CON
+[('CON', 69419, '28.26%'), ('UKIP', 61170, '24.90%'), ('LAB', 37735, '15.36%'), ('Green', 34907, '14.21%'), ('LIB', 19566, '7.97%'), ('MIN', 15654, '6.37%'), ('OTH', 7187, '2.93%'), ('NAT', 0, '0.00%')] 
+
+Hertfordshire West {'CON': 2, 'LAB': 1, 'LIB': 2, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LIB
+[('LIB', 78952, '26.82%'), ('CON', 74194, '25.20%'), ('UKIP', 56483, '19.18%'), ('LAB', 38616, '13.12%'), ('Green', 35245, '11.97%'), ('OTH', 6170, '2.10%'), ('MIN', 4759, '1.62%'), ('NAT', 0, '0.00%')] 
+
+York {'CON': 1, 'LAB': 1, 'LIB': 1, 'UKIP': 1, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 56408, '22.22%'), ('LAB', 56177, '22.13%'), ('CON', 54646, '21.52%'), ('LIB', 43523, '17.14%'), ('Green', 34361, '13.53%'), ('MIN', 4766, '1.88%'), ('OTH', 4011, '1.58%'), ('NAT', 0, '0.00%')] 
+
+English Marches {'CON': 1, 'LAB': 1, 'LIB': 1, 'UKIP': 3, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 120109, '34.21%'), ('LAB', 62187, '17.71%'), ('CON', 61119, '17.41%'), ('LIB', 54651, '15.57%'), ('Green', 41499, '11.82%'), ('OTH', 6370, '1.81%'), ('MIN', 5125, '1.46%'), ('NAT', 0, '0.00%')] 
+
+Leicestershire West {'CON': 2, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 71358, '31.01%'), ('CON', 68652, '29.83%'), ('LAB', 37887, '16.46%'), ('Green', 25769, '11.20%'), ('LIB', 19428, '8.44%'), ('MIN', 3975, '1.73%'), ('OTH', 3042, '1.32%'), ('NAT', 0, '0.00%')] 
+
+Isle of Wight and the New Forest {'CON': 2, 'LAB': 0, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} CON
+[('CON', 60655, '36.44%'), ('UKIP', 52946, '31.81%'), ('LAB', 18016, '10.82%'), ('Green', 17790, '10.69%'), ('LIB', 13175, '7.92%'), ('OTH', 2358, '1.42%'), ('MIN', 1511, '0.91%'), ('NAT', 0, '0.00%')] 
+
+Warwickshire {'CON': 1, 'LAB': 1, 'LIB': 1, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 82396, '28.13%'), ('CON', 63748, '21.77%'), ('LAB', 54336, '18.55%'), ('LIB', 42486, '14.51%'), ('Green', 40392, '13.79%'), ('OTH', 5270, '1.80%'), ('MIN', 4248, '1.45%'), ('NAT', 0, '0.00%')] 
+
+Merseyside East and Warrington {'CON': 0, 'LAB': 3, 'LIB': 0, 'UKIP': 3, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} LAB
+[('LAB', 93169, '36.80%'), ('UKIP', 92271, '36.45%'), ('Green', 25719, '10.16%'), ('CON', 16758, '6.62%'), ('LIB', 10238, '4.04%'), ('OTH', 8200, '3.24%'), ('MIN', 6791, '2.68%'), ('NAT', 0, '0.00%')] 
+
+Leeds {'CON': 1, 'LAB': 2, 'LIB': 0, 'UKIP': 2, 'Green': 2, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 73474, '24.93%'), ('Green', 71839, '24.38%'), ('LAB', 68960, '23.40%'), ('CON', 40106, '13.61%'), ('LIB', 22558, '7.65%'), ('MIN', 9254, '3.14%'), ('OTH', 8498, '2.88%'), ('NAT', 0, '0.00%')] 
+
+Suffolk East {'CON': 1, 'LAB': 0, 'LIB': 0, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 58355, '29.57%'), ('CON', 52935, '26.83%'), ('Green', 36989, '18.75%'), ('LAB', 25345, '12.84%'), ('LIB', 17889, '9.07%'), ('OTH', 3283, '1.66%'), ('MIN', 2522, '1.28%'), ('NAT', 0, '0.00%')] 
+
+Wiltshire South {'CON': 2, 'LAB': 0, 'LIB': 1, 'UKIP': 1, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} CON
+[('CON', 58765, '29.70%'), ('UKIP', 52939, '26.76%'), ('LIB', 35913, '18.15%'), ('LAB', 24224, '12.24%'), ('Green', 20286, '10.25%'), ('OTH', 3609, '1.82%'), ('MIN', 2118, '1.07%'), ('NAT', 0, '0.00%')] 
+
+Tyne and Wear North {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 56326, '29.74%'), ('LAB', 51001, '26.93%'), ('Green', 37306, '19.70%'), ('CON', 20317, '10.73%'), ('LIB', 13959, '7.37%'), ('OTH', 5535, '2.92%'), ('MIN', 4921, '2.60%'), ('NAT', 0, '0.00%')] 
+
+Staffordshire North {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 3, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 93092, '36.59%'), ('CON', 50276, '19.76%'), ('LAB', 48949, '19.24%'), ('Green', 34607, '13.60%'), ('LIB', 18759, '7.37%'), ('OTH', 5332, '2.10%'), ('MIN', 3395, '1.33%'), ('NAT', 0, '0.00%')] 
+
+Norfolk South {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 1, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 57280, '29.03%'), ('CON', 44446, '22.52%'), ('Green', 35184, '17.83%'), ('LAB', 33283, '16.87%'), ('LIB', 19095, '9.68%'), ('MIN', 4443, '2.25%'), ('OTH', 3589, '1.82%'), ('NAT', 0, '0.00%')] 
+
+North Yorkshire {'CON': 2, 'LAB': 0, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} CON
+[('CON', 72636, '36.86%'), ('UKIP', 60804, '30.85%'), ('LAB', 27901, '14.16%'), ('Green', 17225, '8.74%'), ('LIB', 13335, '6.77%'), ('MIN', 2605, '1.32%'), ('OTH', 2568, '1.30%'), ('NAT', 0, '0.00%')] 
+
+Sheffield {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 2, 'NAT': 0, 'MIN': 0, 'OTH': 0} Green
+[('Green', 43116, '28.98%'), ('LAB', 35131, '23.61%'), ('UKIP', 30228, '20.32%'), ('CON', 15291, '10.28%'), ('LIB', 10978, '7.38%'), ('OTH', 8369, '5.63%'), ('MIN', 5668, '3.81%'), ('NAT', 0, '0.00%')] 
+
+West Glamorgan {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 1, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 49822, '29.68%'), ('LAB', 31809, '18.95%'), ('NAT', 27883, '16.61%'), ('Green', 20661, '12.31%'), ('CON', 19961, '11.89%'), ('LIB', 12512, '7.45%'), ('MIN', 2936, '1.75%'), ('OTH', 2256, '1.34%')] 
+
+Clwyd {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 0, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 50661, '28.50%'), ('CON', 38088, '21.43%'), ('LAB', 31322, '17.62%'), ('NAT', 24233, '13.63%'), ('Green', 16370, '9.21%'), ('LIB', 12432, '6.99%'), ('MIN', 2383, '1.34%'), ('OTH', 2261, '1.27%')] 
+
+Gogledd Cymru {'CON': 1, 'LAB': 0, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 2, 'MIN': 0, 'OTH': 0} NAT
+[('NAT', 52948, '29.84%'), ('UKIP', 41323, '23.29%'), ('CON', 29980, '16.90%'), ('LAB', 20281, '11.43%'), ('LIB', 14654, '8.26%'), ('Green', 14206, '8.01%'), ('OTH', 2054, '1.16%'), ('MIN', 1976, '1.11%')] 
+
+Gwent {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 1, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 55188, '27.78%'), ('LAB', 40070, '20.17%'), ('CON', 32079, '16.15%'), ('NAT', 26952, '13.56%'), ('Green', 23401, '11.78%'), ('LIB', 13417, '6.75%'), ('OTH', 3890, '1.96%'), ('MIN', 3695, '1.86%')] 
+
+Gorllewin Cymru a'r Canolbarth {'CON': 1, 'LAB': 0, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 2, 'MIN': 0, 'OTH': 0} NAT
+[('NAT', 70581, '28.84%'), ('UKIP', 67787, '27.70%'), ('CON', 34451, '14.08%'), ('LIB', 24356, '9.95%'), ('LAB', 21577, '8.82%'), ('Green', 19973, '8.16%'), ('OTH', 3056, '1.25%'), ('MIN', 2978, '1.22%')] 
+
+Cardiff and Bridgend {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 1, 'NAT': 1, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 52977, '20.71%'), ('LAB', 51381, '20.09%'), ('CON', 39553, '15.46%'), ('NAT', 38982, '15.24%'), ('Green', 38207, '14.94%'), ('LIB', 24556, '9.60%'), ('MIN', 5764, '2.25%'), ('OTH', 4392, '1.72%')] 
+
+The Valleys {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 1, 'MIN': 0, 'OTH': 0} UKIP
+[('UKIP', 51892, '32.89%'), ('NAT', 35289, '22.37%'), ('LAB', 24835, '15.74%'), ('Green', 18568, '11.77%'), ('CON', 12587, '7.98%'), ('LIB', 8847, '5.61%'), ('MIN', 2936, '1.86%'), ('OTH', 2819, '1.79%')] 
+
+Moray and Aberdeenshire {'CON': 2, 'LAB': 0, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 3, 'MIN': 0, 'OTH': 0} NAT
+[('NAT', 108733, '39.59%'), ('CON', 80615, '29.35%'), ('UKIP', 41166, '14.99%'), ('Green', 20641, '7.52%'), ('LIB', 10815, '3.94%'), ('LAB', 8395, '3.06%'), ('MIN', 3178, '1.16%'), ('OTH', 1105, '0.40%')] 
+
+Lanarkshire {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 2, 'MIN': 0, 'OTH': 0} NAT
+[('NAT', 57101, '34.27%'), ('LAB', 41287, '24.78%'), ('UKIP', 40869, '24.53%'), ('Green', 13177, '7.91%'), ('CON', 5396, '3.24%'), ('LIB', 4750, '2.85%'), ('MIN', 3169, '1.90%'), ('OTH', 891, '0.53%')] 
+
+Forth Valley {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 2, 'MIN': 0, 'OTH': 0} NAT
+[('NAT', 59458, '32.25%'), ('UKIP', 45695, '24.78%'), ('LAB', 39550, '21.45%'), ('Green', 17917, '9.72%'), ('CON', 9742, '5.28%'), ('LIB', 6971, '3.78%'), ('MIN', 3353, '1.82%'), ('OTH', 1700, '0.92%')] 
+
+Heart of Scotland {'CON': 1, 'LAB': 0, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 3, 'MIN': 0, 'OTH': 0} NAT
+[('NAT', 106350, '42.76%'), ('CON', 49101, '19.74%'), ('UKIP', 40875, '16.44%'), ('LAB', 21765, '8.75%'), ('Green', 17067, '6.86%'), ('LIB', 8231, '3.31%'), ('MIN', 3467, '1.39%'), ('OTH', 1844, '0.74%')] 
+
+Highlands and Islands {'CON': 0, 'LAB': 0, 'LIB': 2, 'UKIP': 0, 'Green': 0, 'NAT': 2, 'MIN': 0, 'OTH': 0} LIB
+[('LIB', 67621, '35.91%'), ('NAT', 60808, '32.29%'), ('UKIP', 22416, '11.90%'), ('Green', 16306, '8.66%'), ('CON', 10339, '5.49%'), ('LAB', 6721, '3.57%'), ('OTH', 2308, '1.23%'), ('MIN', 1783, '0.95%')] 
+
+South West Scotland {'CON': 1, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 2, 'MIN': 0, 'OTH': 0} NAT
+[('NAT', 70493, '30.81%'), ('UKIP', 53979, '23.59%'), ('LAB', 40819, '17.84%'), ('CON', 33447, '14.62%'), ('Green', 18221, '7.96%'), ('LIB', 7027, '3.07%'), ('MIN', 3889, '1.70%'), ('OTH', 947, '0.41%')] 
+
+Southern Scotland {'CON': 1, 'LAB': 0, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 2, 'MIN': 0, 'OTH': 0} NAT
+[('NAT', 55654, '29.51%'), ('CON', 42619, '22.60%'), ('UKIP', 34969, '18.55%'), ('LAB', 27372, '14.52%'), ('Green', 16426, '8.71%'), ('LIB', 7850, '4.16%'), ('MIN', 2985, '1.58%'), ('OTH', 687, '0.36%')] 
+
+Fife {'CON': 0, 'LAB': 1, 'LIB': 1, 'UKIP': 1, 'Green': 0, 'NAT': 1, 'MIN': 0, 'OTH': 0} NAT
+[('NAT', 54463, '30.76%'), ('UKIP', 35095, '19.82%'), ('LIB', 32353, '18.27%'), ('LAB', 29481, '16.65%'), ('Green', 15438, '8.72%'), ('CON', 6620, '3.74%'), ('MIN', 2774, '1.57%'), ('OTH', 834, '0.47%')] 
+
+Dunbartonshire and Glasgow North {'CON': 0, 'LAB': 1, 'LIB': 1, 'UKIP': 1, 'Green': 0, 'NAT': 2, 'MIN': 0, 'OTH': 0} NAT
+[('NAT', 68954, '32.84%'), ('UKIP', 38919, '18.54%'), ('LAB', 36564, '17.42%'), ('LIB', 30906, '14.72%'), ('Green', 25317, '12.06%'), ('CON', 4737, '2.26%'), ('MIN', 3430, '1.63%'), ('OTH', 1127, '0.54%')] 
+
+Clyde Valley {'CON': 0, 'LAB': 1, 'LIB': 0, 'UKIP': 1, 'Green': 0, 'NAT': 2, 'MIN': 0, 'OTH': 0} NAT
+[('NAT', 55440, '31.60%'), ('LAB', 43029, '24.53%'), ('UKIP', 42719, '24.35%'), ('Green', 14840, '8.46%'), ('CON', 8861, '5.05%'), ('LIB', 6018, '3.43%'), ('MIN', 3399, '1.94%'), ('OTH', 1129, '0.64%')] 
+
+Edinburgh {'CON': 0, 'LAB': 1, 'LIB': 1, 'UKIP': 1, 'Green': 1, 'NAT': 1, 'MIN': 0, 'OTH': 0} NAT
+[('NAT', 69121, '27.39%'), ('UKIP', 45799, '18.15%'), ('LAB', 44521, '17.64%'), ('LIB', 38438, '15.23%'), ('Green', 36421, '14.43%'), ('CON', 12480, '4.94%'), ('MIN', 4190, '1.66%'), ('OTH', 1433, '0.57%')] 
+
+Renfrewshire and Glasgow South {'CON': 0, 'LAB': 2, 'LIB': 0, 'UKIP': 2, 'Green': 0, 'NAT': 2, 'MIN': 0, 'OTH': 0} NAT
+[('NAT', 86921, '32.89%'), ('LAB', 59213, '22.41%'), ('UKIP', 58893, '22.29%'), ('Green', 29307, '11.09%'), ('CON', 14771, '5.59%'), ('LIB', 8570, '3.24%'), ('MIN', 4835, '1.83%'), ('OTH', 1759, '0.67%')] 
+
+
+Northern Ireland by County {'MIN': 0, 'ALP': 3, 'DUP': 6, 'SF': 6, 'SDLP': 2, 'OTH': 0, 'UUP': 1, 'Green': 0}
+
+Northern Ireland at Large {'UUP': 2, 'SDLP': 2, 'DUP': 4, 'ALP': 3, 'TUV': 1, 'SF': 6, 'MIN': 0, 'OTH': 0}
+
+Great Britain {'MIN': 0, 'UKIP': 212, 'LIB': 47, 'LAB': 119, 'CON': 137, 'NAT': 32, 'OTH': 0, 'Green': 85} 
+
