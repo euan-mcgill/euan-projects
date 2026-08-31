@@ -76,7 +76,9 @@ infiles = ['electoral_calculus_data/1955.csv', 'electoral_calculus_data/1959.csv
             'electoral_calculus_data/2026-05ECpoll-District.csv', 'electoral_calculus_data/2026-05ECpoll-County.csv',
             'electoral_calculus_data/2024-10ECpoll-District.csv',
             'PLMR-26Q2-NTV-C.csv', 'PLMR-26Q2-NTV-D.csv',
-            'PLMR-26Q2-TV-C.csv', 'PLMR-26Q2-TV-D.csv'] # now add values to seat_totals
+            'PLMR-26Q2-TV-C.csv', 'PLMR-26Q2-TV-D.csv',
+            'electoral_calculus_data/2026-06ECpoll-District.csv', 'electoral_calculus_data/2026-06ECpoll-County.csv',
+            'electoral_calculus_data/2026-07ECpoll-District.csv', 'electoral_calculus_data/2026-07ECpoll-County.csv'] # now add values to seat_totals
 
 for i, val in enumerate(infiles):
     print(f'{i}: {val}')
@@ -90,7 +92,8 @@ seat_totals = [630-1, 630-2, 630-2, 630-2, 630-2, 635-2, 635-2, 635-2, 650-2, \
                650, 650, 650, 650-2, 650-2, 650, 650-2, 650-2, 650-2, 650-2, \
                650-2, 650-2, 650-2, 650-2, 650-2, 650-2, 650-2, 650-2, 650-2, 650-2, 650-2, 650-2,
                650-2, 650-2, 650-2, 650-1, 650-2, 650-1, 650-2, 650-1, 650-1, 650, 650-2, 650,
-               650, 650-2, 650, 650-2, 650, 650-2, 650, 650-2, 650, 650, 650, 650, 650] # now choose NI counties!
+               650, 650-2, 650, 650-2, 650, 650-2, 650, 650-2, 650, 650, 650, 650, 650,
+               650, 650-2, 650, 650-2] # now choose NI counties!
                # Total in the actual GE - number of constituencies whose population is too low to gain a seat
 seat_total = seat_totals[int(sys.argv[1])] # list containing each for each?[] 
 
