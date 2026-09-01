@@ -108,11 +108,24 @@ def do_election(results, seats, verbose=False):
         elected[constituency] = election
         vote_shares[constituency] = vote_percentages
 
-
     return elected, vote_shares
+
+
+def election_totals(calcd):
+    '''
+    Sum the seats won by each party across all constituencies.
+    '''
+    totals = {}
+    for election in calcd.values():
+        for party, seats_won in election.items():
+            totals[party] = totals.get(party, 0) + seats_won
+
+    return totals
 
 
 csvfile = './electoral_calculus_data/2026-08ECpoll-County.csv'
 ditem = read_file(csvfile)
 results, seats = get_county_totals(ditem, verbose=True, region=False)
 elected, vote_shares = do_election(results, seats, verbose=True)
+print(election_totals(elected))
+
