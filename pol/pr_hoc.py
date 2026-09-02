@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-Modularising to be completed
+SCRIPT DEPRECATED, PLEASE USE proportional.py
 '''
 
 import pandas as pd
@@ -249,3 +249,6 @@ tots = {k: sum(d[k] for d in gb_res if k in d) for k in set(k for d in gb_res fo
 print('\nNorthern Ireland by County', ni_tots)
 print('\nNorthern Ireland at Large', nil_tots)
 print('\nGreat Britain', tots,'\n')
+
+
+print("\n\n\n\nSCRIPT DEPRECATED, PLEASE USE proportional.py\n\n")

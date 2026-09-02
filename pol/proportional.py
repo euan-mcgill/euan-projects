@@ -41,15 +41,38 @@ dataitem["County"].replace(["Antrim", "Armagh", "Down",\
                             "Fermanagh", "Londonderry", "Tyrone"],
                             "Northern Ireland")
 
-    areaname = {"Northern Ireland": 1, "Scotland": 2, "North East": 4, 
-                "North West": 5, "Yorkshire and the Humber": 6, 
+    areaname = {"Northern Ireland": 1, "Scotland": 2, "North East": 3, 
+                "North West": 4, "Yorkshire and the Humber": 5, "Wales": 6,
                 "East Midlands": 7, "West Midlands": 8, "East of England": 9, 
-                "London": 10, "South East": 11, "South West": 12}
+                "London": 11, "South East": 12, "South West": 10}
 
     area_names_by_code = {code: name for name, code in areaname.items()}
     dataitem["Area"] = dataitem["Area"].replace(area_names_by_code)
 
     return dataitem
+
+
+def relabel_ni_parties(county_totals):
+    '''
+    Rename the "Northern Ireland" entry's party keys from their GB stand-ins
+    to the actual NI party names (other keys, e.g. MIN/OTH/Green, are unchanged).
+    '''
+
+    # Electoral Calculus reuses the GB party columns to hold NI party votes.
+    NI_PARTY_MAP = {"CON": "UUP", "LAB": "SDLP", "LIB": "DUP", "UKIP": "Alliance", "NAT": "Sinn Fein"}
+    ni_constituencies = {
+        "Northern Ireland",
+        "Armagh and Down",
+        "Antrim and the Lagan Valley",
+        "Ulster West",
+        "Belfast",
+    }
+    for constituency in ni_constituencies.intersection(county_totals):
+        ni_votes = county_totals[constituency]
+        county_totals[constituency] = {
+            NI_PARTY_MAP.get(party, party): votes for party, votes in ni_votes.items()
+        }
+    return county_totals
 
 
 def get_county_totals(dataitem, verbose=False, region=False):
@@ -120,12 +143,18 @@ def election_totals(calcd):
         for party, seats_won in election.items():
             totals[party] = totals.get(party, 0) + seats_won
 
-    return totals
+    desc_totals = dict(sorted(totals.items(), \
+                    key=lambda item: item[1], reverse=True))
+
+    return desc_totals
 
 
-csvfile = './electoral_calculus_data/2026-08ECpoll-County.csv'
+csvfile = './electoral_calculus_data/2026-08ECpoll-District.csv'
 ditem = read_file(csvfile)
 results, seats = get_county_totals(ditem, verbose=True, region=False)
+results = relabel_ni_parties(results)
 elected, vote_shares = do_election(results, seats, verbose=True)
 print(election_totals(elected))
+print(sum(election_totals(elected).values()))
+
 
